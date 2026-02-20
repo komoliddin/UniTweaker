@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+secpol.msc
+
+DESCRIPTION:
+Открывает локальные политики безопасности
+
+EN_TITLE:
+Open Local Security Policy
+
+EN_DESCRIPTION:
+Launches the Local Security Policy (secpol.msc) editor.
+
+UZ_TITLE:
+Mahalliy xavfsizlik siyosatini ochish
+
+UZ_DESCRIPTION:
+Mahalliy xavfsizlik siyosati (secpol.msc) muharririni ishga tushiradi.
+
+DE_TITLE:
+Lokale Sicherheitsrichtlinie öffnen
+
+DE_DESCRIPTION:
+Startet den Editor für lokale Sicherheitsrichtlinien (secpol.msc).
+
+FR_TITLE:
+Ouvrir la politique de sécurité locale
+
+FR_DESCRIPTION:
+Lance l'éditeur de stratégie de sécurité locale (secpol.msc).
+
+ES_TITLE:
+Abrir Directiva de seguridad local
+
+ES_DESCRIPTION:
+Inicia el editor de Directiva de seguridad local (secpol.msc).
+
+TR_TITLE:
+Yerel Güvenlik İlkesini Aç
+
+TR_DESCRIPTION:
+Yerel Güvenlik İlkesi (secpol.msc) düzenleyicisini başlatır.

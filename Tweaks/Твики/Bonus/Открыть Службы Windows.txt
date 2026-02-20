@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+services.msc
+
+DESCRIPTION:
+Запускает окно управления службами
+
+EN_TITLE:
+Open Windows Services
+
+EN_DESCRIPTION:
+Launches the Windows Services management console (services.msc).
+
+UZ_TITLE:
+Windows xizmatlarini ochish
+
+UZ_DESCRIPTION:
+Windows xizmatlarini boshqarish konsolini (services.msc) ishga tushiradi.
+
+DE_TITLE:
+Windows-Dienste öffnen
+
+DE_DESCRIPTION:
+Startet die Verwaltungskonsole für Windows-Dienste (services.msc).
+
+FR_TITLE:
+Ouvrir les services Windows
+
+FR_DESCRIPTION:
+Lance la console de gestion des services Windows (services.msc).
+
+ES_TITLE:
+Abrir Servicios de Windows
+
+ES_DESCRIPTION:
+Inicia la consola de administración de servicios de Windows (services.msc).
+
+TR_TITLE:
+Windows Hizmetlerini Aç
+
+TR_DESCRIPTION:
+Windows Hizmetleri yönetim konsolunu (services.msc) başlatır.

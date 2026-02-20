@@ -1,0 +1,67 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers
+NAME=DisableAutoplay
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers" /v "DisableAutoplay" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\cdrom" /v "AutoRun" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers" /v "DisableAutoplay" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\cdrom" /v "AutoRun" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+🚫 **Отключение автозапуска USB-устройств и CD/DVD-дисков**  
+⚠️ **Защита от вирусов, распространяемых через autorun.inf**  
+✅ **Рекомендуется для повышения безопасности системы**  
+
+EN_TITLE:
+Disable Autoplay for Removable Media
+
+EN_DESCRIPTION:
+🚫 **Disable autoplay for USB devices and CD/DVD drives**
+⚠️ **Protection against viruses spread through autorun.inf**
+✅ **Recommended for improving system security**
+
+UZ_TITLE:
+Olinadigan tashuvchilar uchun avtomatik ishga tushirishni o'chirish
+
+UZ_DESCRIPTION:
+🚫 **USB qurilmalari va CD/DVD disklar uchun avtomatik ishga tushirishni o'chirish**
+⚠️ **Autorun.inf orqali tarqaladigan viruslardan himoya**
+✅ **Tizim xavfsizligini oshirish uchun tavsiya etiladi**
+
+DE_TITLE:
+Autoplay für Wechselmedien deaktivieren
+
+DE_DESCRIPTION:
+🚫 **Autoplay für USB-Geräte und CD/DVD-Laufwerke deaktivieren**
+⚠️ **Schutz vor Viren, die über autorun.inf verbreitet werden**
+✅ **Empfohlen zur Verbesserung der Systemsicherheit**
+
+FR_TITLE:
+Désactiver l'exécution automatique pour les médias amovibles
+
+FR_DESCRIPTION:
+🚫 **Désactiver l'exécution automatique pour les périphériques USB et les lecteurs CD/DVD**
+⚠️ **Protection contre les virus propagés par autorun.inf**
+✅ **Recommandé pour améliorer la sécurité du système**
+
+ES_TITLE:
+Desactivar reproducción automática para medios extraíbles
+
+ES_DESCRIPTION:
+🚫 **Desactivar la reproducción automática para dispositivos USB и unidades de CD/DVD**
+⚠️ **Protección contra virus propagados a través de autorun.inf**
+✅ **Recomendado para mejorar la seguridad del sistema**
+
+TR_TITLE:
+Çıkarılabilir Ortamlar İçin Otomatik Çalıştırmayı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+🚫 **USB cihazları ve CD/DVD sürücüleri için otomatik çalıştırmayı devre dışı bırak**
+⚠️ **Autorun.inf aracılığıyla yayılan virüslere karşı koruma**
+✅ **Sistem güvenliğini artırmak için önerilir**

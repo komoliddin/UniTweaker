@@ -1,0 +1,46 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Intel\ShaderCache
+%LOCALAPPDATA%\Intel\GLCache
+%LOCALAPPDATA%\Intel\DxCache
+%ProgramData%\Intel\ShaderCache
+
+DESCRIPTION:
+Кеш драйвера видеокарт Intel (DirectX, OpenGL, Vulkan, ShaderCache)
+
+EN_TITLE:
+Clear Intel GPU Driver Cache
+
+EN_DESCRIPTION:
+Intel graphics driver cache (DirectX, OpenGL, Vulkan, ShaderCache).
+
+UZ_TITLE:
+Intel videokarta drayveri keshini tozalash
+
+UZ_DESCRIPTION:
+Intel videokartalari drayveri keshi (DirectX, OpenGL, Vulkan, ShaderCache).
+
+DE_TITLE:
+Intel-Grafikkartentreiber-Cache bereinigen
+
+DE_DESCRIPTION:
+Intel Grafikkartentreiber-Cache (DirectX, OpenGL, Vulkan, ShaderCache).
+
+FR_TITLE:
+Effacer le cache du pilote graphique Intel
+
+FR_DESCRIPTION:
+Cache du pilote graphique Intel (DirectX, OpenGL, Vulkan, ShaderCache).
+
+ES_TITLE:
+Limpiar caché del controlador de gráficos Intel
+
+ES_DESCRIPTION:
+Caché del controlador de gráficos Intel (DirectX, OpenGL, Vulkan, ShaderCache).
+
+TR_TITLE:
+Intel Ekran Kartı Sürücü Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Intel grafik sürücüsü önbelleği (DirectX, OpenGL, Vulkan, ShaderCache).

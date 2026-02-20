@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=System\CurrentControlSet\Services\HidUsb
+NAME=FlipFlopWheel
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\System\CurrentControlSet\Services\HidUsb" /v "FlipFlopWheel" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\System\CurrentControlSet\Services\HidUsb" /v "FlipFlopWheel" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Этот твик устраняет возможные задержки геймпада, уменьшая лаги и повышая отзывчивость при игре.
+
+EN_TITLE:
+Gamepad Polling Rate Fix
+
+EN_DESCRIPTION:
+Eliminates potential gamepad delays, reducing lag and increasing responsiveness during gameplay.
+
+UZ_TITLE:
+Geympadni optimallashtirish (Polling Rate Fix)
+
+UZ_DESCRIPTION:
+Geympadning mumkin bo'lgan kechikishlarini bartaraf qiladi, laglarni kamaytiradi va o'yin davomida javob berish tezligini oshiradi.
+
+DE_TITLE:
+Gamepad-Abfragerate-Fix
+
+DE_DESCRIPTION:
+Eliminiert potenzielle Gamepad-Verzögerungen, reduziert Lags und erhöht die Reaktionsfähigkeit beim Spielen.
+
+FR_TITLE:
+Correctif du taux d'interrogation du gamepad
+
+FR_DESCRIPTION:
+Élimine les retards potentiels de la manette, réduisant le décalage et augmentant la réactivité pendant le jeu.
+
+ES_TITLE:
+Corrección de la tasa de sondeo del mando
+
+ES_DESCRIPTION:
+Elimina posibles retrasos del mando, reduciendo el lag y aumentando la capacidad de respuesta durante el juego.
+
+TR_TITLE:
+Gamepad Yoklama Hızı Düzeltmesi
+
+TR_DESCRIPTION:
+Oyun sırasında gecikmeyi azaltarak ve tepkiselliği artırarak olası gamepad gecikmelerini ortadan kaldırır.

@@ -1,0 +1,72 @@
+NOTRECOMMENDED
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
+NAME=SwapfileControl
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+wmic computersystem where name="%computername%" set AutomaticManagedPagefile=False
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v PagingFiles /t REG_MULTI_SZ /d "" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v SwapfileControl /t REG_DWORD /d 0 /f
+del /f /s /q C:\pagefile.sys
+del /f /s /q C:\swapfile.sys
+
+UNCHECKED:
+wmic computersystem where name="%computername%" set AutomaticManagedPagefile=True
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v PagingFiles /t REG_MULTI_SZ /d "C:\\pagefile.sys 4096 8192" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v SwapfileControl /t REG_DWORD /d 1 /f
+
+DESCRIPTION:
+📌 Важно! Стоит ли отключать файл подкачки?
+❌ НЕ отключайте, если у вас менее 16 ГБ RAM — система может начать тормозить при нехватке памяти.
+✅ Можно отключить, если у вас 32+ ГБ RAM и SSD — в этом случае файл подкачки обычно не нужен.
+
+EN_TITLE:
+Disable Pagefile
+
+EN_DESCRIPTION:
+📌 Important! Should you disable the page file?
+❌ DO NOT disable it if you have less than 16 GB of RAM — the system may start to lag when memory is low.
+✅ It can be disabled if you have 32+ GB of RAM and an SSD — in this case, the page file is usually not needed.
+
+UZ_TITLE:
+Almashish faylini (page file) o'chirish
+
+UZ_DESCRIPTION:
+📌 Muhim! Almashish faylini o'chirish kerakmi?
+❌ Agar sizda 16 GB dan kam RAM bo'lsa, uni o'chirmang — xotira yetishmaganda tizim sekinlashishi mumkin.
+✅ Agar sizda 32+ GB RAM va SSD bo'lsa, uni o'chirib qo'yishingiz mumkin — bu holda almashish fayli odatda kerak bo'lmaydi.
+
+DE_TITLE:
+Auslagerungsdatei deaktivieren
+
+DE_DESCRIPTION:
+📌 Wichtig! Sollten Sie die Auslagerungsdatei deaktivieren?
+❌ Deaktivieren Sie sie NICHT, wenn Sie weniger als 16 GB RAM haben — das System kann bei Speichermangel ins Stocken geraten.
+✅ Sie kann deaktiviert werden, wenn Sie 32+ GB RAM und eine SSD haben — in diesem Fall wird die Auslagerungsdatei normalerweise nicht benötigt.
+
+FR_TITLE:
+Désactiver le fichier d'échange (Pagefile)
+
+FR_DESCRIPTION:
+📌 Important ! Faut-il désactiver le fichier d'échange ?
+❌ NE le désactivez PAS si vous avez moins de 16 Go de RAM — le système pourrait ralentir en cas de manque de mémoire.
+✅ Il peut être désactivé si vous avez 32 Go ou plus de RAM et un SSD — dans ce cas, le fichier d'échange n'est généralement pas nécessaire.
+
+ES_TITLE:
+Desactivar archivo de paginación (Pagefile)
+
+ES_DESCRIPTION:
+📌 ¡Importante! ¿Debería desactivar el archivo de paginación?
+❌ NO lo desactive si tiene menos de 16 GB de RAM: el sistema puede empezar a ralentizarse cuando falte memoria.
+✅ Puede desactivarse si tiene 32+ GB de RAM y un SSD; en este caso, el archivo de paginación no suele ser necesario.
+
+TR_TITLE:
+Disk Belleği Dosyasını (Pagefile) Devre Dışı Bırak
+
+TR_DESCRIPTION:
+📌 Önemli! Disk belleği dosyasını devre dışı bırakmalı mısınız?
+❌ 16 GB'tan az RAM'iniz varsa devre dışı bırakmayın — bellek azaldığında sistem yavaşlamaya başlayabilir.
+✅ 32+ GB RAM'iniz ve bir SSD'niz varsa devre dışı bırakılabilir — bu durumda disk belleği dosyasına genellikle ihtiyaç duyulmaz.

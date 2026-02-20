@@ -1,0 +1,61 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Notifications\Settings
+NAME=NOC_GLOBAL_SETTING_TOASTS_ENABLED
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings" /v "NOC_GLOBAL_SETTING_TOASTS_ENABLED" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings" /v "NOC_GLOBAL_SETTING_DNDSTATE" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\PushNotifications" /v "ToastEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\Software\Microsoft\Windows\CurrentVersion\PushNotifications" /v "ToastEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\FocusAssist" /v "QuietHoursActive" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\FocusAssist" /v "QuietHoursEnabled" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings" /v "NOC_GLOBAL_SETTING_TOASTS_ENABLED" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings" /v "NOC_GLOBAL_SETTING_DNDSTATE" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\PushNotifications" /v "ToastEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\Software\Microsoft\Windows\CurrentVersion\PushNotifications" /v "ToastEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\FocusAssist" /v "QuietHoursActive" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\FocusAssist" /v "QuietHoursEnabled" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Отключает всплывающие уведомления и активирует режим "Не беспокоить" (Focus Assist), чтобы сообщения не мешали во время игры.
+
+EN_TITLE:
+Do Not Disturb Mode
+
+EN_DESCRIPTION:
+Disables pop-up notifications and activates Do Not Disturb mode (Focus Assist) to prevent messages from interrupting gameplay.
+
+UZ_TITLE:
+«Bezovta qilmang» rejimi
+
+UZ_DESCRIPTION:
+O'yin davomida xabarlar xalaqit bermasligi uchun qalqib chiquvchi bildirishnomalarni o'chiradi va "Bezovta qilmang" (Focus Assist) rejimini faollashtiradi.
+
+DE_TITLE:
+Nicht stören Modus
+
+DE_DESCRIPTION:
+Deaktiviert Pop-up-Benachrichtigungen und aktiviert den "Nicht stören"-Modus (Focus Assist), um Unterbrechungen während des Spielens zu vermeiden.
+
+FR_TITLE:
+Mode Ne pas déranger
+
+FR_DESCRIPTION:
+Désactive les notifications contextuelles et active le mode Ne pas déranger (Assistant de concentration) pour éviter les interruptions pendant le jeu.
+
+ES_TITLE:
+Modo No molestar
+
+ES_DESCRIPTION:
+Desactiva las notificaciones emergentes y activa el modo No molestar (Asistente de concentración) para evitar interrupciones durante el juego.
+
+TR_TITLE:
+Rahatsız Etmeyin Modu
+
+TR_DESCRIPTION:
+Oyun sırasında mesajların bölünmesini önlemek için açılır bildirimleri devre dışı bırakır ve Rahatsız Etmeyin modunu (Odaklanma Yardımı) etkinleştirir.

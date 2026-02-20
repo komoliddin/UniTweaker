@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+Dism.exe /online /Cleanup-Image /StartComponentCleanup
+
+DESCRIPTION:
+Очистка и сжатие хранилища компонентов Windows (папка WinSxS). Удаляет старые версии системных компонентов. Может занять длительное время.
+
+EN_TITLE:
+Cleanup Windows Component Store (WinSxS)
+
+EN_DESCRIPTION:
+Clean up and compress the Windows component store (WinSxS folder). Removes old versions of system components. May take a long time.
+
+UZ_TITLE:
+Windows komponentlar omborini tozalash (WinSxS)
+
+UZ_DESCRIPTION:
+Windows komponentlar omborini (WinSxS papkasi) tozalash va siqish. Tizim komponentlarining eski versiyalarini olib tashlaydi. Uzoq vaqt talab qilishi mumkin.
+
+DE_TITLE:
+Windows-Komponentenspeicher bereinigen (WinSxS)
+
+DE_DESCRIPTION:
+Bereinigt und komprimiert den Windows-Komponentenspeicher (WinSxS-Ordner). Entfernt alte Versionen von Systemkomponenten. Kann längere Zeit dauern.
+
+FR_TITLE:
+Nettoyer le magasin de composants Windows (WinSxS)
+
+FR_DESCRIPTION:
+Nettoie et compresse le magasin de composants Windows (dossier WinSxS). Supprime les anciennes versions des composants système. Peut prendre beaucoup de temps.
+
+ES_TITLE:
+Limpiar el almacén de componentes de Windows (WinSxS)
+
+ES_DESCRIPTION:
+Limpia y comprime el almacén de componentes de Windows (carpeta WinSxS). Elimina versiones antiguas de componentes del sistema. Puede tardar mucho tiempo.
+
+TR_TITLE:
+Windows Bileşen Deposunu Temizle (WinSxS)
+
+TR_DESCRIPTION:
+Windows bileşen deposunu (WinSxS klasörü) temizler ve sıkıştırır. Sistem bileşenlerinin eski sürümlerini kaldırır. Uzun zaman alabilir.

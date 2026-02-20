@@ -1,0 +1,52 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=LaunchTo
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v LaunchTo /t REG_DWORD /d 1 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v LaunchTo /t REG_DWORD /d 2 /f
+
+DESCRIPTION:
+Этот твик позволяет открыть «Этот компьютер» (Мой компьютер) вместо Панели быстрого доступа при запуске Проводника или нажатии Win+E.
+При включении твика (чекбокс установлен) значение параметра LaunchTo устанавливается в 1, а при отключении – в 2.
+
+EN_TITLE:
+Open "This PC" on Explorer Startup
+
+EN_DESCRIPTION:
+Open "This PC" on Explorer Startup
+
+UZ_TITLE:
+Explorer ishga tushganda "Bu kompyuter"ni ochish
+
+UZ_DESCRIPTION:
+Explorer ishga tushganda "Bu kompyuter"ni ochish
+
+DE_TITLE:
+„Dieser PC“ beim Starten des Explorers öffnen
+
+DE_DESCRIPTION:
+„Dieser PC“ beim Starten des Explorers öffnen
+
+FR_TITLE:
+Ouvrir « Ce PC » au démarrage de l'Explorateur
+
+FR_DESCRIPTION:
+Ouvrir « Ce PC » au démarrage de l'Explorateur
+
+ES_TITLE:
+Abrir "Este equipo" al iniciar el explorador
+
+ES_DESCRIPTION:
+Abrir "Este equipo" al iniciar el explorador
+
+TR_TITLE:
+Gezgin başlatıldığında "Bu bilgisayar"ı aç
+
+TR_DESCRIPTION:
+Gezgin başlatıldığında "Bu bilgisayar"ı aç

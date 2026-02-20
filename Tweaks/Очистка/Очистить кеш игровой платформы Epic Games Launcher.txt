@@ -1,0 +1,48 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\EpicGamesLauncher\Saved\webcache
+%LOCALAPPDATA%\EpicGamesLauncher\Saved\Logs
+%LOCALAPPDATA%\EpicGamesLauncher\Saved\LauncherInstalled.dat
+%ProgramData%\Epic\EpicGamesLauncher\Data\WebCache
+%ProgramData%\Epic\EpicGamesLauncher\Data\Logs
+%ProgramFiles%\Epic Games\GameAssets
+
+DESCRIPTION:
+Кеш игровой платформы Epic Games Launcher — веб-кеш, временные файлы, логи и данные установки.
+
+EN_TITLE:
+Clear Epic Games Launcher Cache
+
+EN_DESCRIPTION:
+Epic Games Launcher cache — web cache, temporary files, logs, and installation data.
+
+UZ_TITLE:
+Epic Games Launcher keshini tozalash
+
+UZ_DESCRIPTION:
+Epic Games Launcher keshi — veb-kesh, vaqtinchalik fayllar, jurnallar va o'rnatish ma'lumotlari.
+
+DE_TITLE:
+Epic Games Launcher-Cache bereinigen
+
+DE_DESCRIPTION:
+Epic Games Launcher-Cache – Web-Cache, temporäre Dateien, Protokolle und Installationsdaten.
+
+FR_TITLE:
+Effacer le cache d'Epic Games Launcher
+
+FR_DESCRIPTION:
+Cache d'Epic Games Launcher — cache Web, fichiers temporaires, journaux et données d'installation.
+
+ES_TITLE:
+Limpiar caché de Epic Games Launcher
+
+ES_DESCRIPTION:
+Caché de Epic Games Launcher: caché web, archivos temporales, registros и datos de instalación.
+
+TR_TITLE:
+Epic Games Launcher Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Epic Games Launcher önbelleği — web önbelleği, geçici dosyalar, günlükler ve kurulum verileri.

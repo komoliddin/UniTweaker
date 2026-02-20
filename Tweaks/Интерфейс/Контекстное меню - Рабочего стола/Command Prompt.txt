@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKCR
+KEY=DesktopBackground\shell\cmd
+NAME=
+TYPE=REG_SZ
+VALUE=Командная строка
+
+CHECKED:
+Reg.exe add "HKCR\DesktopBackground\shell\cmd" /ve /t REG_SZ /d "Командная строка" /f
+Reg.exe add "HKCR\DesktopBackground\shell\cmd" /v "Icon" /t REG_SZ /d "imageres.dll,311" /f
+Reg.exe add "HKCR\DesktopBackground\shell\cmd" /v "Position" /t REG_SZ /d "bottom" /f
+Reg.exe add "HKCR\DesktopBackground\shell\cmd\command" /ve /t REG_SZ /d "cmd.exe" /f
+
+UNCHECKED:
+Reg.exe delete "HKCR\DesktopBackground\shell\cmd" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Командная строка» в контекстное меню Рабочего стола.
+
+EN_TITLE:
+Command Prompt
+
+EN_DESCRIPTION:
+Command Prompt
+
+UZ_TITLE:
+Command Prompt
+
+UZ_DESCRIPTION:
+Command Prompt
+
+DE_TITLE:
+Command Prompt
+
+DE_DESCRIPTION:
+Command Prompt
+
+FR_TITLE:
+Command Prompt
+
+FR_DESCRIPTION:
+Command Prompt
+
+ES_TITLE:
+Command Prompt
+
+ES_DESCRIPTION:
+Command Prompt
+
+TR_TITLE:
+Command Prompt
+
+TR_DESCRIPTION:
+Command Prompt

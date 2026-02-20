@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\D3DSCache
+
+DESCRIPTION:
+Кеш шейдеров DirectX, создаваемый Windows. Безопасно очищать, пересоздаётся.
+
+EN_TITLE:
+Clear DirectX Shader Cache
+
+EN_DESCRIPTION:
+DirectX shader cache created by Windows. Safe to clear, will be recreated.
+
+UZ_TITLE:
+DirectX shader keshini tozalash
+
+UZ_DESCRIPTION:
+Windows tomonidan yaratilgan DirectX shader keshi. Tozalash xavfsiz, qayta yaratiladi.
+
+DE_TITLE:
+DirectX-Shader-Cache bereinigen
+
+DE_DESCRIPTION:
+Von Windows erstellter DirectX-Shader-Cache. Sicher zu bereinigen, wird neu erstellt.
+
+FR_TITLE:
+Effacer le cache des shaders DirectX
+
+FR_DESCRIPTION:
+Cache des shaders DirectX créé par Windows. Suppression sans danger, sera recréé.
+
+ES_TITLE:
+Limpiar caché de sombreadores de DirectX
+
+ES_DESCRIPTION:
+Caché de sombreadores de DirectX creado por Windows. Seguro de limpiar, se volverá a crear.
+
+TR_TITLE:
+DirectX Gölgelendirici Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Windows tarafından oluşturulan DirectX gölgelendirici önbelleği. Temizlemek güvenlidir, yeniden oluşturulacaktır.

@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\RegRegistry
+NAME=Редактор реестра
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\RegRegistry" /ve /t REG_SZ /d "Редактор реестра" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\RegRegistry" /v "HasLUAShield" /t REG_SZ /d "" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\RegRegistry" /v "Icon" /t REG_SZ /d "regedit.exe" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\RegRegistry\command" /ve /t REG_SZ /d "%systemroot%\\regedit.exe" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\RegRegistry" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Редактор реестра» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Registry Editor
+
+EN_DESCRIPTION:
+Registry Editor
+
+UZ_TITLE:
+Registry Editor
+
+UZ_DESCRIPTION:
+Registry Editor
+
+DE_TITLE:
+Registry Editor
+
+DE_DESCRIPTION:
+Registry Editor
+
+FR_TITLE:
+Registry Editor
+
+FR_DESCRIPTION:
+Registry Editor
+
+ES_TITLE:
+Registry Editor
+
+ES_DESCRIPTION:
+Registry Editor
+
+TR_TITLE:
+Registry Editor
+
+TR_DESCRIPTION:
+Registry Editor

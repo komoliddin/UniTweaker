@@ -1,0 +1,138 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Office\10.0\Common
+NAME=PrivacyNoticeShown
+TYPE=REG_DWORD
+VALUE=2
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common\General" /v "FirstRun" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "1" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\Geral" /v "FirsPrivacyNoticeShowntRun" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\Geral" /v "SplashScreenLicense" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\General" /v "FirstRun" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "1" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common\General" /v "FirstRun" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "1" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common\General" /v "FirstRun" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "1" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common\General" /v "FirstRun" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "1" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common\General" /v "FirstRun" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "1" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common\General" /v "FirstRun" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common\General" /v "FirstRun" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\Geral" /v "FirsPrivacyNoticeShowntRun" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\Geral" /v "SplashScreenLicense" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\General" /v "FirstRun" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common\General" /v "FirstRun" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common\General" /v "FirstRun" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common\General" /v "FirstRun" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common\General" /v "FirstRun" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common" /v "PrivacyNoticeShown" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common" /v "SplashScreenLicense" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common\General" /v "FirstRun" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common\General" /v "ShownFirstRunOptin" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+📢 **Отключение первого запуска Microsoft Office**  
+🛠 **Отключает показ начального окна Office**  
+🔧 **Применяется ко всем версиям Office (от 10.0 до 16.0)**  
+✅ **Убирает диалоги "персонализация" и "лицензия"**  
+
+EN_TITLE:
+Disable Microsoft Office First Run Dialogs
+
+EN_DESCRIPTION:
+📢 **Disable Microsoft Office First Run**
+🛠 **Disables the Office startup welcome window**
+🔧 **Applies to all Office versions (from 10.0 to 16.0)**
+✅ **Removes "personalization" and "license" dialogs**
+
+UZ_TITLE:
+Microsoft Office birinchi marta ishga tushirilganda muloqot oynalarini yashirish
+
+UZ_DESCRIPTION:
+📢 **Microsoft Office birinchi marta ishga tushirilishini o'chirish**
+🛠 **Office-ning boshlang'ich oynasini ko'rsatishni o'chiradi**
+🔧 **Barcha Office versiyalariga tegishli (10.0 dan 16.0 gacha)**
+✅ **"Shaxsiylashtirish" va "litsenziya" muloqot oynalarini olib tashlaydi**
+
+DE_TITLE:
+Microsoft Office Erstanmeldungs-Dialoge deaktivieren
+
+DE_DESCRIPTION:
+📢 **Microsoft Office Erstanmeldung deaktivieren**
+🛠 **Deaktiviert die Anzeige des Office-Startfensters**
+🔧 **Gilt für alle Office-Versionen (von 10.0 bis 16.0)**
+✅ **Entfernt Dialoge wie "Personalisierung" und "Lizenz"**
+
+FR_TITLE:
+Désactiver les boîtes de dialogue de premier lancement de Microsoft Office
+
+FR_DESCRIPTION:
+📢 **Désactivation du premier lancement de Microsoft Office**
+🛠 **Désactive l'affichage de la fenêtre initiale d'Office**
+🔧 **S'applique à toutes les versions d'Office (de 10.0 à 16.0)**
+✅ **Supprime les boîtes de dialogue « personnalisation » et « licence »**
+
+ES_TITLE:
+Desactivar diálogos de primer inicio de Microsoft Office
+
+ES_DESCRIPTION:
+📢 **Desactivación del primer inicio de Microsoft Office**
+🛠 **Desactiva la visualización de la ventana inicial de Office**
+🔧 **Se aplica a todas las versiones de Office (de 10.0 a 16.0)**
+✅ **Elimina los diálogos de "personalización" и "licencia"**
+
+TR_TITLE:
+Microsoft Office İlk Çalıştırma İletişim Kutularını Devre Dışı Bırak
+
+TR_DESCRIPTION:
+📢 **Microsoft Office İlk Çalıştırmayı Devre Dışı Bırak**
+🛠 **Office başlangıç penceresinin gösterilmesini devre dışı bırakır**
+🔧 **Tüm Office sürümleri için geçerlidir (10.0'dan 16.0'a kadar)**
+✅ **"Kişiselleştirme" ve "lisans" iletişim kutularını kaldırır**

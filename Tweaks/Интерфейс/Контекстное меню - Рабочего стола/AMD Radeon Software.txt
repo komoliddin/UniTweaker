@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCR
+KEY=Directory\Background\shellex\ContextMenuHandlers\ACE
+NAME=
+TYPE=REG_SZ
+VALUE={5E2121EE-0300-11D4-8D3B-444553540000}
+
+CHECKED:
+Reg.exe add "HKCR\Directory\Background\shellex\ContextMenuHandlers\ACE" /ve /t REG_SZ /d "{5E2121EE-0300-11D4-8D3B-444553540000}" /f
+
+UNCHECKED:
+Reg.exe delete "HKCR\Directory\Background\shellex\ContextMenuHandlers\ACE" /f
+
+DESCRIPTION:
+Этот твик добавляет или удаляет пункт «AMD Radeon Software» в контекстном меню Рабочего стола.
+
+EN_TITLE:
+AMD Radeon Software
+
+EN_DESCRIPTION:
+AMD Radeon Software
+
+UZ_TITLE:
+AMD Radeon Software
+
+UZ_DESCRIPTION:
+AMD Radeon Software
+
+DE_TITLE:
+AMD Radeon Software
+
+DE_DESCRIPTION:
+AMD Radeon Software
+
+FR_TITLE:
+AMD Radeon Software
+
+FR_DESCRIPTION:
+AMD Radeon Software
+
+ES_TITLE:
+AMD Radeon Software
+
+ES_DESCRIPTION:
+AMD Radeon Software
+
+TR_TITLE:
+AMD Radeon Software
+
+TR_DESCRIPTION:
+AMD Radeon Software

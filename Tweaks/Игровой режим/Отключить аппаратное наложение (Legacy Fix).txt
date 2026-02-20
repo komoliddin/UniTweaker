@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\Dwm
+NAME=ForceDisableOverlay
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Dwm" /v "ForceDisableOverlay" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Dwm" /v "ForceDisableOverlay" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Отключает аппаратное наложение в DWM, что может помочь исправить проблемы с оконными играми, особенно на старых системах.
+
+EN_TITLE:
+Hardware Overlay (Legacy Fix)
+
+EN_DESCRIPTION:
+Disables hardware overlay in DWM, which can help fix issues with windowed games, especially on older systems.
+
+UZ_TITLE:
+Uskunaviy qoplama (Legacy Fix)
+
+UZ_DESCRIPTION:
+DWM-da uskunaviy qoplamani o'chiradi, bu oynali o'yinlardagi muammolarni tuzatishga yordam beradi, ayniqsa eski tizimlarda.
+
+DE_TITLE:
+Hardware-Overlay (Legacy Fix)
+
+DE_DESCRIPTION:
+Deaktiviert das Hardware-Overlay in DWM, was Probleme bei Spielen im Fenstermodus beheben kann, insbesondere auf älteren Systemen.
+
+FR_TITLE:
+Superposition matérielle (Legacy Fix)
+
+FR_DESCRIPTION:
+Désactive la superposition matérielle dans DWM, ce qui puede aider à résoudre les problèmes avec les jeux en mode fenêtre, en particulier sur les anciens systèmes.
+
+ES_TITLE:
+Superposición de hardware (Legacy Fix)
+
+ES_DESCRIPTION:
+Desactiva la superposición de hardware en DWM, lo que puede ayudar a solucionar problemas con los juegos en ventana, especialmente en sistemas antiguos.
+
+TR_TITLE:
+Donanım Katmanı (Eski Düzeltme)
+
+TR_DESCRIPTION:
+DWM'deki donanım katmanını devre dışı bırakır; bu, özellikle eski sistemlerde pencereli oyunlarla ilgili sorunların düzeltilmesine yardımcı olabilir.

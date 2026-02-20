@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}
+NAME=
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}" /f
+
+DESCRIPTION:
+Добавляет или удаляет «Свойства системы» в разделе «Этот компьютер».
+
+EN_TITLE:
+System Properties
+
+EN_DESCRIPTION:
+System Properties
+
+UZ_TITLE:
+System Properties
+
+UZ_DESCRIPTION:
+System Properties
+
+DE_TITLE:
+System Properties
+
+DE_DESCRIPTION:
+System Properties
+
+FR_TITLE:
+System Properties
+
+FR_DESCRIPTION:
+System Properties
+
+ES_TITLE:
+System Properties
+
+ES_DESCRIPTION:
+System Properties
+
+TR_TITLE:
+System Properties
+
+TR_DESCRIPTION:
+System Properties

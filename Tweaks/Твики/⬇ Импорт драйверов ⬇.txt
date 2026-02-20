@@ -1,0 +1,45 @@
+FINISH
+FOLDERSELECT:IMPORTFOLDER
+BUTTON:
+
+CLICKED:
+%SystemRoot%\Sysnative\pnputil.exe /add-driver {IMPORTFOLDER}\*.inf /subdirs /install
+
+DESCRIPTION:
+Импортирует драйверы из выбранной папки (рекурсивно, включая все .INF).
+
+EN_TITLE:
+⬇ Import Drivers ⬇
+
+EN_DESCRIPTION:
+Imports drivers from the selected folder (recursively, including all .INF files).
+
+UZ_TITLE:
+⬇ Drayverlarni import qilish ⬇
+
+UZ_DESCRIPTION:
+Tanlangan papkadan drayverlarni import qiladi (rekursiv, barcha .INF fayllarini o'z ichiga oladi).
+
+DE_TITLE:
+⬇ Treiber importieren ⬇
+
+DE_DESCRIPTION:
+Importiert Treiber aus dem ausgewählten Ordner (rekursiv, einschließlich aller .INF-Dateien).
+
+FR_TITLE:
+⬇ Importer des pilotes ⬇
+
+FR_DESCRIPTION:
+Importe les pilotes du dossier sélectionné (récursivement, y compris tous les fichiers .INF).
+
+ES_TITLE:
+⬇ Importar controladores ⬇
+
+ES_DESCRIPTION:
+Importa controladores de la carpeta seleccionada (recursivamente, incluidos todos los archivos .INF).
+
+TR_TITLE:
+⬇ Sürücüleri İçe Aktar ⬇
+
+TR_DESCRIPTION:
+Seçilen klasörden sürücüleri içe aktarır (tüm .INF dosyaları dahil olmak üzere özyinelemeli olarak).

@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\FontCache
+%SystemRoot%\ServiceProfiles\LocalService\AppData\Local\FontCache
+
+DESCRIPTION:
+Кеш шрифтов Windows. Пересоздаётся автоматически при входе в систему.
+
+EN_TITLE:
+Clear Windows Font Cache
+
+EN_DESCRIPTION:
+Windows font cache. Automatically recreated upon system login.
+
+UZ_TITLE:
+Windows shriftlar keshini tozalash
+
+UZ_DESCRIPTION:
+Windows shriftlar keshi. Tizimga kirishda avtomatik ravishda qayta yaratiladi.
+
+DE_TITLE:
+Windows-Schriftartcache bereinigen
+
+DE_DESCRIPTION:
+Windows-Schriftartcache. Wird beim System-Login automatisch neu erstellt.
+
+FR_TITLE:
+Effacer le cache des polices Windows
+
+FR_DESCRIPTION:
+Cache des polices Windows. Recréé automatiquement lors de la connexion au système.
+
+ES_TITLE:
+Limpiar caché de fuentes de Windows
+
+ES_DESCRIPTION:
+Caché de fuentes de Windows. Se vuelve a crear automáticamente al iniciar sesión en el sistema.
+
+TR_TITLE:
+Windows Yazı Tipi Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Windows yazı tipi önbelleği. Sistem oturumu açıldığında otomatik olarak yeniden oluşturulur.

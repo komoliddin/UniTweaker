@@ -1,0 +1,46 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Google\DriveFS
+%LOCALAPPDATA%\Google\DriveFS\logs
+%LOCALAPPDATA%\Google\DriveFS\metadata
+%LOCALAPPDATA%\Google\DriveFS\tmp
+
+DESCRIPTION:
+Кеш облачного сервиса Google Drive — временные файлы синхронизации, метаданные, логи и временные файлы.
+
+EN_TITLE:
+Clear Google Drive Cache
+
+EN_DESCRIPTION:
+Google Drive cloud service cache — temporary synchronization files, metadata, logs, and temporary files.
+
+UZ_TITLE:
+Google Drive keshini tozalash
+
+UZ_DESCRIPTION:
+Google Drive bulutli xizmati keshi — vaqtinchalik sinxronlash fayllari, metadata, jurnallar va vaqtinchalik fayllar.
+
+DE_TITLE:
+Google Drive-Cache bereinigen
+
+DE_DESCRIPTION:
+Google Drive Cloud-Service-Cache – temporäre Synchronisierungsdateien, Metadaten, Protokolle und temporäre Dateien.
+
+FR_TITLE:
+Effacer le cache Google Drive
+
+FR_DESCRIPTION:
+Cache du service cloud Google Drive — fichiers de synchronisation temporaires, métadonnées, journaux et fichiers temporaires.
+
+ES_TITLE:
+Limpiar caché de Google Drive
+
+ES_DESCRIPTION:
+Caché del servicio en la nube Google Drive: archivos temporales de sincronización, metadatos, registros и archivos temporales.
+
+TR_TITLE:
+Google Drive Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Google Drive bulut hizmeti önbelleği — geçici senkronizasyon dosyaları, meta veriler, günlükler ve geçici dosyalar.

@@ -1,0 +1,46 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\NVIDIA\DXCache
+%LOCALAPPDATA%\NVIDIA\GLCache
+%LOCALAPPDATA%\NVIDIA\VkCache
+%ProgramData%\NVIDIA Corporation\NV_Cache
+
+DESCRIPTION:
+Кеш драйвера видеокарт NVIDIA (DirectX, OpenGL, Vulkan, NV_Cache)
+
+EN_TITLE:
+Clear NVIDIA GPU Driver Cache
+
+EN_DESCRIPTION:
+NVIDIA graphics driver cache (DirectX, OpenGL, Vulkan, NV_Cache).
+
+UZ_TITLE:
+NVIDIA videokarta drayveri keshini tozalash
+
+UZ_DESCRIPTION:
+NVIDIA videokartalari drayveri keshi (DirectX, OpenGL, Vulkan, NV_Cache).
+
+DE_TITLE:
+NVIDIA-Grafikkartentreiber-Cache bereinigen
+
+DE_DESCRIPTION:
+NVIDIA Grafikkartentreiber-Cache (DirectX, OpenGL, Vulkan, NV_Cache).
+
+FR_TITLE:
+Effacer le cache du pilote graphique NVIDIA
+
+FR_DESCRIPTION:
+Cache du pilote graphique NVIDIA (DirectX, OpenGL, Vulkan, NV_Cache).
+
+ES_TITLE:
+Limpiar caché del controlador de gráficos NVIDIA
+
+ES_DESCRIPTION:
+Caché del controlador de gráficos NVIDIA (DirectX, OpenGL, Vulkan, NV_Cache).
+
+TR_TITLE:
+NVIDIA Ekran Kartı Sürücü Önbelleğini Temizle
+
+TR_DESCRIPTION:
+NVIDIA grafik sürücüsü önbelleği (DirectX, OpenGL, Vulkan, NV_Cache).

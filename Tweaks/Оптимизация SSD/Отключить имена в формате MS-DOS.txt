@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\FileSystem
+NAME=NtfsDisable8dot3NameCreation
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v "NtfsDisable8dot3NameCreation" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v "NtfsDisable8dot3NameCreation" /t REG_DWORD /d "2" /f
+
+DESCRIPTION:
+Создание имён файлов в формате "8.3" для всех длинных имён файлов и папок на разделах NTFS может замедлить перечисление элементов в папках. По желанию можно отключить создание имён в формате MS-DOS . 
+
+Хотя отключение создания имён в формате "8.3" увеличивает скорость работы с файлами в Windows NT, некоторые 16-разрядные приложения могут не находить файлы и папки с длинными именами. 
+
+EN_TITLE:
+Disable MS-DOS 8.3 Name Creation
+
+EN_DESCRIPTION:
+Creating file names in "8.3" format for all long file and folder names on NTFS partitions can slow down folder enumeration. You can optionally disable MS-DOS name creation. Although disabling "8.3" name creation increases file operation speed in Windows NT, some 16-bit applications may not find files and folders with long names.
+
+UZ_TITLE:
+MS-DOS 8.3 nomlarini yaratishni o'chirish
+
+UZ_DESCRIPTION:
+NTFS bo'limlaridagi barcha uzun fayl va papka nomlari uchun "8.3" formatidagi fayl nomlarini yaratish papkalarni sanab o'tishni sekinlashtirishi mumkin. Ixtiyoriy ravishda MS-DOS nomlarini yaratishni o'chirib qo'yishingiz mumkin. "8.3" nomlarini yaratishni o'chirish Windows NT da fayllar bilan ishlash tezligini oshirsa-da, ba'zi 16 bitli ilovalar uzun nomli fayl va papkalarni topa olmasligi mumkin.
+
+DE_TITLE:
+MS-DOS 8.3 Namenserstellung deaktivieren
+
+DE_DESCRIPTION:
+Das Erstellen von Dateinamen im Format "8.3" für alle langen Datei- und Ordnernamen auf NTFS-Partitionen kann die Aufzählung von Ordnern verlangsamen. Sie können die Erstellung von MS-DOS-Namen optional deaktivieren. Obwohl die Deaktivierung der "8.3"-Namenserstellung die Dateigeschwindigkeit in Windows NT erhöht, finden einige 16-Bit-Anwendungen möglicherweise keine Dateien und Ordner mit langen Namen.
+
+FR_TITLE:
+Désactiver la création de noms MS-DOS 8.3
+
+FR_DESCRIPTION:
+La création de noms de fichiers au format "8.3" pour tous les noms longs de fichiers et dossiers sur les partitions NTFS peut ralentir l'énumération des dossiers. Vous pouvez éventuellement désactiver la création de noms MS-DOS. Bien que la désactivation de la création de noms "8.3" augmente la vitesse de travail avec les fichiers sous Windows NT, certaines applications 16 bits peuvent ne pas trouver les fichiers et dossiers ayant des noms longs.
+
+ES_TITLE:
+Desactivar la creación de nombres MS-DOS 8.3
+
+ES_DESCRIPTION:
+La creación de nombres de archivo en formato "8.3" для todos los nombres largos de archivos и carpetas en particiones NTFS puede ralentizar la enumeración de carpetas. Opcionalmente, puede desactivar la creación de nombres MS-DOS. Aunque desactivar la creación de nombres "8.3" aumenta la velocidad de trabajo con archivos en Windows NT, es posible que algunas aplicaciones de 16 bits no encuentren archivos и carpetas con nombres largos.
+
+TR_TITLE:
+MS-DOS 8.3 İsim Oluşturmayı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+NTFS bölümlerindeki tüm uzun dosya ve klasör adları için "8.3" biçiminde dosya adları oluşturmak, klasör listelemeyi yavaşlatabilir. İsteğe bağlı olarak MS-DOS adı oluşturmayı devre dışı bırakabilirsiniz. "8.3" ad oluşturmanın devre dışı bırakılması Windows NT'de dosya çalışma hızını artırsa da, bazı 16 bitlik uygulamalar uzun adlara sahip dosya ve klasörleri bulamayabilir.

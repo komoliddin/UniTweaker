@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Policies\Microsoft\Windows\Windows Search
+NAME=AllowCortana
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCortana" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCortana" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Отключает Cortana, предотвращая сбор голосовых данных и использование голосового помощника.
+
+EN_TITLE:
+Cortana and Voice Assistant
+
+EN_DESCRIPTION:
+Disables Cortana, preventing voice data collection and the use of the voice assistant.
+
+UZ_TITLE:
+Cortana va ovozli yordamchi
+
+UZ_DESCRIPTION:
+Ovozli ma'lumotlarni to'plash va ovozli yordamchidan foydalanishni oldini olish uchun Cortanani o'chiradi.
+
+DE_TITLE:
+Cortana und Sprachassistent
+
+DE_DESCRIPTION:
+Deaktiviert Cortana und verhindert die Erfassung von Sprachdaten sowie die Nutzung des Sprachassistenten.
+
+FR_TITLE:
+Cortana et assistant vocal
+
+FR_DESCRIPTION:
+Désactive Cortana, empêchant la collecte de données vocales et l'utilisation de l'assistant vocal.
+
+ES_TITLE:
+Cortana y asistente de voz
+
+ES_DESCRIPTION:
+Desactiva Cortana, impidiendo la recopilación de datos de voz y el uso del asistente de voz.
+
+TR_TITLE:
+Cortana ve Sesli Asistan
+
+TR_DESCRIPTION:
+Ses verisi toplanmasını ve sesli asistan kullanımını önlemek için Cortana'yı devre dışı bırakır.

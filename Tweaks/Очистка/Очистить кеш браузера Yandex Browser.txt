@@ -1,0 +1,47 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Yandex\YandexBrowser\User Data\Default\Cache
+%LOCALAPPDATA%\Yandex\YandexBrowser\User Data\Default\Code Cache
+%LOCALAPPDATA%\Yandex\YandexBrowser\User Data\Default\GPUCache
+%LOCALAPPDATA%\Yandex\YandexBrowser\User Data\Default\Media Cache
+%LOCALAPPDATA%\Yandex\YandexBrowser\User Data\Default\Service Worker
+
+DESCRIPTION:
+Кеш браузера Yandex Browser — веб-кеш, кеш кода (JS/WebAssembly), GPU и медиа кеши, кеш сервис-воркеров.
+
+EN_TITLE:
+Clear Yandex Browser Cache
+
+EN_DESCRIPTION:
+Yandex Browser cache — web cache, code cache (JS/WebAssembly), GPU and media caches, service worker cache.
+
+UZ_TITLE:
+Yandex Browser keshini tozalash
+
+UZ_DESCRIPTION:
+Yandex Browser keshi — veb-kesh, kod kesh (JS/WebAssembly), GPU va media keshlar, servis ishchi kesh.
+
+DE_TITLE:
+Yandex Browser-Cache bereinigen
+
+DE_DESCRIPTION:
+Yandex Browser-Cache – Web-Cache, Code-Cache (JS/WebAssembly), GPU- und Medien-Caches, Service Worker-Cache.
+
+FR_TITLE:
+Effacer le cache du navigateur Yandex
+
+FR_DESCRIPTION:
+Cache du navigateur Yandex — cache Web, cache de code (JS/WebAssembly), caches GPU et multimédia, cache du service worker.
+
+ES_TITLE:
+Limpiar caché del navegador Yandex
+
+ES_DESCRIPTION:
+Caché del navegador Yandex: caché web, caché de código (JS/WebAssembly), cachés de GPU и multimedia, caché de service worker.
+
+TR_TITLE:
+Yandex Browser Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Yandex Browser önbelleği — web önbelleği, kod önbelleği (JS/WebAssembly), GPU ve medya önbellekleri, servis çalışanı önbelleği.

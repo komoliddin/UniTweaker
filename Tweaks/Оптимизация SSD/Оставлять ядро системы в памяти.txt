@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
+NAME=DisablePagingExecutive
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v "DisablePagingExecutive" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v "DisablePagingExecutive" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+По умолчанию ядро системы сбрасывается в файл подкачки. Можно заставить Windows оставлять ядро системы в памяти, тем самым ускорить работу самой системы и уменьшить количество обращений к диску. Однако необходимо иметь большое количество гигабайт оперативной памяти.
+
+EN_TITLE:
+Keep System Kernel in Memory
+
+EN_DESCRIPTION:
+By default, the system kernel is swapped to the page file. You can force Windows to keep the system kernel in memory, thereby speeding up the system and reducing the number of disk accesses. However, a large amount of RAM is required.
+
+UZ_TITLE:
+Tizim yadrosini xotirada saqlash
+
+UZ_DESCRIPTION:
+Standart bo'yicha tizim yadrosi almashish fayliga (page file) yuboriladi. Windows-ni tizim yadrosini xotirada saqlashga majburlash mumkin, bu esa tizimning ishlashini tezlashtiradi va diskka murojaatlar sonini kamaytiradi. Biroq, katta hajmdagi operativ xotira (RAM) talab qilinadi.
+
+DE_TITLE:
+Systemkern im Speicher behalten
+
+DE_DESCRIPTION:
+Standardmäßig wird der Systemkern in die Auslagerungsdatei ausgelagert. Sie können Windows zwingen, den Systemkern im Speicher zu behalten, wodurch das System beschleunigt und die Anzahl der Festplattenzugriffe reduziert wird. Es ist jedoch eine große Menge an RAM erforderlich.
+
+FR_TITLE:
+Conserver le noyau système en mémoire
+
+FR_DESCRIPTION:
+Par défaut, le noyau du système est transféré vers le fichier d'échange. Vous pouvez forcer Windows à conserver le noyau du système en mémoire, ce qui accélère le système et réduit le nombre d'accès au disque. Cependant, une grande quantité de RAM est nécessaire.
+
+ES_TITLE:
+Mantener el núcleo del sistema en memoria
+
+ES_DESCRIPTION:
+Por defecto, el núcleo del sistema se traslada al archivo de paginación. Puede obligar a Windows a mantener el núcleo del sistema en memoria, lo que acelera el sistema и reduce el número de accesos al disco. Sin embargo, se requiere una gran cantidad de RAM.
+
+TR_TITLE:
+Sistem Çekirdeğini Bellekte Tut
+
+TR_DESCRIPTION:
+Varsayılan olarak sistem çekirdeği disk belleği dosyasına (page file) aktarılır. Windows'u sistem çekirdeğini bellekte tutmaya zorlayabilirsiniz, böylece sistem hızlanır ve diske erişim sayısı azalır. Ancak büyük miktarda RAM gereklidir.

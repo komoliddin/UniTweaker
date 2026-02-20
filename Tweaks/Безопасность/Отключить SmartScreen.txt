@@ -1,0 +1,70 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+NAME=SmartScreenEnabled
+TYPE=REG_SZ
+VALUE=off
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "SmartScreenEnabled" /t REG_SZ /d "off" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\AppHost" /v "EnableWebContentEvaluation" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppHost" /v "EnableWebContentEvaluation" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter" /v "EnabledV9" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "EnableSmartScreen" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\SmartScreen" /v "ConfigureAppInstallControl" /t REG_SZ /d "Anywhere" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\SmartScreen" /v "ConfigureAppInstallControlEnabled" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\SecurityHealthService" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\wscsvc" /v "Start" /t REG_DWORD /d "4" /f
+sc stop windefend & sc config windefend start=disabled
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "SmartScreenEnabled" /t REG_SZ /d "RequireAdmin" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\AppHost" /v "EnableWebContentEvaluation" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppHost" /v "EnableWebContentEvaluation" /t REG_DWORD /d "1" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter" /v "EnabledV9" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "EnableSmartScreen" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /t REG_DWORD /d "0" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\SmartScreen" /v "ConfigureAppInstallControl" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\SmartScreen" /v "ConfigureAppInstallControlEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\SecurityHealthService" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\wscsvc" /v "Start" /t REG_DWORD /d "2" /f
+
+DESCRIPTION:
+Отключает фильтр Windows SmartScreen, который блокирует запуск подозрительных приложений и веб-сайтов.
+
+EN_TITLE:
+Disable SmartScreen
+
+EN_DESCRIPTION:
+Disables Windows SmartScreen filter, which blocks the execution of suspicious apps and websites.
+
+UZ_TITLE:
+SmartScreen-ni o'chirish
+
+UZ_DESCRIPTION:
+Shubhali ilovalar va veb-saytlarning ishga tushishini bloklaydigan Windows SmartScreen filtrini o'chiradi.
+
+DE_TITLE:
+SmartScreen deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert den Windows SmartScreen-Filter, der das Ausführen verdächtiger Apps und Websites blockiert.
+
+FR_TITLE:
+Désactiver SmartScreen
+
+FR_DESCRIPTION:
+Désactive le filtre Windows SmartScreen, qui bloque l'exécution d'applications et de sites Web suspects.
+
+ES_TITLE:
+Desactivar SmartScreen
+
+ES_DESCRIPTION:
+Desactiva el filtro Windows SmartScreen, que bloquea la ejecución de aplicaciones y sitios web sospechosos.
+
+TR_TITLE:
+SmartScreen'i Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Şüpheli uygulamaların ve web sitelerinin çalışmasını engelleyen Windows SmartScreen filtresini devre dışı bırakır.

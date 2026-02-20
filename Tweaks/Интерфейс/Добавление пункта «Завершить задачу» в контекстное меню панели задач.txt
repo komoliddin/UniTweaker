@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarDeveloperSettings
+NAME=TaskbarEndTask
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarDeveloperSettings" /v "TaskbarEndTask" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarDeveloperSettings" /v "TaskbarEndTask" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+**Добавление пункта «Завершить задачу»** в контекстное меню панели задач.  
+Позволяет быстро завершать зависшие приложения без открытия диспетчера задач.  
+Требуется **Windows 11 22H2 или новее**.
+
+EN_TITLE:
+Enable "End Task" in Taskbar Context Menu
+
+EN_DESCRIPTION:
+Adds an "End Task" option to the taskbar context menu for quickly closing hung applications without opening Task Manager. Requires Windows 11 22H2 or newer.
+
+UZ_TITLE:
+Vazifalar paneli kontekst menyusiga "Vazifani yakunlash" bandini qo'shish
+
+UZ_DESCRIPTION:
+Vazifalar paneli kontekst menyusiga "Vazifani yakunlash" bandini qo'shish imkonini beradi. Vazifalar menejerini ochmasdan qotib qolgan ilovalarni tezda yopishga yordam beradi. Windows 11 22H2 yoki undan yangi versiya talab qilinadi.
+
+DE_TITLE:
+„Task beenden“ im Taskleisten-Kontextmenü aktivieren
+
+DE_DESCRIPTION:
+Fügt dem Kontextmenü der Taskleiste die Option „Task beenden“ hinzu, um hängende Anwendungen schnell zu schließen. Erfordert Windows 11 22H2 oder neuer.
+
+FR_TITLE:
+Activer « Fin de tâche » dans le menu contextuel de la barre des tâches
+
+FR_DESCRIPTION:
+Ajoute une option « Fin de tâche » au menu contextuel de la barre des tâches pour fermer rapidement les applications bloquées. Nécessite Windows 11 22H2 ou plus récent.
+
+ES_TITLE:
+Activar "Finalizar tarea" en el menú contextual de la barra de tareas
+
+ES_DESCRIPTION:
+Añade la opción "Finalizar tarea" al menú contextual de la barra de tareas para cerrar rápidamente aplicaciones que no responden. Requiere Windows 11 22H2 o posterior.
+
+TR_TITLE:
+Görev çubuğu sağ tık menüsüne "Görevi Sonlandır" seçeneğini ekle
+
+TR_DESCRIPTION:
+Görev Yöneticisi'ni açmadan yanıt vermeyen uygulamaları hızlıca kapatmak için görev çubuğu sağ tık menüsüne "Görevi Sonlandır" seçeneğini ekler. Windows 11 22H2 veya daha yeni bir sürüm gerektirir.

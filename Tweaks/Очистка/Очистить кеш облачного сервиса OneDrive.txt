@@ -1,0 +1,49 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Microsoft\OneDrive\logs
+%LOCALAPPDATA%\Microsoft\OneDrive\settings
+%LOCALAPPDATA%\Microsoft\OneDrive\sync_engine
+%LOCALAPPDATA%\Microsoft\OneDrive\syncEngine
+%LOCALAPPDATA%\Microsoft\OneDrive\Business1
+%LOCALAPPDATA%\Microsoft\OneDrive\Business2
+%LOCALAPPDATA%\Microsoft\OneDrive\Business3
+
+DESCRIPTION:
+Кеш облачного сервиса OneDrive — логи, настройки, временные данные синхронизации и кеш бизнес-аккаунтов.
+
+EN_TITLE:
+Clear OneDrive Cache
+
+EN_DESCRIPTION:
+OneDrive cloud service cache — logs, settings, temporary synchronization data, and business account cache.
+
+UZ_TITLE:
+OneDrive keshini tozalash
+
+UZ_DESCRIPTION:
+OneDrive bulutli xizmati keshi — jurnallar, sozlamalar, vaqtinchalik sinxronlash ma'lumotlari va biznes-hisoblar keshi.
+
+DE_TITLE:
+OneDrive-Cache bereinigen
+
+DE_DESCRIPTION:
+OneDrive Cloud-Service-Cache – Protokolle, Einstellungen, temporäre Synchronisierungsdaten und Cache für Geschäftskonten.
+
+FR_TITLE:
+Effacer le cache OneDrive
+
+FR_DESCRIPTION:
+Cache du service cloud OneDrive — journaux, paramètres, données de synchronisation temporaires et cache des comptes professionnels.
+
+ES_TITLE:
+Limpiar caché de OneDrive
+
+ES_DESCRIPTION:
+Caché del servicio en la nube OneDrive: registros, ajustes, datos temporales de sincronización и caché de cuentas empresariales.
+
+TR_TITLE:
+OneDrive Önbelleğini Temizle
+
+TR_DESCRIPTION:
+OneDrive bulut hizmeti önbelleği — günlükler, ayarlar, geçici senkronizasyon verileri ve iş hesabı önbelleği.

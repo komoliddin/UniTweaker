@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\usbhub\HubG
+NAME=DisableOnSoftRemove
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\usbhub\HubG" /v "DisableOnSoftRemove" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\usbhub3\HubG" /v "DisableOnSoftRemove" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\usbhub\HubG" /v "DisableOnSoftRemove" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\usbhub3\HubG" /v "DisableOnSoftRemove" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Выключение USB-порта при безопасном извлечении устройства (как в Windows XP).
+Поддерживаются USB 2.0, 3.0, 3.1 и выше.
+
+EN_TITLE:
+Disable USB Port Power on Eject
+
+EN_DESCRIPTION:
+Disables power to the USB port after safe removal of a device, similar to how it worked in Windows XP. Supports USB 2.0, 3.0, 3.1 and newer.
+
+UZ_TITLE:
+Chiqarilganda USB port quvvatini o'chirish
+
+UZ_DESCRIPTION:
+Qurilmani xavfsiz chiqarganda USB portining quvvatini o'chiradi (Windows XP dagi kabi). USB 2.0, 3.0, 3.1 va undan yuqori versiyalarni qo'llab-quvvatlaydi.
+
+DE_TITLE:
+USB-Port-Stromversorgung beim Auswerfen deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die Stromversorgung des USB-Ports nach dem sicheren Entfernen eines Geräts, ähnlich wie in Windows XP. Unterstützt USB 2.0, 3.0, 3.1 und neuer.
+
+FR_TITLE:
+Désactiver l'alimentation du port USB lors de l'éjection
+
+FR_DESCRIPTION:
+Désactive l'alimentation du port USB après le retrait sécurisé d'un périphérique, comme dans Windows XP. Prend en charge l'USB 2.0, 3.0, 3.1 et plus récent.
+
+ES_TITLE:
+Desactivar la alimentación del puerto USB al expulsar
+
+ES_DESCRIPTION:
+Desactiva la alimentación del puerto USB tras la extracción segura de un dispositivo, de forma similar a como funcionaba en Windows XP. Compatible con USB 2.0, 3.0, 3.1 y versiones posteriores.
+
+TR_TITLE:
+Çıkartırken USB Bağlantı Noktası Gücünü Kapat
+
+TR_DESCRIPTION:
+Bir cihazın güvenle kaldırılmasından sonra, Windows XP'de olduğu gibi USB bağlantı noktasına giden gücü keser. USB 2.0, 3.0, 3.1 ve daha yeni sürümleri destekler.

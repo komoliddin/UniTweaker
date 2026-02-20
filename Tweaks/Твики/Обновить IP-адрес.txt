@@ -1,0 +1,44 @@
+BUTTON:
+CONFIRM
+CLICKED:
+ipconfig /release
+ipconfig /renew
+
+DESCRIPTION:
+Освобождает и получает новый IP-адрес для всех сетевых адаптеров.
+
+EN_TITLE:
+Renew IP Address
+
+EN_DESCRIPTION:
+Releases and obtains a new IP address for all network adapters.
+
+UZ_TITLE:
+IP-manzilni yangilash
+
+UZ_DESCRIPTION:
+Barcha tarmoq adapterlari uchun yangi IP-manzilni oladi.
+
+DE_TITLE:
+IP-Adresse erneuern
+
+DE_DESCRIPTION:
+Gibt die aktuelle IP-Adresse frei und bezieht eine neue für alle Netzwerkadapter.
+
+FR_TITLE:
+Renouveler l'adresse IP
+
+FR_DESCRIPTION:
+Libère et obtient une nouvelle adresse IP pour toutes les cartes réseau.
+
+ES_TITLE:
+Renovar dirección IP
+
+ES_DESCRIPTION:
+Libera и obtiene una nueva dirección IP для todos los adaptadores de red.
+
+TR_TITLE:
+IP Adresini Yenile
+
+TR_DESCRIPTION:
+Tüm ağ bağdaştırıcıları için yeni bir IP adresi alır.

@@ -1,0 +1,45 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Adobe\Common\Media Cache Files
+%APPDATA%\Adobe\Common\Media Cache
+%APPDATA%\Adobe\Common\Peak Files
+
+DESCRIPTION:
+Временные файлы и кеш медиаданных Adobe (Premiere Pro, After Effects, Media Encoder). Может занимать десятки гигабайт.
+
+EN_TITLE:
+Clear Adobe Media Cache
+
+EN_DESCRIPTION:
+Temporary files and media cache for Adobe (Premiere Pro, After Effects, Media Encoder). Can take up dozens of gigabytes.
+
+UZ_TITLE:
+Adobe media keshini tozalash
+
+UZ_DESCRIPTION:
+Adobe (Premiere Pro, After Effects, Media Encoder) vaqtinchalik fayllari va media keshi.
+
+DE_TITLE:
+Adobe Media-Cache leeren
+
+DE_DESCRIPTION:
+Temporäre Dateien und Medien-Cache für Adobe (Premiere Pro, After Effects, Media Encoder).
+
+FR_TITLE:
+Effacer le cache média Adobe
+
+FR_DESCRIPTION:
+Fichiers temporaires et cache média pour Adobe (Premiere Pro, After Effects, Media Encoder).
+
+ES_TITLE:
+Limpiar caché de medios de Adobe
+
+ES_DESCRIPTION:
+Archivos temporales и caché de medios para Adobe (Premiere Pro, After Effects, Media Encoder).
+
+TR_TITLE:
+Adobe Medya Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Adobe (Premiere Pro, After Effects, Media Encoder) için geçici dosyalar ve medya önbelleği.

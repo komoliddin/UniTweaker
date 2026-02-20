@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\WSearch
+NAME=Start
+TYPE=REG_DWORD
+VALUE=4
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WSearch" /v "Start" /t REG_DWORD /d "4" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WSearch" /v "Start" /t REG_DWORD /d "2" /f
+
+DESCRIPTION:
+Служба Windows Search производит индексирование файлов и папок. Если система установлена на SSD-накопителе, то увеличение производительности от использования данной функции вряд ли будет заметно и поэтому есть смысл отключить службу Windows Search (однако имейти в виду, что возможно не будет работать поиск в меню Пуск). 
+
+Также рекомендуется вручную отключить индексирование содержимого файлов на диске, открыв окно "свойства" диска. Объём записи на диск индекс-файлов незначителен, но его не следует списывать со счетов, так как любой шаг, исключающий ненужные операции по записи на SSD, идёт на пользу. 
+
+EN_TITLE:
+Disable Windows Search Indexing
+
+EN_DESCRIPTION:
+The Windows Search service indexes files and folders. If the system is installed on an SSD, the performance increase from using this feature is unlikely to be noticeable, so it makes sense to disable the Windows Search service (however, keep in mind that searching in the Start menu may not work). It is also recommended to manually disable indexing of file contents on the disk by opening the drive "properties" window. The volume of index file writes to the disk is small, but any step that eliminates unnecessary write operations to the SSD is beneficial.
+
+UZ_TITLE:
+Windows qidiruv indeksatsiyasini o'chirish
+
+UZ_DESCRIPTION:
+Windows Search xizmati fayl va papkalarni indekslaydi. Agar tizim SSD-ga o'rnatilgan bo'lsa, ushbu funksiyadan foydalanish natijasida unumdorlikning oshishi sezilmasligi mumkin, shuning uchun Windows Search xizmatini o'chirish mantiqan to'g'ri (biroq Bosh menyuda qidiruv ishlamasligi mumkinligini unutmang). Shuningdek, diskning "xususiyatlari" (properties) oynasini ochish orqali diskdagi fayl mazmunini indekslashni qo'lda o'chirib qo'yish tavsiya etiladi. Diskka indeks fayllarini yozish hajmi ahamiyatsiz, ammo SSD-ga ortiqcha yozish operatsiyalarini istisno qiladigan har qanday qadam foydalidir.
+
+DE_TITLE:
+Windows-Suchindizierung deaktivieren
+
+DE_DESCRIPTION:
+Der Windows-Suchdienst indiziert Dateien und Ordner. Wenn das System auf einer SSD installiert ist, ist die Leistungssteigerung durch diese Funktion kaum spürbar, daher ist es sinnvoll, den Windows-Suchdienst zu deaktivieren (beachten Sie jedoch, dass die Suche im Startmenü möglicherweise nicht funktioniert). Es wird auch empfohlen, die Indizierung von Dateiinhalten auf der Festplatte manuell zu deaktivieren, indem Sie das Fenster "Eigenschaften" des Laufwerks öffnen. Das Volumen der Indexdateischreibvorgänge auf die Festplatte ist gering, aber jeder Schritt, der unnötige Schreibvorgänge auf der SSD eliminiert, ist von Vorteil.
+
+FR_TITLE:
+Désactiver l'indexation de la recherche Windows
+
+FR_DESCRIPTION:
+Le service Windows Search indexe les fichiers et les dossiers. Si le système est installé sur un SSD, le gain de performance lié à cette fonctionnalité sera peu perceptible, il est donc judicieux de désactiver le service Windows Search (toutefois, gardez à l'esprit que la recherche dans le menu Démarrer pourrait ne plus fonctionner). Il est également recommandé de désactiver manuellement l'indexation du contenu des fichiers sur le disque en ouvrant la fenêtre « propriétés » du lecteur. Le volume d'écriture des fichiers d'index sur le disque est faible, mais toute étape éliminant les opérations d'écriture inutiles sur le SSD est bénéfique.
+
+ES_TITLE:
+Desactivar la indexación de búsqueda de Windows
+
+ES_DESCRIPTION:
+El servicio Windows Search indexa archivos и carpetas. Si el sistema está instalado en un SSD, es poco probable que el aumento de rendimiento por el uso de esta función sea notable, por lo que tiene sentido desactivar el servicio Windows Search (sin embargo, tenga en cuenta que la búsqueda en el menú Inicio puede no funcionar). También se recomienda desactivar manualmente la indexación del contenido de los archivos en el disco abriendo la ventana de "propiedades" de la unidad. El volumen de escrituras de archivos de índice en el disco es insignificante, pero cualquier paso que elimine operaciones de escritura innecesarias en el SSD es beneficioso.
+
+TR_TITLE:
+Windows Arama Dizin Oluşturmayı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Windows Search hizmeti, dosya ve klasörleri dizine ekler. Sistem bir SSD'ye kuruluysa, bu özelliğin kullanılmasından kaynaklanan performans artışı muhtemelen fark edilmeyecektir, bu nedenle Windows Search hizmetini devre dışı bırakmak mantıklıdır (ancak Başlat menüsünde aramanın çalışmayabileceğini unutmayın). Sürücü "özellikler" penceresini açarak diskteki dosya içeriklerinin dizine eklenmesini manuel olarak devre dışı bırakmanız da önerilir. Diske yazılan dizin dosyası hacmi küçüktür, ancak SSD'ye yapılan gereksiz yazma işlemlerini ortadan kaldıran her adım faydalıdır.

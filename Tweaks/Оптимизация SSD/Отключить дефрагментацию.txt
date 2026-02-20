@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Dfrg\BootOptimizeFunction
+NAME=Enable
+TYPE=REG_SZ
+VALUE=N
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Dfrg\BootOptimizeFunction" /v "Enable" /t REG_SZ /d "N" /f
+sc config SysMain start= disabled
+sc stop SysMain
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Dfrg\BootOptimizeFunction" /v "Enable" /t REG_SZ /d "Y" /f
+sc config SysMain start= auto
+sc start SysMain
+
+DESCRIPTION:
+Полностью отключает дефрагментацию и оптимизацию дисков, включая службу SysMain. SSD не нуждаются в дефрагментации, а частая перезапись данных может сократить срок их службы.
+
+EN_TITLE:
+Disable Defragmentation and Optimization
+
+EN_DESCRIPTION:
+Completely disables disk defragmentation and optimization, including the SysMain service. SSDs do not need defragmentation, and frequent data overwriting can shorten their lifespan.
+
+UZ_TITLE:
+Defragmentatsiya va optimallashtirishni o'chirish
+
+UZ_DESCRIPTION:
+Diskni defragmentatsiya qilish va optimallashtirishni, shu jumladan SysMain xizmatini butunlay o'chiradi. SSD-lar defragmentatsiyaga muhtoj emas va ma'lumotlarning tez-tez qayta yozilishi ularning ishlash muddatini qisqartirishi mumkin.
+
+DE_TITLE:
+Defragmentierung und Optimierung deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die Festplattendefragmentierung und -optimierung vollständig, einschließlich des SysMain-Dienstes. SSDs benötigen keine Defragmentierung, und häufiges Überschreiben von Daten kann ihre Lebensdauer verkürzen.
+
+FR_TITLE:
+Désactiver la défragmentation et l'optimisation
+
+FR_DESCRIPTION:
+Désactive complètement la défragmentation et l'optimisation des disques, y compris le service SysMain. Les SSD n'ont pas besoin de défragmentation, et les réécritures fréquentes de données peuvent réduire leur durée de vie.
+
+ES_TITLE:
+Desactivar desfragmentación и optimización
+
+ES_DESCRIPTION:
+Desactiva completamente la desfragmentación и optimización de discos, incluido el servicio SysMain. Los SSD no necesitan desfragmentación, и la sobrescritura frecuente de datos puede acortar su vida útil.
+
+TR_TITLE:
+Disk Birleştirmeyi ve Eniyilemeyi Devre Dışı Bırak
+
+TR_DESCRIPTION:
+SysMain hizmeti de dahil olmak üzere disk birleştirmeyi ve eniyilemeyi tamamen devre dışı bırakır. SSD'lerin disk birleştirmeye ihtiyacı yoktur ve sık veri yazılması ömürlerini kısaltabilir.

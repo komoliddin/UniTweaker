@@ -1,0 +1,51 @@
+CHECKBOX:
+CLEANER:
+NOTRECOMMENDED
+PATH:
+*:\$RECYCLE.BIN
+
+DESCRIPTION:
+Очистка корзины на всех дисках
+⚠ ВНИМАНИЕ: не рекомендуется — могут быть потеряны нужные файлы.
+
+EN_TITLE:
+Empty Recycle Bin on all drives
+
+EN_DESCRIPTION:
+Emptying the recycle bin on all drives.
+⚠ WARNING: Not recommended — important files may be lost.
+
+UZ_TITLE:
+Barcha disklardagi savatni bo'shatish
+
+UZ_DESCRIPTION:
+Barcha disklardagi savatni bo'shatish.
+⚠ DIQQAT: tavsiya etilmaydi — kerakli fayllar yo'qolishi mumkin.
+
+DE_TITLE:
+Papierkorb auf allen Laufwerken leeren
+
+DE_DESCRIPTION:
+Leeren des Papierkorbs auf allen Laufwerken.
+⚠ WARNUNG: Nicht empfohlen – wichtige Dateien können verloren gehen.
+
+FR_TITLE:
+Vider la corbeille sur tous les disques
+
+FR_DESCRIPTION:
+Vider la corbeille sur tous les disques.
+⚠ ATTENTION : Non recommandé — des fichiers importants peuvent être perdus.
+
+ES_TITLE:
+Vaciar la papelera en todas las unidades
+
+ES_DESCRIPTION:
+Vaciar la papelera de reciclaje en todas las unidades.
+⚠ ADVERTENCIA: No se recomienda — se pueden perder archivos importantes.
+
+TR_TITLE:
+Tüm sürücülerdeki Geri Dönüşüm Kutusunu boşalt
+
+TR_DESCRIPTION:
+Tüm sürücülerdeki geri dönüşüm kutusunu boşaltma.
+⚠ UYARI: Önerilmez — önemli dosyalar kaybolabilir.

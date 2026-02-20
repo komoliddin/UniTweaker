@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Code\Cache
+%APPDATA%\Code\CachedData
+
+DESCRIPTION:
+Кеш расширений и временные данные редактора Visual Studio Code.
+
+EN_TITLE:
+Clear Visual Studio Code Cache
+
+EN_DESCRIPTION:
+Extension cache and temporary data of the Visual Studio Code editor.
+
+UZ_TITLE:
+Visual Studio Code keshini tozalash
+
+UZ_DESCRIPTION:
+Visual Studio Code muharririning kengaytmalari va vaqtinchalik ma'lumotlari keshi.
+
+DE_TITLE:
+Visual Studio Code-Cache leeren
+
+DE_DESCRIPTION:
+Erweiterungs-Cache und temporäre Daten des Visual Studio Code-Editors.
+
+FR_TITLE:
+Effacer le cache Visual Studio Code
+
+FR_DESCRIPTION:
+Cache d'extensions et données temporaires de l'éditeur Visual Studio Code.
+
+ES_TITLE:
+Limpiar caché de Visual Studio Code
+
+ES_DESCRIPTION:
+Caché de extensiones y datos temporales del editor Visual Studio Code.
+
+TR_TITLE:
+Visual Studio Code Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Visual Studio Code düzenleyicisinin uzantı önbelleği ve geçici verileri.

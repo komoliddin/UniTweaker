@@ -1,0 +1,63 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Control Panel\Keyboard
+NAME=InitialKeyboardIndicators
+TYPE=REG_SZ
+VALUE=2
+
+CHECKED:
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "InitialKeyboardIndicators" /t REG_SZ /d "2" /f
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "KeyboardDelay" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "KeyboardSpeed" /t REG_SZ /d "31" /f
+Reg.exe add "HKU\.DEFAULT\Control Panel\Keyboard" /v "InitialKeyboardIndicators" /t REG_SZ /d "2" /f
+Reg.exe add "HKU\.DEFAULT\Control Panel\Keyboard" /v "KeyboardDelay" /t REG_SZ /d "1" /f
+Reg.exe add "HKU\.DEFAULT\Control Panel\Keyboard" /v "KeyboardSpeed" /t REG_SZ /d "31" /f
+
+
+UNCHECKED:
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "InitialKeyboardIndicators" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "KeyboardDelay" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "KeyboardSpeed" /t REG_SZ /d "0" /f
+Reg.exe add "HKU\.DEFAULT\Control Panel\Keyboard" /v "InitialKeyboardIndicators" /t REG_SZ /d "0" /f
+Reg.exe add "HKU\.DEFAULT\Control Panel\Keyboard" /v "KeyboardDelay" /t REG_SZ /d "0" /f
+Reg.exe add "HKU\.DEFAULT\Control Panel\Keyboard" /v "KeyboardSpeed" /t REG_SZ /d "0" /f
+
+
+DESCRIPTION:
+Включает NumLock при запуске системы.
+
+EN_TITLE:
+Enable NumLock on Boot
+
+EN_DESCRIPTION:
+Automatically enables the NumLock key when the system starts.
+
+UZ_TITLE:
+Yuklashda NumLock-ni yoqish
+
+UZ_DESCRIPTION:
+Tizim ishga tushirilganda NumLock tugmachasini avtomatik ravishda yoqadi.
+
+DE_TITLE:
+NumLock beim Booten aktivieren
+
+DE_DESCRIPTION:
+Aktiviert die NumLock-Taste automatisch beim Systemstart.
+
+FR_TITLE:
+Activer NumLock au démarrage
+
+FR_DESCRIPTION:
+Active automatiquement la touche NumLock au démarrage du système.
+
+ES_TITLE:
+Habilitar NumLock al arrancar
+
+ES_DESCRIPTION:
+Habilita automáticamente la tecla NumLock cuando se inicia el sistema.
+
+TR_TITLE:
+Açılışta NumLock'u Etkinleştir
+
+TR_DESCRIPTION:
+Sistem başladığında NumLock tuşunu otomatik olarak etkinleştirir.

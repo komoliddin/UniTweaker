@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%SystemDrive%\Windows.old
+%SystemRoot%\SoftwareDistribution\Download\*.tmp
+
+DESCRIPTION:
+Старая папка Windows.old и остатки обновлений. Может занимать десятки ГБ.
+
+EN_TITLE:
+Clear Windows.old and Update Leftovers
+
+EN_DESCRIPTION:
+Old Windows.old folder and update leftovers. Can take up dozens of GB.
+
+UZ_TITLE:
+Eski Windows.old papkasini va yangilanish qoldiqlarini tozalash
+
+UZ_DESCRIPTION:
+Eski Windows.old papkasi va yangilanish qoldiqlari. O'nlab GB joy egallashi mumkin.
+
+DE_TITLE:
+Ordner Windows.old und Update-Reste bereinigen
+
+DE_DESCRIPTION:
+Alter Windows.old-Ordner und Update-Reste. Kann Dutzende von GB belegen.
+
+FR_TITLE:
+Effacer le dossier Windows.old et les restes de mise à jour
+
+FR_DESCRIPTION:
+Ancien dossier Windows.old et restes de mise à jour. Peut occuper des dizaines de Go.
+
+ES_TITLE:
+Limpiar carpeta Windows.old и restos de actualizaciones
+
+ES_DESCRIPTION:
+Carpeta antigua Windows.old и restos de actualizaciones. Puede ocupar decenas de GB.
+
+TR_TITLE:
+Windows.old Klasörünü ve Güncelleme Kalıntılarını Temizle
+
+TR_DESCRIPTION:
+Eski Windows.old klasörü ve güncelleme kalıntıları. Onlarca GB yer kaplayabilir.

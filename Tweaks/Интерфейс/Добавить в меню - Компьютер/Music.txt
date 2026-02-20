@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}
+NAME=
+TYPE=
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
+Reg.exe add "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
+Reg.exe delete "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
+
+DESCRIPTION:
+Этот твик добавляет папку «Музыка» в разделе «Этот компьютер».
+
+EN_TITLE:
+Music 
+
+EN_DESCRIPTION:
+Music 
+
+UZ_TITLE:
+Music 
+
+UZ_DESCRIPTION:
+Music 
+
+DE_TITLE:
+Music 
+
+DE_DESCRIPTION:
+Music 
+
+FR_TITLE:
+Music 
+
+FR_DESCRIPTION:
+Music 
+
+ES_TITLE:
+Music 
+
+ES_DESCRIPTION:
+Music 
+
+TR_TITLE:
+Music 
+
+TR_DESCRIPTION:
+Music 

@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel
+NAME={645FF040-5081-101B-9F08-00AA002F954E}
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{645FF040-5081-101B-9F08-00AA002F954E}" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{645FF040-5081-101B-9F08-00AA002F954E}" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Показывает или скрывает значок «Корзина» на рабочем столе.
+
+EN_TITLE:
+Recycle Bin
+
+EN_DESCRIPTION:
+Recycle Bin
+
+UZ_TITLE:
+Recycle Bin
+
+UZ_DESCRIPTION:
+Recycle Bin
+
+DE_TITLE:
+Recycle Bin
+
+DE_DESCRIPTION:
+Recycle Bin
+
+FR_TITLE:
+Recycle Bin
+
+FR_DESCRIPTION:
+Recycle Bin
+
+ES_TITLE:
+Recycle Bin
+
+ES_DESCRIPTION:
+Recycle Bin
+
+TR_TITLE:
+Recycle Bin
+
+TR_DESCRIPTION:
+Recycle Bin

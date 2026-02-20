@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\GodMode
+NAME=GodMode
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\GodMode" /ve /t REG_SZ /d "God Mode (Режим Бога)" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\GodMode" /v "Icon" /t REG_SZ /d "control.exe" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\GodMode\command" /ve /t REG_SZ /d "explorer shell:::{ED7BA470-8E54-465E-825C-99712043E01C}" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\GodMode" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «God Mode (Режим Бога)» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+God Mode
+
+EN_DESCRIPTION:
+God Mode
+
+UZ_TITLE:
+God Mode
+
+UZ_DESCRIPTION:
+God Mode
+
+DE_TITLE:
+God Mode
+
+DE_DESCRIPTION:
+God Mode
+
+FR_TITLE:
+God Mode
+
+FR_DESCRIPTION:
+God Mode
+
+ES_TITLE:
+God Mode
+
+ES_DESCRIPTION:
+God Mode
+
+TR_TITLE:
+God Mode
+
+TR_DESCRIPTION:
+God Mode

@@ -1,0 +1,56 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=TaskbarDa
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarDa /t REG_DWORD /d 0 /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 0 /f
+taskkill /f /im widgets.exe
+winget uninstall --id 9MSSGKG348SP
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarDa /t REG_DWORD /d 1 /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Dsh" /f
+winget install --id 9MSSGKG348SP --accept-package-agreements
+
+DESCRIPTION:
+Этот твик отключает виджеты Windows и новостной блок на панели задач для повышения производительности и очистки интерфейса.
+
+EN_TITLE:
+Disable Windows Widgets
+
+EN_DESCRIPTION:
+Disable Windows Widgets
+
+UZ_TITLE:
+Windows vidjetlarini o'chirish
+
+UZ_DESCRIPTION:
+Windows vidjetlarini o'chirish
+
+DE_TITLE:
+Windows-Widgets deaktivieren
+
+DE_DESCRIPTION:
+Windows-Widgets deaktivieren
+
+FR_TITLE:
+Désactiver les widgets Windows
+
+FR_DESCRIPTION:
+Désactiver les widgets Windows
+
+ES_TITLE:
+Desactivar los widgets de Windows
+
+ES_DESCRIPTION:
+Desactivar los widgets de Windows
+
+TR_TITLE:
+Windows Widget'larını devre dışı bırak
+
+TR_DESCRIPTION:
+Windows Widget'larını devre dışı bırak

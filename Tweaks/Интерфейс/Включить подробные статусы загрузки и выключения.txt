@@ -1,0 +1,52 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+NAME=VerboseStatus
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v VerboseStatus /t REG_DWORD /d 1 /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v VerboseStatus /t REG_DWORD /d 0 /f
+
+DESCRIPTION:
+Этот твик включает подробный режим сообщений системы, который отображает детальную информацию о ходе запуска, завершении работы, входе и выходе из системы.
+Эта функция может помочь при диагностике, определяя процессы, затрачивающие много времени на запуск, как заявлено на сайте поддержки Microsoft.
+
+EN_TITLE:
+Enable Verbose Boot and Shutdown Messages
+
+EN_DESCRIPTION:
+Enable Verbose Boot and Shutdown Messages
+
+UZ_TITLE:
+Batafsil yuklash va o'chirish holatlarini yoqish
+
+UZ_DESCRIPTION:
+Batafsil yuklash va o'chirish holatlarini yoqish
+
+DE_TITLE:
+Detaillierte Start- und Beendigungsstatus aktivieren
+
+DE_DESCRIPTION:
+Detaillierte Start- und Beendigungsstatus aktivieren
+
+FR_TITLE:
+Activer les messages détaillés de démarrage et d'arrêt
+
+FR_DESCRIPTION:
+Activer les messages détaillés de démarrage et d'arrêt
+
+ES_TITLE:
+Activar mensajes detallados de inicio y apagado
+
+ES_DESCRIPTION:
+Activar mensajes detallados de inicio y apagado
+
+TR_TITLE:
+Ayrıntılı önyükleme ve kapatma mesajlarını etkinleştir
+
+TR_DESCRIPTION:
+Ayrıntılı önyükleme ve kapatma mesajlarını etkinleştir

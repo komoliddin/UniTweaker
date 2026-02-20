@@ -1,0 +1,59 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Clipboard
+NAME=EnableClipboardHistory
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+reg add "HKCU\Software\Microsoft\Clipboard" /v EnableClipboardHistory /t REG_DWORD /d 1 /f
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v AllowClipboardHistory /t REG_DWORD /d 1 /f
+net stop cbdhsvc
+net start cbdhsvc
+gpupdate /force
+
+UNCHECKED:
+reg add "HKCU\Software\Microsoft\Clipboard" /v EnableClipboardHistory /t REG_DWORD /d 0 /f
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v AllowClipboardHistory /t REG_DWORD /d 0 /f
+net stop cbdhsvc
+net start cbdhsvc
+gpupdate /force
+
+DESCRIPTION:
+Включает историю буфера обмена (Win+V).
+
+EN_TITLE:
+Enable Clipboard History
+
+EN_DESCRIPTION:
+Enables clipboard history, allowing you to view and paste previously copied items (Win+V).
+
+UZ_TITLE:
+Almashish buferini yoqish
+
+UZ_DESCRIPTION:
+Almashish buferi tarixini yoqadi, bu sizga ilgari nusxa ko'chirilgan narsalarni ko'rish va qo'yish imkonini beradi (Win+V).
+
+DE_TITLE:
+Zwischenablage-Verlauf aktivieren
+
+DE_DESCRIPTION:
+Aktiviert den Zwischenablage-Verlauf, sodass Sie zuvor kopierte Elemente anzeigen und einfügen können (Win+V).
+
+FR_TITLE:
+Activer l'historique du presse-papiers
+
+FR_DESCRIPTION:
+Active l'historique du presse-papiers, vous permettant de visualiser et de coller des éléments précédemment copiés (Win+V).
+
+ES_TITLE:
+Habilitar historial del portapapeles
+
+ES_DESCRIPTION:
+Habilita el historial del portapapeles, lo que le permite ver y pegar elementos copiados anteriormente (Win+V).
+
+TR_TITLE:
+Pano Geçmişini Etkinleştir
+
+TR_DESCRIPTION:
+Pano geçmişini etkinleştirerek önceden kopyalanmış öğeleri görmenize ve yapıştırmanıza olanak tanır (Win+V).

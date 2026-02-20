@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=Software\Microsoft\Windows\CurrentVersion\Policies\System
+NAME=VerboseStatus
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "VerboseStatus" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "VerboseStatus" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Включает подробные сообщения о состоянии при входе в систему, выходе из системы, запуске и завершении работы.
+
+EN_TITLE:
+Enable Verbose Status Messages
+
+EN_DESCRIPTION:
+Enables detailed status messages during logon, logoff, startup, and shutdown.
+
+UZ_TITLE:
+Batafsil holat xabarlarini yoqish
+
+UZ_DESCRIPTION:
+Tizimga kirish, chiqish, ishga tushirish va o'chirish paytida batafsil holat xabarlarini yoqadi.
+
+DE_TITLE:
+Ausführliche Statusmeldungen aktivieren
+
+DE_DESCRIPTION:
+Aktiviert detaillierte Statusmeldungen beim Anmelden, Abmelden, Starten und Herunterfahren.
+
+FR_TITLE:
+Activer les messages d'état détaillés
+
+FR_DESCRIPTION:
+Active des messages d'état détaillés lors de l'ouverture de session, de la déconnexion, du démarrage et de l'arrêt.
+
+ES_TITLE:
+Habilitar mensajes de estado detallados
+
+ES_DESCRIPTION:
+Habilita mensajes de estado detallados durante el inicio de sesión, el cierre de sesión, el arranque y el apagado.
+
+TR_TITLE:
+Ayrıntılı Durum İletilerini Etkinleştir
+
+TR_DESCRIPTION:
+Oturum açma, oturum kapatma, başlatma ve kapatma sırasında ayrıntılı durum iletilerini etkinleştirir.

@@ -1,0 +1,59 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}
+NAME=
+TYPE=
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
+Reg.exe add "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
+mkdir "%USERPROFILE%\3D Objects"
+echo [.ShellClassInfo] > "%USERPROFILE%\3D Objects\desktop.ini"
+echo LocalizedResourceName=@%SystemRoot%\system32\windows.storage.dll,-21825 >> "%USERPROFILE%\3D Objects\desktop.ini"
+echo IconResource=%SystemRoot%\system32\imageres.dll,-198 >> "%USERPROFILE%\3D Objects\desktop.ini"
+attrib +h +s +a "%USERPROFILE%\3D Objects\desktop.ini"
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
+Reg.exe delete "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
+rmdir /s /q "%USERPROFILE%\3D Objects"
+
+DESCRIPTION:
+Этот твик добавляет папку «Объемные объекты» (3D Objects) в разделе «Этот компьютер».
+
+EN_TITLE:
+3D Objects
+
+EN_DESCRIPTION:
+3D Objects
+
+UZ_TITLE:
+3D Objects
+
+UZ_DESCRIPTION:
+3D Objects
+
+DE_TITLE:
+3D Objects
+
+DE_DESCRIPTION:
+3D Objects
+
+FR_TITLE:
+3D Objects
+
+FR_DESCRIPTION:
+3D Objects
+
+ES_TITLE:
+3D Objects
+
+ES_DESCRIPTION:
+3D Objects
+
+TR_TITLE:
+3D Objects
+
+TR_DESCRIPTION:
+3D Objects

@@ -1,0 +1,65 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet
+NAME=EnableActiveProbing
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet" /v "EnableActiveProbing" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet" /v "EnableActiveProbing" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+🔄 **Исправление проблемы с сетевым подключением в Windows 10 (версия 2004 и новее).**  
+✅ **Включает Active Probing** для корректного определения интернет-соединения системой.  
+⚠️ **Используйте этот твик, если система ошибочно показывает, что нет доступа к сети.**  
+
+EN_TITLE:
+Fix Network Connection Status
+
+EN_DESCRIPTION:
+🔄 **Fixes the network connection issue in Windows 10 (version 2004 and newer).**
+✅ **Enables Active Probing** for the system to correctly determine the internet connection.
+⚠️ **Use this tweak if the system incorrectly shows that there is no network access.**
+
+UZ_TITLE:
+Tarmoq ulanish holatini tuzatish
+
+UZ_DESCRIPTION:
+🔄 **Windows 10 (2004 va undan yangi versiyalar) tarmoq ulanishi muammosini tuzatadi.**
+✅ **Active Probing**-ni yoqadi, bu tizimning internet ulanishini to'g'ri aniqlashi uchun.
+⚠️ **Agar tizim xatolik bilan tarmoqqa kirish yo'qligini ko'rsatsa, ushbu tvikdan foydalaning.**
+
+DE_TITLE:
+Netzwerkverbindungsstatus korrigieren
+
+DE_DESCRIPTION:
+🔄 **Behebt das Problem mit der Netzwerkverbindung in Windows 10 (Version 2004 und neuer).**
+✅ **Aktiviert Active Probing**, damit das System die Internetverbindung korrekt erkennt.
+⚠️ **Verwenden Sie diesen Tweak, wenn das System fälschlicherweise anzeigt, dass kein Netzwerkzugriff besteht.**
+
+FR_TITLE:
+Corriger l'état de la connexion réseau
+
+FR_DESCRIPTION:
+🔄 **Corrige le problème de connexion réseau dans Windows 10 (version 2004 et ultérieures).**
+✅ **Active l'Active Probing** pour que le système détermine correctement la connexion Internet.
+⚠️ **Utilisez ce tweak si le système indique à tort qu'il n'y a pas d'accès au réseau.**
+
+ES_TITLE:
+Corregir el estado de la conexión de red
+
+ES_DESCRIPTION:
+🔄 **Corrige el problema de conexión de red en Windows 10 (versión 2004 y posteriores).**
+✅ **Habilita el Active Probing** para que el sistema determine correctamente la conexión a Internet.
+⚠️ **Utilice este ajuste si el sistema muestra incorrectamente que no hay acceso a la red.**
+
+TR_TITLE:
+Ağ Bağlantı Durumunu Düzelt
+
+TR_DESCRIPTION:
+🔄 **Windows 10'daki (sürüm 2004 ve daha yeni) ağ bağlantısı sorununu düzeltir.**
+✅ **Active Probing**'i etkinleştirerek sistemin internet bağlantısını doğru bir şekilde belirlemesini sağlar.
+⚠️ **Sistem yanlış bir şekilde ağ erişimi olmadığını gösteriyorsa bu ayarı kullanın.**

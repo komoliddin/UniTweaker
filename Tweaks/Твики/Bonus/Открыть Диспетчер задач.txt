@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+taskmgr
+
+DESCRIPTION:
+Запускает диспетчер задач
+
+EN_TITLE:
+Open Task Manager
+
+EN_DESCRIPTION:
+Launches the Windows Task Manager to monitor and manage processes.
+
+UZ_TITLE:
+Vazifalar menejerini ochish
+
+UZ_DESCRIPTION:
+Jarayonlarni kuzatish va boshqarish uchun Windows Vazifalar menejerini ishga tushiradi.
+
+DE_TITLE:
+Task-Manager öffnen
+
+DE_DESCRIPTION:
+Startet den Windows Task-Manager zur Überwachung und Verwaltung von Prozessen.
+
+FR_TITLE:
+Ouvrir le Gestionnaire des tâches
+
+FR_DESCRIPTION:
+Lance le Gestionnaire des tâches de Windows pour surveiller et gérer les processus.
+
+ES_TITLE:
+Abrir el Administrador de tareas
+
+ES_DESCRIPTION:
+Inicia el Administrador de tareas de Windows para monitorear и gestionar procesos.
+
+TR_TITLE:
+Görev Yöneticisini Aç
+
+TR_DESCRIPTION:
+Süreçleri izlemek ve yönetmek için Windows Görev Yöneticisini başlatır.

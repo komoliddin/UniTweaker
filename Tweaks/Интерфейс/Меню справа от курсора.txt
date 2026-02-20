@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows
+NAME=MenuDropAlignment
+TYPE=REG_SZ
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows" /v "MenuDropAlignment" /t REG_SZ /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows" /v "MenuDropAlignment" /t REG_SZ /d "1" /f
+
+DESCRIPTION:
+Этот твик изменяет направление раскрытия контекстных меню Windows. 0 — слева направо (стандарт), 1 — справа налево.
+
+EN_TITLE:
+Show Menu to the Right of Cursor
+
+EN_DESCRIPTION:
+Show Menu to the Right of Cursor
+
+UZ_TITLE:
+Menyuni kursordan o'ngda ko'rsatish
+
+UZ_DESCRIPTION:
+Menyuni kursordan o'ngda ko'rsatish
+
+DE_TITLE:
+Menü rechts vom Cursor anzeigen
+
+DE_DESCRIPTION:
+Menü rechts vom Cursor anzeigen
+
+FR_TITLE:
+Afficher le menu à droite du curseur
+
+FR_DESCRIPTION:
+Afficher le menu à droite du curseur
+
+ES_TITLE:
+Mostrar menú a la derecha del cursor
+
+ES_DESCRIPTION:
+Mostrar menú a la derecha del cursor
+
+TR_TITLE:
+Menüyü imlecin sağında göster
+
+TR_DESCRIPTION:
+Menüyü imlecin sağında göster

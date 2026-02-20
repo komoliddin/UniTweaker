@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+eventvwr.msc
+
+DESCRIPTION:
+Запускает просмотрщик событий Windows
+
+EN_TITLE:
+Open Event Viewer
+
+EN_DESCRIPTION:
+Launches the Windows Event Viewer to view system and application logs.
+
+UZ_TITLE:
+Voqealar ko'ruvchisini ochish
+
+UZ_DESCRIPTION:
+Tizim va ilova jurnallarini ko'rish uchun Windows Voqealar ko'ruvchisini ishga tushiradi.
+
+DE_TITLE:
+Ereignisanzeige öffnen
+
+DE_DESCRIPTION:
+Startet die Windows-Ereignisanzeige, um System- und Anwendungsprotokolle anzuzeigen.
+
+FR_TITLE:
+Ouvrir l'Observateur d'événements
+
+FR_DESCRIPTION:
+Lance l'Observateur d'événements Windows pour consulter les journaux du système et des applications.
+
+ES_TITLE:
+Abrir el Visor de eventos
+
+ES_DESCRIPTION:
+Inicia el Visor de eventos de Windows para ver los registros del sistema и de las aplicaciones.
+
+TR_TITLE:
+Olay Görüntüleyicisini Aç
+
+TR_DESCRIPTION:
+Sistem ve uygulama günlüklerini görüntülemek için Windows Olay Görüntüleyicisini başlatır.

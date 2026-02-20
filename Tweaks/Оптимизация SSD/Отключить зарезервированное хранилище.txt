@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager
+NAME=ShippedWithReserves
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+REG ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager" /v "ShippedWithReserves" /t REG_DWORD /d 0 /f
+DISM.exe /Online /Set-ReservedStorageState /State:Disabled
+
+UNCHECKED:
+REG ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager" /v "ShippedWithReserves" /t REG_DWORD /d 1 /f
+DISM.exe /Online /Set-ReservedStorageState /State:Enabled
+
+DESCRIPTION:
+Этот твик отключает зарезервированное хранилище в Windows 10/11, которое выделяется для обновлений и системных нужд.  
+Полезно для освобождения дискового пространства, особенно на устройствах с небольшими SSD.
+
+EN_TITLE:
+Disable Reserved Storage
+
+EN_DESCRIPTION:
+This tweak disables reserved storage in Windows 10/11, which is allocated for updates and system needs. Useful for freeing up disk space, especially on devices with small SSDs.
+
+UZ_TITLE:
+Zaxiralangan xotirani o'chirish
+
+UZ_DESCRIPTION:
+Ushbu tvik Windows 10/11 da yangilanishlar va tizim ehtiyojlari uchun ajratilgan zaxira xotirani o'chiradi. Diskda bo'sh joyni bo'shatish uchun foydalidir, ayniqsa kichik SSD-ga ega qurilmalarda.
+
+DE_TITLE:
+Reservierten Speicher deaktivieren
+
+DE_DESCRIPTION:
+Dieser Tweak deaktiviert den reservierten Speicher in Windows 10/11, der für Updates und Systemanforderungen zugewiesen wird. Nützlich, um Speicherplatz freizugeben, insbesondere auf Geräten mit kleinen SSDs.
+
+FR_TITLE:
+Désactiver le stockage réservé
+
+FR_DESCRIPTION:
+Ce tweak désactive le stockage réservé dans Windows 10/11, qui est alloué pour les mises à jour et les besoins du système. Utile pour libérer de l'espace disque, en particulier sur les appareils dotés de petits SSD.
+
+ES_TITLE:
+Desactivar almacenamiento reservado
+
+ES_DESCRIPTION:
+Este ajuste desactiva el almacenamiento reservado en Windows 10/11, que se asigna для actualizaciones и necesidades del sistema. Útil для liberar espacio en disco, especialmente en dispositivos con SSD pequeños.
+
+TR_TITLE:
+Ayrılmış Depolamayı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Bu ayar, Windows 10/11'de güncellemeler ve sistem ihtiyaçları için ayrılan depolama alanını devre dışı bırakır. Özellikle küçük SSD'li cihazlarda disk alanı boşaltmak için yararlıdır.

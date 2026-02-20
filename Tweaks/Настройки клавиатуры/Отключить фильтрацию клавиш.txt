@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Control Panel\Accessibility\Keyboard Response
+NAME=Flags
+TYPE=REG_SZ
+VALUE="122"
+
+CHECKED:
+Reg.exe add "HKCU\Control Panel\Accessibility\Keyboard Response" /v "Flags" /t REG_SZ /d "122" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Control Panel\Accessibility\Keyboard Response" /v "Flags" /t REG_SZ /d "126" /f
+
+DESCRIPTION:
+Отключает **фильтрацию клавиш**, предотвращая задержку ввода при быстром нажатии.
+
+EN_TITLE:
+Disable Filter Keys
+
+EN_DESCRIPTION:
+Disables **Filter Keys**, preventing input lag when keys are pressed quickly.
+
+UZ_TITLE:
+Filtrlash tugmachalarini o'chirish
+
+UZ_DESCRIPTION:
+Tugmachalar tez bosilganda kiritish kechikishining oldini olish uchun **Filtrlash tugmachalarini** o'chiradi.
+
+DE_TITLE:
+Anschlagverzögerung deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die **Anschlagverzögerung (Filter Keys)**, um Eingabeverzögerungen bei schnellem Tastendruck zu vermeiden.
+
+FR_TITLE:
+Désactiver les touches filtres
+
+FR_DESCRIPTION:
+Désactive les **touches filtres**, empêchant le retard de saisie lorsque les touches sont pressées rapidement.
+
+ES_TITLE:
+Desactivar teclas de filtro
+
+ES_DESCRIPTION:
+Desactiva las **teclas de filtro**, evitando el retraso de entrada cuando las teclas se presionan rápidamente.
+
+TR_TITLE:
+Filtre Tuşlarını Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Tuşlara hızlı basıldığında giriş gecikmesini önlemek için **Filtre Tuşlarını** devre dışı bırakır.

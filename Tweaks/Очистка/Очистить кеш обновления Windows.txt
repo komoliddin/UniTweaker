@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%SystemRoot%\SoftwareDistribution\Download
+%SystemRoot%\SoftwareDistribution\DataStore
+
+DESCRIPTION:
+Кеш установленных и загруженных обновлений Windows. После очистки Windows пересоздаст эти папки при следующем обновлении.
+
+EN_TITLE:
+Clear Windows Update Cache
+
+EN_DESCRIPTION:
+Cache of installed and downloaded Windows updates. After clearing, Windows will recreate these folders during the next update.
+
+UZ_TITLE:
+Windows yangilanish keshini tozalash
+
+UZ_DESCRIPTION:
+O'rnatilgan va yuklab olingan Windows yangilanishlari keshi. Tozalashdan so'ng, Windows keyingi yangilanish paytida ushbu papkalarni qayta yaratadi.
+
+DE_TITLE:
+Windows Update-Cache bereinigen
+
+DE_DESCRIPTION:
+Cache der installierten und heruntergeladenen Windows-Updates. Nach dem Bereinigen erstellt Windows diese Ordner beim nächsten Update neu.
+
+FR_TITLE:
+Effacer le cache de Windows Update
+
+FR_DESCRIPTION:
+Cache des mises à jour Windows installées et téléchargées. Après l'effacement, Windows recréera ces dossiers lors de la prochaine mise à jour.
+
+ES_TITLE:
+Limpiar caché de Windows Update
+
+ES_DESCRIPTION:
+Caché de actualizaciones de Windows instaladas и descargadas. Después de la limpieza, Windows volverá a crear estas carpetas durante la próxima actualización.
+
+TR_TITLE:
+Windows Güncelleme Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Yüklü ve indirilmiş Windows güncellemelerinin önbelleği. Temizlendikten sonra Windows, bir sonraki güncelleme sırasında bu klasörleri yeniden oluşturacaktır.

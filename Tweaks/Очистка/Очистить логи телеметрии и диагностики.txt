@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%ProgramData%\Microsoft\Diagnosis
+
+DESCRIPTION:
+Логи диагностических данных и телеметрии Windows.
+
+EN_TITLE:
+Clear Telemetry Logs
+
+EN_DESCRIPTION:
+Windows diagnostic data and telemetry logs.
+
+UZ_TITLE:
+Telemetriya va diagnostika jurnallarini tozalash
+
+UZ_DESCRIPTION:
+Windows diagnostika ma'lumotlari va telemetriya jurnallari.
+
+DE_TITLE:
+Telemetrie- und Diagnoseprotokolle löschen
+
+DE_DESCRIPTION:
+Windows-Diagnosedaten und Telemetrieprotokolle.
+
+FR_TITLE:
+Effacer les journaux de télémétrie et de diagnostic
+
+FR_DESCRIPTION:
+Données de diagnostic et journaux de télémétrie Windows.
+
+ES_TITLE:
+Borrar registros de telemetría y diagnóstico
+
+ES_DESCRIPTION:
+Datos de diagnóstico y registros de telemetría de Windows.
+
+TR_TITLE:
+Telemetri ve Tanılama Günlüklerini Temizle
+
+TR_DESCRIPTION:
+Windows tanılama verileri ve telemetri günlükleri.

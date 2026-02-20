@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Microsoft\Windows\ConnectedSearch\History
+
+DESCRIPTION:
+История поисковых запросов в меню Пуск и проводнике.
+
+EN_TITLE:
+Clear Search History
+
+EN_DESCRIPTION:
+History of search queries in the Start menu and File Explorer.
+
+UZ_TITLE:
+Qidiruv tarixini tozalash
+
+UZ_DESCRIPTION:
+Boshlash menyusi va fayl brauzeridagi qidiruv so'rovlari tarixi.
+
+DE_TITLE:
+Suchverlauf löschen
+
+DE_DESCRIPTION:
+Verlauf der Suchanfragen im Startmenü und im Datei-Explorer.
+
+FR_TITLE:
+Effacer l'historique de recherche
+
+FR_DESCRIPTION:
+Historique des requêtes de recherche dans le menu Démarrer et l'Explorateur de fichiers.
+
+ES_TITLE:
+Borrar historial de búsqueda
+
+ES_DESCRIPTION:
+Historial de consultas de búsqueda en el menú Inicio y el Explorador de archivos.
+
+TR_TITLE:
+Arama Geçmişini Temizle
+
+TR_DESCRIPTION:
+Başlat menüsündeki ve Dosya Gezgini'ndeki arama sorgularının geçmişi.

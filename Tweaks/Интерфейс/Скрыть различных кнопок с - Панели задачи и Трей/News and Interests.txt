@@ -1,0 +1,59 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds
+NAME=ShellFeedsTaskbarViewMode
+TYPE=REG_DWORD
+VALUE=2
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds" /v ShellFeedsTaskbarViewMode /t REG_DWORD /d 2 /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "TaskbarDa" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Dsh" /v "AllowNewsAndInterests" /t REG_DWORD /d "0" /f
+taskkill /f /im widgets.exe
+winget uninstall --id 9MSSGKG348SP
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds" /v ShellFeedsTaskbarViewMode /t REG_DWORD /d 0 /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "TaskbarDa" /t REG_DWORD /d "1" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Dsh" /f
+winget install --id 9MSSGKG348SP --accept-package-agreements
+
+DESCRIPTION:
+Этот твик отключает виджет «Новости и интересы» на панели задач Windows 10.
+Отключает виджеты Windows, удаляет связанные компоненты и завершает процесс widgets.exe. При отключении восстанавливает параметры по умолчанию.
+
+EN_TITLE:
+News and Interests
+
+EN_DESCRIPTION:
+News and Interests
+
+UZ_TITLE:
+News and Interests
+
+UZ_DESCRIPTION:
+News and Interests
+
+DE_TITLE:
+News and Interests
+
+DE_DESCRIPTION:
+News and Interests
+
+FR_TITLE:
+News and Interests
+
+FR_DESCRIPTION:
+News and Interests
+
+ES_TITLE:
+News and Interests
+
+ES_DESCRIPTION:
+News and Interests
+
+TR_TITLE:
+News and Interests
+
+TR_DESCRIPTION:
+News and Interests

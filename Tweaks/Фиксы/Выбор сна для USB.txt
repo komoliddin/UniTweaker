@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=System\CurrentControlSet\Services\USB
+NAME=DisableSelectiveSuspend
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\System\CurrentControlSet\Services\USB" /v "DisableSelectiveSuspend" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\System\CurrentControlSet\Services\USB" /v "DisableSelectiveSuspend" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Данный твик отключает выборочный режим сна (Selective Suspend) для USB-портов, что может помочь решить проблемы с отключением или нестабильной работой USB-устройств, сопровождаемые ошибками с кодом 0x00001111.
+При включении твика значение устанавливается в 1, отключая режим сна.
+При отключении значение возвращается к стандартному (0), позволяющему экономить энергию.
+
+EN_TITLE:
+Disable USB Selective Suspend
+
+EN_DESCRIPTION:
+This tweak disables the USB Selective Suspend feature. This can help resolve issues with USB devices disconnecting or working unstable, accompanied by errors like 0x00001111. Enabling it sets the value to 1, disabling sleep mode. Disabling it restores the default behavior (0) to save energy.
+
+UZ_TITLE:
+USB uchun tanlangan uyqu rejimini o'chirish
+
+UZ_DESCRIPTION:
+Ushbu tvik USB portlari uchun tanlangan uyqu rejimini (Selective Suspend) o'chiradi, bu USB qurilmalarining o'chib qolishi yoki beqaror ishlashi bilan bog'liq muammolarni (masalan, 0x00001111 xatosi) hal qilishga yordam beradi. Tvik yoqilganda qiymat 1 ga o'rnatiladi va uyqu rejimi o'chiriladi. O'chirilganda qiymat standart holatga (0) qaytadi, bu energiyani tejash imkonini beradi.
+
+DE_TITLE:
+Selektives USB-Energiesparen deaktivieren
+
+DE_DESCRIPTION:
+Dieser Tweak deaktiviert die Funktion „Selektives USB-Energiesparen“. Dies kann helfen, Probleme mit USB-Geräten zu lösen, die sich trennen oder instabil arbeiten, begleitet von Fehlern wie 0x00001111. Die Aktivierung setzt den Wert auf 1 und deaktiviert den Energiesparmodus. Die Deaktivierung stellt das Standardverhalten (0) zum Energiesparen wieder her.
+
+FR_TITLE:
+Désactiver la suspension sélective USB
+
+FR_DESCRIPTION:
+Ce tweak désactive la fonction de suspension sélective USB. Cela peut aider à résoudre les problèmes de déconnexion ou de fonctionnement instable des périphériques USB, accompagnés d'erreurs telles que 0x00001111. L'activation définit la valeur sur 1, désactivant le mode veille. La désactivation restaure le comportement par défaut (0) pour économiser l'énergie.
+
+ES_TITLE:
+Desactivar suspensión selectiva de USB
+
+ES_DESCRIPTION:
+Este ajuste desactiva la función de suspensión selectiva de USB. Esto puede ayudar a resolver problemas de desconexión o funcionamiento inestable de dispositivos USB, acompañados de errores como 0x00001111. Al activarlo, el valor se establece en 1, desactivando el modo de suspensión. Al desactivarlo se restaura el comportamiento predeterminado (0) para ahorrar energía.
+
+TR_TITLE:
+USB Seçmeli Askıya Almayı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Bu ayar USB Seçmeli Askıya Alma özelliğini devre dışı bırakır. Bu, USB aygıtlarının bağlantısının kesilmesi veya kararsız çalışmasıyla ilgili olan ve 0x00001111 gibi hatalarla birlikte görülen sorunların çözülmesine yardımcı olabilir. Etkinleştirilmesi değeri 1 olarak ayarlar ve uyku modunu devre dışı bırakır. Devre dışı bırakılması, enerji tasarrufu için varsayılan davranışı (0) geri yükler.

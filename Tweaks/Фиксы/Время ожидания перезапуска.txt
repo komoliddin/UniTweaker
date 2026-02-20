@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Print
+NAME=SpoolerRestartTimeout
+TYPE=REG_DWORD
+VALUE=30000
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Print" /v "SpoolerRestartTimeout" /t REG_DWORD /d "30000" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Print" /v "SpoolerRestartTimeout" /t REG_DWORD /d "10000" /f
+
+DESCRIPTION:
+Данный твик изменяет время ожидания перезапуска службы печати.
+При включении твика параметр SpoolerRestartTimeout устанавливается в 30000 мс, что позволяет службе печати получить дополнительное время для корректного восстановления после сбоя.
+При отключении время ожидания возвращается к стандартному значению 10000 мс.
+Это может помочь устранить ошибки, связанные с тем, что служба печати не успевает перезапуститься (например, ошибка 0x00000D33).
+
+EN_TITLE:
+Print Spooler Restart Timeout
+
+EN_DESCRIPTION:
+This tweak changes the restart timeout for the print spooler service. Enabling it sets SpoolerRestartTimeout to 30000 ms, giving the service more time to recover after a failure. Disabling it restores the default 10000 ms. This can help fix errors where the service fails to restart in time (e.g., error 0x00000D33).
+
+UZ_TITLE:
+Chop etish xizmatini qayta ishga tushirish kutish vaqti
+
+UZ_DESCRIPTION:
+Ushbu tvik chop etish xizmatini qayta ishga tushirish uchun kutish vaqtini o'zgartiradi. Tvik yoqilganda SpoolerRestartTimeout parametri 30000 ms ga o'rnatiladi, bu esa xizmatga nosozlikdan keyin tiklanish uchun qo'shimcha vaqt beradi. O'chirilganda kutish vaqti standart 10000 ms ga qaytadi. Bu chop etish xizmati o'z vaqtida qayta ishga tushmaydigan xatolarni (masalan, 0x00000D33 xatosi) bartaraf etishga yordam beradi.
+
+DE_TITLE:
+Neustart-Timeout für die Warteschlange
+
+DE_DESCRIPTION:
+Dieser Tweak ändert das Neustart-Timeout für den Druckwarteschlangendienst. Die Aktivierung setzt SpoolerRestartTimeout auf 30000 ms, wodurch der Dienst mehr Zeit erhält, um sich nach einem Fehler zu erholen. Die Deaktivierung stellt den Standardwert von 10000 ms wieder her. Dies kann helfen, Fehler zu beheben, bei denen der Dienst nicht rechtzeitig neu startet (z. B. Fehler 0x00000D33).
+
+FR_TITLE:
+Délai de redémarrage du spooler d'impression
+
+FR_DESCRIPTION:
+Ce tweak modifie le délai de redémarrage du service de spouleur d'impression. L'activation définit SpoolerRestartTimeout sur 30000 ms, ce qui donne au service plus de temps pour se rétablir après une panne. La désactivation restaure la valeur par défaut de 10000 ms. Cela peut aider à corriger les erreurs où le service ne redémarre pas à temps (par exemple, l'erreur 0x00000D33).
+
+ES_TITLE:
+Tiempo de espera de reinicio del spooler de impresión
+
+ES_DESCRIPTION:
+Este ajuste cambia el tiempo de espera de reinicio для el servicio de cola de impresión. Al activarlo, SpoolerRestartTimeout se establece en 30000 ms, lo que da al servicio más tiempo para recuperarse tras un fallo. Al desactivarlo se restaura el valor por defecto de 10000 ms. Esto puede ayudar a corregir errores en los que el servicio no se reinicia a tiempo (por ejemplo, el error 0x00000D33).
+
+TR_TITLE:
+Yazdırma Biriktiricisi Yeniden Başlatma Zaman Aşımı
+
+TR_DESCRIPTION:
+Bu ayar, yazdırma biriktiricisi hizmeti için yeniden başlatma zaman aşımını değiştirir. Etkinleştirildiğinde SpoolerRestartTimeout değeri 30000 ms olarak ayarlanır ve hizmete bir hatadan sonra kurtulması için daha fazla zaman tanır. Devre dışı bırakılması varsayılan 10000 ms değerini geri yükler. Bu, hizmetin zamanında yeniden başlatılamadığı hataların (örneğin, 0x00000D33 hatası) düzeltilmesine yardımcı olabilir.

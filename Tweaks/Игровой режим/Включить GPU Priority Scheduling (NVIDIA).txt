@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile
+NAME=GPU Priority
+TYPE=REG_DWORD
+VALUE=8
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v "GPU Priority" /t REG_DWORD /d "8" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v "GPU Priority" /t REG_DWORD /d "2" /f
+
+DESCRIPTION:
+Увеличивает приоритет GPU для активных процессов, уменьшая задержку обработки кадров.
+
+EN_TITLE:
+GPU Priority Scheduling (NVIDIA)
+
+EN_DESCRIPTION:
+Increases GPU priority for active processes, reducing frame processing latency.
+
+UZ_TITLE:
+GPU ustuvorlik rejalashtirishi (NVIDIA)
+
+UZ_DESCRIPTION:
+Faol jarayonlar uchun GPU ustuvorligini oshiradi, kadrlar bilan ishlash kechikishini kamaytiradi.
+
+DE_TITLE:
+GPU-Prioritätsplanung (NVIDIA)
+
+DE_DESCRIPTION:
+Erhöht die GPU-Priorität für aktive Prozesse und verringert die Latenz bei der Frame-Verarbeitung.
+
+FR_TITLE:
+Planification de la priorité GPU (NVIDIA)
+
+FR_DESCRIPTION:
+Augmente la priorité du GPU pour les processus actifs, réduisant ainsi la latence de traitement des trames.
+
+ES_TITLE:
+Programación de prioridad de GPU (NVIDIA)
+
+ES_DESCRIPTION:
+Aumenta la prioridad de la GPU para los procesos activos, reduciendo la latencia de procesamiento de fotogramas.
+
+TR_TITLE:
+GPU Öncelik Zamanlaması (NVIDIA)
+
+TR_DESCRIPTION:
+Aktif işlemler için GPU önceliğini artırarak kare işleme gecikmesini azaltır.

@@ -1,0 +1,48 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Mozilla\Firefox\Profiles\cache2
+%APPDATA%\Mozilla\Firefox\Profiles\jumpListCache
+%APPDATA%\Mozilla\Firefox\Profiles\thumbnails
+%LOCALAPPDATA%\Mozilla\Firefox\Profiles\cache2
+%LOCALAPPDATA%\Mozilla\Firefox\Profiles\jumpListCache
+%LOCALAPPDATA%\Mozilla\Firefox\Profiles\thumbnails
+
+DESCRIPTION:
+Кеш браузера Mozilla Firefox — веб-кеш, миниатюры, кеш Jump List.
+
+EN_TITLE:
+Clear Mozilla Firefox Cache
+
+EN_DESCRIPTION:
+Mozilla Firefox browser cache — web cache, thumbnails, Jump List cache.
+
+UZ_TITLE:
+Mozilla Firefox keshini tozalash
+
+UZ_DESCRIPTION:
+Mozilla Firefox brauzer keshi — veb-kesh, eskizlar (thumbnails), Jump List keshi.
+
+DE_TITLE:
+Mozilla Firefox-Cache bereinigen
+
+DE_DESCRIPTION:
+Mozilla Firefox-Browser-Cache – Web-Cache, Miniaturbilder, Jump List-Cache.
+
+FR_TITLE:
+Effacer le cache du navigateur Mozilla Firefox
+
+FR_DESCRIPTION:
+Cache du navigateur Mozilla Firefox — cache Web, vignettes, cache Jump List.
+
+ES_TITLE:
+Limpiar caché del navegador Mozilla Firefox
+
+ES_DESCRIPTION:
+Caché del navegador Mozilla Firefox: caché web, miniaturas, caché de la lista de saltos (Jump List).
+
+TR_TITLE:
+Mozilla Firefox Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Mozilla Firefox tarayıcı önbelleği — web önbelleği, küçük resimler, Atlama Listesi (Jump List) önbelleği.

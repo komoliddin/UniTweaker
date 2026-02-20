@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Input\Settings
+NAME=EnableTextPrediction
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Input\Settings" /v "EnableTextPrediction" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Input\Settings" /v "EnableTextPrediction" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Отключает **предсказание текста при вводе**, избавляя от предложений слов.
+
+EN_TITLE:
+Disable Text Prediction
+
+EN_DESCRIPTION:
+Disables **text prediction while typing**, removing word suggestions.
+
+UZ_TITLE:
+Matn bashoratini o'chirish
+
+UZ_DESCRIPTION:
+Yozish paytida **matn bashoratini** o'chiradi, so'z takliflarini olib tashlaydi.
+
+DE_TITLE:
+Textvorhersage deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die **Textvorhersage beim Tippen** und entfernt Wortvorschläge.
+
+FR_TITLE:
+Désactiver la prédiction de texte
+
+FR_DESCRIPTION:
+Désactive la **prédiction de texte lors de la saisie**, supprimant les suggestions de mots.
+
+ES_TITLE:
+Desactivar la predicción de texto
+
+ES_DESCRIPTION:
+Desactiva la **predicción de texto al escribir**, eliminando las sugerencias de palabras.
+
+TR_TITLE:
+Metin Tahminini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Yazma sırasında **metin tahminini** devre dışı bırakarak kelime önerilerini kaldırır.

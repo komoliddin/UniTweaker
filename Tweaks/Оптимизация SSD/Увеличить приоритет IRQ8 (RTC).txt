@@ -1,0 +1,57 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\PriorityControl
+NAME=Irq8Priority
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl" /v Irq8Priority /t REG_DWORD /d 1 /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl" /v Irq8Priority /f
+
+DESCRIPTION:
+Параметр Irq8Priority в реестре повышает приоритет аппаратного прерывания IRQ8, который отвечает за системные часы (RTC - Real-Time Clock).
+
+Что это даст?
+Теоретически — улучшение точности таймеров и синхронизации времени.
+Может повлиять на стабильность работы аудио- и видеоприложений, особенно в реальном времени.
+Может уменьшить задержки в обработке периодических таймеров в играх и аудио-процессинге.
+📌 Рекомендация: Этот твик имеет смысл только в системах с низкой задержкой, например, в аудиостудиях или при работе с реалтаймовыми задачами.
+
+EN_TITLE:
+Increase IRQ8 Priority (RTC)
+
+EN_DESCRIPTION:
+The Irq8Priority parameter in the registry increases the priority of the IRQ8 hardware interrupt, which is responsible for the system clock (RTC - Real-Time Clock). This can theoretically improve timer accuracy and time synchronization, and reduce latency in games and audio processing. Recommended for low-latency systems.
+
+UZ_TITLE:
+IRQ8 (RTC) ustuvorligini oshirish
+
+UZ_DESCRIPTION:
+Reyestrdagi Irq8Priority parametri tizim soati (RTC - Real-Time Clock) uchun javobgar bo'lgan IRQ8 apparat uzilishining ustuvorligini oshiradi. Bu nazariy jihatdan taymerlarning aniqligini va vaqtni sinxronlashtirishni yaxshilashi, o'yinlarda va audio ishlov berishda kechikishlarni kamaytirishi mumkin. Past kechikishli tizimlar uchun tavsiya etiladi.
+
+DE_TITLE:
+IRQ8-Priorität erhöhen (RTC)
+
+DE_DESCRIPTION:
+Der Parameter Irq8Priority in der Registry erhöht die Priorität des Hardware-Interrupts IRQ8, der für die Systemuhr (RTC - Real-Time Clock) zuständig ist. Dies kann theoretisch die Timer-Genauigkeit und Zeitsynchronisation verbessern sowie Latenzen in Spielen und bei der Audioverarbeitung reduzieren. Empfohlen für Systeme mit geringer Latenz.
+
+FR_TITLE:
+Augmenter la priorité de l'IRQ8 (RTC)
+
+FR_DESCRIPTION:
+Le paramètre Irq8Priority dans le registre augmente la priorité de l'interruption matérielle IRQ8, qui est responsable de l'horloge système (RTC - Real-Time Clock). Cela peut théoriquement améliorer la précision des minuteries et la synchronisation de l'heure, et réduire la latence dans les jeux et le traitement audio. Recommandé pour les systèmes à faible latence.
+
+ES_TITLE:
+Aumentar prioridad de IRQ8 (RTC)
+
+ES_DESCRIPTION:
+El parámetro Irq8Priority en el registro aumenta la prioridad de la interrupción de hardware IRQ8, que es responsable del reloj del sistema (RTC - Real-Time Clock). Esto puede, teóricamente, mejorar la precisión de los temporizadores и la sincronización de la hora, и reducir la latencia en juegos и procesamiento de audio. Recomendado для sistemas de baja latencia.
+
+TR_TITLE:
+IRQ8 Önceliğini Artır (RTC)
+
+TR_DESCRIPTION:
+Kayıt defterindeki Irq8Priority parametresi, sistem saatinden (RTC - Real-Time Clock) sorumlu olan IRQ8 donanım kesmesinin önceliğini artırır. Bu, teorik olarak zamanlayıcı doğruluğunu ve zaman senkronizasyonunu iyileştirebilir, oyunlarda ve ses işlemede gecikmeyi azaltabilir. Düşük gecikmeli sistemler için önerilir.

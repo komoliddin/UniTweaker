@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\Dwm
+NAME=EnableHWAcceleration
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Dwm" /v "EnableHWAcceleration" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Dwm" /v "EnableHWAcceleration" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Hardware GPU Scheduling позволяет видеокарте самостоятельно управлять памятью, что уменьшает задержки и повышает FPS в играх.
+
+EN_TITLE:
+Hardware GPU Scheduling
+
+EN_DESCRIPTION:
+Allows the graphics card to manage its own memory more efficiently, reducing latency and potentially increasing FPS.
+
+UZ_TITLE:
+Uskunaviy GPU rejalashtirishi
+
+UZ_DESCRIPTION:
+Videokartaga o'z xotirasini samaraliroq boshqarish imkonini beradi, kechikishlarni kamaytiradi va FPS-ni oshirishi mumkin.
+
+DE_TITLE:
+Hardware-GPU-Planung
+
+DE_DESCRIPTION:
+Ermöglicht der Grafikkarte, ihren eigenen Speicher effizienter zu verwalten, was Latenzen reduziert und potenziell die FPS erhöht.
+
+FR_TITLE:
+Planification matérielle du GPU
+
+FR_DESCRIPTION:
+Permet à la carte graphique de gérer sa propre mémoire plus efficacement, réduisant la latence et augmentant potentiellement les FPS.
+
+ES_TITLE:
+Programación de GPU por hardware
+
+ES_DESCRIPTION:
+Permite que la tarjeta gráfica gestione su propia memoria de forma más eficiente, reduciendo la latencia y aumentando potencialmente los FPS.
+
+TR_TITLE:
+Donanım GPU Zamanlaması
+
+TR_DESCRIPTION:
+Grafik kartının kendi belleğini daha verimli yönetmesini sağlayarak gecikmeyi azaltır ve potansiyel olarak FPS'yi artırır.

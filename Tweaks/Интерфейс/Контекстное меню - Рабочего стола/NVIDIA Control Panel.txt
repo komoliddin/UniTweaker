@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCR
+KEY=Directory\Background\shellex\ContextMenuHandlers\NVCplDesktopContext
+NAME=
+TYPE=REG_SZ
+VALUE={3D1975AF-48C6-4f8e-A182-BE0E08FA86A9}
+
+CHECKED:
+Reg.exe add "HKCR\Directory\Background\shellex\ContextMenuHandlers\NVCplDesktopContext" /ve /t REG_SZ /d "{3D1975AF-48C6-4f8e-A182-BE0E08FA86A9}" /f
+
+UNCHECKED:
+Reg.exe delete "HKCR\Directory\Background\shellex\ContextMenuHandlers\NVCplDesktopContext" /f
+
+DESCRIPTION:
+Этот твик добавляет или удаляет «Панель управления NVIDIA» из контекстного меню Рабочего стола.
+
+EN_TITLE:
+NVIDIA Control Panel
+
+EN_DESCRIPTION:
+NVIDIA Control Panel
+
+UZ_TITLE:
+NVIDIA Control Panel
+
+UZ_DESCRIPTION:
+NVIDIA Control Panel
+
+DE_TITLE:
+NVIDIA Control Panel
+
+DE_DESCRIPTION:
+NVIDIA Control Panel
+
+FR_TITLE:
+NVIDIA Control Panel
+
+FR_DESCRIPTION:
+NVIDIA Control Panel
+
+ES_TITLE:
+NVIDIA Control Panel
+
+ES_DESCRIPTION:
+NVIDIA Control Panel
+
+TR_TITLE:
+NVIDIA Control Panel
+
+TR_DESCRIPTION:
+NVIDIA Control Panel

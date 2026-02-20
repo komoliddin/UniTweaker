@@ -1,0 +1,120 @@
+ECHO
+FINISH
+CONFIRM
+BUTTON:
+
+CLICKED:
+rundll32 printui.dll,PrintUIEntry /dl /n "Adobe PDF" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "AnyDesk Printer" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Fax" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Microsoft MS-XPS Class Driver" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Microsoft OpenXPS Class Driver" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Microsoft OpenXPS Class Driver 2" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Microsoft PCL6 Class Driver" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Microsoft Ps Class Driver" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Microsoft Print To PDF" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Microsoft PWG Raster Class Driver" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Microsoft XPS Class Driver" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Microsoft XPS Document Writer" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "OneNote (Desktop)" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 2.0 for ABBYY" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 3.0 for ABBYY" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 4.0 for ABBYY" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 5.0 for ABBYY" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 6.0 for ABBYY" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 7.0 for ABBYY" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 8.0 for ABBYY" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 9.0 for ABBYY" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 2.0 for ABBYY FineReader 1" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 3.0 for ABBYY FineReader 2" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 4.0 for ABBYY FineReader 3" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 5.0 for ABBYY FineReader 4" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 6.0 for ABBYY FineReader 5" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 7.0 for ABBYY FineReader 6" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 8.0 for ABBYY FineReader 7" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 9.0 for ABBYY FineReader 8" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 8.0 for ABBYY FineReader 9" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 9.0 for ABBYY FineReader 10" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 2.0 for ABBYY FineReader 11" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 3.0 for ABBYY FineReader 12" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 4.0 for ABBYY FineReader 13" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 5.0 for ABBYY FineReader 14" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 6.0 for ABBYY FineReader 15" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 7.0 for ABBYY FineReader 16" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 8.0 for ABBYY FineReader 17" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 9.0 for ABBYY FineReader 18" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 8.0 for ABBYY FineReader 19" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange 9.0 for ABBYY FineReader 20" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange for ABBYY PDF Transformer 2.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange for ABBYY PDF Transformer 3.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange for ABBYY PDF Transformer 4.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange for ABBYY PDF Transformer 5.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange for ABBYY PDF Transformer 6.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange for ABBYY PDF Transformer 7.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange for ABBYY PDF Transformer 8.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange for ABBYY PDF Transformer 9.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange Standard 2.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange Standard 3.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange Standard 4.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange Standard 5.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange Standard 6.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange Standard 7.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange Standard 8.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "PDF-XChange Standard 9.0" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Remote Desktop Easy Print" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "SDI Print to CGM" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "SDI Print to EMF" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "SDI Print to PDF" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "SDI Virtual XPS Driver" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2010" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2011" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2012" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2013" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2014" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2015" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2016" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2017" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2018" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2019" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2020" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2021" /q
+rundll32 printui.dll,PrintUIEntry /dl /n "Send To OneNote 2022" /q
+
+DESCRIPTION:
+Удаляет ненужные виртуальные принтеры из системы.
+
+EN_TITLE:
+Remove Virtual Printers
+
+EN_DESCRIPTION:
+Removes unnecessary virtual printers from the system (e.g., Print to PDF, Fax, etc.).
+
+UZ_TITLE:
+Virtual printerlarni o'chirish
+
+UZ_DESCRIPTION:
+Tizimdan keraksiz virtual printerlarni (masalan, PDF-ga chop etish, Faks va boshqalar) o'chiradi.
+
+DE_TITLE:
+Virtuelle Drucker entfernen
+
+DE_DESCRIPTION:
+Entfernt unnötige virtuelle Drucker aus dem System (z. B. Print to PDF, Fax usw.).
+
+FR_TITLE:
+Supprimer les imprimantes virtuelles
+
+FR_DESCRIPTION:
+Supprime les imprimantes virtuelles inutiles du système (par exemple, Imprimer en PDF, Fax, etc.).
+
+ES_TITLE:
+Eliminar impresoras virtuales
+
+ES_DESCRIPTION:
+Elimina impresoras virtuales innecesarias del sistema (por ejemplo, Imprimir en PDF, Fax, etc.).
+
+TR_TITLE:
+Sanal Yazıcıları Kaldır
+
+TR_DESCRIPTION:
+Gereksiz sanal yazıcıları sistemden kaldırır (örneğin, PDF'ye Yazdır, Faks vb.).

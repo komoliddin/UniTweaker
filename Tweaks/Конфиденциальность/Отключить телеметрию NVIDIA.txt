@@ -1,0 +1,67 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\NvTelemetryContainer
+NAME=Start
+TYPE=REG_DWORD
+VALUE=4
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\NVIDIA Corporation\NVControlPanel2\Client" /v "OptInOrOutPreference" /t REG_SZ /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\NvTelemetryContainer" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\NvContainerLocalSystem" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\NVDisplay.ContainerLocalSystem" /v "Start" /t REG_DWORD /d "4" /f
+schtasks /Change /TN "\NvTmRepOnLogon_{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}" /Disable
+schtasks /Change /TN "\NvTmRep_{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}" /Disable
+schtasks /Change /TN "\NvTmMon_{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}" /Disable
+sc config NvTelemetryContainer start= disabled
+net stop NvTelemetryContainer
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\NVIDIA Corporation\NVControlPanel2\Client" /v "OptInOrOutPreference" /t REG_SZ /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\NvTelemetryContainer" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\NvContainerLocalSystem" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\NVDisplay.ContainerLocalSystem" /v "Start" /t REG_DWORD /d "2" /f
+schtasks /Change /TN "\NvTmRepOnLogon_{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}" /Enable
+schtasks /Change /TN "\NvTmRep_{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}" /Enable
+schtasks /Change /TN "\NvTmMon_{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}" /Enable
+sc config NvTelemetryContainer start= auto
+net start NvTelemetryContainer
+
+DESCRIPTION:
+Отключает телеметрию NVIDIA, предотвращая сбор данных о системе и отправку их на серверы компании.
+
+EN_TITLE:
+NVIDIA Telemetry
+
+EN_DESCRIPTION:
+Disables NVIDIA telemetry, preventing system data collection and transmission to NVIDIA servers.
+
+UZ_TITLE:
+NVIDIA telemetriyasi
+
+UZ_DESCRIPTION:
+Tizim ma'lumotlarini to'plash va ularni NVIDIA serverlariga yuborishni oldini olish uchun NVIDIA telemetriyasini o'chiradi.
+
+DE_TITLE:
+NVIDIA-Telemetrie
+
+DE_DESCRIPTION:
+Deaktiviert die NVIDIA-Telemetrie und verhindert die Erfassung von Systemdaten sowie deren Übertragung an NVIDIA-Server.
+
+FR_TITLE:
+Télémétrie NVIDIA
+
+FR_DESCRIPTION:
+Désactive la télémétrie NVIDIA, empêchant la collecte de données système et leur transmission aux serveurs NVIDIA.
+
+ES_TITLE:
+Telemetría de NVIDIA
+
+ES_DESCRIPTION:
+Desactiva la telemetría de NVIDIA, lo que impide la recopilación de datos del sistema y su transmisión a los servidores de NVIDIA.
+
+TR_TITLE:
+NVIDIA Telemetrisi
+
+TR_DESCRIPTION:
+Sistem verilerinin toplanmasını ve NVIDIA sunucularına iletilmesini önlemek için NVIDIA telemetrisini devre dışı bırakır.

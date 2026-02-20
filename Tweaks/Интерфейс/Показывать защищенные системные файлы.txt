@@ -1,0 +1,52 @@
+NOTRECOMMENDED
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=ShowSuperHidden
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowSuperHidden /t REG_DWORD /d 1 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowSuperHidden /t REG_DWORD /d 0 /f
+
+DESCRIPTION:
+Управляет отображением защищенных системных файлов в проводнике.
+
+EN_TITLE:
+Show Protected Operating System Files
+
+EN_DESCRIPTION:
+Show Protected Operating System Files
+
+UZ_TITLE:
+Himoyalangan tizim fayllarini ko'rsatish
+
+UZ_DESCRIPTION:
+Himoyalangan tizim fayllarini ko'rsatish
+
+DE_TITLE:
+Geschützte Systemdateien anzeigen
+
+DE_DESCRIPTION:
+Geschützte Systemdateien anzeigen
+
+FR_TITLE:
+Afficher les fichiers protégés du système d'exploitation
+
+FR_DESCRIPTION:
+Afficher les fichiers protégés du système d'exploitation
+
+ES_TITLE:
+Mostrar archivos protegidos del sistema operativo
+
+ES_DESCRIPTION:
+Mostrar archivos protegidos del sistema operativo
+
+TR_TITLE:
+Korunan işletim sistemi dosyalarını göster
+
+TR_DESCRIPTION:
+Korunan işletim sistemi dosyalarını göster

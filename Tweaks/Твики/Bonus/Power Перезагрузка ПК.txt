@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+shutdown /r /t 0
+CONFIRM
+DESCRIPTION:
+Перезагружает компьютер
+
+EN_TITLE:
+Restart PC
+
+EN_DESCRIPTION:
+Restarts the computer immediately.
+
+UZ_TITLE:
+Kompyuterni qayta yuklash
+
+UZ_DESCRIPTION:
+Kompyuterni darhol qayta yuklaydi.
+
+DE_TITLE:
+PC neu starten
+
+DE_DESCRIPTION:
+Startet den Computer sofort neu.
+
+FR_TITLE:
+Redémarrer le PC
+
+FR_DESCRIPTION:
+Redémarre l'ordinateur immédiatement.
+
+ES_TITLE:
+Reiniciar el PC
+
+ES_DESCRIPTION:
+Reinicia el ordenador inmediatamente.
+
+TR_TITLE:
+Bilgisayarı Yeniden Başlat
+
+TR_DESCRIPTION:
+Bilgisayarı derhal yeniden başlatır.

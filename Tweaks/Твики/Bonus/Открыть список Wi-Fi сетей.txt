@@ -1,0 +1,41 @@
+BUTTON:
+CLICKED:
+ncpa.cpl
+DESCRIPTION:
+Открывает окно управления сетевыми подключениями.
+
+EN_TITLE:
+Open Network Connections
+
+EN_DESCRIPTION:
+Launches the Network Connections (ncpa.cpl) window.
+
+UZ_TITLE:
+Tarmoq ulanishlarini ochish
+
+UZ_DESCRIPTION:
+Tarmoq ulanishlari (ncpa.cpl) oynasini ishga tushiradi.
+
+DE_TITLE:
+Netzwerkverbindungen öffnen
+
+DE_DESCRIPTION:
+Öffnet das Fenster "Netzwerkverbindungen" (ncpa.cpl).
+
+FR_TITLE:
+Ouvrir les connexions réseau
+
+FR_DESCRIPTION:
+Lance la fenêtre des connexions réseau (ncpa.cpl).
+
+ES_TITLE:
+Abrir Conexiones de red
+
+ES_DESCRIPTION:
+Inicia la ventana de Conexiones de red (ncpa.cpl).
+
+TR_TITLE:
+Ağ Bağlantılarını Aç
+
+TR_DESCRIPTION:
+Ağ Bağlantıları (ncpa.cpl) penceresini başlatır.

@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SystemProperties
+NAME=Свойства системы
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SystemProperties" /ve /t REG_SZ /d "@sysdm.cpl,-3" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SystemProperties" /v "Icon" /t REG_SZ /d "imageres.dll,-149" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SystemProperties" /v "Position" /t REG_SZ /d "bottom" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SystemProperties\command" /ve /t REG_SZ /d "control sysdm.cpl" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SystemProperties" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Свойства системы» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+System Properties
+
+EN_DESCRIPTION:
+System Properties
+
+UZ_TITLE:
+System Properties
+
+UZ_DESCRIPTION:
+System Properties
+
+DE_TITLE:
+System Properties
+
+DE_DESCRIPTION:
+System Properties
+
+FR_TITLE:
+System Properties
+
+FR_DESCRIPTION:
+System Properties
+
+ES_TITLE:
+System Properties
+
+ES_DESCRIPTION:
+System Properties
+
+TR_TITLE:
+System Properties
+
+TR_DESCRIPTION:
+System Properties

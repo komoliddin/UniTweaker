@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Spotify\Storage
+
+DESCRIPTION:
+Кеш прослушанных треков и обложек альбомов Spotify.
+
+EN_TITLE:
+Clear Spotify Cache
+
+EN_DESCRIPTION:
+Cache of listened tracks and album covers in Spotify.
+
+UZ_TITLE:
+Spotify keshini tozalash
+
+UZ_DESCRIPTION:
+Spotify-da tinglangan treklar va albom muqovalari keshi.
+
+DE_TITLE:
+Spotify-Cache leeren
+
+DE_DESCRIPTION:
+Cache von angehörten Titeln und Album-Covern in Spotify.
+
+FR_TITLE:
+Effacer le cache Spotify
+
+FR_DESCRIPTION:
+Cache des titres écoutés et des pochettes d'albums dans Spotify.
+
+ES_TITLE:
+Limpiar caché de Spotify
+
+ES_DESCRIPTION:
+Caché de canciones escuchadas y portadas de álbumes en Spotify.
+
+TR_TITLE:
+Spotify Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Spotify'da dinlenen parçaların ve albüm kapaklarının önbelleği.

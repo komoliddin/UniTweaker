@@ -1,0 +1,60 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager
+NAME=SubscribedContent-310093Enabled
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-310093Enabled /t REG_DWORD /d 0 /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-314563Enabled /t REG_DWORD /d 0 /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-338387Enabled /t REG_DWORD /d 0 /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-338389Enabled /t REG_DWORD /d 0 /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-338393Enabled /t REG_DWORD /d 0 /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-353698Enabled /t REG_DWORD /d 0 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-310093Enabled /t REG_DWORD /d 1 /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-314563Enabled /t REG_DWORD /d 1 /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-338387Enabled /t REG_DWORD /d 1 /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-338389Enabled /t REG_DWORD /d 1 /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-338393Enabled /t REG_DWORD /d 1 /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SubscribedContent-353698Enabled /t REG_DWORD /d 1 /f
+DESCRIPTION:
+Отключить, если вы не хотите получать уведомления о новых функциях и советы по использованию Windows.
+
+EN_TITLE:
+Disable Windows Tips and Suggestions
+
+EN_DESCRIPTION:
+Disable this if you don't want to receive notifications about new features and tips on using Windows.
+
+UZ_TITLE:
+Yangi funksiyalar va Windows bo'yicha maslahatlarni o'chirish
+
+UZ_DESCRIPTION:
+Agar siz yangi funksiyalar haqidagi bildirishnomalar va Windows-dan foydalanish bo'yicha maslahatlarni olishni istamasangiz, buni o'chiring.
+
+DE_TITLE:
+Windows-Tipps und Vorschläge deaktivieren
+
+DE_DESCRIPTION:
+Deaktivieren Sie dies, wenn Sie keine Benachrichtigungen über neue Funktionen und Tipps zur Verwendung von Windows erhalten möchten.
+
+FR_TITLE:
+Désactiver les conseils et suggestions de Windows
+
+FR_DESCRIPTION:
+Désactivez cette option si vous ne souhaitez pas recevoir de notifications sur les nouvelles fonctionnalités et des conseils sur l'utilisation de Windows.
+
+ES_TITLE:
+Desactivar consejos и sugerencias de Windows
+
+ES_DESCRIPTION:
+Desactiva esta opción si no deseas recibir notificaciones sobre nuevas funciones и consejos sobre el uso de Windows.
+
+TR_TITLE:
+Windows İpuçlarını ve Önerilerini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Yeni özellikler hakkındaki bildirimleri ve Windows kullanımıyla ilgili ipuçlarını almak istemiyorsanız bunu devre dışı bırakın.

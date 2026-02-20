@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\.minecraft\logs
+%APPDATA%\.minecraft\crash-reports
+
+DESCRIPTION:
+Логи и отчеты об ошибках Minecraft. Могут накапливаться в большом количестве.
+
+EN_TITLE:
+Clear Minecraft Logs
+
+EN_DESCRIPTION:
+Logs and crash reports for Minecraft. Can accumulate in large quantities.
+
+UZ_TITLE:
+Minecraft jurnallarini tozalash
+
+UZ_DESCRIPTION:
+Minecraft jurnallari va xatolar haqidagi hisobotlar.
+
+DE_TITLE:
+Minecraft-Protokolle löschen
+
+DE_DESCRIPTION:
+Protokolle und Absturzberichte für Minecraft. Können sich in großen Mengen ansammeln.
+
+FR_TITLE:
+Effacer les journaux Minecraft
+
+FR_DESCRIPTION:
+Journaux et rapports de plantage pour Minecraft. Peuvent s'accumuler en grande quantité.
+
+ES_TITLE:
+Limpiar registros de Minecraft
+
+ES_DESCRIPTION:
+Registros и informes de errores de Minecraft. Pueden acumularse en grandes cantidades.
+
+TR_TITLE:
+Minecraft Günlüklerini Temizle
+
+TR_DESCRIPTION:
+Minecraft için günlükler ve çökme raporları. Büyük miktarlarda birikebilir.

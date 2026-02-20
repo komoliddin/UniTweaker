@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}
+NAME=
+TYPE=
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
+Reg.exe add "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
+Reg.exe delete "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
+
+DESCRIPTION:
+Этот твик добавляет папку «Документы» в разделе «Этот компьютер».
+
+EN_TITLE:
+Documents 
+
+EN_DESCRIPTION:
+Documents 
+
+UZ_TITLE:
+Documents 
+
+UZ_DESCRIPTION:
+Documents 
+
+DE_TITLE:
+Documents 
+
+DE_DESCRIPTION:
+Documents 
+
+FR_TITLE:
+Documents 
+
+FR_DESCRIPTION:
+Documents 
+
+ES_TITLE:
+Documents 
+
+ES_DESCRIPTION:
+Documents 
+
+TR_TITLE:
+Documents 
+
+TR_DESCRIPTION:
+Documents 

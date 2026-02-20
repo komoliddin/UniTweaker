@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NAME=HideSCAMeetNow
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAMeetNow /t REG_DWORD /d 1 /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAMeetNow /t REG_DWORD /d 0 /f
+
+DESCRIPTION:
+Этот твик скрывает значок «Собрание» (Meet Now) в области уведомлений.
+
+EN_TITLE:
+Meet Now
+
+EN_DESCRIPTION:
+Meet Now
+
+UZ_TITLE:
+Meet Now
+
+UZ_DESCRIPTION:
+Meet Now
+
+DE_TITLE:
+Meet Now
+
+DE_DESCRIPTION:
+Meet Now
+
+FR_TITLE:
+Meet Now
+
+FR_DESCRIPTION:
+Meet Now
+
+ES_TITLE:
+Meet Now
+
+ES_DESCRIPTION:
+Meet Now
+
+TR_TITLE:
+Meet Now
+
+TR_DESCRIPTION:
+Meet Now

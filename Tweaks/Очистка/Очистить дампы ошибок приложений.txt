@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\CrashDumps
+
+DESCRIPTION:
+Дампы памяти, создаваемые при аварийном завершении работы приложений. Могут занимать много места.
+
+EN_TITLE:
+Clear Application Crash Dumps
+
+EN_DESCRIPTION:
+Memory dumps created when applications crash. Can take up a lot of space.
+
+UZ_TITLE:
+Ilova xatolarini tozalash (Crash Dumps)
+
+UZ_DESCRIPTION:
+Ilovalar ishdan chiqqanda yaratilgan xotira damplari. Ko'p joyni egallashi mumkin.
+
+DE_TITLE:
+Anwendungsabsturz-Dumps löschen
+
+DE_DESCRIPTION:
+Speicherabbilder, die bei Anwendungsabstürzen erstellt werden. Können viel Platz beanspruchen.
+
+FR_TITLE:
+Effacer les rapports de plantage d'applications
+
+FR_DESCRIPTION:
+Vidages mémoire créés lors du plantage des applications. Peuvent prendre beaucoup d'espace.
+
+ES_TITLE:
+Limpiar volcados de errores de aplicaciones
+
+ES_DESCRIPTION:
+Volcados de memoria creados cuando las aplicaciones fallan. Pueden ocupar mucho espacio.
+
+TR_TITLE:
+Uygulama Çökme Dökümlerini Temizle
+
+TR_DESCRIPTION:
+Uygulamalar çöktüğünde oluşturulan bellek dökümleri. Çok fazla yer kaplayabilir.

@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+NAME=ShowDriveLettersFirst
+TYPE=REG_DWORD
+VALUE=4
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v ShowDriveLettersFirst /t REG_DWORD /d 4 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v ShowDriveLettersFirst /t REG_DWORD /d 0 /f
+
+DESCRIPTION:
+Этот твик изменяет порядок отображения букв дисков в проводнике. При включении буквы дисков выводятся перед их названиями.
+
+EN_TITLE:
+Show Drive Letters Before Drive Names
+
+EN_DESCRIPTION:
+Show Drive Letters Before Drive Names
+
+UZ_TITLE:
+Disk harfini nomidan oldin ko'rsatish
+
+UZ_DESCRIPTION:
+Disk harfini nomidan oldin ko'rsatish
+
+DE_TITLE:
+Laufwerksbuchstaben vor dem Namen anzeigen
+
+DE_DESCRIPTION:
+Laufwerksbuchstaben vor dem Namen anzeigen
+
+FR_TITLE:
+Afficher la lettre du lecteur avant son nom
+
+FR_DESCRIPTION:
+Afficher la lettre du lecteur avant son nom
+
+ES_TITLE:
+Mostrar letra de unidad antes del nombre
+
+ES_DESCRIPTION:
+Mostrar letra de unidad antes del nombre
+
+TR_TITLE:
+Sürücü harfini isimden önce göster
+
+TR_DESCRIPTION:
+Sürücü harfini isimden önce göster

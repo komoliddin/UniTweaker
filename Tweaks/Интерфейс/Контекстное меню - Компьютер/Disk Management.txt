@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DiskManagement
+NAME=DiskManagement
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DiskManagement" /ve /t REG_SZ /d "Управление дисками" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DiskManagement" /v "HasLUAShield" /t REG_SZ /d "" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DiskManagement" /v "Icon" /t REG_SZ /d "dmdskres.dll" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DiskManagement" /v "SuppressionPolicy" /t REG_DWORD /d 0x4000003c /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DiskManagement\command" /ve /t REG_SZ /d "mmc.exe /s diskmgmt.msc" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DiskManagement" /f
+
+DESCRIPTION:
+Этот твик добавляет или удаляет пункт «Управление дисками» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Disk Management
+
+EN_DESCRIPTION:
+Disk Management
+
+UZ_TITLE:
+Disk Management
+
+UZ_DESCRIPTION:
+Disk Management
+
+DE_TITLE:
+Disk Management
+
+DE_DESCRIPTION:
+Disk Management
+
+FR_TITLE:
+Disk Management
+
+FR_DESCRIPTION:
+Disk Management
+
+ES_TITLE:
+Disk Management
+
+ES_DESCRIPTION:
+Disk Management
+
+TR_TITLE:
+Disk Management
+
+TR_DESCRIPTION:
+Disk Management

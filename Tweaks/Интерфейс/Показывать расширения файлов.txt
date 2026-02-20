@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=HideFileExt
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v HideFileExt /t REG_DWORD /d 0 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v HideFileExt /t REG_DWORD /d 1 /f
+
+DESCRIPTION:
+Включает или отключает отображение расширений файлов в проводнике Windows.
+
+EN_TITLE:
+Show File Extensions
+
+EN_DESCRIPTION:
+Show File Extensions
+
+UZ_TITLE:
+Fayl kengaytmalarini ko'rsatish
+
+UZ_DESCRIPTION:
+Fayl kengaytmalarini ko'rsatish
+
+DE_TITLE:
+Dateinamenerweiterungen anzeigen
+
+DE_DESCRIPTION:
+Dateinamenerweiterungen anzeigen
+
+FR_TITLE:
+Afficher les extensions de fichiers
+
+FR_DESCRIPTION:
+Afficher les extensions de fichiers
+
+ES_TITLE:
+Mostrar extensiones de archivo
+
+ES_DESCRIPTION:
+Mostrar extensiones de archivo
+
+TR_TITLE:
+Dosya uzantılarını göster
+
+TR_DESCRIPTION:
+Dosya uzantılarını göster

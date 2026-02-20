@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Shared Tools\MsConfig
+NAME=NoRebootUI
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Shared Tools\MsConfig" /v "NoRebootUI" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Shared Tools\MsConfig" /v "NoRebootUI" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+При включении (NoRebootUI=1) отключается окно уведомления о перезагрузке, которое обычно появляется после внесения изменений в MsConfig. Это может быть полезно, если вы хотите избежать лишних уведомлений о необходимости перезагрузки системы.
+
+EN_TITLE:
+Disable MsConfig Reboot Warning
+
+EN_DESCRIPTION:
+When enabled (NoRebootUI=1), the reboot notification window that usually appears after making changes in MsConfig is disabled. This is useful if you want to avoid unnecessary reboot notifications.
+
+UZ_TITLE:
+MsConfig-dan chiqishda ogohlantirishni ko'rsatmaslik
+
+UZ_DESCRIPTION:
+Yoqilganda (NoRebootUI=1), MsConfig-ga o'zgartirishlar kiritilgandan keyin paydo bo'ladigan qayta ishga tushirish to'g'risidagi bildirishnoma oynasi o'chiriladi. Bu qayta ishga tushirish haqidagi keraksiz bildirishnomalardan qochish uchun foydali bo'lishi mumkin.
+
+DE_TITLE:
+MsConfig-Neustartwarnung deaktivieren
+
+DE_DESCRIPTION:
+Wenn aktiviert (NoRebootUI=1), wird das Benachrichtigungsfenster für den Neustart deaktiviert, das normalerweise nach Änderungen in MsConfig erscheint. Dies ist nützlich, wenn Sie unnötige Neustart-Benachrichtigungen vermeiden möchten.
+
+FR_TITLE:
+Désactiver l'avertissement de redémarrage MsConfig
+
+FR_DESCRIPTION:
+Lorsqu'elle est activée (NoRebootUI=1), la fenêtre de notification de redémarrage qui apparaît généralement après avoir effectué des modifications dans MsConfig est désactivée. C'est utile si vous souhaitez éviter les notifications de redémarrage inutiles.
+
+ES_TITLE:
+Desactivar advertencia de reinicio de MsConfig
+
+ES_DESCRIPTION:
+Cuando está habilitado (NoRebootUI=1), se desactiva la ventana de notificación de reinicio que suele aparecer tras realizar cambios en MsConfig. Esto es útil si desea evitar notificaciones de reinicio innecesarias.
+
+TR_TITLE:
+MsConfig Yeniden Başlatma Uyarısını Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Etkinleştirildiğinde (NoRebootUI=1), MsConfig'de değişiklik yaptıktan sonra genellikle görüntülenen yeniden başlatma bildirim penceresi devre dışı bırakılır. Gereksiz yeniden başlatma bildirimlerinden kaçınmak istiyorsanız bu yararlıdır.

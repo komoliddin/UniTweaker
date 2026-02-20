@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}
+NAME=
+TYPE=
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\DelegateFolders\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}" /f
+
+DESCRIPTION:
+Добавляет или удаляет значок «Съемные диски» в разделе «Этот компьютер».
+
+EN_TITLE:
+Removable Drives
+
+EN_DESCRIPTION:
+Removable Drives
+
+UZ_TITLE:
+Removable Drives
+
+UZ_DESCRIPTION:
+Removable Drives
+
+DE_TITLE:
+Removable Drives
+
+DE_DESCRIPTION:
+Removable Drives
+
+FR_TITLE:
+Removable Drives
+
+FR_DESCRIPTION:
+Removable Drives
+
+ES_TITLE:
+Removable Drives
+
+ES_DESCRIPTION:
+Removable Drives
+
+TR_TITLE:
+Removable Drives
+
+TR_DESCRIPTION:
+Removable Drives

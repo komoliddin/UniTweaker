@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel
+NAME={20D04FE0-3AEA-1069-A2D8-08002B30309D}
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{20D04FE0-3AEA-1069-A2D8-08002B30309D}" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{20D04FE0-3AEA-1069-A2D8-08002B30309D}" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Показывает или скрывает значок «Этот компьютер» на рабочем столе.
+
+EN_TITLE:
+This PC
+
+EN_DESCRIPTION:
+This PC
+
+UZ_TITLE:
+This PC
+
+UZ_DESCRIPTION:
+This PC
+
+DE_TITLE:
+This PC
+
+DE_DESCRIPTION:
+This PC
+
+FR_TITLE:
+This PC
+
+FR_DESCRIPTION:
+This PC
+
+ES_TITLE:
+This PC
+
+ES_DESCRIPTION:
+This PC
+
+TR_TITLE:
+This PC
+
+TR_DESCRIPTION:
+This PC

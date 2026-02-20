@@ -1,0 +1,47 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\Cache
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\Code Cache
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\GPUCache
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\Media Cache
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\Service Worker
+
+DESCRIPTION:
+Кеш браузера Google Chrome — веб-кеш, кеш кода (JS/WebAssembly), GPU и медиа кеши, кеш сервис-воркеров.
+
+EN_TITLE:
+Clear Google Chrome Cache
+
+EN_DESCRIPTION:
+Google Chrome browser cache — web cache, code cache (JS/WebAssembly), GPU and media caches, service worker cache.
+
+UZ_TITLE:
+Google Chrome keshini tozalash
+
+UZ_DESCRIPTION:
+Google Chrome brauzer kesh — veb-kesh, kod kesh (JS/WebAssembly), GPU va media keshlar, servis ishchi kesh.
+
+DE_TITLE:
+Google Chrome-Browser-Cache bereinigen
+
+DE_DESCRIPTION:
+Google Chrome Browser-Cache – Web-Cache, Code-Cache (JS/WebAssembly), GPU- und Medien-Caches, Service Worker-Cache.
+
+FR_TITLE:
+Effacer le cache du navigateur Google Chrome
+
+FR_DESCRIPTION:
+Cache du navigateur Google Chrome — cache Web, cache de code (JS/WebAssembly), caches GPU et multimédia, cache du service worker.
+
+ES_TITLE:
+Limpiar caché del navegador Google Chrome
+
+ES_DESCRIPTION:
+Caché del navegador Google Chrome: caché web, caché de código (JS/WebAssembly), cachés de GPU и multimedia, caché de service worker.
+
+TR_TITLE:
+Google Chrome Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Google Chrome tarayıcı önbelleği — web önbelleği, kod önbelleği (JS/WebAssembly), GPU ve medya önbellekleri, servis çalışanı önbelleği.

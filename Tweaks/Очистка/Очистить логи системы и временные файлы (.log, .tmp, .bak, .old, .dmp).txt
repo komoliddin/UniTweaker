@@ -1,0 +1,83 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\CrashDumps\*.dmp
+%LOCALAPPDATA%\CrashDumps\*.log
+%LOCALAPPDATA%\Microsoft\CLR_v*\*.log
+%LOCALAPPDATA%\Microsoft\CLR_v*\*.tmp
+%LOCALAPPDATA%\Microsoft\Office\*.log
+%LOCALAPPDATA%\Microsoft\Office\*.tmp
+%LOCALAPPDATA%\Microsoft\VisualStudio\*.log
+%LOCALAPPDATA%\Microsoft\VisualStudio\*.tmp
+%LOCALAPPDATA%\Microsoft\VSCommon\*.log
+%LOCALAPPDATA%\Microsoft\VSCommon\*.tmp
+%LOCALAPPDATA%\Temp\*.log
+%LOCALAPPDATA%\Temp\*.tmp
+%ProgramData%\AMD\*.log
+%ProgramData%\AMD\*.tmp
+%ProgramData%\chocolatey\logs\*.log
+%ProgramData%\chocolatey\logs\*.tmp
+%ProgramData%\Microsoft\Windows\WER\ReportArchive\*.*
+%ProgramData%\Microsoft\Windows\WER\ReportQueue\*.*
+%ProgramData%\NVIDIA Corporation\*.log
+%ProgramData%\NVIDIA Corporation\*.tmp
+%ProgramData%\Package Cache\*.log
+%ProgramData%\Package Cache\*.tmp
+%SystemDrive%\*.bak
+%SystemDrive%\*.log
+%SystemDrive%\*.old
+%SystemDrive%\*.tmp
+%SystemRoot%\*.bak
+%SystemRoot%\*.log
+%SystemRoot%\*.old
+%SystemRoot%\*.tmp
+%SystemRoot%\LiveKernelReports
+%SystemRoot%\Logs
+%SystemRoot%\Panther
+%SystemRoot%\SoftwareDistribution\*.log
+%SystemRoot%\SoftwareDistribution\*.tmp
+%SystemRoot%\System32\LogFiles\*.tmp
+%SystemRoot%\System32\WBEM\Logs
+%SystemRoot%\System32\Winevt\Logs
+%SystemRoot%\Temp\*.log
+%SystemRoot%\Temp\*.tmp
+
+
+DESCRIPTION:
+Системные логи Windows: отчёты об ошибках, события и журналы системы.
+
+EN_TITLE:
+Clear System Logs and Temporary Files
+
+EN_DESCRIPTION:
+Windows system logs: error reports, events, and system journals.
+
+UZ_TITLE:
+Tizim jurnallarini va vaqtinchalik fayllarni tozalash
+
+UZ_DESCRIPTION:
+Windows tizim jurnallari: xatolar haqidagi hisobotlar, voqealar va tizim jurnallari.
+
+DE_TITLE:
+Systemprotokolle und temporäre Dateien bereinigen
+
+DE_DESCRIPTION:
+Windows-Systemprotokolle: Fehlerberichte, Ereignisse und Systemjournale.
+
+FR_TITLE:
+Effacer les journaux système et les fichiers temporaires
+
+FR_DESCRIPTION:
+Journaux du système Windows : rapports d'erreurs, événements et journaux système.
+
+ES_TITLE:
+Limpiar registros del sistema и archivos temporales
+
+ES_DESCRIPTION:
+Registros del sistema de Windows: informes de errores, eventos и diarios del sistema.
+
+TR_TITLE:
+Sistem Günlüklerini ve Geçici Dosyaları Temizle
+
+TR_DESCRIPTION:
+Windows sistem günlükleri: hata raporları, olaylar ve sistem günlükleri.

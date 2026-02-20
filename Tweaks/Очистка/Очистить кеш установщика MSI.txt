@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%SystemRoot%\Installer\$PatchCache$
+
+DESCRIPTION:
+Кеш Windows Installer (MSI). Содержит временные файлы установок. Можно чистить, если не идёт установка/обновление программ.
+
+EN_TITLE:
+Clear Windows Installer (MSI) Cache
+
+EN_DESCRIPTION:
+Windows Installer (MSI) cache. Contains temporary installation files. Can be cleared if no installation or update is in progress.
+
+UZ_TITLE:
+Windows o'rnatuvchisi (MSI) keshini tozalash
+
+UZ_DESCRIPTION:
+Windows Installer (MSI) keshi. Vaqtinchalik o'rnatish fayllarini o'z ichiga oladi. Agar dasturlarni o'rnatish/yangilash jarayoni ketmayotgan bo'lsa, tozalash mumkin.
+
+DE_TITLE:
+Windows Installer (MSI)-Cache bereinigen
+
+DE_DESCRIPTION:
+Windows Installer (MSI)-Cache. Enthält temporäre Installationsdateien. Kann bereinigt werden, wenn keine Installation oder Aktualisierung läuft.
+
+FR_TITLE:
+Effacer le cache de Windows Installer (MSI)
+
+FR_DESCRIPTION:
+Cache de Windows Installer (MSI). Contient des fichiers d'installation temporaires. Peut être effacé si aucune installation ou mise à jour n'est en cours.
+
+ES_TITLE:
+Limpiar caché de Windows Installer (MSI)
+
+ES_DESCRIPTION:
+Caché de Windows Installer (MSI). Contiene archivos temporales de instalación. Se puede limpiar si no hay ninguna instalación o actualización en curso.
+
+TR_TITLE:
+Windows Yükleyici (MSI) Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Windows Yükleyici (MSI) önbelleği. Geçici kurulum dosyalarını içerir. Kurulum veya güncelleme yapılmıyorsa temizlenebilir.

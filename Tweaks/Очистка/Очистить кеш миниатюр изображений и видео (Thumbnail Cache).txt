@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Microsoft\Windows\Explorer\thumbcache*.db
+
+DESCRIPTION:
+Кеш миниатюр изображений и видео в Проводнике. Пересоздаётся автоматически.
+
+EN_TITLE:
+Clear Thumbnail Cache
+
+EN_DESCRIPTION:
+Thumbnail cache for images and videos in File Explorer. Automatically recreated.
+
+UZ_TITLE:
+Eskizlar keshini tozalash
+
+UZ_DESCRIPTION:
+Provodnika (File Explorer) dagi tasvirlar va videolarning eskizlar keshi. Avtomatik ravishda qayta yaratiladi.
+
+DE_TITLE:
+Miniaturbild-Cache bereinigen
+
+DE_DESCRIPTION:
+Miniaturbild-Cache für Bilder und Videos im Datei-Explorer. Wird automatisch neu erstellt.
+
+FR_TITLE:
+Effacer le cache des miniatures
+
+FR_DESCRIPTION:
+Cache des miniatures pour les images et les vidéos dans l'Explorateur de fichiers. Recréé automatiquement.
+
+ES_TITLE:
+Limpiar caché de miniaturas
+
+ES_DESCRIPTION:
+Caché de miniaturas для imágenes и vídeos en el Explorador de archivos. Se vuelve a crear automáticamente.
+
+TR_TITLE:
+Küçük Resim Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Dosya Gezgini'ndeki resimler ve videolar için küçük resim önbelleği. Otomatik olarak yeniden oluşturulur.

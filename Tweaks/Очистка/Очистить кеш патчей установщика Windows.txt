@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%SystemRoot%\Installer\$PatchCache$
+
+DESCRIPTION:
+Кеш установщика Windows ($PatchCache$). Содержит копии файлов для восстановления и обновления. Очистка безопасна и освобождает место на системном диске.
+
+EN_TITLE:
+Clear Windows Installer Patch Cache
+
+EN_DESCRIPTION:
+Windows Installer cache ($PatchCache$). Contains copies of files for recovery and updates. Cleaning is safe and frees up space on the system drive.
+
+UZ_TITLE:
+Windows o'rnatuvchisi patch keshini tozalash
+
+UZ_DESCRIPTION:
+Windows o'rnatuvchisi keshi ($PatchCache$). Tizim diskida joy bo'shatadi.
+
+DE_TITLE:
+Windows Installer Patch-Cache leeren
+
+DE_DESCRIPTION:
+Windows Installer-Cache ($PatchCache$). Das Bereinigen ist sicher und gibt Platz auf dem Systemlaufwerk frei.
+
+FR_TITLE:
+Effacer le cache des correctifs de l'installeur Windows
+
+FR_DESCRIPTION:
+Cache de l'installeur Windows ($PatchCache$). Le nettoyage est sûr et libère de l'espace sur le disque système.
+
+ES_TITLE:
+Limpiar caché de parches del instalador de Windows
+
+ES_DESCRIPTION:
+Caché del instalador de Windows ($PatchCache$). La limpieza es segura и libera espacio en la unidad del sistema.
+
+TR_TITLE:
+Windows Yükleyici Yama Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Windows Yükleyici önbelleği ($PatchCache$). Temizleme güvenlidir ve sistem sürücüsünde yer açar.

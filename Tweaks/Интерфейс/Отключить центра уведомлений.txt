@@ -1,0 +1,57 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Policies\Microsoft\Windows\Explorer
+NAME=DisableNotificationCenter
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableNotificationCenter /t REG_DWORD /d 1 /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v DisableNotificationCenter /t REG_DWORD /d 1 /f
+Reg.exe add "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v DisableNotificationCenter /t REG_DWORD /d 1 /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications\Settings" /v NOC_GLOBAL_SETTING_TOASTS_ENABLED /t REG_DWORD /d 0 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableNotificationCenter /t REG_DWORD /d 0 /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v DisableNotificationCenter /t REG_DWORD /d 0 /f
+Reg.exe add "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v DisableNotificationCenter /t REG_DWORD /d 0 /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications\Settings" /v NOC_GLOBAL_SETTING_TOASTS_ENABLED /t REG_DWORD /d 1 /f
+
+DESCRIPTION:
+Этот твик полностью отключает Центр уведомлений Windows и всплывающие уведомления.
+
+EN_TITLE:
+Disable Notification Center
+
+EN_DESCRIPTION:
+Disable Notification Center
+
+UZ_TITLE:
+Bildirishnomalar markazini o'chirish
+
+UZ_DESCRIPTION:
+Bildirishnomalar markazini o'chirish
+
+DE_TITLE:
+Benachrichtigungscenter deaktivieren
+
+DE_DESCRIPTION:
+Benachrichtigungscenter deaktivieren
+
+FR_TITLE:
+Désactiver le centre de notifications
+
+FR_DESCRIPTION:
+Désactiver le centre de notifications
+
+ES_TITLE:
+Desactivar el centro de notificaciones
+
+ES_DESCRIPTION:
+Desactivar el centro de notificaciones
+
+TR_TITLE:
+Bildirim merkezini devre dışı bırak
+
+TR_DESCRIPTION:
+Bildirim merkezini devre dışı bırak

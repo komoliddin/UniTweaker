@@ -1,0 +1,67 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\FileSystem
+NAME=DisableDeleteNotification
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v "DisableDeleteNotification" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v "DisableDeleteNotify" /t REG_DWORD /d "0" /f
+fsutil behavior set DisableDeleteNotify 0
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v "DisableDeleteNotification" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v "DisableDeleteNotify" /t REG_DWORD /d "1" /f
+fsutil behavior set DisableDeleteNotify 1
+
+DESCRIPTION:
+TRIM позволяет операционной системе информировать SSD о том, какие блоки данных больше не используются и могут быть очищены. Это уменьшает влияние «сбора мусора», что ведет к более стабильной скорости записи и снижению износа диска.
+
+EN_TITLE:
+Enable TRIM
+
+EN_DESCRIPTION:
+Enables the TRIM command for SSDs to maintain performance and increase lifespan.
+• Enabled (0) — TRIM is active (recommended for SSD).
+• Disabled (1) — TRIM is inactive.
+
+UZ_TITLE:
+Trim-ni yoqish
+
+UZ_DESCRIPTION:
+SSD-ning unumdorligini saqlab qolish va xizmat muddatini uzaytirish uchun TRIM buyrug'ini yoqadi.
+• Yoqilgan (0) — TRIM faol (SSD uchun tavsiya etiladi).
+• O'chirilgan (1) — TRIM faol emas.
+
+DE_TITLE:
+Trim aktivieren
+
+DE_DESCRIPTION:
+Aktiviert den TRIM-Befehl für SSDs, um die Leistung aufrechtzuerhalten und die Lebensdauer zu erhöhen.
+• Aktiviert (0) — TRIM ist aktiv (empfohlen für SSD).
+• Deaktiviert (1) — TRIM ist inaktiv.
+
+FR_TITLE:
+Activer Trim
+
+FR_DESCRIPTION:
+Active la commande TRIM pour les SSD afin de maintenir les performances et d'augmenter la durée de vie.
+• Activé (0) — TRIM est actif (recommandé pour les SSD).
+• Désactivé (1) — TRIM est inactif.
+
+ES_TITLE:
+Habilitar Trim
+
+ES_DESCRIPTION:
+Habilita el comando TRIM para SSD para mantener el rendimiento и aumentar la vida útil.
+• Habilitado (0) — TRIM está activo (recomendado para SSD).
+• Deshabilitado (1) — TRIM está inactivo.
+
+TR_TITLE:
+Trim'i Etkinleştir
+
+TR_DESCRIPTION:
+Performansı korumak ve ömrü uzatmak için SSD'ler için TRIM komutunu etkinleştirir.
+• Etkin (0) — TRIM etkin (SSD için önerilir).
+• Devre Dışı (1) — TRIM devre dışı.

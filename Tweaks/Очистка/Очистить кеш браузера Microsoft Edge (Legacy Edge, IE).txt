@@ -1,0 +1,54 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\Cache
+%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\Code Cache
+%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\GPUCache
+%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\Media Cache
+%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\Service Worker
+%SystemRoot%\System32\inetcpl.cpl\cache
+%LOCALAPPDATA%\Microsoft\Windows\INetCache
+%LOCALAPPDATA%\Microsoft\Windows\INetCookies
+%LOCALAPPDATA%\Microsoft\Windows\History
+%LOCALAPPDATA%\Microsoft\Windows\Temporary Internet Files
+%USERPROFILE%\AppData\Local\Microsoft\Windows\WebCache
+%USERPROFILE%\AppData\LocalLow\Microsoft\CryptnetUrlCache
+
+DESCRIPTION:
+Кеш браузера Microsoft Edge (Legacy Edge/IE) — веб-кеш, cookies, история, временные интернет-файлы, кеш кода (JS/WebAssembly), GPU и медиа кеши, кеш сервис-воркеров.
+
+EN_TITLE:
+Clear Microsoft Edge and IE Cache
+
+EN_DESCRIPTION:
+Microsoft Edge (Legacy Edge/IE) browser cache — web cache, cookies, history, temporary internet files, code cache (JS/WebAssembly), GPU and media caches, service worker cache.
+
+UZ_TITLE:
+Microsoft Edge va IE keshini tozalash
+
+UZ_DESCRIPTION:
+Microsoft Edge (Legacy Edge/IE) brauzer keshi — veb-kesh, kukilar, tarix, vaqtinchalik internet fayllari, kod keshi (JS/WebAssembly), GPU va media keshlar, servis ishchi keshi.
+
+DE_TITLE:
+Microsoft Edge und IE-Cache bereinigen
+
+DE_DESCRIPTION:
+Microsoft Edge (Legacy Edge/IE) Browser-Cache – Web-Cache, Cookies, Verlauf, temporäre Internetdateien, Code-Cache (JS/WebAssembly), GPU- und Medien-Caches, Service Worker-Cache.
+
+FR_TITLE:
+Effacer le cache Microsoft Edge et IE
+
+FR_DESCRIPTION:
+Cache du navigateur Microsoft Edge (Legacy Edge/IE) — cache Web, cookies, historique, fichiers Internet temporaires, cache de code (JS/WebAssembly), caches GPU et multimédia, cache du service worker.
+
+ES_TITLE:
+Limpiar caché de Microsoft Edge и IE
+
+ES_DESCRIPTION:
+Caché del navegador Microsoft Edge (Legacy Edge/IE): caché web, cookies, historial, archivos temporales de Internet, caché de código (JS/WebAssembly), cachés de GPU и multimedia, caché de service worker.
+
+TR_TITLE:
+Microsoft Edge ve IE Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Microsoft Edge (Legacy Edge/IE) tarayıcı önbelleği — web önbelleği, çerezler, geçmiş, geçici internet dosyaları, kod önbelleği (JS/WebAssembly), GPU ve medya önbellekleri, servis çalışanı önbelleği.

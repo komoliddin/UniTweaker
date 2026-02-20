@@ -1,0 +1,51 @@
+BUTTON:
+CLICKED:
+net stop wuauserv
+net stop cryptSvc
+net stop bits
+net stop msiserver
+ren C:\Windows\SoftwareDistribution SoftwareDistribution.old
+ren C:\Windows\System32\catroot2 catroot2.old
+net start wuauserv
+net start cryptSvc
+net start bits
+net start msiserver
+
+DESCRIPTION:
+Сбрасывает компоненты Центра обновления Windows, очищая папки SoftwareDistribution и Catroot2. Исправляет большинство ошибок загрузки обновлений.
+
+EN_TITLE:
+Fix Windows Update Errors
+
+EN_DESCRIPTION:
+Resets Windows Update components by clearing the SoftwareDistribution and Catroot2 folders. Fixes most update download errors.
+
+UZ_TITLE:
+Windows Update xatolarini tuzatish
+
+UZ_DESCRIPTION:
+SoftwareDistribution va Catroot2 papkalarini tozalash orqali Windows Update komponentlarini tiklaydi. Ko'pgina yangilanishlarni yuklab olish xatolarini tuzatadi.
+
+DE_TITLE:
+Windows Update-Fehler beheben
+
+DE_DESCRIPTION:
+Setzt Windows Update-Komponenten zurück, indem die Ordner SoftwareDistribution und Catroot2 geleert werden. Behebt die meisten Update-Download-Fehler.
+
+FR_TITLE:
+Corriger les erreurs de Windows Update
+
+FR_DESCRIPTION:
+Réinitialise les composants de Windows Update en vidant les dossiers SoftwareDistribution et Catroot2. Corrige la plupart des erreurs de téléchargement des mises à jour.
+
+ES_TITLE:
+Corregir errores de Windows Update
+
+ES_DESCRIPTION:
+Restablece los componentes de Windows Update al limpiar las carpetas SoftwareDistribution и Catroot2. Corrige la mayoría de los errores de descarga de actualizaciones.
+
+TR_TITLE:
+Windows Güncelleme Hatalarını Düzelt
+
+TR_DESCRIPTION:
+SoftwareDistribution ve Catroot2 klasörlerini temizleyerek Windows Güncelleme bileşenlerini sıfırlar. Çoğu güncelleme indirme hatasını düzeltir.

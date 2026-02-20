@@ -1,0 +1,64 @@
+NOTRECOMMENDED
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Policies\Microsoft\Windows\OneDrive
+NAME=SmartScreenEnabled
+TYPE=DisableFileSyncNGSC
+VALUE=0x1
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableFileSyncNGSC" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /v "OneDrive" /t REG_BINARY /d "03000000B5E73D230DECD301" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /v "OneDriveSetup" /t REG_BINARY /d "03000000E7BCAF9F2BECD301" /f
+Reg.exe add "HKCR\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /ve /t REG_SZ /d "OneDrive" /f
+Reg.exe add "HKCR\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /v "System.IsPinnedToNameSpaceTree" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCR\WOW6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /ve /t REG_SZ /d "OneDrive" /f
+Reg.exe add "HKCR\WOW6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /v "System.IsPinnedToNameSpaceTree" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableFileSyncNGSC" /t REG_DWORD /d "0x0" /f
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /v "OneDrive" /f
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run" /v "OneDriveSetup" /f
+Reg.exe delete "HKCR\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /ve /t REG_SZ /d "OneDrive" /f
+Reg.exe add "HKCR\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /v "System.IsPinnedToNameSpaceTree" /t REG_DWORD /d "1" /f
+Reg.exe delete "HKCR\WOW6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /ve /f
+Reg.exe add "HKCR\WOW6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /v "System.IsPinnedToNameSpaceTree" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Этот твик позволяет полностью отключить или включить OneDrive в Windows. При отключении удаляется клиент OneDrive, очищаются его папки и скрывается значок в проводнике.
+
+EN_TITLE:
+Disable OneDrive
+
+EN_DESCRIPTION:
+This tweak allows you to completely disable or enable OneDrive in Windows. When disabled, the OneDrive client is removed, its folders are cleared, and the icon is hidden in the explorer.
+
+UZ_TITLE:
+OneDrive-ni o'chirish
+
+UZ_DESCRIPTION:
+Ushbu tvik Windows-da OneDrive-ni butunlay o'chirish yoki yoqish imkonini beradi. O'chirilganda, OneDrive mijoz dasturi olib tashlanadi, uning papkalari tozalanadi va belgisi provodnika (explorer)da yashiriladi.
+
+DE_TITLE:
+OneDrive deaktivieren
+
+DE_DESCRIPTION:
+Dieser Tweak ermöglicht es Ihnen, OneDrive unter Windows vollständig zu deaktivieren oder zu aktivieren. Nach der Deaktivierung wird der OneDrive-Client entfernt, seine Ordner werden geleert und das Symbol im Explorer wird ausgeblendet.
+
+FR_TITLE:
+Désactiver OneDrive
+
+FR_DESCRIPTION:
+Ce tweak vous permet de désactiver ou d'activer complètement OneDrive dans Windows. Une fois désactivé, le client OneDrive est supprimé, ses dossiers sont vidés et l'icône est masquée dans l'explorateur.
+
+ES_TITLE:
+Desactivar OneDrive
+
+ES_DESCRIPTION:
+Este ajuste le permite desactivar o habilitar completamente OneDrive en Windows. Al desactivarlo, se elimina el cliente de OneDrive, se limpian sus carpetas y se oculta el icono en el explorador.
+
+TR_TITLE:
+OneDrive'ı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Bu ayar, Windows'ta OneDrive'ı tamamen devre dışı bırakmanıza veya etkinleştirmenize olanak tanır. Devre dışı bırakıldığında, OneDrive istemcisi kaldırılır, klasörleri temizlenir ve simgesi gezginde gizlenir.

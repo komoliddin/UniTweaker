@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons
+NAME=29
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" /v "29" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" /v "29" /t REG_SZ /d "%systemroot%\Blank.ico,0" /f
+
+DESCRIPTION:
+Показывает или скрывает стрелки на значках ярлыков. Требуется перезапуск проводника или системы.
+
+EN_TITLE:
+Remove Shortcut Arrows
+
+EN_DESCRIPTION:
+Remove Shortcut Arrows
+
+UZ_TITLE:
+Yorliqlardagi strelkalarni olib tashlash
+
+UZ_DESCRIPTION:
+Yorliqlardagi strelkalarni olib tashlash
+
+DE_TITLE:
+Verknüpfungspfeile entfernen
+
+DE_DESCRIPTION:
+Verknüpfungspfeile entfernen
+
+FR_TITLE:
+Supprimer les flèches sur les raccourcis
+
+FR_DESCRIPTION:
+Supprimer les flèches sur les raccourcis
+
+ES_TITLE:
+Eliminar las flechas de los accesos directos
+
+ES_DESCRIPTION:
+Eliminar las flechas de los accesos directos
+
+TR_TITLE:
+Kısayol oklarını kaldır
+
+TR_DESCRIPTION:
+Kısayol oklarını kaldır

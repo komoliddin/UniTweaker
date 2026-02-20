@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%ProgramData%\GOG.com\Galaxy\webcache
+%LOCALAPPDATA%\GOG.com\Galaxy\webcache
+
+DESCRIPTION:
+Временные файлы и кеш браузера GOG Galaxy.
+
+EN_TITLE:
+Clear GOG Galaxy Cache
+
+EN_DESCRIPTION:
+Temporary files and web cache for GOG Galaxy.
+
+UZ_TITLE:
+GOG Galaxy keshini tozalash
+
+UZ_DESCRIPTION:
+GOG Galaxy vaqtinchalik fayllari va veb-keshi.
+
+DE_TITLE:
+GOG Galaxy-Cache leeren
+
+DE_DESCRIPTION:
+Temporäre Dateien und Web-Cache für GOG Galaxy.
+
+FR_TITLE:
+Effacer le cache GOG Galaxy
+
+FR_DESCRIPTION:
+Fichiers temporaires et cache Web pour GOG Galaxy.
+
+ES_TITLE:
+Limpiar caché de GOG Galaxy
+
+ES_DESCRIPTION:
+Archivos temporales и caché web para GOG Galaxy.
+
+TR_TITLE:
+GOG Galaxy Önbelleğini Temizle
+
+TR_DESCRIPTION:
+GOG Galaxy için geçici dosyalar ve web önbelleği.

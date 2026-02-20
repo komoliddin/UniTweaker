@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%SystemRoot%\Minidump
+%SystemRoot%\MEMORY.DMP
+
+DESCRIPTION:
+Дампы памяти Windows после ошибок (BSOD). Можно удалять, если не нужны для диагностики.
+
+EN_TITLE:
+Clear Windows Memory Dumps (BSOD)
+
+EN_DESCRIPTION:
+Windows memory dumps after errors (BSOD). Can be deleted if not needed for diagnostics.
+
+UZ_TITLE:
+Windows xotira drayverlarini tozalash (BSOD)
+
+UZ_DESCRIPTION:
+Xatolardan keyingi Windows xotira drayverlari (BSOD). Agar diagnostika uchun kerak bo'lmasa, o'chirib tashlash mumkin.
+
+DE_TITLE:
+Windows-Speicherabbilder bereinigen (BSOD)
+
+DE_DESCRIPTION:
+Windows-Speicherabbilder nach Fehlern (BSOD). Können gelöscht werden, wenn sie nicht für die Diagnose benötigt werden.
+
+FR_TITLE:
+Effacer les vidages de mémoire Windows (BSOD)
+
+FR_DESCRIPTION:
+Vidages de mémoire Windows après des erreurs (BSOD). Peuvent être supprimés s'ils ne sont pas nécessaires pour le diagnostic.
+
+ES_TITLE:
+Limpiar volcados de memoria de Windows (BSOD)
+
+ES_DESCRIPTION:
+Volcados de memoria de Windows después de errores (BSOD). Se pueden eliminar si no son necesarios для el diagnóstico.
+
+TR_TITLE:
+Windows Bellek Dökümlerini Temizle (BSOD)
+
+TR_DESCRIPTION:
+Hatalardan sonraki Windows bellek dökümleri (BSOD). Teşhis için gerekli değilse silinebilir.

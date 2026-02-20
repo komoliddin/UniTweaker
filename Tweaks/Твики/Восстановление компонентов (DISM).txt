@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+DISM /Online /Cleanup-Image /RestoreHealth
+CONFIRM
+DESCRIPTION:
+Восстанавливает системные компоненты (DISM /RestoreHealth)
+
+EN_TITLE:
+Restore System Components (DISM)
+
+EN_DESCRIPTION:
+Restores system components and repairs the Windows image using the DISM /RestoreHealth command.
+
+UZ_TITLE:
+Tizim komponentlarini tiklash (DISM)
+
+UZ_DESCRIPTION:
+Tizim komponentlarini tiklaydi va DISM /RestoreHealth buyrug'i yordamida Windows tasvirini tuzatadi.
+
+DE_TITLE:
+Systemkomponenten wiederherstellen (DISM)
+
+DE_DESCRIPTION:
+Stellt Systemkomponenten wieder her und repariert das Windows-Image mit dem Befehl DISM /RestoreHealth.
+
+FR_TITLE:
+Restaurer les composants système (DISM)
+
+FR_DESCRIPTION:
+Restaure les composants système et répare l'image Windows à l'aide de la commande DISM /RestoreHealth.
+
+ES_TITLE:
+Restaurar componentes del sistema (DISM)
+
+ES_DESCRIPTION:
+Restaura los componentes del sistema и repara la imagen de Windows con el comando DISM /RestoreHealth.
+
+TR_TITLE:
+Sistem Bileşenlerini Geri Yükle (DISM)
+
+TR_DESCRIPTION:
+Sistem bileşenlerini geri yükler ve DISM /RestoreHealth komutunu kullanarak Windows görüntüsünü onarır.

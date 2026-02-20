@@ -1,0 +1,48 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Microsoft\Office\16.0\OfficeFileCache
+%LOCALAPPDATA%\Microsoft\Office\15.0\OfficeFileCache
+%LOCALAPPDATA%\Microsoft\Office\OfficeFileCache
+%LOCALAPPDATA%\Microsoft\Office\16.0\OfficeFileCache
+%LOCALAPPDATA%\Microsoft\Office\OfficeFileCache
+%APPDATA%\Microsoft\Office\Recent
+
+DESCRIPTION:
+Кеш Microsoft Office — Office Document Cache (OfficeFileCache для OneDrive/SharePoint/Upload Center), временные файлы и список недавних документов.
+
+EN_TITLE:
+Clear Microsoft Office Cache
+
+EN_DESCRIPTION:
+Microsoft Office cache — Office Document Cache (OfficeFileCache for OneDrive/SharePoint/Upload Center), temporary files, and the list of recent documents.
+
+UZ_TITLE:
+Microsoft Office keshini tozalash
+
+UZ_DESCRIPTION:
+Microsoft Office keshi — Office Document Cache (OneDrive/SharePoint/Upload Center uchun OfficeFileCache), vaqtinchalik fayllar va yaqinda ochilgan hujjatlar ro'yxati.
+
+DE_TITLE:
+Microsoft Office-Cache bereinigen
+
+DE_DESCRIPTION:
+Microsoft Office-Cache – Office-Dokumentcache (OfficeFileCache für OneDrive/SharePoint/Upload Center), temporäre Dateien und die Liste der zuletzt verwendeten Dokumente.
+
+FR_TITLE:
+Effacer le cache Microsoft Office
+
+FR_DESCRIPTION:
+Cache Microsoft Office — Office Document Cache (OfficeFileCache pour OneDrive/SharePoint/Upload Center), fichiers temporaires et liste des documents récents.
+
+ES_TITLE:
+Limpiar caché de Microsoft Office
+
+ES_DESCRIPTION:
+Caché de Microsoft Office: caché de documentos de Office (OfficeFileCache para OneDrive/SharePoint/Upload Center), archivos temporales и la lista de documentos recientes.
+
+TR_TITLE:
+Microsoft Office Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Microsoft Office önbelleği — Office Belge Önbelleği (OneDrive/SharePoint/Yükleme Merkezi için OfficeFileCache), geçici dosyalar ve son kullanılan belgeler listesi.

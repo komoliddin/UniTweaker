@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+for /F "tokens=*" %1 in ('wevtutil.exe el') do wevtutil.exe cl "%1"
+
+DESCRIPTION:
+Очищает все журналы событий Windows (Система, Приложение, Безопасность и др.).
+
+EN_TITLE:
+Clear Windows Event Logs
+
+EN_DESCRIPTION:
+Clears all Windows event logs (System, Application, Security, etc.).
+
+UZ_TITLE:
+Windows voqealar jurnallarini tozalash
+
+UZ_DESCRIPTION:
+Barcha Windows voqealar jurnallarini (Tizim, Ilova, Xavfsizlik va boshqalar) tozalanadi.
+
+DE_TITLE:
+Windows-Ereignisprotokolle löschen
+
+DE_DESCRIPTION:
+Löscht alle Windows-Ereignisprotokolle (System, Anwendung, Sicherheit usw.).
+
+FR_TITLE:
+Effacer les journaux d'événements Windows
+
+FR_DESCRIPTION:
+Efface tous les journaux d'événements Windows (système, application, sécurité, etc.).
+
+ES_TITLE:
+Borrar registros de eventos de Windows
+
+ES_DESCRIPTION:
+Borra todos los registros de eventos de Windows (sistema, aplicación, seguridad, etc.).
+
+TR_TITLE:
+Windows Olay Günlüklerini Temizle
+
+TR_DESCRIPTION:
+Tüm Windows olay günlüklerini (Sistem, Uygulama, Güvenlik vb.) temizler.

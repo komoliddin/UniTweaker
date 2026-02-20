@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{7b81be6a-ce2b-4676-a29e-eb907a5126c5}
+NAME=
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{7b81be6a-ce2b-4676-a29e-eb907a5126c5}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{7b81be6a-ce2b-4676-a29e-eb907a5126c5}" /f
+
+DESCRIPTION:
+Добавляет или удаляет «Программы и компоненты» в разделе «Этот компьютер».
+
+EN_TITLE:
+Programs and Features
+
+EN_DESCRIPTION:
+Programs and Features
+
+UZ_TITLE:
+Programs and Features
+
+UZ_DESCRIPTION:
+Programs and Features
+
+DE_TITLE:
+Programs and Features
+
+DE_DESCRIPTION:
+Programs and Features
+
+FR_TITLE:
+Programs and Features
+
+FR_DESCRIPTION:
+Programs and Features
+
+ES_TITLE:
+Programs and Features
+
+ES_DESCRIPTION:
+Programs and Features
+
+TR_TITLE:
+Programs and Features
+
+TR_DESCRIPTION:
+Programs and Features

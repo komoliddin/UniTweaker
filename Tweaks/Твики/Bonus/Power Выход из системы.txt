@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+shutdown /l
+CONFIRM
+DESCRIPTION:
+Выход из учётной записи Windows
+
+EN_TITLE:
+Sign Out
+
+EN_DESCRIPTION:
+Signs out of the current Windows user account.
+
+UZ_TITLE:
+Tizimdan chiqish
+
+UZ_DESCRIPTION:
+Joriy Windows foydalanuvchi hisobidan chiqadi.
+
+DE_TITLE:
+Abmelden
+
+DE_DESCRIPTION:
+Meldet das aktuelle Windows-Benutzerkonto ab.
+
+FR_TITLE:
+Se déconnecter
+
+FR_DESCRIPTION:
+Se déconnecte du compte utilisateur Windows actuel.
+
+ES_TITLE:
+Cerrar sesión
+
+ES_DESCRIPTION:
+Cierra la sesión de la cuenta de usuario de Windows actual.
+
+TR_TITLE:
+Oturumu Kapat
+
+TR_DESCRIPTION:
+Geçerli Windows kullanıcı hesabından çıkış yapar.

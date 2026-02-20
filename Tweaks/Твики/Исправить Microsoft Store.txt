@@ -1,0 +1,43 @@
+BUTTON:
+CLICKED:
+wsreset.exe
+PowerShell -ExecutionPolicy Unrestricted -Command "& {$manifest = (Get-AppxPackage Microsoft.WindowsStore).InstallLocation + '\AppxManifest.xml' ; Add-AppxPackage -DisableDevelopmentMode -Register $manifest}"
+
+DESCRIPTION:
+Сбрасывает кеш Microsoft Store и перерегистрирует приложение Store для исправления проблем с загрузкой и сбоев.
+
+EN_TITLE:
+Fix Microsoft Store
+
+EN_DESCRIPTION:
+Resets the Microsoft Store cache and re-registers the Store app to fix loading issues and crashes.
+
+UZ_TITLE:
+Microsoft Store-ni tuzatish
+
+UZ_DESCRIPTION:
+Yuklash muammolari va nosozliklarni bartaraf etish uchun Microsoft Store keshini tiklaydi va Store ilovasini qayta ro'yxatdan o'tkazadi.
+
+DE_TITLE:
+Microsoft Store reparieren
+
+DE_DESCRIPTION:
+Setzt den Microsoft Store-Cache zurück und registriert die Store-App neu, um Ladeprobleme und Abstürze zu beheben.
+
+FR_TITLE:
+Réparer le Microsoft Store
+
+FR_DESCRIPTION:
+Réinitialise le cache du Microsoft Store et réenregistre l'application Store pour résoudre les problèmes de chargement et les plantages.
+
+ES_TITLE:
+Reparar Microsoft Store
+
+ES_DESCRIPTION:
+Restablece la caché de Microsoft Store и vuelve a registrar la aplicación de la Tienda para solucionar problemas de carga и bloqueos.
+
+TR_TITLE:
+Microsoft Store'u Düzelt
+
+TR_DESCRIPTION:
+Yükleme sorunlarını ve çökmeleri düzeltmek için Microsoft Store önbelleğini sıfırlar ve Store uygulamasını yeniden kaydeder.

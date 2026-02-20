@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile
+NAME=SystemResponsiveness
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v "SystemResponsiveness" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v "SystemResponsiveness" /t REG_DWORD /d "20" /f
+
+DESCRIPTION:
+Система выделяет больше ресурсов для активных игр, уменьшая задержки и улучшая FPS за счет снижения приоритета фоновых задач.
+
+EN_TITLE:
+Background Task Priority
+
+EN_DESCRIPTION:
+The system allocates more resources to active games, reducing latency and improving FPS by lowering the priority of background tasks.
+
+UZ_TITLE:
+Fon vazifalari ustuvorligi
+
+UZ_DESCRIPTION:
+Tizim faol o'yinlar uchun ko'proq resurs ajratadi, fon vazifalari ustuvorligini pasaytirish orqali kechikishlarni kamaytiradi va FPS-ni oshiradi.
+
+DE_TITLE:
+Priorität von Hintergrundaufgaben
+
+DE_DESCRIPTION:
+Das System weist aktiven Spielen mehr Ressourcen zu, reduziert die Latenz und verbessert die FPS durch Verringerung der Priorität von Hintergrundaufgaben.
+
+FR_TITLE:
+Priorité des tâches d'arrière-plan
+
+FR_DESCRIPTION:
+Le système alloue plus de ressources aux jeux actifs, réduisant la latence et améliorant les FPS en abaissant la priorité des tâches d'arrière-plan.
+
+ES_TITLE:
+Prioridad de tareas en segundo plano
+
+ES_DESCRIPTION:
+El sistema asigna más recursos a los juegos activos, reduciendo la latencia y mejorando los FPS al reducir la prioridad de las tareas en segundo plano.
+
+TR_TITLE:
+Arka Plan Görev Önceliği
+
+TR_DESCRIPTION:
+Sistem aktif oyunlara daha fazla kaynak ayırarak, arka plan görevlerinin önceliğini düşürüp gecikmeyi azaltır ve FPS'yi artırır.

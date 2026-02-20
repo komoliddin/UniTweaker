@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+appwiz.cpl
+
+DESCRIPTION:
+Открывает окно удаления или изменения программ
+
+EN_TITLE:
+Open Programs and Features
+
+EN_DESCRIPTION:
+Launches the Programs and Features (appwiz.cpl) window to uninstall or change programs.
+
+UZ_TITLE:
+Dasturlar va komponentlarni ochish
+
+UZ_DESCRIPTION:
+Dasturlarni o'chirish yoki o'zgartirish uchun Dasturlar va komponentlar (appwiz.cpl) oynasini ishga tushiradi.
+
+DE_TITLE:
+Programme und Funktionen öffnen
+
+DE_DESCRIPTION:
+Öffnet das Fenster "Programme und Funktionen" (appwiz.cpl), um Programme zu deinstallieren oder zu ändern.
+
+FR_TITLE:
+Ouvrir Programmes et fonctionnalités
+
+FR_DESCRIPTION:
+Lance la fenêtre Programmes et fonctionnalités (appwiz.cpl) pour désinstaller ou modifier des programmes.
+
+ES_TITLE:
+Abrir Programas и características
+
+ES_DESCRIPTION:
+Inicia la ventana Programas и características (appwiz.cpl) для desinstalar o cambiar programas.
+
+TR_TITLE:
+Programlar ve Özellikler'i Aç
+
+TR_DESCRIPTION:
+Programları kaldırmak veya değiştirmek için Programlar ve Özellikler (appwiz.cpl) penceresini başlatır.

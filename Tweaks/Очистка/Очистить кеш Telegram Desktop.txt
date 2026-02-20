@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Telegram Desktop\tdata\user_data\cache
+
+DESCRIPTION:
+Кеш изображений, видео и других медиафайлов в Telegram Desktop.
+
+EN_TITLE:
+Clear Telegram Cache
+
+EN_DESCRIPTION:
+Cache of images, videos, and other media files in Telegram Desktop.
+
+UZ_TITLE:
+Telegram keshini tozalash
+
+UZ_DESCRIPTION:
+Telegram Desktop-dagi rasmlar, videolar va boshqa media fayllar keshi.
+
+DE_TITLE:
+Telegram-Cache leeren
+
+DE_DESCRIPTION:
+Cache von Bildern, Videos und anderen Mediendateien in Telegram Desktop.
+
+FR_TITLE:
+Effacer le cache Telegram
+
+FR_DESCRIPTION:
+Cache d'images, de vidéos et d'autres fichiers multimédias dans Telegram Desktop.
+
+ES_TITLE:
+Limpiar caché de Telegram
+
+ES_DESCRIPTION:
+Caché de imágenes, videos и otros archivos multimedia en Telegram Desktop.
+
+TR_TITLE:
+Telegram Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Telegram Desktop'taki resimlerin, videoların ve diğer medya dosyalarının önbelleği.

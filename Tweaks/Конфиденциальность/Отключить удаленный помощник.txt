@@ -1,0 +1,57 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Remote Assistance
+NAME=fAllowFullControl
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Remote Assistance" /v "fAllowFullControl" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Remote Assistance" /v "fAllowToGetHelp" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Remote Assistance" /v "fEnableChatControl" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Remote Assistance" /v "Start" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Remote Assistance" /v "fAllowFullControl" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Remote Assistance" /v "fAllowToGetHelp" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Remote Assistance" /v "fEnableChatControl" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Remote Assistance" /v "Start" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Отключает удаленную помощь Windows, предотвращая удаленный доступ к вашему ПК.
+
+EN_TITLE:
+Remote Assistance
+
+EN_DESCRIPTION:
+Disables Windows Remote Assistance, preventing remote access to your PC.
+
+UZ_TITLE:
+Masofaviy yordam
+
+UZ_DESCRIPTION:
+Kompyuteringizga masofaviy kirishni oldini olish uchun Windows masofaviy yordamini o'chiradi.
+
+DE_TITLE:
+Remoteunterstützung
+
+DE_DESCRIPTION:
+Deaktiviert die Windows-Remoteunterstützung und verhindert den Fernzugriff auf Ihren PC.
+
+FR_TITLE:
+Assistance à distance
+
+FR_DESCRIPTION:
+Désactive l'assistance à distance de Windows, empêchant l'accès à distance à votre PC.
+
+ES_TITLE:
+Asistencia remota
+
+ES_DESCRIPTION:
+Desactiva la Asistencia remota de Windows, lo que impide el acceso remoto a su PC.
+
+TR_TITLE:
+Uzaktan Yardım
+
+TR_DESCRIPTION:
+Windows Uzaktan Yardım'ı devre dışı bırakarak bilgisayarınıza uzaktan erişimi engeller.

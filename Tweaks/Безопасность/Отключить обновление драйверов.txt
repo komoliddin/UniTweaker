@@ -1,0 +1,56 @@
+NOTRECOMMENDED
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching
+NAME=SearchOrderConfig
+TYPE=REG_DWORD
+VALUE=2
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v "SearchOrderConfig" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Device Metadata" /v "PreventDeviceMetadataFromNetwork" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching" /v "SearchOrderConfig" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Device Metadata" /v "PreventDeviceMetadataFromNetwork" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Отключает автоматическую загрузку и обновление драйверов через Центр обновления Windows.
+
+EN_TITLE:
+Disable Driver Updates
+
+EN_DESCRIPTION:
+Disables automatic driver downloading and updating via Windows Update.
+
+UZ_TITLE:
+Drayverlarni yangilashni o'chirish
+
+UZ_DESCRIPTION:
+Windows Update orqali drayverlarni avtomatik yuklab olish va yangilashni o'chiradi.
+
+DE_TITLE:
+Treiber-Updates deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert das automatische Herunterladen und Aktualisieren von Treibern über Windows Update.
+
+FR_TITLE:
+Désactiver les mises à jour des pilotes
+
+FR_DESCRIPTION:
+Désactive le téléchargement et la mise à jour automatiques des pilotes via Windows Update.
+
+ES_TITLE:
+Desactivar actualizaciones de controladores
+
+ES_DESCRIPTION:
+Desactiva la descarga y actualización automática de controladores a través de Windows Update.
+
+TR_TITLE:
+Sürücü Güncelleştirmelerini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Windows Update aracılığıyla otomatik sürücü indirmeyi ve güncellemeyi devre dışı bırakır.

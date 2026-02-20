@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{26EE0668-A00A-44D7-9371-BEB064C98683}
+NAME=
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{26EE0668-A00A-44D7-9371-BEB064C98683}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{26EE0668-A00A-44D7-9371-BEB064C98683}" /f
+
+DESCRIPTION:
+Добавляет или удаляет «Панель управления» в разделе «Этот компьютер».
+
+EN_TITLE:
+Control Panel
+
+EN_DESCRIPTION:
+Control Panel
+
+UZ_TITLE:
+Control Panel
+
+UZ_DESCRIPTION:
+Control Panel
+
+DE_TITLE:
+Control Panel
+
+DE_DESCRIPTION:
+Control Panel
+
+FR_TITLE:
+Control Panel
+
+FR_DESCRIPTION:
+Control Panel
+
+ES_TITLE:
+Control Panel
+
+ES_DESCRIPTION:
+Control Panel
+
+TR_TITLE:
+Control Panel
+
+TR_DESCRIPTION:
+Control Panel

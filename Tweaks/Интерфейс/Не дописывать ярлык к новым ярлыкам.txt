@@ -1,0 +1,49 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer
+NAME=link
+TYPE=REG_BINARY
+VALUE=00000000
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer" /v "link" /t REG_BINARY /d "00000000" /f
+
+UNCHECKED:
+
+DESCRIPTION:
+
+EN_TITLE:
+Do Not Add '- Shortcut' to New Shortcuts
+
+EN_DESCRIPTION:
+Do Not Add '- Shortcut' to New Shortcuts
+
+UZ_TITLE:
+Yangi yorliqlarga '- Yorliq' so'zini qo'shmaslik
+
+UZ_DESCRIPTION:
+Yangi yorliqlarga '- Yorliq' so'zini qo'shmaslik
+
+DE_TITLE:
+Kein „Verknüpfung“ an neue Verknüpfungen anhängen
+
+DE_DESCRIPTION:
+Kein „Verknüpfung“ an neue Verknüpfungen anhängen
+
+FR_TITLE:
+Ne pas ajouter « - Raccourci » aux nouveaux raccourcis
+
+FR_DESCRIPTION:
+Ne pas ajouter « - Raccourci » aux nouveaux raccourcis
+
+ES_TITLE:
+No añadir "- Acceso directo" a los nuevos accesos directos
+
+ES_DESCRIPTION:
+No añadir "- Acceso directo" a los nuevos accesos directos
+
+TR_TITLE:
+Yeni kısayollara '- Kısayol' ekleme
+
+TR_DESCRIPTION:
+Yeni kısayollara '- Kısayol' ekleme

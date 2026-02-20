@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Keyboard Layout\Preload
+NAME=1
+TYPE=REG_SZ
+VALUE=00000409
+
+CHECKED:
+Reg.exe add "HKCU\Keyboard Layout\Preload" /v "1" /t REG_SZ /d "00000409" /f
+Reg.exe add "HKCU\Keyboard Layout\Preload" /v "2" /t REG_SZ /d "00000419" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Keyboard Layout\Preload" /v "1" /t REG_SZ /d "00000419" /f
+Reg.exe add "HKCU\Keyboard Layout\Preload" /v "2" /t REG_SZ /d "00000409" /f
+
+DESCRIPTION:
+Изменение раскладки клавиатуры по умолчанию ENG RUS
+
+EN_TITLE:
+Default Layout (EN)
+
+EN_DESCRIPTION:
+Sets English (US) as the default keyboard layout.
+
+UZ_TITLE:
+Standart til (EN)
+
+UZ_DESCRIPTION:
+Ingliz tilini (AQSH) standart klaviatura tili sifatida o'rnatadi.
+
+DE_TITLE:
+Standard-Layout (EN)
+
+DE_DESCRIPTION:
+Legt Englisch (US) als Standard-Tastaturlayout fest.
+
+FR_TITLE:
+Disposition par défaut (EN)
+
+FR_DESCRIPTION:
+Définit l'anglais (US) comme disposition de clavier par défaut.
+
+ES_TITLE:
+Distribución por defecto (EN)
+
+ES_DESCRIPTION:
+Establece el inglés (EE. UU.) como la distribución de teclado predeterminada.
+
+TR_TITLE:
+Varsayılan Düzen (EN)
+
+TR_DESCRIPTION:
+İngilizceyi (ABD) varsayılan klavye düzeni olarak ayarlar.

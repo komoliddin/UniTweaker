@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%SystemRoot%\System32\wbem\Logs
+
+DESCRIPTION:
+Журналы подсистемы WMI (Windows Management Instrumentation).
+
+EN_TITLE:
+Clear WMI Logs
+
+EN_DESCRIPTION:
+Logs of the WMI (Windows Management Instrumentation) subsystem.
+
+UZ_TITLE:
+WMI jurnallarini tozalash
+
+UZ_DESCRIPTION:
+WMI (Windows Management Instrumentation) quyi tizimi jurnallari.
+
+DE_TITLE:
+WMI-Protokolle löschen
+
+DE_DESCRIPTION:
+Protokolle des WMI-Subsystems (Windows Management Instrumentation).
+
+FR_TITLE:
+Effacer les journaux WMI
+
+FR_DESCRIPTION:
+Journaux du sous-système WMI (Windows Management Instrumentation).
+
+ES_TITLE:
+Limpiar registros de WMI
+
+ES_DESCRIPTION:
+Registros del subsistema WMI (Windows Management Instrumentation).
+
+TR_TITLE:
+WMI Günlüklerini Temizle
+
+TR_DESCRIPTION:
+WMI (Windows Management Instrumentation) alt sistemi günlükleri.

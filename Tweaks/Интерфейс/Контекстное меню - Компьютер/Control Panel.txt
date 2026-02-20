@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPanel
+NAME=ControlPanel
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPanel" /ve /t REG_SZ /d "@%SystemRoot%\\system32\\shell32.dll,-30488" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPanel" /v "Icon" /t REG_SZ /d "control.exe" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPanel\command" /ve /t REG_SZ /d "rundll32.exe shell32.dll,Control_RunDLL" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPanel" /f
+
+DESCRIPTION:
+Этот твик добавляет или удаляет пункт «Панель управления» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Control Panel
+
+EN_DESCRIPTION:
+Control Panel
+
+UZ_TITLE:
+Control Panel
+
+UZ_DESCRIPTION:
+Control Panel
+
+DE_TITLE:
+Control Panel
+
+DE_DESCRIPTION:
+Control Panel
+
+FR_TITLE:
+Control Panel
+
+FR_DESCRIPTION:
+Control Panel
+
+ES_TITLE:
+Control Panel
+
+ES_DESCRIPTION:
+Control Panel
+
+TR_TITLE:
+Control Panel
+
+TR_DESCRIPTION:
+Control Panel

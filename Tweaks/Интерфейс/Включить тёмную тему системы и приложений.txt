@@ -1,0 +1,71 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize
+NAME=AppsUseLightTheme
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+REM --- Устанавливаем чёрный фон для Windows Photo Viewer (0xff000000 = 4278190080)
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows Photo Viewer\Viewer" /v BackgroundColor /t REG_DWORD /d 4278190080 /f
+
+REM --- Включаем тёмный режим для приложений и системы (значения 0 = тёмный режим)
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v AppsUseLightTheme /t REG_DWORD /d 0 /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v SystemUsesLightTheme /t REG_DWORD /d 0 /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v AppsUseLightTheme /t REG_DWORD /d 0 /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v SystemUsesLightTheme /t REG_DWORD /d 0 /f
+
+UNCHECKED:
+REM --- Сбрасываем фон Windows Photo Viewer (0x00000000 = 0)
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows Photo Viewer\Viewer" /v BackgroundColor /t REG_DWORD /d 0 /f
+
+REM --- Включаем светлую тему (значения 1 = светлая тема)
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v AppsUseLightTheme /t REG_DWORD /d 1 /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v SystemUsesLightTheme /t REG_DWORD /d 1 /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v AppsUseLightTheme /t REG_DWORD /d 1 /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v SystemUsesLightTheme /t REG_DWORD /d 1 /f
+
+DESCRIPTION:
+Этот твик включает тёмный режим Windows 10 для системы и приложений, а также устанавливает чёрный фон в Windows Photo Viewer.
+При включении твика (чекбокс установлен):
+  • Фон в Windows Photo Viewer устанавливается в 0xff000000 (4278190080), что соответствует чёрному цвету.
+  • Значения параметров AppsUseLightTheme и SystemUsesLightTheme в ветках HKCU и HKLM устанавливаются в 0, активируя тёмный режим.
+При отключении твика:
+  • Фон в Windows Photo Viewer сбрасывается в 0 (0x00000000).
+  • Значения параметров сбрасываются в 1, и система возвращается к светлой теме.
+
+EN_TITLE:
+Enable System-wide Dark Mode
+
+EN_DESCRIPTION:
+Enable System-wide Dark Mode
+
+UZ_TITLE:
+Tizim va ilovalar uchun qora mavzuni yoqish
+
+UZ_DESCRIPTION:
+Tizim va ilovalar uchun qora mavzuni yoqish
+
+DE_TITLE:
+Dunkles Design für System und Apps aktivieren
+
+DE_DESCRIPTION:
+Dunkles Design für System und Apps aktivieren
+
+FR_TITLE:
+Activer le thème sombre pour le système et les applications
+
+FR_DESCRIPTION:
+Activer le thème sombre pour le système et les applications
+
+ES_TITLE:
+Activar tema oscuro del sistema y las aplicaciones
+
+ES_DESCRIPTION:
+Activar tema oscuro del sistema y las aplicaciones
+
+TR_TITLE:
+Sistem genelinde koyu temayı etkinleştir
+
+TR_DESCRIPTION:
+Sistem genelinde koyu temayı etkinleştir

@@ -1,0 +1,99 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Environment
+NAME=TEMP
+TYPE=REG_SZ
+VALUE=C:\Temp
+
+CHECKED:
+Reg.exe add "HKCU\Environment" /v "TEMP" /t REG_SZ /d "%SystemDrive%\Temp" /f
+Reg.exe add "HKCU\Environment" /v "TMP" /t REG_SZ /d "%SystemDrive%\Temp" /f
+Reg.exe add "HKLM\SYSTEM\ControlSet001\Control\Session Manager\Environment" /v "TEMP" /t REG_SZ /d "%SystemDrive%\Temp" /f
+Reg.exe add "HKLM\SYSTEM\ControlSet001\Control\Session Manager\Environment" /v "TMP" /t REG_SZ /d "%SystemDrive%\Temp" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Environment" /v "TEMP" /t REG_SZ /d "%LocalAppData%\Temp" /f
+Reg.exe add "HKCU\Environment" /v "TMP" /t REG_SZ /d "%SystemDrive%\Windows\Temp" /f
+Reg.exe add "HKLM\SYSTEM\ControlSet001\Control\Session Manager\Environment" /v "TEMP" /t REG_SZ /d "%LocalAppData%\Temp" /f
+Reg.exe add "HKLM\SYSTEM\ControlSet001\Control\Session Manager\Environment" /v "TMP" /t REG_SZ /d "%SystemDrive%\Windows\Temp" /f
+
+DESCRIPTION:
+Переносит временные файлы **Windows** в **C:\Temp**.  
+📌 **TMP** (системные) → `%SystemDrive%\Windows\Temp`  
+📌 **TEMP** (пользовательские) → `%LocalAppData%\Temp`  
+🔄 **Изменяет на:** `C:\Temp`  
+
+⚠️ **Важно**:  
+Если системный диск **не C**, временные файлы будут перенесены на соответствующий диск (например, `D:\Temp`).  
+
+EN_TITLE:
+Move TEMP and TMP folders to System Root
+
+EN_DESCRIPTION:
+Moves **Windows** temporary files to **C:\Temp**.
+📌 **TMP** (system) → `%SystemDrive%\Windows\Temp`
+📌 **TEMP** (user) → `%LocalAppData%\Temp`
+🔄 **Changes to:** `C:\Temp`
+
+⚠️ **Important**:
+If the system drive is **not C**, temporary files will be moved to the corresponding drive (e.g., `D:\Temp`).
+
+UZ_TITLE:
+TEMP va TMP papkalarini tizim diskining ildiziga ko'chirish
+
+UZ_DESCRIPTION:
+**Windows** vaqtinchalik fayllarini **C:\Temp** ga ko'chiradi.
+📌 **TMP** (tizim) → `%SystemDrive%\Windows\Temp`
+📌 **TEMP** (foydalanuvchi) → `%LocalAppData%\Temp`
+🔄 **O'zgaradi:** `C:\Temp`
+
+⚠️ **Muhim**:
+Agar tizim diski **C bo'lmasa**, vaqtinchalik fayllar tegishli diskka ko'chiriladi (masalan, `D:\Temp`).
+
+DE_TITLE:
+TEMP- und TMP-Ordner in das System-Stammverzeichnis verschieben
+
+DE_DESCRIPTION:
+Verschiebt temporäre **Windows**-Dateien nach **C:\Temp**.
+📌 **TMP** (System) → `%SystemDrive%\Windows\Temp`
+📌 **TEMP** (Benutzer) → `%LocalAppData%\Temp`
+🔄 **Ändert sich zu:** `C:\Temp`
+
+⚠️ **Wichtig**:
+Wenn das Systemlaufwerk **nicht C** ist, werden temporäre Dateien auf das entsprechende Laufwerk verschoben (z. B. `D:\Temp`).
+
+FR_TITLE:
+Déplacer les dossiers TEMP et TMP à la racine du système
+
+FR_DESCRIPTION:
+Déplace les fichiers temporaires de **Windows** vers **C:\Temp**.
+📌 **TMP** (système) → `%SystemDrive%\Windows\Temp`
+📌 **TEMP** (utilisateur) → `%LocalAppData%\Temp`
+🔄 **Modifié en :** `C:\Temp`
+
+⚠️ **Important** :
+Si le disque système n'est **pas le C**, les fichiers temporaires seront déplacés vers le disque correspondant (par exemple, `D:\Temp`).
+
+ES_TITLE:
+Mover carpetas TEMP и TMP a la raíz del sistema
+
+ES_DESCRIPTION:
+Mueve los archivos temporales de **Windows** a **C:\Temp**.
+📌 **TMP** (sistema) → `%SystemDrive%\Windows\Temp`
+📌 **TEMP** (usuario) → `%LocalAppData%\Temp`
+🔄 **Cambia a:** `C:\Temp`
+
+⚠️ **Importante**:
+Si la unidad del sistema **no es C**, los archivos temporales se moverán a la unidad correspondiente (por ejemplo, `D:\Temp`).
+
+TR_TITLE:
+TEMP ve TMP Klasörlerini Sistem Köküne Taşı
+
+TR_DESCRIPTION:
+**Windows** geçici dosyalarını **C:\Temp** dizinine taşır.
+📌 **TMP** (sistem) → `%SystemDrive%\Windows\Temp`
+📌 **TEMP** (kullanıcı) → `%LocalAppData%\Temp`
+🔄 **Şuna dönüşür:** `C:\Temp`
+
+⚠️ **Önemli**:
+Sistem sürücüsü **C değilse**, geçici dosyalar ilgili sürücüye taşınacaktır (örneğin, `D:\Temp`).

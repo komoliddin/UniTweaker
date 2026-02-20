@@ -1,0 +1,49 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Origin\Cache
+%LOCALAPPDATA%\Origin\Logs
+%ProgramData%\Origin\DownloadCache
+%ProgramData%\Origin\Logs
+%ProgramData%\EA Desktop\Cache
+%ProgramData%\EA Desktop\Logs
+%ProgramFiles%\Origin\Cache
+
+DESCRIPTION:
+Кеш игровой платформы Origin (EA App) — временные файлы, кеш загрузок, логи и служебные данные.
+
+EN_TITLE:
+Clear Origin (EA App) Cache
+
+EN_DESCRIPTION:
+Origin (EA App) cache — temporary files, download cache, logs, and service data.
+
+UZ_TITLE:
+Origin (EA App) keshini tozalash
+
+UZ_DESCRIPTION:
+Origin (EA App) keshi — vaqtinchalik fayllar, yuklab olish keshi, jurnallar va xizmat ma'lumotlari.
+
+DE_TITLE:
+Origin (EA App)-Cache bereinigen
+
+DE_DESCRIPTION:
+Origin (EA App)-Cache – temporäre Dateien, Download-Cache, Protokolle und Dienstdaten.
+
+FR_TITLE:
+Effacer le cache Origin (EA App)
+
+FR_DESCRIPTION:
+Cache Origin (EA App) — fichiers temporaires, cache de téléchargement, journaux et données de service.
+
+ES_TITLE:
+Limpiar caché de Origin (EA App)
+
+ES_DESCRIPTION:
+Caché de Origin (EA App): archivos temporales, caché de descarga, registros и datos de servicio.
+
+TR_TITLE:
+Origin (EA App) Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Origin (EA App) önbelleği — geçici dosyalar, indirme önbelleği, günlükler ve servis verileri.

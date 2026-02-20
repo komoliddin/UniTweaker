@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%TEMP%
+%LOCALAPPDATA%\Temp
+
+DESCRIPTION:
+Временные файлы текущего пользователя (создаваемые приложениями и системой).
+
+EN_TITLE:
+Clear User Temporary Files
+
+EN_DESCRIPTION:
+Temporary files of the current user (created by applications and the system).
+
+UZ_TITLE:
+Foydalanuvchining vaqtinchalik fayllarini tozalash
+
+UZ_DESCRIPTION:
+Joriy foydalanuvchining vaqtinchalik fayllari (ilovalar va tizim tomonidan yaratilgan).
+
+DE_TITLE:
+Temporäre Benutzerdateien bereinigen
+
+DE_DESCRIPTION:
+Temporäre Dateien des aktuellen Benutzers (von Anwendungen und vom System erstellt).
+
+FR_TITLE:
+Effacer les fichiers temporaires de l'utilisateur
+
+FR_DESCRIPTION:
+Fichiers temporaires de l'utilisateur actuel (créés par les applications et le système).
+
+ES_TITLE:
+Limpiar archivos temporales de usuario
+
+ES_DESCRIPTION:
+Archivos temporales del usuario actual (creados por las aplicaciones и el sistema).
+
+TR_TITLE:
+Kullanıcı Geçici Dosyalarını Temizle
+
+TR_DESCRIPTION:
+Mevcut kullanıcının geçici dosyaları (uygulamalar ve sistem tarafından oluşturulan).

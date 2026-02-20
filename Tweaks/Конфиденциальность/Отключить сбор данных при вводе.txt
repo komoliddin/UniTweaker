@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\InputPersonalization
+NAME=RestrictImplicitTextCollection
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization" /v "RestrictImplicitTextCollection" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization" /v "RestrictImplicitInkCollection" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization" /v "RestrictImplicitTextCollection" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization" /v "RestrictImplicitInkCollection" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Отключает сбор данных о вводе с клавиатуры и рукописного ввода.
+
+EN_TITLE:
+Typing Data Collection
+
+EN_DESCRIPTION:
+Disables collection of typing and handwriting data to prevent sending this data to Microsoft.
+
+UZ_TITLE:
+Matn kiritish ma'lumotlarini yig'ish
+
+UZ_DESCRIPTION:
+Ushbu ma'lumotlarni Microsoft-ga yuborishni oldini olish uchun matn kiritish va qo'lyozma ma'lumotlarini to'plashni o'chiradi.
+
+DE_TITLE:
+Erfassung von Eingabedaten
+
+DE_DESCRIPTION:
+Deaktiviert die Erfassung von Tastatur- und Handschriftdaten, um zu verhindern, dass diese Daten an Microsoft gesendet werden.
+
+FR_TITLE:
+Collecte des données de saisie
+
+FR_DESCRIPTION:
+Désactive la collecte des données de frappe et d'écriture manuscrite pour empêcher l'envoi de ces données à Microsoft.
+
+ES_TITLE:
+Recopilación de datos de escritura
+
+ES_DESCRIPTION:
+Desactiva la recopilación de datos de escritura y escritura a mano para evitar el envío de estos datos a Microsoft.
+
+TR_TITLE:
+Yazma Verileri Koleksiyonu
+
+TR_DESCRIPTION:
+Bu verilerin Microsoft'a gönderilmesini önlemek için yazma ve el yazısı verilerinin toplanmasını devre dışı bırakır.

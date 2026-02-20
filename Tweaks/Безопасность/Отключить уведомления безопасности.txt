@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.SecurityAndMaintenance
+NAME=Enabled
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.SecurityAndMaintenance" /v "Enabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications" /v TimestampWhenSeen /t REG_BINARY /d 7C,AE,C1,EE,1A,EC,D3,01 /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Settings" /v "ActiveCenter" /t REG_DWORD /d 0 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.SecurityAndMaintenance" /v "Enabled" /t REG_DWORD /d "1" /f
+Reg.exe delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications" /v TimestampWhenSeen /f
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Settings" /v "ActiveCenter" /f
+
+DESCRIPTION:
+Отключает назойливые уведомления Центра безопасности и обслуживания.
+
+EN_TITLE:
+Disable Security Notifications
+
+EN_DESCRIPTION:
+Disables annoying notifications from the Windows Security and Maintenance Center.
+
+UZ_TITLE:
+Xavfsizlik bildirishnomalarini o'chirish
+
+UZ_DESCRIPTION:
+Xavfsizlik va xizmat ko'rsatish markazining bezovta qiluvchi bildirishnomalarini o'chiradi.
+
+DE_TITLE:
+Sicherheitsbenachrichtigungen deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert lästige Benachrichtigungen vom Windows-Sicherheits- und Wartungscenter.
+
+FR_TITLE:
+Désactiver les notifications de sécurité
+
+FR_DESCRIPTION:
+Désactive les notifications gênantes du Centre de sécurité et de maintenance Windows.
+
+ES_TITLE:
+Desactivar notificaciones de seguridad
+
+ES_DESCRIPTION:
+Desactiva las molestas notificaciones del Centro de seguridad y mantenimiento de Windows.
+
+TR_TITLE:
+Güvenlik Bildirimlerini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Windows Güvenlik ve Bakım Merkezi'nden gelen rahatsız edici bildirimleri devre dışı bırakır.

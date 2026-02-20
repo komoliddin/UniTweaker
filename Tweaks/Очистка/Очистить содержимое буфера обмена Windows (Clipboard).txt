@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Microsoft\Windows\Clipboard
+
+DESCRIPTION:
+Очищает содержимое буфера обмена Windows (скопированные тексты, изображения).
+
+EN_TITLE:
+Clear Windows Clipboard Content
+
+EN_DESCRIPTION:
+Clears the contents of the Windows clipboard (copied texts, images).
+
+UZ_TITLE:
+Windows almashish buferi tarkibini tozalash
+
+UZ_DESCRIPTION:
+Windows almashish buferi tarkibini (nusxa ko'chirilgan matnlar, tasvirlar) tozalaydi.
+
+DE_TITLE:
+Windows-Zwischenablageinhalt bereinigen
+
+DE_DESCRIPTION:
+Löscht den Inhalt der Windows-Zwischenablage (kopierte Texte, Bilder).
+
+FR_TITLE:
+Effacer le contenu du presse-papiers Windows
+
+FR_DESCRIPTION:
+Efface le contenu du presse-papiers de Windows (textes, images copiés).
+
+ES_TITLE:
+Limpiar contenido del portapapeles de Windows
+
+ES_DESCRIPTION:
+Limpia el contenido del portapapeles de Windows (textos, imágenes copiados).
+
+TR_TITLE:
+Windows Pano İçeriğini Temizle
+
+TR_DESCRIPTION:
+Windows panosunun içeriğini (kopyalanan metinler, resimler) temizler.

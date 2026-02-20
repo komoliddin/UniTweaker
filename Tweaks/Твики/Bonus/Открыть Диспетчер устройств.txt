@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+devmgmt.msc
+
+DESCRIPTION:
+Запускает диспетчер устройств
+
+EN_TITLE:
+Open Device Manager
+
+EN_DESCRIPTION:
+Launches the Device Manager to manage hardware and drivers.
+
+UZ_TITLE:
+Qurilmalar menejerini ochish
+
+UZ_DESCRIPTION:
+Uskuna va drayverlarni boshqarish uchun Qurilmalar menejerini ishga tushiradi.
+
+DE_TITLE:
+Geräte-Manager öffnen
+
+DE_DESCRIPTION:
+Startet den Geräte-Manager zur Verwaltung von Hardware und Treibern.
+
+FR_TITLE:
+Ouvrir le Gestionnaire de périphériques
+
+FR_DESCRIPTION:
+Lance le Gestionnaire de périphériques pour gérer le matériel et les pilotes.
+
+ES_TITLE:
+Abrir el Administrador de dispositivos
+
+ES_DESCRIPTION:
+Inicia el Administrador de dispositivos для gestionar el hardware и los controladores.
+
+TR_TITLE:
+Aygıt Yöneticisini Aç
+
+TR_DESCRIPTION:
+Donanım ve sürücüleri yönetmek için Aygıt Yöneticisini başlatır.

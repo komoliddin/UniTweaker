@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile
+NAME=NetworkThrottlingIndex
+TYPE=REG_DWORD
+VALUE=ffffffff
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v "NetworkThrottlingIndex" /t REG_DWORD /d "ffffffff" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" /v "Priority" /t REG_DWORD /d "6" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v "NetworkThrottlingIndex" /t REG_DWORD /d "10" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" /v "Priority" /t REG_DWORD /d "2" /f
+
+DESCRIPTION:
+Увеличивает приоритет игр и отключает ограничение сетевой скорости (Network Throttling).
+
+EN_TITLE:
+Increase Game Priority (ForegroundBoost)
+
+EN_DESCRIPTION:
+Increases game priority in Windows to reduce input lag and disables network speed limits, useful for online gaming.
+
+UZ_TITLE:
+O'yinlar ustuvorligini oshirish (ForegroundBoost)
+
+UZ_DESCRIPTION:
+Kechikishlarni kamaytirish uchun Windows-da o'yinlar ustuvorligini oshiradi va tarmoq tezligi cheklovlarini o'chiradi.
+
+DE_TITLE:
+Spielpriorität erhöhen (ForegroundBoost)
+
+DE_DESCRIPTION:
+Erhöht die Spielpriorität in Windows, um den Input-Lag zu verringern, und deaktiviert Netzwerk-Geschwindigkeitsbegrenzungen (nützlich für Online-Gaming).
+
+FR_TITLE:
+Augmenter la priorité des jeux (ForegroundBoost)
+
+FR_DESCRIPTION:
+Augmente la priorité des jeux dans Windows pour réduire le retard d'entrée et désactive les limites de vitesse du réseau, utile pour les jeux en ligne.
+
+ES_TITLE:
+Aumentar la prioridad de los juegos (ForegroundBoost)
+
+ES_DESCRIPTION:
+Aumenta la prioridad de los juegos en Windows para reducir el retraso de entrada y desactiva los límites de velocidad de red, útil para juegos en línea.
+
+TR_TITLE:
+Oyun Önceliğini Artır (ForegroundBoost)
+
+TR_DESCRIPTION:
+Giriş gecikmesini azaltmak için Windows'ta oyun önceliğini artırır ve çevrimiçi oyunlar için yararlı olan ağ hızı sınırlarını devre dışı bırakır.

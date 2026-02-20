@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\TabletTip\1.7
+NAME=EdgeTargetDockedState
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\TabletTip\1.7" /v EdgeTargetDockedState /t REG_DWORD /d 0 /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\TabletTip\1.7" /v TipbandDesiredVisibility /t REG_DWORD /d 0 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\TabletTip\1.7" /v EdgeTargetDockedState /t REG_DWORD /d 1 /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\TabletTip\1.7" /v TipbandDesiredVisibility /t REG_DWORD /d 1 /f
+
+DESCRIPTION:
+Этот твик скрывает кнопку «Сенсорная клавиатура» на панели задач.
+
+EN_TITLE:
+Touch Keyboard
+
+EN_DESCRIPTION:
+Touch Keyboard
+
+UZ_TITLE:
+Touch Keyboard
+
+UZ_DESCRIPTION:
+Touch Keyboard
+
+DE_TITLE:
+Touch Keyboard
+
+DE_DESCRIPTION:
+Touch Keyboard
+
+FR_TITLE:
+Touch Keyboard
+
+FR_DESCRIPTION:
+Touch Keyboard
+
+ES_TITLE:
+Touch Keyboard
+
+ES_DESCRIPTION:
+Touch Keyboard
+
+TR_TITLE:
+Touch Keyboard
+
+TR_DESCRIPTION:
+Touch Keyboard

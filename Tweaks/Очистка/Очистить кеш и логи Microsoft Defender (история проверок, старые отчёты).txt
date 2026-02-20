@@ -1,0 +1,45 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%ProgramData%\Microsoft\Windows Defender\Scans\History
+%ProgramData%\Microsoft\Windows Defender\Scans\CacheManager
+%ProgramData%\Microsoft\Windows Defender\Scans\Logs
+
+DESCRIPTION:
+Кеш и логи Microsoft Defender (история проверок, старые отчёты).
+
+EN_TITLE:
+Clear Microsoft Defender Cache and Logs
+
+EN_DESCRIPTION:
+Microsoft Defender cache and logs (scan history, old reports).
+
+UZ_TITLE:
+Microsoft Defender kesh va loglarini tozalash
+
+UZ_DESCRIPTION:
+Microsoft Defender kesh va jurnallari (tekshirish tarixi, eski hisobotlar).
+
+DE_TITLE:
+Microsoft Defender-Cache und -Protokolle bereinigen
+
+DE_DESCRIPTION:
+Microsoft Defender-Cache und -Protokolle (Scan-Verlauf, alte Berichte).
+
+FR_TITLE:
+Effacer le cache et les journaux de Microsoft Defender
+
+FR_DESCRIPTION:
+Cache et journaux de Microsoft Defender (historique des analyses, anciens rapports).
+
+ES_TITLE:
+Limpiar caché и registros de Microsoft Defender
+
+ES_DESCRIPTION:
+Caché и registros de Microsoft Defender (historial de escaneo, informes antiguos).
+
+TR_TITLE:
+Microsoft Defender Önbelleğini ve Günlüklerini Temizle
+
+TR_DESCRIPTION:
+Microsoft Defender önbelleği ve günlükleri (tarama geçmişi, eski raporlar).

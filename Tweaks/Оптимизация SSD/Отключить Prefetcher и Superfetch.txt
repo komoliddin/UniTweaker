@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
+NAME=EnablePrefetcher
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters" /v "EnablePrefetcher" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters" /v "EnableSuperfetch" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters" /v "EnablePrefetcher" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters" /v "EnableSuperfetch" /t REG_DWORD /d "3" /f
+
+DESCRIPTION:
+Отключает Prefetcher и Superfetch. Эти функции были разработаны для ускорения работы HDD, но для быстрых SSD они не нужны и создают лишнюю нагрузку.
+
+EN_TITLE:
+Disable Prefetcher and Superfetch
+
+EN_DESCRIPTION:
+Disables Prefetcher and Superfetch. These features were designed to speed up HDD performance, but they are unnecessary for fast SSDs and create extra load.
+
+UZ_TITLE:
+Prefetcher va Superfetch-ni o'chirish
+
+UZ_DESCRIPTION:
+Prefetcher va Superfetch-ni o'chiradi. Bu funksiyalar HDD ishini tezlashtirish uchun ishlab chiqilgan, ammo tezkor SSD-lar uchun ular kerak emas va qo'shimcha yuklama yaratadi.
+
+DE_TITLE:
+Prefetcher und Superfetch deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert Prefetcher und Superfetch. Diese Funktionen wurden entwickelt, um die HDD-Leistung zu beschleunigen, sind aber für schnelle SSDs unnötig und erzeugen zusätzliche Last.
+
+FR_TITLE:
+Désactiver Prefetcher et Superfetch
+
+FR_DESCRIPTION:
+Désactive Prefetcher et Superfetch. Ces fonctions ont été conçues pour accélérer le fonctionnement des HDD, mais elles sont inutiles pour les SSD rapides et créent une charge supplémentaire.
+
+ES_TITLE:
+Desactivar Prefetcher и Superfetch
+
+ES_DESCRIPTION:
+Desactiva Prefetcher и Superfetch. Estas funciones fueron diseñadas para acelerar el rendimiento de los HDD, pero son innecesarias для los SSD rápidos и generan una carga adicional.
+
+TR_TITLE:
+Prefetcher ve Superfetch'i Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Prefetcher ve Superfetch'i devre dışı bırakır. Bu özellikler HDD performansını hızlandırmak için tasarlanmıştır, ancak hızlı SSD'ler için gereksizdir ve ekstra yük oluşturur.

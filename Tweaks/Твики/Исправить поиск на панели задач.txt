@@ -1,0 +1,43 @@
+BUTTON:
+CLICKED:
+PowerShell -ExecutionPolicy Unrestricted -Command "& {Get-AppxPackage Microsoft.Windows.Search | Reset-AppxPackage}"
+taskkill /f /im SearchHost.exe
+
+DESCRIPTION:
+Сбрасывает поиск на панели задач (Cortana/SearchHost), чтобы исправить проблемы, когда панель поиска не реагирует или пуста.
+
+EN_TITLE:
+Fix Taskbar Search
+
+EN_DESCRIPTION:
+Resets the Taskbar Search (Cortana/SearchHost) to fix issues where the search bar is unresponsive or blank.
+
+UZ_TITLE:
+Vazifalar panelidagi qidiruvni tuzatish
+
+UZ_DESCRIPTION:
+Qidiruv paneli javob bermayotgan yoki bo'sh bo'lgan muammolarni bartaraf etish uchun vazifalar panelidagi qidiruvni (Cortana/SearchHost) tiklaydi.
+
+DE_TITLE:
+Taskleistensuche reparieren
+
+DE_DESCRIPTION:
+Setzt die Taskleistensuche (Cortana/SearchHost) zurück, um Probleme zu beheben, bei denen die Suchleiste nicht reagiert oder leer ist.
+
+FR_TITLE:
+Corriger la recherche dans la barre des tâches
+
+FR_DESCRIPTION:
+Réinitialise la recherche dans la barre des tâches (Cortana/SearchHost) pour résoudre les problèmes où la barre de recherche ne répond pas ou est vide.
+
+ES_TITLE:
+Reparar búsqueda en la barra de tareas
+
+ES_DESCRIPTION:
+Restablece la búsqueda en la barra de tareas (Cortana/SearchHost) para solucionar problemas en los que la barra de búsqueda no responde o está en blanco.
+
+TR_TITLE:
+Görev Çubuğu Aramasını Düzelt
+
+TR_DESCRIPTION:
+Arama çubuğunun yanıt vermediği veya boş olduğu sorunları düzeltmek için Görev Çubuğu Aramasını (Cortana/SearchHost) sıfırlar.

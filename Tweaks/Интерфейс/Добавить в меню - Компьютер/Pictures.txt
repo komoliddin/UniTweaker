@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}
+NAME=
+TYPE=
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
+Reg.exe add "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
+Reg.exe delete "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
+
+DESCRIPTION:
+Этот твик добавляет папку «Изображения» в разделе «Этот компьютер».
+
+EN_TITLE:
+Pictures 
+
+EN_DESCRIPTION:
+Pictures 
+
+UZ_TITLE:
+Pictures 
+
+UZ_DESCRIPTION:
+Pictures 
+
+DE_TITLE:
+Pictures 
+
+DE_DESCRIPTION:
+Pictures 
+
+FR_TITLE:
+Pictures 
+
+FR_DESCRIPTION:
+Pictures 
+
+ES_TITLE:
+Pictures 
+
+ES_DESCRIPTION:
+Pictures 
+
+TR_TITLE:
+Pictures 
+
+TR_DESCRIPTION:
+Pictures 

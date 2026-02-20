@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+pip cache purge
+
+DESCRIPTION:
+Очистка глобального кеша пакетов Python (pip).
+
+EN_TITLE:
+Clear pip Cache
+
+EN_DESCRIPTION:
+Clear the global Python (pip) package cache.
+
+UZ_TITLE:
+pip keshini tozalash
+
+UZ_DESCRIPTION:
+Python (pip) global paket keshini tozalash.
+
+DE_TITLE:
+pip-Cache leeren
+
+DE_DESCRIPTION:
+Löscht den globalen Python (pip)-Paket-Cache.
+
+FR_TITLE:
+Effacer le cache pip
+
+FR_DESCRIPTION:
+Efface le cache global des packages Python (pip).
+
+ES_TITLE:
+Limpiar caché de pip
+
+ES_DESCRIPTION:
+Limpia la caché global de paquetes de Python (pip).
+
+TR_TITLE:
+pip Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Global Python (pip) paket önbelleğini temizler.

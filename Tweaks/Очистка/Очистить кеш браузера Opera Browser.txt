@@ -1,0 +1,59 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Opera Software\Opera Stable\Cache
+%APPDATA%\Opera Software\Opera Stable\Code Cache
+%APPDATA%\Opera Software\Opera Stable\GPUCache
+%APPDATA%\Opera Software\Opera Stable\Media Cache
+%APPDATA%\Opera Software\Opera Stable\Service Worker\CacheStorage
+
+%APPDATA%\Opera Software\Opera GX Stable\Cache
+%APPDATA%\Opera Software\Opera GX Stable\Code Cache
+%APPDATA%\Opera Software\Opera GX Stable\GPUCache
+%APPDATA%\Opera Software\Opera GX Stable\Media Cache
+%APPDATA%\Opera Software\Opera GX Stable\Service Worker\CacheStorage
+
+%APPDATA%\Opera Software\Opera One Stable\Cache
+%APPDATA%\Opera Software\Opera One Stable\Code Cache
+%APPDATA%\Opera Software\Opera One Stable\GPUCache
+%APPDATA%\Opera Software\Opera One Stable\Media Cache
+%APPDATA%\Opera Software\Opera One Stable\Service Worker\CacheStorage
+
+DESCRIPTION:
+Кеш всех браузеров Opera (Opera, Opera GX, Opera One) — веб-кеш, кеш кода (JS/WebAssembly), GPU и медиа кеши, кеш сервис-воркеров.
+
+EN_TITLE:
+Clear Opera Browser Cache
+
+EN_DESCRIPTION:
+Cache for all Opera browsers (Opera, Opera GX, Opera One) — web cache, code cache (JS/WebAssembly), GPU and media caches, service worker cache.
+
+UZ_TITLE:
+Opera brauzer keshini tozalash
+
+UZ_DESCRIPTION:
+Barcha Opera brauzerlari (Opera, Opera GX, Opera One) keshi — veb-kesh, kod kesh (JS/WebAssembly), GPU va media keshlar, servis ishchi kesh.
+
+DE_TITLE:
+Opera Browser-Cache bereinigen
+
+DE_DESCRIPTION:
+Cache für alle Opera-Browser (Opera, Opera GX, Opera One) – Web-Cache, Code-Cache (JS/WebAssembly), GPU- und Medien-Caches, Service Worker-Cache.
+
+FR_TITLE:
+Effacer le cache du navigateur Opera
+
+FR_DESCRIPTION:
+Cache pour tous les navigateurs Opera (Opera, Opera GX, Opera One) — cache Web, cache de code (JS/WebAssembly), caches GPU et multimédia, cache du service worker.
+
+ES_TITLE:
+Limpiar caché del navegador Opera
+
+ES_DESCRIPTION:
+Caché для todos los navegadores Opera (Opera, Opera GX, Opera One): caché web, caché de código (JS/WebAssembly), cachés de GPU и multimedia, caché de service worker.
+
+TR_TITLE:
+Opera Tarayıcı Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Tüm Opera tarayıcıları (Opera, Opera GX, Opera One) için önbellek — web önbelleği, kod önbelleği (JS/WebAssembly), GPU ve medya önbellekleri, servis çalışanı önbelleği.

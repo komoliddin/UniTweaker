@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=PersistBrowsers
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "PersistBrowsers" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "PersistBrowsers" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Отключает автоматическое восстановление ранее открытых окон папок при входе в систему.
+
+EN_TITLE:
+Disable Restore Folder Windows at Logon
+
+EN_DESCRIPTION:
+Disable Restore Folder Windows at Logon
+
+UZ_TITLE:
+Tizimga kirishda papkalarni qayta tiklashni o'chirish
+
+UZ_DESCRIPTION:
+Tizimga kirishda papkalarni qayta tiklashni o'chirish
+
+DE_TITLE:
+Wiederherstellung von Ordnerfenstern bei der Anmeldung deaktivieren
+
+DE_DESCRIPTION:
+Wiederherstellung von Ordnerfenstern bei der Anmeldung deaktivieren
+
+FR_TITLE:
+Désactiver la restauration des dossiers à l'ouverture de session
+
+FR_DESCRIPTION:
+Désactiver la restauration des dossiers à l'ouverture de session
+
+ES_TITLE:
+Desactivar la restauración de carpetas al iniciar sesión
+
+ES_DESCRIPTION:
+Desactivar la restauración de carpetas al iniciar sesión
+
+TR_TITLE:
+Oturum açıldığında klasör pencerelerini geri yüklemeyi devre dışı bırak
+
+TR_DESCRIPTION:
+Oturum açıldığında klasör pencerelerini geri yüklemeyi devre dışı bırak

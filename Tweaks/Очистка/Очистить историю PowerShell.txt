@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
+DESCRIPTION:
+История введённых команд в консоли PowerShell. Рекомендуется для повышения приватности.
+
+EN_TITLE:
+Clear PowerShell History
+
+EN_DESCRIPTION:
+History of commands entered in the PowerShell console. Recommended for increased privacy.
+
+UZ_TITLE:
+PowerShell tarixini tozalash
+
+UZ_DESCRIPTION:
+PowerShell konsolida kiritilgan buyruqlar tarixi. Maxfiylikni oshirish uchun tavsiya etiladi.
+
+DE_TITLE:
+PowerShell-Verlauf löschen
+
+DE_DESCRIPTION:
+Verlauf der in der PowerShell-Konsole eingegebenen Befehle. Empfohlen für mehr Privatsphäre.
+
+FR_TITLE:
+Effacer l'historique PowerShell
+
+FR_DESCRIPTION:
+Historique des commandes saisies dans la console PowerShell. Recommandé pour une confidentialité accrue.
+
+ES_TITLE:
+Borrar historial de PowerShell
+
+ES_DESCRIPTION:
+Historial de comandos introducidos en la consola PowerShell. Recomendado para aumentar la privacidad.
+
+TR_TITLE:
+PowerShell Geçmişini Temizle
+
+TR_DESCRIPTION:
+PowerShell konsolunda girilen komutların geçmişi. Artan gizlilik için önerilir.

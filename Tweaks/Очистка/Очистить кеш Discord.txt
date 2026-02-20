@@ -1,0 +1,45 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Discord\Cache
+%APPDATA%\Discord\Code Cache
+%APPDATA%\Discord\GPUCache
+
+DESCRIPTION:
+Временные файлы, кеш изображений и скриптов Discord.
+
+EN_TITLE:
+Clear Discord Cache
+
+EN_DESCRIPTION:
+Temporary files, image cache, and scripts for Discord.
+
+UZ_TITLE:
+Discord keshini tozalash
+
+UZ_DESCRIPTION:
+Discord-ning vaqtinchalik fayllari, rasm keshi va skriptlari.
+
+DE_TITLE:
+Discord-Cache leeren
+
+DE_DESCRIPTION:
+Temporäre Dateien, Bild-Cache und Skripte für Discord.
+
+FR_TITLE:
+Effacer le cache Discord
+
+FR_DESCRIPTION:
+Fichiers temporaires, cache d'images et scripts pour Discord.
+
+ES_TITLE:
+Limpiar caché de Discord
+
+ES_DESCRIPTION:
+Archivos temporales, caché de imágenes y scripts de Discord.
+
+TR_TITLE:
+Discord Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Discord için geçici dosyalar, resim önbelleği ve komut dosyaları.

@@ -1,0 +1,55 @@
+CONFIRM
+FINISH
+BUTTON:
+
+CLICKED:
+cmd /c taskkill /f /im explorer.exe
+timeout /t 2 /nobreak
+reg delete "HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify" /v IconStreams /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify" /v PastIconsStream /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify" /v PromotedIconCache /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotSIB" /v IconStreams /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotSIB" /v PastIconsStream /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotSIB" /v PromotedIconCache /f
+reg delete "HKCU\Control Panel\NotifyIconSettings" /f
+timeout /t 2 /nobreak
+start "" explorer.exe
+
+DESCRIPTION:
+Сбрасывает кэш значков области уведомлений, включая данные в реестре.
+
+EN_TITLE:
+Reset Notification Icon Cache
+
+EN_DESCRIPTION:
+Resets the notification area icon cache, including the registry data.
+
+UZ_TITLE:
+Bildirishnomalar maydoni belgilari keshini tozalash
+
+UZ_DESCRIPTION:
+Bildirishnomalar maydoni belgilari keshini, shu jumladan reyestrdagi ma'lumotlarni tiklaydi.
+
+DE_TITLE:
+Infobereich-Symbol-Cache zurücksetzen
+
+DE_DESCRIPTION:
+Setzt den Symbol-Cache des Infobereichs (System-Tray) zurück, einschließlich der Registry-Daten.
+
+FR_TITLE:
+Réinitialiser le cache des icônes de notification
+
+FR_DESCRIPTION:
+Réinitialise le cache des icônes de la zone de notification, y compris les données du registre.
+
+ES_TITLE:
+Restablecer caché de iconos de notificación
+
+ES_DESCRIPTION:
+Restablece la caché de iconos del área de notificación, incluidos los datos del registro.
+
+TR_TITLE:
+Bildirim Simgesi Önbelleğini Sıfırla
+
+TR_DESCRIPTION:
+Kayıt defteri verileri de dahil olmak üzere bildirim alanı simge önbelleğini sıfırlar.

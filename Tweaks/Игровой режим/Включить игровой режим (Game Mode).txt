@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\GameBar
+NAME=AllowAutoGameMode
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\GameBar" /v "AllowAutoGameMode" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\GameBar" /v "AutoGameModeEnabled" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\GameBar" /v "AllowAutoGameMode" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\GameBar" /v "AutoGameModeEnabled" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Игровой режим в Windows автоматически оптимизирует систему во время игр, снижая нагрузку на фоновые процессы и увеличивая производительность.
+
+EN_TITLE:
+Game Mode
+
+EN_DESCRIPTION:
+Windows Game Mode automatically optimizes the system during games by reducing background process load and increasing performance.
+
+UZ_TITLE:
+O'yin rejimi (Game Mode)
+
+UZ_DESCRIPTION:
+Windows-dagi o'yin rejimi o'yin davomida tizimni avtomatik ravishda optimallashtiradi, fon jarayonlariga yuklamani kamaytiradi va unumdorlikni oshiradi.
+
+DE_TITLE:
+Spielmodus (Game Mode)
+
+DE_DESCRIPTION:
+Der Windows-Spielmodus optimiert das System während des Spielens automatisch, indem er die Belastung durch Hintergrundprozesse reduziert und die Leistung erhöht.
+
+FR_TITLE:
+Mode Jeu (Game Mode)
+
+FR_DESCRIPTION:
+Le mode Jeu de Windows optimise automatiquement le système pendant les jeux en réduisant la charge des processus d'arrière-plan et en augmentant les performances.
+
+ES_TITLE:
+Modo de juego (Game Mode)
+
+ES_DESCRIPTION:
+El modo de juego de Windows optimiza automáticamente el sistema durante los juegos, reduciendo la carga de los procesos en segundo plano y aumentando el rendimiento.
+
+TR_TITLE:
+Oyun Modu (Game Mode)
+
+TR_DESCRIPTION:
+Windows Oyun Modu, arka plan işlemi yükünü azaltarak ve performansı artırarak oyun sırasında sistemi otomatik olarak optimize eder.

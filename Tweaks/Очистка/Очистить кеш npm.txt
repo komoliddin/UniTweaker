@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+npm cache clean --force
+
+DESCRIPTION:
+Очистка глобального кеша пакетов Node.js (npm).
+
+EN_TITLE:
+Clear npm Cache
+
+EN_DESCRIPTION:
+Clear the global Node.js (npm) package cache.
+
+UZ_TITLE:
+npm keshini tozalash
+
+UZ_DESCRIPTION:
+Node.js (npm) global paket keshini tozalash.
+
+DE_TITLE:
+npm-Cache leeren
+
+DE_DESCRIPTION:
+Löscht den globalen Node.js (npm)-Paket-Cache.
+
+FR_TITLE:
+Effacer le cache npm
+
+FR_DESCRIPTION:
+Efface le cache global des packages Node.js (npm).
+
+ES_TITLE:
+Limpiar caché de npm
+
+ES_DESCRIPTION:
+Limpia la caché global de paquetes de Node.js (npm).
+
+TR_TITLE:
+npm Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Global Node.js (npm) paket önbelleğini temizler.

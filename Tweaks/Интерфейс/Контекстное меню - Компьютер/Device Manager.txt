@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DeviceManager
+NAME=DeviceManager
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DeviceManager" /ve /t REG_SZ /d "@%SystemRoot%\\system32\\devmgr.dll,-4" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DeviceManager" /v "HasLUAShield" /t REG_SZ /d "" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DeviceManager" /v "Icon" /t REG_SZ /d "devmgr.dll,5" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DeviceManager" /v "SuppressionPolicy" /t REG_DWORD /d 0x4000003c /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DeviceManager\command" /ve /t REG_SZ /d "%SystemRoot%\\system32\\mmc.exe /s %SystemRoot%\\system32\\devmgmt.msc" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\DeviceManager" /f
+
+DESCRIPTION:
+Этот твик добавляет или удаляет пункт «Диспетчер устройств» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Device Manager
+
+EN_DESCRIPTION:
+Device Manager
+
+UZ_TITLE:
+Device Manager
+
+UZ_DESCRIPTION:
+Device Manager
+
+DE_TITLE:
+Device Manager
+
+DE_DESCRIPTION:
+Device Manager
+
+FR_TITLE:
+Device Manager
+
+FR_DESCRIPTION:
+Device Manager
+
+ES_TITLE:
+Device Manager
+
+ES_DESCRIPTION:
+Device Manager
+
+TR_TITLE:
+Device Manager
+
+TR_DESCRIPTION:
+Device Manager

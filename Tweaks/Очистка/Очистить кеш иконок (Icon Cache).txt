@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Microsoft\Windows\Explorer\iconcache*.db
+%LOCALAPPDATA%\IconCache.db
+
+DESCRIPTION:
+Кеш иконок в Проводнике. После удаления автоматически пересоздаётся при перезапуске Проводника.
+
+EN_TITLE:
+Clear Icon Cache
+
+EN_DESCRIPTION:
+Icon cache in File Explorer. After deletion, it is automatically recreated when File Explorer is restarted.
+
+UZ_TITLE:
+Belgilar keshini tozalash
+
+UZ_DESCRIPTION:
+Provodnika (File Explorer) dagi belgilar keshi. O'chirilgandan so'ng, Provodnika qayta ishga tushirilganda avtomatik ravishda qayta yaratiladi.
+
+DE_TITLE:
+Symbol-Cache bereinigen
+
+DE_DESCRIPTION:
+Symbol-Cache im Datei-Explorer. Nach dem Löschen wird er beim Neustart des Datei-Explorers automatisch neu erstellt.
+
+FR_TITLE:
+Effacer le cache des icônes
+
+FR_DESCRIPTION:
+Cache des icônes dans l'Explorateur de fichiers. Après suppression, il est automatiquement recréé au redémarrage de l'Explorateur de fichiers.
+
+ES_TITLE:
+Limpiar caché de iconos
+
+ES_DESCRIPTION:
+Caché de iconos en el Explorador de archivos. Después de la eliminación, se vuelve a crear automáticamente al reiniciar el Explorador de archivos.
+
+TR_TITLE:
+Simge Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Dosya Gezgini'ndeki simge önbelleği. Silindikten sonra, Dosya Gezgini yeniden başlatıldığında otomatik olarak yeniden oluşturulur.

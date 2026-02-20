@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=NavPaneShowAllFolders
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "NavPaneShowAllFolders" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "NavPaneShowAllFolders" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Отключает отображение всех папок в области переходов проводника для более чистого вида.
+
+EN_TITLE:
+Show All Folders in Navigation Pane
+
+EN_DESCRIPTION:
+Show All Folders in Navigation Pane
+
+UZ_TITLE:
+Navigatsiya panelida barcha papkalarni ko'rsatish
+
+UZ_DESCRIPTION:
+Navigatsiya panelida barcha papkalarni ko'rsatish
+
+DE_TITLE:
+Alle Ordner im Navigationsbereich anzeigen
+
+DE_DESCRIPTION:
+Alle Ordner im Navigationsbereich anzeigen
+
+FR_TITLE:
+Afficher tous les dossiers dans le volet de navigation
+
+FR_DESCRIPTION:
+Afficher tous les dossiers dans le volet de navigation
+
+ES_TITLE:
+Mostrar todas las carpetas en el panel de navegación
+
+ES_DESCRIPTION:
+Mostrar todas las carpetas en el panel de navegación
+
+TR_TITLE:
+Gezinti bölmesinde tüm klasörleri göster
+
+TR_DESCRIPTION:
+Gezinti bölmesinde tüm klasörleri göster

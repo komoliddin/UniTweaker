@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
+NAME=LargeSystemCache
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v "LargeSystemCache" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v "IoPageLockLimit" /t REG_DWORD /d 67108864 /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v "LargeSystemCache" /t REG_DWORD /d "0" /f
+Reg.exe delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v "IoPageLockLimit" /f
+
+DESCRIPTION:
+Этот параметр настраивает размер кэша и число потоков обработки I/O, что может ускорить работу с SSD/HDD.
+Увеличение размера кэша файловой системы улучшает производительность компьютера и влияет на то, как часто система будет записывать изменённые блоки файлов на диск, но уменьшает физическое пространство памяти, доступное для приложений и служб. Уменьшение количества записи данных на диск минимизирует использование файловой подсистемы, однако необходимо иметь более 2-ух гигабайт оперативной памяти. Данная опция рекомендована только для Windows Server.
+
+EN_TITLE:
+Increase System Cache (IO Cache)
+
+EN_DESCRIPTION:
+This parameter adjusts the cache size and the number of I/O processing threads, which can speed up SSD/HDD operations. Increasing the file system cache size improves computer performance and affects how often the system writes changed file blocks to disk, but reduces physical memory space available for apps and services. Minimizing disk writes reduces file subsystem usage, but requires more than 2 GB of RAM. This option is recommended for Windows Server.
+
+UZ_TITLE:
+Tizim keshini ko'paytirish (IO Cache)
+
+UZ_DESCRIPTION:
+Ushbu parametr kesh hajmini va I/O ishlov berish oqimlari sonini sozlaydi, bu SSD/HDD bilan ishlashni tezlashtirishi mumkin. Fayl tizimi kesh hajmini oshirish kompyuterning ish faoliyatini yaxshilaydi va tizimning o'zgartirilgan fayl bloklarini diskka qanchalik tez-tez yozishiga ta'sir qiladi, lekin ilovalar va xizmatlar uchun mavjud bo'lgan jismoniy xotira maydonini kamaytiradi. Diskka yozishlar sonini minimallashtirish fayl quyi tizimidan foydalanishni kamaytiradi, biroq 2 gigabaytdan ortiq operativ xotiraga ega bo'lish kerak. Ushbu parametr faqat Windows Server uchun tavsiya etiladi.
+
+DE_TITLE:
+Systemcache erhöhen (IO-Cache)
+
+DE_DESCRIPTION:
+Dieser Parameter passt die Cache-Größe und die Anzahl der E/A-Verarbeitungsthreads an, was SSD/HDD-Vorgänge beschleunigen kann. Die Erhöhung der Dateisystem-Cache-Größe verbessert die Computerleistung und beeinflusst, wie oft das System geänderte Dateiblöcke auf die Festplatte schreibt, verringert jedoch den verfügbaren physischen Speicherplatz für Apps und Dienste. Die Minimierung von Festplattenschreibvorgängen reduziert die Auslastung des Dateisubsystems, erfordert jedoch mehr als 2 GB RAM. Diese Option wird für Windows Server empfohlen.
+
+FR_TITLE:
+Augmenter le cache système (Cache IO)
+
+FR_DESCRIPTION:
+Ce paramètre ajuste la taille du cache et le nombre de threads de traitement des E/S, ce qui peut accélérer les opérations SSD/HDD. L'augmentation de la taille du cache du système de fichiers améliore les performances de l'ordinateur et affecte la fréquence à laquelle le système écrit les blocs de fichiers modifiés sur le disque, mais réduit l'espace mémoire physique disponible pour les applications et les services. La réduction des écritures sur disque minimise l'utilisation du sous-système de fichiers, mais nécessite plus de 2 Go de RAM. Cette option est recommandée pour Windows Server.
+
+ES_TITLE:
+Aumentar caché del sistema (Caché de E/S)
+
+ES_DESCRIPTION:
+Este parámetro ajusta el tamaño de la caché и el número de hilos de procesamiento de E/S, lo que puede acelerar las operaciones SSD/HDD. Aumentar el tamaño de la caché del sistema de archivos mejora el rendimiento del equipo и afecta a la frecuencia con la que el sistema escribe los bloques de archivos modificados en el disco, pero reduce el espacio de memoria física disponible для aplicaciones и servicios. Minimizar las escrituras en disco reduce el uso del subsistema de archivos, pero requiere más de 2 GB de RAM. Esta opción se recomienda para Windows Server.
+
+TR_TITLE:
+Sistem Önbelleğini Artır (IO Cache)
+
+TR_DESCRIPTION:
+Bu parametre, önbellek boyutunu ve I/O işleme iş parçacığı sayısını ayarlar; bu da SSD/HDD işlemlerini hızlandırabilir. Dosya sistemi önbellek boyutunun artırılması bilgisayar performansını iyileştirir ve sistemin değiştirilen dosya bloklarını diske ne sıklıkla yazacağını etkiler, ancak uygulamalar ve hizmetler için mevcut fiziksel bellek alanını azaltır. Disk yazma işlemlerini en aza indirmek dosya alt sistemi kullanımını azaltır, ancak 2 GB'den fazla RAM gerektirir. Bu seçenek yalnızca Windows Server için önerilir.

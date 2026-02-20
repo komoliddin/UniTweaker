@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Msconfig
+NAME=Msconfig (Настройка системы)
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Msconfig" /ve /t REG_SZ /d "Msconfig (Настройка системы)" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Msconfig" /v "Icon" /t REG_SZ /d "msconfig.exe" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Msconfig\command" /ve /t REG_SZ /d "msconfig.exe /s" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Msconfig" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Msconfig (Настройка системы)» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Msconfig 
+
+EN_DESCRIPTION:
+Msconfig 
+
+UZ_TITLE:
+Msconfig 
+
+UZ_DESCRIPTION:
+Msconfig 
+
+DE_TITLE:
+Msconfig 
+
+DE_DESCRIPTION:
+Msconfig 
+
+FR_TITLE:
+Msconfig 
+
+FR_DESCRIPTION:
+Msconfig 
+
+ES_TITLE:
+Msconfig 
+
+ES_DESCRIPTION:
+Msconfig 
+
+TR_TITLE:
+Msconfig 
+
+TR_DESCRIPTION:
+Msconfig 

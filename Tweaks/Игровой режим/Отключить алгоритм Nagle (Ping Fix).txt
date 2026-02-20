@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=System\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{ВАШ_АДАПТЕР}
+NAME=TcpAckFrequency
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{ВАШ_АДАПТЕР}" /v "TcpAckFrequency" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{ВАШ_АДАПТЕР}" /v "TCPNoDelay" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{ВАШ_АДАПТЕР}" /v "TcpAckFrequency" /f
+Reg.exe delete "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{ВАШ_АДАПТЕР}" /v "TCPNoDelay" /f
+
+DESCRIPTION:
+Алгоритм Нэйгла (Nagle's Algorithm) задерживает отправку небольших пакетов, что может увеличивать пинг в онлайн-играх. Отключение этого алгоритма снижает задержку в сетевых играх.
+
+EN_TITLE:
+Nagle's Algorithm (Ping Fix)
+
+EN_DESCRIPTION:
+Nagle's Algorithm delays sending small packets, which can increase ping in online games. Disabling this algorithm reduces latency in network games.
+
+UZ_TITLE:
+Nagle algoritmi (Ping Fix)
+
+UZ_DESCRIPTION:
+Nagle algoritmi kichik paketlarni jo'natishni kechiktiradi, bu onlayn o'yinlarda pingning oshishiga olib kelishi mumkin. Ushbu algoritmni o'chirish tarmoq o'yinlarida kechikishni kamaytiradi.
+
+DE_TITLE:
+Nagle-Algorithmus (Ping-Fix)
+
+DE_DESCRIPTION:
+Der Nagle-Algorithmus verzögert das Senden kleiner Pakete, was den Ping in Online-Spielen erhöhen kann. Das Deaktivieren dieses Algorithmus verringert die Latenz in Netzwerkspielen.
+
+FR_TITLE:
+Algorithme de Nagle (Ping Fix)
+
+FR_DESCRIPTION:
+L'algorithme de Nagle retarde l'envoi de petits paquets, ce qui peut augmenter le ping dans les jeux en ligne. La désactivation de cet algorithme réduit la latence dans les jeux en réseau.
+
+ES_TITLE:
+Algoritmo de Nagle (Corrección de Ping)
+
+ES_DESCRIPTION:
+El algoritmo de Nagle retrasa el envío de paquetes pequeños, lo que puede aumentar el ping en los juegos en línea. Desactivar este algoritmo reduce la latencia en los juegos de red.
+
+TR_TITLE:
+Nagle Algoritması (Ping Düzeltmesi)
+
+TR_DESCRIPTION:
+Nagle Algoritması küçük paketlerin gönderilmesini geciktirerek çevrimiçi oyunlarda ping değerini artırabilir. Bu algoritmayı devre dışı bırakmak ağ oyunlarındaki gecikmeyi azaltır.

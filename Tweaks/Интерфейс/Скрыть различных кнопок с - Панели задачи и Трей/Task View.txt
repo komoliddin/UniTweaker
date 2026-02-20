@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=ShowTaskViewButton
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowTaskViewButton /t REG_DWORD /d 0 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowTaskViewButton /t REG_DWORD /d 1 /f
+
+DESCRIPTION:
+Этот твик скрывает кнопку «Представление задач» (Task View) на панели задач.
+
+EN_TITLE:
+Task View
+
+EN_DESCRIPTION:
+Task View
+
+UZ_TITLE:
+Task View
+
+UZ_DESCRIPTION:
+Task View
+
+DE_TITLE:
+Task View
+
+DE_DESCRIPTION:
+Task View
+
+FR_TITLE:
+Task View
+
+FR_DESCRIPTION:
+Task View
+
+ES_TITLE:
+Task View
+
+ES_DESCRIPTION:
+Task View
+
+TR_TITLE:
+Task View
+
+TR_DESCRIPTION:
+Task View

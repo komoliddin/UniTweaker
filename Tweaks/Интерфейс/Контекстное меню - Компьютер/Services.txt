@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SerServices
+NAME=Службы
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SerServices" /ve /t REG_SZ /d "@%SystemRoot%\\system32\\shell32.dll,-22059" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SerServices" /v "HasLUAShield" /t REG_SZ /d "" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SerServices" /v "Icon" /t REG_SZ /d "filemgmt.dll" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SerServices" /v "SuppressionPolicy" /t REG_DWORD /d 0x4000003c /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SerServices\command" /ve /t REG_SZ /d "%SystemRoot%\\system32\\mmc.exe /s %SystemRoot%\\system32\\services.msc" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\SerServices" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Службы» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Services 
+
+EN_DESCRIPTION:
+Services 
+
+UZ_TITLE:
+Services 
+
+UZ_DESCRIPTION:
+Services 
+
+DE_TITLE:
+Services 
+
+DE_DESCRIPTION:
+Services 
+
+FR_TITLE:
+Services 
+
+FR_DESCRIPTION:
+Services 
+
+ES_TITLE:
+Services 
+
+ES_DESCRIPTION:
+Services 
+
+TR_TITLE:
+Services 
+
+TR_DESCRIPTION:
+Services 

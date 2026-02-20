@@ -1,0 +1,50 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+NAME=AutoRestartShell
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "AutoRestartShell" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "AutoRestartShell" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+
+EN_TITLE:
+Auto Restart Explorer on Error
+
+EN_DESCRIPTION:
+Auto Restart Explorer on Error
+
+UZ_TITLE:
+Xatolik yuz berganda Explorerni avtomatik qayta ishga tushirish
+
+UZ_DESCRIPTION:
+Xatolik yuz berganda Explorerni avtomatik qayta ishga tushirish
+
+DE_TITLE:
+Explorer bei Fehler automatisch neu starten
+
+DE_DESCRIPTION:
+Explorer bei Fehler automatisch neu starten
+
+FR_TITLE:
+Redémarrer automatiquement l'Explorateur en cas d'erreur
+
+FR_DESCRIPTION:
+Redémarrer automatiquement l'Explorateur en cas d'erreur
+
+ES_TITLE:
+Reiniciar automáticamente el Explorador en caso de error
+
+ES_DESCRIPTION:
+Reiniciar automáticamente el Explorador en caso de error
+
+TR_TITLE:
+Hata oluştuğunda Gezgini otomatik olarak yeniden başlat
+
+TR_DESCRIPTION:
+Hata oluştuğunda Gezgini otomatik olarak yeniden başlat

@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel
+NAME={59031a47-3f72-44a7-89c5-5595fe6b30ee}
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{59031a47-3f72-44a7-89c5-5595fe6b30ee}" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{59031a47-3f72-44a7-89c5-5595fe6b30ee}" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Показывает или скрывает значок «Файлы пользователя» на рабочем столе.
+
+EN_TITLE:
+User Files
+
+EN_DESCRIPTION:
+User Files
+
+UZ_TITLE:
+User Files
+
+UZ_DESCRIPTION:
+User Files
+
+DE_TITLE:
+User Files
+
+DE_DESCRIPTION:
+User Files
+
+FR_TITLE:
+User Files
+
+FR_DESCRIPTION:
+User Files
+
+ES_TITLE:
+User Files
+
+ES_DESCRIPTION:
+User Files
+
+TR_TITLE:
+User Files
+
+TR_DESCRIPTION:
+User Files

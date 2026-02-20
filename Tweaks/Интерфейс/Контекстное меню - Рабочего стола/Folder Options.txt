@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Classes\Directory\Background\shell\FolderOptions
+NAME=
+TYPE=REG_SZ
+VALUE=@shell32.dll,-22985
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Classes\Directory\Background\shell\FolderOptions" /ve /t REG_SZ /d "@shell32.dll,-22985" /f
+Reg.exe add "HKLM\SOFTWARE\Classes\Directory\Background\shell\FolderOptions" /v "Icon" /t REG_SZ /d "imageres.dll,-166" /f
+Reg.exe add "HKLM\SOFTWARE\Classes\Directory\Background\shell\FolderOptions" /v "Position" /t REG_SZ /d "top" /f
+Reg.exe add "HKLM\SOFTWARE\Classes\Directory\Background\shell\FolderOptions\command" /ve /t REG_SZ /d "control folders" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Classes\Directory\Background\shell\FolderOptions" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Параметры папок» в контекстное меню Рабочего стола.
+
+EN_TITLE:
+Folder Options
+
+EN_DESCRIPTION:
+Folder Options
+
+UZ_TITLE:
+Folder Options
+
+UZ_DESCRIPTION:
+Folder Options
+
+DE_TITLE:
+Folder Options
+
+DE_DESCRIPTION:
+Folder Options
+
+FR_TITLE:
+Folder Options
+
+FR_DESCRIPTION:
+Folder Options
+
+ES_TITLE:
+Folder Options
+
+ES_DESCRIPTION:
+Folder Options
+
+TR_TITLE:
+Folder Options
+
+TR_DESCRIPTION:
+Folder Options

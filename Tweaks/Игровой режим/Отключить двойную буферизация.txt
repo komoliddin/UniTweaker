@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Control Panel\Desktop
+NAME=WaitToKillAppTimeout
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Control Panel\Desktop" /v "MenuShowDelay" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Control Panel\Desktop" /v "ForegroundLockTimeout" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Control Panel\Desktop" /v "LowLevelHooksTimeout" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Control Panel\Desktop" /v "MenuShowDelay" /t REG_DWORD /d "400" /f
+Reg.exe add "HKCU\Control Panel\Desktop" /v "ForegroundLockTimeout" /t REG_DWORD /d "200000" /f
+Reg.exe add "HKCU\Control Panel\Desktop" /v "LowLevelHooksTimeout" /t REG_DWORD /d "5000" /f
+
+DESCRIPTION:
+Этот твик уменьшает задержку переключения между окнами и делает отклик управления в играх быстрее.
+
+EN_TITLE:
+Double Buffering (UI Latency)
+
+EN_DESCRIPTION:
+Reduces the delay when switching between windows and makes input response in games faster by optimizing UI timeouts.
+
+UZ_TITLE:
+Ikki tomonlama buferlash (UI Latency)
+
+UZ_DESCRIPTION:
+Oynalar o'rtasida almashish kechikishini kamaytiradi va UI taymautlarini optimallashtirish orqali o'yinlarda boshqaruv javobini tezlashtiradi.
+
+DE_TITLE:
+Doppelpufferung (UI-Latenz)
+
+DE_DESCRIPTION:
+Verringert die Verzögerung beim Wechseln zwischen Fenstern und beschleunigt die Eingabeantwort in Spielen durch Optimierung der UI-Timeouts.
+
+FR_TITLE:
+Double mise en mémoire tampon (UI Latency)
+
+FR_DESCRIPTION:
+Réduit le délai lors du basculement entre les fenêtres et accélère la réponse des entrées dans les jeux en optimisant les délais de l'interface utilisateur.
+
+ES_TITLE:
+Doble búfer (latencia de UI)
+
+ES_DESCRIPTION:
+Reduce el retraso al cambiar entre ventanas y hace que la respuesta de entrada en los juegos sea más rápida al optimizar los tiempos de espera de la interfaz de usuario.
+
+TR_TITLE:
+Çift Tamponlama (UI Gecikmesi)
+
+TR_DESCRIPTION:
+Pencereler arası geçiş gecikmesini azaltır ve kullanıcı arayüzü zaman aşımlarını optimize ederek oyunlardaki giriş yanıtını hızlandırır.

@@ -1,0 +1,46 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\AMD\DxCache
+%LOCALAPPDATA%\AMD\GLCache
+%LOCALAPPDATA%\AMD\VkCache
+%ProgramData%\AMD\DxCache
+
+DESCRIPTION:
+Кеш драйвера видеокарт AMD (DirectX, OpenGL, Vulkan)
+
+EN_TITLE:
+Clear AMD GPU Driver Cache
+
+EN_DESCRIPTION:
+AMD graphics driver cache (DirectX, OpenGL, Vulkan).
+
+UZ_TITLE:
+AMD videokarta drayveri keshini tozalash
+
+UZ_DESCRIPTION:
+AMD videokartalari drayveri keshi (DirectX, OpenGL, Vulkan).
+
+DE_TITLE:
+AMD-Grafikkartentreiber-Cache bereinigen
+
+DE_DESCRIPTION:
+AMD Grafikkartentreiber-Cache (DirectX, OpenGL, Vulkan).
+
+FR_TITLE:
+Effacer le cache du pilote graphique AMD
+
+FR_DESCRIPTION:
+Cache du pilote graphique AMD (DirectX, OpenGL, Vulkan).
+
+ES_TITLE:
+Limpiar caché del controlador de gráficos AMD
+
+ES_DESCRIPTION:
+Caché del controlador de gráficos AMD (DirectX, OpenGL, Vulkan).
+
+TR_TITLE:
+AMD Ekran Kartı Sürücü Önbelleğini Temizle
+
+TR_DESCRIPTION:
+AMD grafik sürücüsü önbelleği (DirectX, OpenGL, Vulkan).

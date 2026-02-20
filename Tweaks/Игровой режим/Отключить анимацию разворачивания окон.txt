@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Control Panel\Desktop
+NAME=EnableAeroPeek
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Control Panel\Desktop" /v "EnableAeroPeek" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Control Panel\Desktop" /v "EnableBlurBehind" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Control Panel\Desktop" /v "EnableAeroPeek" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Control Panel\Desktop" /v "EnableBlurBehind" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Windows использует аппаратное ускорение для анимации окон, что может нагружать GPU. Отключение этих эффектов может немного повысить FPS в играх.
+
+EN_TITLE:
+Window Animations
+
+EN_DESCRIPTION:
+Windows uses hardware acceleration for window animations, which can put a load on the GPU. Disabling these effects can slightly increase FPS in games.
+
+UZ_TITLE:
+Oynalar animatsiyasi
+
+UZ_DESCRIPTION:
+Windows oynalar animatsiyasi uchun uskunaviy tezlashtirishdan foydalanadi, bu GPU-ga yuklama berishi mumkin. Ushbu effektlarni o'chirish o'yinlarda FPS-ni biroz oshirishi mumkin.
+
+DE_TITLE:
+Fensteranimationen
+
+DE_DESCRIPTION:
+Windows verwendet Hardwarebeschleunigung für Fensteranimationen, was die GPU belasten kann. Das Deaktivieren dieser Effekte kann die FPS in Spielen leicht erhöhen.
+
+FR_TITLE:
+Animations de fenêtre
+
+FR_DESCRIPTION:
+Windows utilise l'accélération matérielle pour les animations de fenêtre, ce qui peut charger le GPU. La désactivation de ces effets peut légèrement augmenter les FPS dans les jeux.
+
+ES_TITLE:
+Animaciones de ventana
+
+ES_DESCRIPTION:
+Windows utiliza la aceleración por hardware para las animaciones de las ventanas, lo que puede cargar la GPU. Desactivar estos efectos puede aumentar ligeramente los FPS en los juegos.
+
+TR_TITLE:
+Pencere Animasyonları
+
+TR_DESCRIPTION:
+Windows, pencere animasyonları için GPU'ya yük bindirebilen donanım hızlandırmayı kullanır. Bu efektleri devre dışı bırakmak oyunlarda FPS'yi biraz artırabilir.

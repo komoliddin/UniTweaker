@@ -1,0 +1,50 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Control Panel\International
+NAME=sShortDate
+TYPE=REG_SZ
+VALUE=ddd dd.MM.yyyy
+
+CHECKED:
+Reg.exe add "HKCU\Control Panel\International" /v "sShortDate" /t REG_SZ /d "ddd dd.MM.yyyy" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Control Panel\International" /v "sShortDate" /t REG_SZ /d "dd.MM.yy" /f
+
+DESCRIPTION:
+
+EN_TITLE:
+Show Date and Day of Week in Tray
+
+EN_DESCRIPTION:
+Show Date and Day of Week in Tray
+
+UZ_TITLE:
+Trayda sana va hafta kunini ko'rsatish
+
+UZ_DESCRIPTION:
+Trayda sana va hafta kunini ko'rsatish
+
+DE_TITLE:
+Datum und Wochentag im Tray anzeigen
+
+DE_DESCRIPTION:
+Datum und Wochentag im Tray anzeigen
+
+FR_TITLE:
+Afficher la date et le jour de la semaine dans la barre
+
+FR_DESCRIPTION:
+Afficher la date et le jour de la semaine dans la barre
+
+ES_TITLE:
+Mostrar fecha y día de la semana en la bandeja
+
+ES_DESCRIPTION:
+Mostrar fecha y día de la semana en la bandeja
+
+TR_TITLE:
+Tepside tarih ve haftanın gününü göster
+
+TR_DESCRIPTION:
+Tepside tarih ve haftanın gününü göster

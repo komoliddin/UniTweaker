@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=System\GameConfigStore
+NAME=GameDVR_FSEBehavior
+TYPE=REG_DWORD
+VALUE=2
+
+CHECKED:
+Reg.exe add "HKCU\System\GameConfigStore" /v "GameDVR_FSEBehavior" /t REG_DWORD /d "2" /f
+Reg.exe add "HKCU\System\GameConfigStore" /v "GameDVR_HonorUserFSEBehaviorMode" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\System\GameConfigStore" /v "GameDVR_DXGIHonorFSEWindowsCompatible" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\System\GameConfigStore" /v "GameDVR_FSEBehavior" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\System\GameConfigStore" /v "GameDVR_HonorUserFSEBehaviorMode" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\System\GameConfigStore" /v "GameDVR_DXGIHonorFSEWindowsCompatible" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Windows 10/11 имеет специальный режим "Оптимизация полноэкранных окон", который повышает FPS и уменьшает задержку в оконных играх.
+
+EN_TITLE:
+Fullscreen Optimizations
+
+EN_DESCRIPTION:
+Enables Windows 10/11 "Fullscreen Optimizations" to improve FPS and reduce latency in windowed games.
+
+UZ_TITLE:
+To'liq ekranli oynalarni optimallashtirish
+
+UZ_DESCRIPTION:
+Oynali o'yinlarda FPS-ni oshirish va kechikishni kamaytirish uchun Windows 10/11 "To'liq ekranli optimallashtirish" rejimini yoqadi.
+
+DE_TITLE:
+Vollbildoptimierungen
+
+DE_DESCRIPTION:
+Aktiviert die "Vollbildoptimierungen" von Windows 10/11, um die FPS zu verbessern und die Latenz in Spielen im Fenstermodus zu verringern.
+
+FR_TITLE:
+Optimisations du plein écran
+
+FR_DESCRIPTION:
+Active les « Optimisations du plein écran » de Windows 10/11 pour améliorer les FPS et réduire la latence dans les jeux en mode fenêtre.
+
+ES_TITLE:
+Optimizaciones de pantalla completa
+
+ES_DESCRIPTION:
+Habilita las "Optimizaciones de pantalla completa" de Windows 10/11 para mejorar los FPS y reducir la latencia en los juegos en ventana.
+
+TR_TITLE:
+Tam Ekran İyileştirmeleri
+
+TR_DESCRIPTION:
+Pencereli oyunlarda FPS'yi artırmak ve gecikmeyi azaltmak için Windows 10/11 "Tam Ekran İyileştirmelerini" etkinleştirir.

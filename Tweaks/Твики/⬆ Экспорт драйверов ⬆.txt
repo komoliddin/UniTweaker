@@ -1,0 +1,46 @@
+FINISH
+FOLDERSELECT:EXPORTFOLDER
+BUTTON:
+
+CLICKED:
+md {EXPORTFOLDER}\Drivers
+dism /online /export-driver /destination:{EXPORTFOLDER}\Drivers
+
+DESCRIPTION:
+Экспортирует все установленные драйверы в выбранную папку.
+
+EN_TITLE:
+⬆ Export Drivers ⬆
+
+EN_DESCRIPTION:
+Exports all installed third-party drivers to the selected folder.
+
+UZ_TITLE:
+⬆ Drayverlarni eksport qilish ⬆
+
+UZ_DESCRIPTION:
+Barcha o'rnatilgan uchinchi tomon drayverlarini tanlangan papkaga eksport qiladi.
+
+DE_TITLE:
+⬆ Treiber exportieren ⬆
+
+DE_DESCRIPTION:
+Exportiert alle installierten Drittanbietertreiber in den ausgewählten Ordner.
+
+FR_TITLE:
+⬆ Exporter les pilotes ⬆
+
+FR_DESCRIPTION:
+Exporte tous les pilotes tiers installés vers le dossier sélectionné.
+
+ES_TITLE:
+⬆ Exportar controladores ⬆
+
+ES_DESCRIPTION:
+Exporta todos los controladores de terceros instalados a la carpeta seleccionada.
+
+TR_TITLE:
+⬆ Sürücüleri Dışa Aktar ⬆
+
+TR_DESCRIPTION:
+Yüklü tüm üçüncü taraf sürücülerini seçilen klasöre aktarır.

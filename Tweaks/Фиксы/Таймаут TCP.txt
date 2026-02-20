@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+NAME=TcpTimedWaitDelay
+TYPE=REG_DWORD
+VALUE=30
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TcpTimedWaitDelay" /t REG_DWORD /d "30" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TcpTimedWaitDelay" /t REG_DWORD /d "240" /f
+
+DESCRIPTION:
+Данный твик изменяет время ожидания закрытия TCP-соединений (TcpTimedWaitDelay).
+При включении твика значение устанавливается в 30 секунд, что может помочь устранить ошибки с кодом 0x00005000, возникающие при долгом ожидании закрытия соединения.
+При отключении значение возвращается к стандартному 240 секунд.
+Используйте данный твик для оптимизации сетевых подключений, если наблюдаются проблемы с задержками или сбоем соединений.
+
+EN_TITLE:
+TCP Connection Timeout (TcpTimedWaitDelay)
+
+EN_DESCRIPTION:
+This tweak changes the TCP connection wait time (TcpTimedWaitDelay). Enabling it sets the value to 30 seconds, which can help resolve error 0x00005000 occurring during long connection closure waits. Disabling it restores the standard 240 seconds. Use this to optimize network connections if you experience latency or connection failure issues.
+
+UZ_TITLE:
+TCP ulanish kutish vaqti (TcpTimedWaitDelay)
+
+UZ_DESCRIPTION:
+Ushbu tvik TCP ulanishlarini yopish kutish vaqtini (TcpTimedWaitDelay) o'zgartiradi. Tvik yoqilganda qiymat 30 soniyaga o'rnatiladi, bu ulanishni yopishda uzoq kutish natijasida yuzaga keladigan 0x00005000 xatosini bartaraf etishga yordam beradi. O'chirilganda standart qiymat 240 soniyaga qaytadi. Agar kechikishlar yoki ulanish uzilishlari bilan bog'liq muammolar bo'lsa, ushbu tvikdan foydalaning.
+
+DE_TITLE:
+TCP-Verbindungstimeout (TcpTimedWaitDelay)
+
+DE_DESCRIPTION:
+Dieser Tweak ändert die TCP-Verbindungswartezeit (TcpTimedWaitDelay). Die Aktivierung setzt den Wert auf 30 Sekunden, was helfen kann, den Fehler 0x00005000 zu beheben, der bei langen Wartezeiten beim Schließen von Verbindungen auftritt. Die Deaktivierung stellt die standardmäßigen 240 Sekunden wieder her. Verwenden Sie dies, um Netzwerkverbindungen zu optimieren, wenn Latenz- oder Verbindungsfehler auftreten.
+
+FR_TITLE:
+Délai d'attente de connexion TCP (TcpTimedWaitDelay)
+
+FR_DESCRIPTION:
+Ce tweak modifie le délai d'attente de fermeture des connexions TCP (TcpTimedWaitDelay). L'activation définit la valeur sur 30 secondes, ce qui peut aider à résoudre l'erreur 0x00005000 survenant lors de longs délais de fermeture de connexion. La désactivation restaure les 240 secondes standard. Utilisez ceci pour optimiser les connexions réseau si vous rencontrez des problèmes de latence ou d'échec de connexion.
+
+ES_TITLE:
+Tiempo de espera de conexión TCP (TcpTimedWaitDelay)
+
+ES_DESCRIPTION:
+Este ajuste cambia el tiempo de espera de cierre de las conexiones TCP (TcpTimedWaitDelay). Al activarlo, el valor se establece en 30 segundos, lo que puede ayudar a resolver el error 0x00005000 que ocurre durante largas esperas de cierre de conexión. Al desactivarlo se restauran los 240 segundos estándar. Utilícelo para optimizar las conexiones de red si experimenta problemas de latencia o fallos de conexión.
+
+TR_TITLE:
+TCP Bağlantı Zaman Aşımı (TcpTimedWaitDelay)
+
+TR_DESCRIPTION:
+Bu ayar TCP bağlantısı bekleme süresini (TcpTimedWaitDelay) değiştirir. Etkinleştirildiğinde değer 30 saniye olarak ayarlanır, bu da uzun bağlantı kapatma beklemeleri sırasında oluşan 0x00005000 hatasının çözülmesine yardımcı olabilir. Devre dışı bırakılması standart 240 saniyeyi geri yükler. Gecikme veya bağlantı hatası sorunları yaşıyorsanız ağ bağlantılarını optimize etmek için bunu kullanın.

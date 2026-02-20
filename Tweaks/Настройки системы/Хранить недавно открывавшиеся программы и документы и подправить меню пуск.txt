@@ -1,0 +1,81 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=Start_TrackDocs
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "JumpListItems_Maximum" /t REG_DWORD /d "15" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Start_JumpListItems" /t REG_DWORD /d "15" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Start_MinMFU" /t REG_DWORD /d "15" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Start_TrackDocs" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Start_TrackProgs" /t REG_DWORD /d "1" /f
+
+Reg.exe add "HKCU\SOFTWARE\StartIsBack" /v "JumpListItems_Maximum" /t REG_DWORD /d "15" /f
+Reg.exe add "HKCU\SOFTWARE\StartIsBack" /v "Start_JumpListItems" /t REG_DWORD /d "15" /f
+Reg.exe add "HKCU\SOFTWARE\StartIsBack" /v "Start_MinMFU" /t REG_DWORD /d "15" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "JumpListItems_Maximum" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Start_JumpListItems" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Start_MinMFU" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Start_TrackDocs" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Start_TrackProgs" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\StartIsBack" /v "JumpListItems_Maximum" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\StartIsBack" /v "Start_JumpListItems" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\StartIsBack" /v "Start_MinMFU" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+📂 **Отключение истории недавно открытых программ и документов**  
+🚀 **Удаляет историю "Выполнить" (Win+R), а также недавно открытые файлы в меню Пуск**  
+🖥 **Настройки работают как в стандартном меню Пуск, так и в StartIsBack/StartAllBack**  
+
+EN_TITLE:
+Disable History of Recent Programs and Documents
+
+EN_DESCRIPTION:
+📂 **Disables history of recently opened programs and documents**
+🚀 **Removes "Run" history (Win+R), as well as recently opened files in the Start menu**
+🖥 **Settings work in both the standard Start menu and StartIsBack/StartAllBack**
+
+UZ_TITLE:
+Yaqinda ochilgan dasturlar va hujjatlar tarixini o'chirish
+
+UZ_DESCRIPTION:
+📂 **Yaqinda ochilgan dasturlar va hujjatlar tarixini o'chiradi**
+🚀 **"Ishga tushirish" (Win+R) tarixini, shuningdek Bosh menyudagi yaqinda ochilgan fayllarni olib tashlaydi**
+🖥 **Sozlamalar standart Bosh menyuda ham, StartIsBack/StartAllBack-da ham ishlaydi**
+
+DE_TITLE:
+Verlauf der zuletzt verwendeten Programme und Dokumente deaktivieren
+
+DE_DESCRIPTION:
+📂 **Deaktiviert den Verlauf der zuletzt geöffneten Programme und Dokumente**
+🚀 **Entfernt den Verlauf von "Ausführen" (Win+R) sowie kürzlich geöffnete Dateien im Startmenü**
+🖥 **Die Einstellungen funktionieren sowohl im Standard-Startmenü als auch in StartIsBack/StartAllBack**
+
+FR_TITLE:
+Désactiver l'historique des programmes et documents récents
+
+FR_DESCRIPTION:
+📂 **Désactive l'historique des programmes et documents récemment ouverts**
+🚀 **Supprime l'historique « Exécuter » (Win+R), ainsi que les fichiers récemment ouverts dans le menu Démarrer**
+🖥 **Les paramètres fonctionnent aussi bien dans le menu Démarrer standard que dans StartIsBack/StartAllBack**
+
+ES_TITLE:
+Desactivar historial de programas и documentos recientes
+
+ES_DESCRIPTION:
+📂 **Desactiva el historial de programas и documentos abiertos recientemente**
+🚀 **Elimina el historial de "Ejecutar" (Win+R), así como los archivos abiertos recientemente en el menú Inicio**
+🖥 **Los ajustes funcionan tanto en el menú Inicio estándar como en StartIsBack/StartAllBack**
+
+TR_TITLE:
+Son Kullanılan Programlar ve Belgeler Geçmişini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+📂 **Son açılan programların ve belgelerin geçmişini devre dışı bırakır**
+🚀 **"Çalıştır" geçmişini (Win+R) ve Başlat menüsündeki son açılan dosyaları kaldırır**
+🖥 **Ayarlar hem standart Başlat menüsünde hem de StartIsBack/StartAllBack'te çalışır**

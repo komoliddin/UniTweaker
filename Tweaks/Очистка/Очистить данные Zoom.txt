@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Zoom\data
+%APPDATA%\Zoom\logs
+
+DESCRIPTION:
+Логи и временные данные конференций Zoom.
+
+EN_TITLE:
+Clear Zoom Data
+
+EN_DESCRIPTION:
+Logs and temporary conference data for Zoom.
+
+UZ_TITLE:
+Zoom ma'lumotlarini tozalash
+
+UZ_DESCRIPTION:
+Zoom konferentsiyalarining jurnallari va vaqtinchalik ma'lumotlari.
+
+DE_TITLE:
+Zoom-Daten löschen
+
+DE_DESCRIPTION:
+Protokolle und temporäre Konferenzdaten für Zoom.
+
+FR_TITLE:
+Effacer les données Zoom
+
+FR_DESCRIPTION:
+Journaux et données de conférence temporaires pour Zoom.
+
+ES_TITLE:
+Limpiar datos de Zoom
+
+ES_DESCRIPTION:
+Registros y datos temporales de conferencias de Zoom.
+
+TR_TITLE:
+Zoom Verilerini Temizle
+
+TR_DESCRIPTION:
+Zoom için günlükler ve geçici konferans verileri.

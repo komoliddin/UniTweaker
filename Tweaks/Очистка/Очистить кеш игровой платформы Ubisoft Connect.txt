@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Ubisoft Game Launcher\cache
+
+DESCRIPTION:
+Кеш изображений и временные данные Ubisoft Connect (Uplay).
+
+EN_TITLE:
+Clear Ubisoft Connect Cache
+
+EN_DESCRIPTION:
+Image cache and temporary data for Ubisoft Connect (Uplay).
+
+UZ_TITLE:
+Ubisoft Connect keshini tozalash
+
+UZ_DESCRIPTION:
+Ubisoft Connect (Uplay) rasmlari va vaqtinchalik ma'lumotlari keshi.
+
+DE_TITLE:
+Ubisoft Connect-Cache leeren
+
+DE_DESCRIPTION:
+Bild-Cache und temporäre Daten für Ubisoft Connect (Uplay).
+
+FR_TITLE:
+Effacer le cache Ubisoft Connect
+
+FR_DESCRIPTION:
+Cache d'images et données temporaires pour Ubisoft Connect (Uplay).
+
+ES_TITLE:
+Limpiar caché de Ubisoft Connect
+
+ES_DESCRIPTION:
+Caché de imágenes y datos temporales de Ubisoft Connect (Uplay).
+
+TR_TITLE:
+Ubisoft Connect Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Ubisoft Connect (Uplay) için resim önbelleği ve geçici veriler.

@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\FileSystem
+NAME=NtfsMemoryUsage
+TYPE=REG_DWORD
+VALUE=2
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v "NtfsMemoryUsage" /t REG_DWORD /d "2" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v "NtfsMemoryUsage" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+При снятии лимита с NTFS в плане использования памяти увеличивается пул страниц, доступных для кэширования файловых операций чтения/записи. Это облегчает запуск нескольких приложений сразу, но желательно иметь достаточно большое количество оперативной памяти.
+
+EN_TITLE:
+Remove NTFS Memory Limit
+
+EN_DESCRIPTION:
+Removing the memory limit for NTFS increases the pool of pages available for caching file read/write operations. This facilitates launching multiple applications at once, but a sufficient amount of RAM is desirable.
+
+UZ_TITLE:
+NTFS xotira cheklovini olib tashlash
+
+UZ_DESCRIPTION:
+Xotiradan foydalanish bo'yicha NTFS cheklovini olib tashlash orqali fayllarni o'qish/yozish operatsiyalarini keshlashtirish uchun mavjud bo'lgan sahifalar puli ko'payadi. Bu bir vaqtning o'zida bir nechta ilovalarni ishga tushirishni osonlashtiradi, ammo yetarli darajada operativ xotiraga ega bo'lish maqsadga muvofiqdir.
+
+DE_TITLE:
+NTFS-Speicherlimit aufheben
+
+DE_DESCRIPTION:
+Durch das Aufheben des Speicherlimits für NTFS wird der Pool an Seiten erhöht, die für das Caching von Datei-Lese-/Schreibvorgängen verfügbar sind. Dies erleichtert das gleichzeitige Starten mehrerer Anwendungen, erfordert jedoch eine ausreichende Menge an RAM.
+
+FR_TITLE:
+Lever la limite de mémoire NTFS
+
+FR_DESCRIPTION:
+En levant la limite de mémoire pour NTFS, le pool de pages disponibles pour la mise en cache des opérations de lecture/écriture de fichiers est augmenté. Cela facilite le lancement de plusieurs applications à la fois, mais il est préférable de disposer d'une quantité suffisante de RAM.
+
+ES_TITLE:
+Quitar límite de memoria NTFS
+
+ES_DESCRIPTION:
+Al eliminar el límite de memoria для NTFS, aumenta el grupo de páginas disponibles для el almacenamiento en caché de las operaciones de lectura/escritura de archivos. Esto facilita el inicio de varias aplicaciones a la vez, pero es deseable tener una cantidad suficiente de RAM.
+
+TR_TITLE:
+NTFS Bellek Sınırını Kaldır
+
+TR_DESCRIPTION:
+NTFS için bellek sınırı kaldırıldığında, dosya okuma/yazma işlemlerini önbelleğe almak için kullanılabilen sayfa havuzu artar. Bu, aynı anda birden fazla uygulamanın başlatılmasını kolaylaştırır, ancak yeterli miktarda RAM olması arzu edilir.

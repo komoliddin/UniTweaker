@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=System\CurrentControlSet\Services\WSearch
+NAME=Start
+TYPE=REG_DWORD
+VALUE=4
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WSearch" /v "Start" /t REG_DWORD /d "4" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WSearch" /v "Start" /t REG_DWORD /d "2" /f
+
+DESCRIPTION:
+Данный твик отключает службу индексатора Windows Search (WSearch).
+При включении твика значение параметра Start устанавливается в 4, что отключает автоматический запуск службы,
+а при отключении – возвращается к значению 2 (автоматический запуск).
+Это может помочь решить проблемы с производительностью и ошибками, связанными с поисковым индексированием (например, 0x00006000).
+
+EN_TITLE:
+Disable Windows Search Indexer
+
+EN_DESCRIPTION:
+This tweak disables the Windows Search Indexer (WSearch) service. Enabling it sets the Start value to 4, disabling automatic service startup. Disabling it restores the automatic startup (2). This can help resolve performance issues and errors related to search indexing (e.g., error 0x00006000).
+
+UZ_TITLE:
+Windows qidiruv indeksatorini o'chirish
+
+UZ_DESCRIPTION:
+Ushbu tvik Windows qidiruv indeksatori (WSearch) xizmatini o'chiradi. Tvik yoqilganda Start qiymati 4 ga o'rnatiladi, bu xizmatning avtomatik ishga tushishini o'chiradi. O'chirilganda avtomatik ishga tushirish (2) tiklanadi. Bu qidiruv indeksatsiyasi bilan bog'liq unumdorlik muammolari va xatolarni (masalan, 0x00006000) bartaraf etishga yordam beradi.
+
+DE_TITLE:
+Windows-Suchindexer deaktivieren
+
+DE_DESCRIPTION:
+Dieser Tweak deaktiviert den Windows-Suchindexerdienst (WSearch). Die Aktivierung setzt den Startwert auf 4, wodurch der automatische Dienststart deaktiviert wird. Die Deaktivierung stellt den automatischen Start (2) wieder her. Dies kann helfen, Leistungsprobleme und Fehler im Zusammenhang mit der Suchindizierung zu beheben (z. B. Fehler 0x00006000).
+
+FR_TITLE:
+Désactiver l'indexeur de recherche Windows
+
+FR_DESCRIPTION:
+Ce tweak désactive le service d'indexation de la recherche Windows (WSearch). L'activation définit la valeur Start sur 4, désactivant le démarrage automatique du service. La désactivation restaure le démarrage automatique (2). Cela peut aider à résoudre les problèmes de performances et les erreurs liés à l'indexation de la recherche (par exemple, l'erreur 0x00006000).
+
+ES_TITLE:
+Desactivar indexador de búsqueda de Windows
+
+ES_DESCRIPTION:
+Este ajuste desactiva el servicio de indexador de búsqueda de Windows (WSearch). Al activarlo, el valor Start se establece en 4, desactivando el inicio automático del servicio. Al desactivarlo se restaura el inicio automático (2). Esto puede ayudar a resolver problemas de rendimiento и errores relacionados con la indexación de búsqueda (por ejemplo, el error 0x00006000).
+
+TR_TITLE:
+Windows Arama Dizin Oluşturucuyu Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Bu ayar Windows Arama Dizin Oluşturucu (WSearch) hizmetini devre dışı bırakır. Etkinleştirildiğinde Başlangıç değerini 4 olarak ayarlar ve otomatik hizmet başlatmayı devre dışı bırakır. Devre dışı bırakılması otomatik başlatmayı (2) geri yükler. Bu, arama dizini oluşturmayla ilgili performans sorunlarını ve hataları (örneğin, 0x00006000 hatası) çözmeye yardımcı olabilir.

@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\PenWorkspace
+NAME=PenWorkspaceButtonDesiredVisibility
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\PenWorkspace" /v PenWorkspaceButtonDesiredVisibility /t REG_DWORD /d 0 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\PenWorkspace" /v PenWorkspaceButtonDesiredVisibility /t REG_DWORD /d 1 /f
+
+DESCRIPTION:
+Этот твик скрывает кнопку «Ink Workspace» (панель пера) на панели задач.
+
+EN_TITLE:
+Ink Workspace
+
+EN_DESCRIPTION:
+Ink Workspace
+
+UZ_TITLE:
+Ink Workspace
+
+UZ_DESCRIPTION:
+Ink Workspace
+
+DE_TITLE:
+Ink Workspace
+
+DE_DESCRIPTION:
+Ink Workspace
+
+FR_TITLE:
+Ink Workspace
+
+FR_DESCRIPTION:
+Ink Workspace
+
+ES_TITLE:
+Ink Workspace
+
+ES_DESCRIPTION:
+Ink Workspace
+
+TR_TITLE:
+Ink Workspace
+
+TR_DESCRIPTION:
+Ink Workspace

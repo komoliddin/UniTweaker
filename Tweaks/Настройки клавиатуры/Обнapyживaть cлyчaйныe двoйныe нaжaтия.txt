@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=UseDoubleClickTimer
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "UseDoubleClickTimer" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "UseDoubleClickTimer" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Включает таймер для обнаружения и предотвращения случайных двойных нажатий.
+
+EN_TITLE:
+Detect Accidental Double Clicks
+
+EN_DESCRIPTION:
+Enables a timer to detect and prevent accidental double-clicks.
+
+UZ_TITLE:
+Tasodifiy ikki marta bosishni aniqlash
+
+UZ_DESCRIPTION:
+Tasodifiy ikki marta bosishni aniqlash va oldini olish uchun taymerni yoqadi.
+
+DE_TITLE:
+Versehentliche Doppelklicks erkennen
+
+DE_DESCRIPTION:
+Aktiviert einen Timer, um versehentliche Doppelklicks zu erkennen und zu verhindern.
+
+FR_TITLE:
+Détecter les doubles-clics accidentels
+
+FR_DESCRIPTION:
+Active un minuteur pour détecter et empêcher les doubles-clics accidentels.
+
+ES_TITLE:
+Detectar dobles clics accidentales
+
+ES_DESCRIPTION:
+Activa un temporizador para detectar y evitar los dobles clics accidentales.
+
+TR_TITLE:
+Yanlışlıkla Çift Tıklamaları Algıla
+
+TR_DESCRIPTION:
+Yanlışlıkla yapılan çift tıklamaları algılamak ve önlemek için bir zamanlayıcı etkinleştirir.

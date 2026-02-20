@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+ipconfig /flushdns
+
+DESCRIPTION:
+Очищает кеш DNS-запросов Windows (ускоряет обновление адресов сайтов).
+
+EN_TITLE:
+Flush Windows DNS Cache
+
+EN_DESCRIPTION:
+Clears the Windows DNS query cache (speeds up website address updates).
+
+UZ_TITLE:
+Windows DNS keshini tozalash
+
+UZ_DESCRIPTION:
+Windows DNS so'rovlari keshini tozalanadi (sayt manzillarini yangilanishini tezlashtiradi).
+
+DE_TITLE:
+Windows DNS-Cache leeren
+
+DE_DESCRIPTION:
+Leert den Windows DNS-Abfragecache (beschleunigt die Aktualisierung von Website-Adressen).
+
+FR_TITLE:
+Vider le cache DNS de Windows
+
+FR_DESCRIPTION:
+Efface le cache des requêtes DNS de Windows (accélère la mise à jour des adresses des sites Web).
+
+ES_TITLE:
+Vaciar caché DNS de Windows
+
+ES_DESCRIPTION:
+Limpia la caché de consultas DNS de Windows (acelera la actualización de las direcciones de los sitios web).
+
+TR_TITLE:
+Windows DNS Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Windows DNS sorgu önbelleğini temizler (web sitesi adresi güncellemelerini hızlandırır).

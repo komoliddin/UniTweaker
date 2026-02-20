@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=Software\Policies\Microsoft\Windows\Personalization
+NAME=NoLockScreen
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\Personalization" /v NoLockScreen /t REG_DWORD /d 1 /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\Personalization" /v NoLockScreenCamera /t REG_DWORD /d 1 /f
+
+UNCHECKED:
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\Personalization" /v NoLockScreen /t REG_DWORD /d 0 /f
+Reg.exe add "HKLM\Software\Policies\Microsoft\Windows\Personalization" /v NoLockScreenCamera /t REG_DWORD /d 0 /f
+
+DESCRIPTION:
+Отключает экран блокировки при входе в систему или выходе из спящего режима.
+
+EN_TITLE:
+Disable Lock Screen
+
+EN_DESCRIPTION:
+Disable Lock Screen
+
+UZ_TITLE:
+Bloklash ekranini o'chirish
+
+UZ_DESCRIPTION:
+Bloklash ekranini o'chirish
+
+DE_TITLE:
+Sperrbildschirm deaktivieren
+
+DE_DESCRIPTION:
+Sperrbildschirm deaktivieren
+
+FR_TITLE:
+Désactiver l'écran de verrouillage
+
+FR_DESCRIPTION:
+Désactiver l'écran de verrouillage
+
+ES_TITLE:
+Desactivar la pantalla de bloqueo
+
+ES_DESCRIPTION:
+Desactivar la pantalla de bloqueo
+
+TR_TITLE:
+Kilit ekranını devre dışı bırak
+
+TR_DESCRIPTION:
+Kilit ekranını devre dışı bırak

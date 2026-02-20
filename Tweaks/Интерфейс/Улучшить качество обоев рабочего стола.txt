@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Control Panel\Desktop
+NAME=JPEGImportQuality
+TYPE=REG_DWORD
+VALUE=100
+
+CHECKED:
+Reg.exe add "HKCU\Control Panel\Desktop" /v JPEGImportQuality /t REG_DWORD /d 100 /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Control Panel\Desktop" /v JPEGImportQuality /f
+
+DESCRIPTION:
+Этот твик управляет качеством импорта JPEG-изображений для обоев рабочего стола. При включении качество устанавливается на 100%.
+
+EN_TITLE:
+Improve Desktop Wallpaper Quality
+
+EN_DESCRIPTION:
+Improve Desktop Wallpaper Quality
+
+UZ_TITLE:
+Ish stoli fon rasmi sifatini yaxshilash
+
+UZ_DESCRIPTION:
+Ish stoli fon rasmi sifatini yaxshilash
+
+DE_TITLE:
+Desktop-Hintergrundqualität verbessern
+
+DE_DESCRIPTION:
+Desktop-Hintergrundqualität verbessern
+
+FR_TITLE:
+Améliorer la qualité du fond d'écran
+
+FR_DESCRIPTION:
+Améliorer la qualité du fond d'écran
+
+ES_TITLE:
+Mejorar la calidad del fondo de pantalla
+
+ES_DESCRIPTION:
+Mejorar la calidad del fondo de pantalla
+
+TR_TITLE:
+Masaüstü duvar kağıdı kalitesini artır
+
+TR_DESCRIPTION:
+Masaüstü duvar kağıdı kalitesini artır

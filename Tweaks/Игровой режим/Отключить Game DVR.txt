@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR
+NAME=Value
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR" /v "Value" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v "AllowGameDVR" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR" /v "Value" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v "AllowGameDVR" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Game DVR — встроенная функция записи игрового процесса в Windows. Отключение Game DVR помогает повысить производительность в играх.
+
+EN_TITLE:
+Disable Game DVR
+
+EN_DESCRIPTION:
+Disables the built-in Windows game recording feature (Game DVR) to boost gaming performance and reduce system resource usage.
+
+UZ_TITLE:
+Game DVR-ni o'chirish
+
+UZ_DESCRIPTION:
+O'yin unumdorligini oshirish va tizim resurslarini tejash uchun o'rnatilgan Windows o'yin yozib olish funksiyasini (Game DVR) o'chiradi.
+
+DE_TITLE:
+Game DVR deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die integrierte Windows-Spielaufzeichnungsfunktion (Game DVR), um die Spieleleistung zu steigern und die Systemressourcen zu entlasten.
+
+FR_TITLE:
+Désactiver Game DVR
+
+FR_DESCRIPTION:
+Désactive la fonction d'enregistrement de jeux intégrée de Windows (Game DVR) pour booster les performances de jeu et réduire l'utilisation des ressources système.
+
+ES_TITLE:
+Desactivar Game DVR
+
+ES_DESCRIPTION:
+Desactiva la función integrada de grabación de juegos de Windows (Game DVR) para aumentar el rendimiento en juegos y reducir el uso de recursos.
+
+TR_TITLE:
+Game DVR'ı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Oyun performansını artırmak ve sistem kaynağı kullanımını azaltmak için yerleşik Windows oyun kaydetme özelliğini (Game DVR) devre dışı bırakır.

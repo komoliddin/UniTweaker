@@ -1,0 +1,57 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\storahci
+NAME=Start
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\services\msahci" /v "Start" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\iaStorV" /v "Start" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\iaStorAVC" /v "Start" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\storahci" /v "Start" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\services\msahci" /v "Start" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\iaStorV" /v "Start" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\iaStorAVC" /v "Start" /t REG_DWORD /d "3" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\storahci" /v "Start" /t REG_DWORD /d "3" /f
+
+DESCRIPTION:
+AHCI (Advanced Host Controller Interface)  -  это механизм, который используется для подключения жёстких дисков по протоколу SATA (Serial ATA), с помощью которого можно использовать расширенные функции, такие как горячая замена и встроенная очерёдность команд (NCQ).
+
+EN_TITLE:
+Enable AHCI Mode
+
+EN_DESCRIPTION:
+AHCI (Advanced Host Controller Interface) is a mechanism used to connect hard drives via the SATA protocol, allowing for advanced features such as hot swapping and Native Command Queuing (NCQ). After applying this tweak, you must enable AHCI mode in your BIOS/UEFI settings before the next boot.
+
+UZ_TITLE:
+AHCI rejimini yoqish
+
+UZ_DESCRIPTION:
+AHCI (Advanced Host Controller Interface) - bu qattiq disklarni SATA protokoli orqali ulash uchun ishlatiladigan mexanizm bo'lib, uning yordamida qaynoq almashtirish (hot swap) va o'rnatilgan buyruqlar navbati (NCQ) kabi kengaytirilgan funksiyalardan foydalanish mumkin. Ushbu tvikni qo'llaganingizdan so'ng, keyingi yuklashdan oldin BIOS/UEFI sozlamalarida AHCI rejimini yoqishingiz kerak.
+
+DE_TITLE:
+AHCI-Modus aktivieren
+
+DE_DESCRIPTION:
+AHCI (Advanced Host Controller Interface) ist ein Mechanismus zum Anschluss von Festplatten über das SATA-Protokoll, der erweiterte Funktionen wie Hot-Swapping und Native Command Queuing (NCQ) ermöglicht. Nach der Anwendung dieses Tweaks müssen Sie vor dem nächsten Booten den AHCI-Modus in Ihren BIOS/UEFI-Einstellungen aktivieren.
+
+FR_TITLE:
+Activer le mode AHCI
+
+FR_DESCRIPTION:
+L'AHCI (Advanced Host Controller Interface) est un mécanisme utilisé pour connecter des disques durs via le protocole SATA, permettant des fonctionnalités avancées telles que le remplacement à chaud et le Native Command Queuing (NCQ). Après avoir appliqué ce tweak, vous devez activer le mode AHCI dans vos paramètres BIOS/UEFI avant le prochain démarrage.
+
+ES_TITLE:
+Habilitar modo AHCI
+
+ES_DESCRIPTION:
+AHCI (Advanced Host Controller Interface) es un mecanismo utilizado para conectar discos duros a través del protocolo SATA, lo que permite funciones avanzadas como el intercambio en caliente и el Native Command Queuing (NCQ). Tras aplicar este ajuste, debe activar el modo AHCI en la configuración de su BIOS/UEFI antes del próximo arranque.
+
+TR_TITLE:
+AHCI Modunu Etkinleştir
+
+TR_DESCRIPTION:
+AHCI (Gelişmiş Ana Bilgisayar Denetleyicisi Arabirimi), sabit sürücüleri SATA protokolü üzerinden bağlamak için kullanılan bir mekanizmadır ve çalışırken değiştirme (hot swapping) ve Yerel Komut Kuyruğa Alma (NCQ) gibi gelişmiş özelliklere olanak tanır. Bu ayarı uyguladıktan sonra, bir sonraki önyüklemeden önce BIOS/UEFI ayarlarınızda AHCI modunu etkinleştirmelisiniz.

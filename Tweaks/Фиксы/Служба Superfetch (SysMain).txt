@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\SysMain
+NAME=Start
+TYPE=REG_DWORD
+VALUE=4
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\SysMain" /v "Start" /t REG_DWORD /d "4" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\SysMain" /v "Start" /t REG_DWORD /d "2" /f
+
+DESCRIPTION:
+Данный твик отключает службу Superfetch (SysMain).
+При включении твика параметр Start для SysMain устанавливается в 4 (служба отключена),
+а при отключении – возвращается к значению 2 (автоматический запуск).
+Это решение может помочь устранить ошибки, связанные с повышенной активностью службы (например, 0x00008000),
+а также снизить нагрузку на диск.
+
+EN_TITLE:
+Disable Superfetch Service (SysMain)
+
+EN_DESCRIPTION:
+This tweak disables the Superfetch (SysMain) service. Enabling it sets the Start parameter for SysMain to 4 (disabled). Disabling it restores it to 2 (automatic startup). This can help resolve errors related to high service activity (e.g., 0x00008000) and reduce disk load.
+
+UZ_TITLE:
+Superfetch (SysMain) xizmatini o'chirish
+
+UZ_DESCRIPTION:
+Ushbu tvik Superfetch (SysMain) xizmatini o'chiradi. Tvik yoqilganda SysMain uchun Start parametri 4 ga (o'chirilgan) o'rnatiladi. O'chirilganda u 2 ga (avtomatik ishga tushirish) tiklanadi. Bu xizmatning yuqori faolligi bilan bog'liq xatolarni (masalan, 0x00008000) bartaraf etishga va diskdagi yukni kamaytirishga yordam beradi.
+
+DE_TITLE:
+Superfetch-Dienst deaktivieren (SysMain)
+
+DE_DESCRIPTION:
+Dieser Tweak deaktiviert den Superfetch-Dienst (SysMain). Die Aktivierung setzt den Start-Parameter für SysMain auf 4 (deaktiviert). Die Deaktivierung stellt ihn auf 2 (automatischer Start) zurück. Dies kann helfen, Fehler im Zusammenhang mit hoher Dienstaktivität zu beheben (z. B. 0x00008000) und die Festplattenlast zu reduzieren.
+
+FR_TITLE:
+Désactiver le service Superfetch (SysMain)
+
+FR_DESCRIPTION:
+Ce tweak désactive le service Superfetch (SysMain). L'activation définit le paramètre Start pour SysMain sur 4 (désactivé). La désactivation le restaure sur 2 (démarrage automatique). Cela peut aider à résoudre les erreurs liées à une activité élevée du service (par exemple, 0x00008000) et à réduire la charge du disque.
+
+ES_TITLE:
+Desactivar servicio Superfetch (SysMain)
+
+ES_DESCRIPTION:
+Este ajuste desactiva el servicio Superfetch (SysMain). Al activarlo, el parámetro Start para SysMain se establece en 4 (deshabilitado). Al desactivarlo se restaura a 2 (inicio automático). Esto puede ayudar a resolver errores relacionados con una alta actividad del servicio (por ejemplo, 0x00008000) и reducir la carga del disco.
+
+TR_TITLE:
+Superfetch Hizmetini Devre Dışı Bırak (SysMain)
+
+TR_DESCRIPTION:
+Bu ayar Superfetch (SysMain) hizmetini devre dışı bırakır. Etkinleştirildiğinde SysMain için Start parametresini 4 (devre dışı) olarak ayarlar. Devre dışı bırakılması 2 (otomatik başlatma) değerine geri getirir. Bu, yüksek hizmet etkinliğiyle ilgili hataların (örneğin, 0x00008000) çözülmesine ve disk yükünün azaltılmasına yardımcı olabilir.

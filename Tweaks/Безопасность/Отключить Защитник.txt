@@ -1,0 +1,81 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Policies\Microsoft\Windows Defender
+NAME=AllowFastServiceStartup
+TYPE=REG_DWORD
+VALUE=0x0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v "AllowFastServiceStartup" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows Defender" /v "DisableAntiSpyware" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows Defender\Real-Time Protection" /v "DisableRealtimeMonitoring" /t REG_DWORD /d "1" /f
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "WindowsDefender" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "SecurityHealth" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v "ServiceKeepAlive" /t REG_DWORD /d "0x0" /f
+Reg.exe query "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager" >nul 2>&1
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager" /ve /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v "DisableBehaviorMonitoring" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v "DisableIOAVProtection" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v "DisableOnAccessProtection" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v "DisableRealtimeMonitoring" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v "DisableScanOnRealtimeEnable" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v "DisableBlockAtFirstSeen" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v "LocalSettingOverrideSpynetReporting" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v "SpyNetReporting" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v "SubmitSamplesConsent" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WdNisDrv" /v "Start" /t REG_DWORD /d "0x4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WinDefend" /v "Start" /t REG_DWORD /d "0x4" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows Defender" /v "DisableAntiSpyware" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows Defender\Real-Time Protection" /v "DisableRealtimeMonitoring" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v "AllowFastServiceStartup" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v "ServiceKeepAlive" /t REG_DWORD /d "0x2" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WdNisDrv" /v "Start" /t REG_DWORD /d "0x2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WinDefend" /v "Start" /t REG_DWORD /d "0x2" /f
+
+DESCRIPTION:
+Отключает встроенный антивирус Защитник Windows (Windows Defender) и все его компоненты.
+
+EN_TITLE:
+Disable Windows Defender
+
+EN_DESCRIPTION:
+Completely disables the built-in Windows Defender antivirus and all its components.
+
+UZ_TITLE:
+Windows Defender-ni o'chirish
+
+UZ_DESCRIPTION:
+O'rnatilgan Windows Defender antivirusini va uning barcha komponentlarini butunlay o'chiradi.
+
+DE_TITLE:
+Windows Defender deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert den integrierten Windows Defender Antivirus und alle seine Komponenten vollständig.
+
+FR_TITLE:
+Désactiver Windows Defender
+
+FR_DESCRIPTION:
+Désactive complètement l'antivirus intégré Windows Defender et tous ses composants.
+
+ES_TITLE:
+Desactivar Windows Defender
+
+ES_DESCRIPTION:
+Desactiva completamente el antivirus integrado Windows Defender y todos sus componentes.
+
+TR_TITLE:
+Windows Defender'ı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Yerleşik Windows Defender antivirüsünü ve tüm bileşenlerini tamamen devre dışı bırakır.

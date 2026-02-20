@@ -1,0 +1,58 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Power
+NAME=HibernateEnabled
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "HibernateEnabled" /t REG_DWORD /d "0" /f
+powercfg -h off
+
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "HiberFileSizePercent" /t REG_DWORD /d "40" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "HibernateEnabled" /t REG_DWORD /d "1" /f
+powercfg -h on
+
+DESCRIPTION:
+Отключив режим гибернации и удалив файл hiberfil.sys, вы можете освободить объём на SSD, соответствующий объёму установленной оперативной памяти, что наиболее актуально для владельцев SSD маленькой ёмкости. 
+
+При переходе в режим гибернации происходит сброс данных из оперативной памяти в файл hiberfil.sys, а при включении данные восстанавливаются обратно в память. 
+Для ноутбуков отключение режима гибернации нежелательно. 
+
+EN_TITLE:
+Disable Hibernation Mode
+
+EN_DESCRIPTION:
+By disabling hibernation mode and deleting the hiberfil.sys file, you can free up space on the SSD corresponding to the amount of installed RAM, which is most relevant for owners of small SSDs. When entering hibernation, data is dumped from RAM to the hiberfil.sys file, and when turned on, the data is restored back to memory. Disabling hibernation is not recommended for laptops.
+
+UZ_TITLE:
+Giberatsiya rejimini o'chirish
+
+UZ_DESCRIPTION:
+Giberatsiya rejimini o'chirib va hiberfil.sys faylini o'chirib tashlab, siz SSD-da o'rnatilgan operativ xotira (RAM) hajmiga mos keladigan joyni bo'shatishingiz mumkin, bu ayniqsa kichik hajmli SSD egalari uchun juda muhimdir. Giberatsiya rejimiga o'tishda ma'lumotlar RAM-dan hiberfil.sys fayliga yuboriladi, yoqilganda esa ma'lumotlar yana xotiraga qaytariladi. Noutbuklar uchun giberatsiya rejimini o'chirish tavsiya etilmaydi.
+
+DE_TITLE:
+Ruhezustand deaktivieren
+
+DE_DESCRIPTION:
+Durch Deaktivieren des Ruhezustands und Löschen der Datei hiberfil.sys können Sie Speicherplatz auf der SSD freigeben, der der installierten RAM-Menge entspricht, was besonders für Besitzer kleiner SSDs relevant ist. Beim Wechsel in den Ruhezustand werden Daten aus dem RAM in die Datei hiberfil.sys geschrieben, und beim Einschalten werden die Daten wieder in den Speicher geladen. Das Deaktivieren des Ruhezustands wird für Laptops nicht empfohlen.
+
+FR_TITLE:
+Désactiver le mode veille prolongée
+
+FR_DESCRIPTION:
+En désactivant le mode de veille prolongée et en supprimant le fichier hiberfil.sys, vous pouvez libérer de l'espace sur le SSD correspondant à la quantité de RAM installée, ce qui est très pertinent pour les propriétaires de petits SSD. Lors de l'entrée en veille prolongée, les données sont transférées de la RAM vers le fichier hiberfil.sys, et à l'allumage, les données sont restaurées en mémoire. La désactivation de la veille prolongée n'est pas recommandée pour les ordinateurs portables.
+
+ES_TITLE:
+Desactivar modo de hibernación
+
+ES_DESCRIPTION:
+Al desactivar el modo de hibernación и eliminar el archivo hiberfil.sys, puede liberar espacio en el SSD correspondiente a la cantidad de RAM instalada, lo cual es muy relevante для los propietarios de SSD pequeños. Al entrar en hibernación, los datos se vuelcan de la RAM al archivo hiberfil.sys, и al encenderse, los datos se restauran en la memoria. No se recomienda desactivar la hibernación в ordenadores portátiles.
+
+TR_TITLE:
+Hazırda Beklet Modunu Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Hazırda beklet modunu devre dışı bırakarak ve hiberfil.sys dosyasını silerek, SSD'de yüklü RAM miktarına karşılık gelen alanı boşaltabilirsiniz; bu, özellikle küçük SSD sahipleri için çok önemlidir. Hazırda bekletme moduna girildiğinde, veriler RAM'den hiberfil.sys dosyasına aktarılır ve açıldığında veriler tekrar belleğe geri yüklenir. Dizüstü bilgisayarlar için hazırda bekletme modunun devre dışı bırakılması önerilmez.

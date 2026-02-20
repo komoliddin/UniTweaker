@@ -1,0 +1,61 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Steam\htmlcache
+%LOCALAPPDATA%\Steam\shaders
+%LOCALAPPDATA%\Steam\cache
+%LOCALAPPDATA%\Steam\userdata\config\htmlcache
+%ProgramFiles(x86)%\Steam\appcache
+%ProgramFiles(x86)%\Steam\steam\logs
+%ProgramFiles(x86)%\Steam\steamapps\depotcache
+%ProgramFiles(x86)%\Steam\steamapps\downloading
+%ProgramFiles(x86)%\Steam\steamapps\shadercache
+%ProgramFiles(x86)%\Steam\steamapps\temp
+D:\SteamLibrary\steamapps\depotcache
+D:\SteamLibrary\steamapps\downloading
+D:\SteamLibrary\steamapps\shadercache
+D:\SteamLibrary\steamapps\temp
+E:\SteamLibrary\steamapps\depotcache
+E:\SteamLibrary\steamapps\downloading
+E:\SteamLibrary\steamapps\shadercache
+E:\SteamLibrary\steamapps\temp
+
+DESCRIPTION:
+Кеш игровой платформы Steam (HTMLCache, ShaderCache, AppCache, временные файлы и логи).
+Поддержка клиента и дополнительных библиотек (D:\, E:\).
+
+EN_TITLE:
+Clear Steam Cache
+
+EN_DESCRIPTION:
+Steam platform cache (HTMLCache, ShaderCache, AppCache, temporary files, and logs). Supports client and additional libraries (D:\, E:\).
+
+UZ_TITLE:
+Steam keshini tozalash
+
+UZ_DESCRIPTION:
+Steam platformasi keshi (HTMLCache, ShaderCache, AppCache, vaqtinchalik fayllar va jurnallar). Mijoz va qo'shimcha kutubxonalarni (D:\, E:\) qo'llab-quvvatlash.
+
+DE_TITLE:
+Steam-Cache bereinigen
+
+DE_DESCRIPTION:
+Steam-Plattform-Cache (HTMLCache, ShaderCache, AppCache, temporäre Dateien und Protokolle). Unterstützt den Client und zusätzliche Bibliotheken (D:\, E:\).
+
+FR_TITLE:
+Effacer le cache Steam
+
+FR_DESCRIPTION:
+Cache de la plateforme Steam (HTMLCache, ShaderCache, AppCache, fichiers temporaires et journaux). Prise en charge du client et des bibliothèques supplémentaires (D:\, E:\).
+
+ES_TITLE:
+Limpiar caché de Steam
+
+ES_DESCRIPTION:
+Caché de la plataforma Steam (HTMLCache, ShaderCache, AppCache, archivos temporales и registros). Soporte для el cliente и bibliotecas adicionales (D:\, E:\).
+
+TR_TITLE:
+Steam Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Steam platformu önbelleği (HTMLCache, ShaderCache, AppCache, geçici dosyalar ve günlükler). İstemci ve ek kitaplıklar (D:\, E:\) için destek.

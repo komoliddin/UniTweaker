@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{645FF040-5081-101B-9F08-00AA002F954E}
+NAME=
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{645FF040-5081-101B-9F08-00AA002F954E}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{645FF040-5081-101B-9F08-00AA002F954E}" /f
+
+DESCRIPTION:
+Добавляет или удаляет «Корзину» в разделе «Этот компьютер».
+
+EN_TITLE:
+Recycle Bin
+
+EN_DESCRIPTION:
+Recycle Bin
+
+UZ_TITLE:
+Recycle Bin
+
+UZ_DESCRIPTION:
+Recycle Bin
+
+DE_TITLE:
+Recycle Bin
+
+DE_DESCRIPTION:
+Recycle Bin
+
+FR_TITLE:
+Recycle Bin
+
+FR_DESCRIPTION:
+Recycle Bin
+
+ES_TITLE:
+Recycle Bin
+
+ES_DESCRIPTION:
+Recycle Bin
+
+TR_TITLE:
+Recycle Bin
+
+TR_DESCRIPTION:
+Recycle Bin

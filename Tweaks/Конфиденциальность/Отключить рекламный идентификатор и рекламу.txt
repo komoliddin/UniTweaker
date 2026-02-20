@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo
+NAME=Enabled
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo" /v "Enabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\Software\Microsoft\PolicyManager\current\device\Bluetooth" /v "AllowAdvertising" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo" /v "Enabled" /f
+Reg.exe delete "HKLM\Software\Microsoft\PolicyManager\current\device\Bluetooth" /v "AllowAdvertising" /f
+
+DESCRIPTION:
+Отключает рекламу в Windows, включая персонализированные предложения и рекламные идентификаторы, а также запрещает рекламу через Bluetooth.
+
+EN_TITLE:
+Advertising ID and Ads
+
+EN_DESCRIPTION:
+Disables Windows advertising, including personalized suggestions and advertising IDs, and blocks advertising via Bluetooth.
+
+UZ_TITLE:
+Reklama identifikatori va reklamalar
+
+UZ_DESCRIPTION:
+Shaxsiylashtirilgan takliflar va reklama identifikatorlarini o'z ichiga olgan Windows reklamalarini o'chiradi, shuningdek, Bluetooth orqali reklamalarni bloklaydi.
+
+DE_TITLE:
+Werbe-ID und Werbung
+
+DE_DESCRIPTION:
+Deaktiviert Windows-Werbung, einschließlich personalisierter Vorschläge und Werbe-IDs, und blockiert Werbung über Bluetooth.
+
+FR_TITLE:
+Identifiant de publicité et annonces
+
+FR_DESCRIPTION:
+Désactive la publicité Windows, y compris les suggestions personnalisées et les identifiants publicitaires, et bloque la publicité via Bluetooth.
+
+ES_TITLE:
+ID de publicidad y anuncios
+
+ES_DESCRIPTION:
+Desactiva la publicidad de Windows, incluidas las sugerencias personalizadas y los identificadores de publicidad, y bloquea la publicidad a través de Bluetooth.
+
+TR_TITLE:
+Reklam Kimliği ve Reklamlar
+
+TR_DESCRIPTION:
+Kişiselleştirilmiş öneriler ve reklam kimlikleri dahil olmak üzere Windows reklamlarını devre dışı bırakır ve Bluetooth üzerinden reklamları engeller.

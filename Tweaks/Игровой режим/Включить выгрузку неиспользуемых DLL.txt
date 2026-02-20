@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+NAME=AlwaysUnloadDll
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "AlwaysUnloadDll" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "AlwaysUnloadDll" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "AlwaysUnloadDll" /f
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "AlwaysUnloadDll" /f
+
+DESCRIPTION:
+Этот твик принудительно выгружает из памяти неиспользуемые DLL-файлы, освобождая оперативную память.
+
+EN_TITLE:
+Unload Unused DLLs
+
+EN_DESCRIPTION:
+Forces Windows to unload unused DLL files from memory to free up RAM.
+
+UZ_TITLE:
+Ishlatilmayotgan DLL-larni tushirish
+
+UZ_DESCRIPTION:
+Operativ xotirani bo'shatish uchun ishlatilmayotgan DLL-fayllarni xotiradan majburiy chiqarib yuboradi.
+
+DE_TITLE:
+Nicht verwendete DLLs entladen
+
+DE_DESCRIPTION:
+Zwingt Windows dazu, nicht verwendete DLL-Dateien aus dem Speicher zu entladen, um RAM freizugeben.
+
+FR_TITLE:
+Décharger les DLL inutilisées
+
+FR_DESCRIPTION:
+Force Windows à décharger les fichiers DLL inutilisés de la mémoire pour libérer de la RAM.
+
+ES_TITLE:
+Descargar DLL no utilizadas
+
+ES_DESCRIPTION:
+Obliga a Windows a descargar los archivos DLL no utilizados de la memoria para liberar RAM.
+
+TR_TITLE:
+Kullanılmayan DLL'leri Boşalt
+
+TR_DESCRIPTION:
+RAM'de yer açmak için Windows'u kullanılmayan DLL dosyalarını bellekten boşaltmaya zorlar.

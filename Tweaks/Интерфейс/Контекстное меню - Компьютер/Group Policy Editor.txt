@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\LocalGroupPolicyEditor
+NAME=Редактор групповой политики
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\LocalGroupPolicyEditor" /ve /t REG_SZ /d "Редактор групповой политики" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\LocalGroupPolicyEditor" /v "Icon" /t REG_SZ /d "gpedit.dll" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\LocalGroupPolicyEditor\command" /ve /t REG_SZ /d "mmc.exe /s gpedit.msc" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\LocalGroupPolicyEditor" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Редактор групповой политики» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Group Policy Editor
+
+EN_DESCRIPTION:
+Group Policy Editor
+
+UZ_TITLE:
+Group Policy Editor
+
+UZ_DESCRIPTION:
+Group Policy Editor
+
+DE_TITLE:
+Group Policy Editor
+
+DE_DESCRIPTION:
+Group Policy Editor
+
+FR_TITLE:
+Group Policy Editor
+
+FR_DESCRIPTION:
+Group Policy Editor
+
+ES_TITLE:
+Group Policy Editor
+
+ES_DESCRIPTION:
+Group Policy Editor
+
+TR_TITLE:
+Group Policy Editor
+
+TR_DESCRIPTION:
+Group Policy Editor

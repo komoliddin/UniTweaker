@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
+NAME=ClearPageFileAtShutdown
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v "ClearPageFileAtShutdown" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v "ClearPageFileAtShutdown" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Если вы поместили файл подкачки на SSD, то рекомендуется отключить очистку файла подкачки при перезагрузке системы, так как происходит дополнительное обращение к диску (удаление данных из файла подкачки). При отключённом файле подкачки ключ "ClearPageFileAtShutdown" примет нулевое значение, а сама опция будет блокирована. По умолчанию очистка файла подкачки уже должна быть отключена в системе.
+
+EN_TITLE:
+Disable Page File Cleanup at Shutdown
+
+EN_DESCRIPTION:
+If you have placed the page file on an SSD, it is recommended to disable clearing the page file during system reboot, as this involves additional disk access. If the page file is disabled, the "ClearPageFileAtShutdown" key will take a value of zero, and the option itself will be blocked. By default, page file cleanup should already be disabled in the system.
+
+UZ_TITLE:
+Tizimni o'chirishda almashish faylini tozalashni o'chirish
+
+UZ_DESCRIPTION:
+Agar siz almashish faylini (page file) SSD-ga joylashtirgan bo'lsangiz, tizimni qayta ishga tushirishda almashish faylini tozalashni o'chirib qo'yish tavsiya etiladi, chunki bu diskka qo'shimcha murojaat qilishni anglatadi. Almashish fayli o'chirilgan bo'lsa, "ClearPageFileAtShutdown" kaliti nol qiymatini oladi va variantning o'zi bloklanadi. Standart bo'yicha, almashish faylini tozalash tizimda allaqachon o'chirilgan bo'lishi kerak.
+
+DE_TITLE:
+Auslagerungsdatei-Bereinigung beim Herunterfahren deaktivieren
+
+DE_DESCRIPTION:
+Wenn Sie die Auslagerungsdatei auf einer SSD platziert haben, wird empfohlen, das Löschen der Auslagerungsdatei beim Systemneustart zu deaktivieren, da dies einen zusätzlichen Festplattenzugriff erfordert. Wenn die Auslagerungsdatei deaktiviert ist, nimmt der Schlüssel "ClearPageFileAtShutdown" den Wert Null an, und die Option selbst wird blockiert. Standardmäßig sollte die Bereinigung der Auslagerungsdatei im System bereits deaktiviert sein.
+
+FR_TITLE:
+Désactiver le nettoyage du fichier d'échange à l'arrêt
+
+FR_DESCRIPTION:
+Si vous avez placé le fichier d'échange sur un SSD, il est recommandé de désactiver l'effacement du fichier d'échange lors du redémarrage du système, car cela implique un accès supplémentaire au disque. Si le fichier d'échange est désactivé, la clé « ClearPageFileAtShutdown » prendra la valeur zéro et l'option elle-même sera bloquée. Par défaut, le nettoyage du fichier d'échange devrait déjà être désactivé dans le système.
+
+ES_TITLE:
+Desactivar limpieza del archivo de paginación al apagar
+
+ES_DESCRIPTION:
+Si ha colocado el archivo de paginación en un SSD, se recomienda desactivar la limpieza del archivo de paginación durante el reinicio del sistema, ya que esto implica un acceso adicional al disco. Si el archivo de paginación está desactivado, la clave "ClearPageFileAtShutdown" tomará el valor cero и la propia opción quedará bloqueada. Por defecto, la limpieza del archivo de paginación ya debería estar desactivada en el sistema.
+
+TR_TITLE:
+Kapanışta Disk Belleği Dosyası Temizliğini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Disk belleği dosyasını (page file) bir SSD'ye yerleştirdiyseniz, sistem yeniden başlatılırken disk belleği dosyasının temizlenmesini devre dışı bırakmanız önerilir, çünkü bu ek disk erişimi gerektirir. Disk belleği dosyası devre dışı bırakılırsa, "ClearPageFileAtShutdown" anahtarı sıfır değerini alacaktır ve seçeneğin kendisi engellenecektir. Varsayılan olarak, disk belleği dosyası temizliği sistemde zaten devre dışı bırakılmış olmalıdır.

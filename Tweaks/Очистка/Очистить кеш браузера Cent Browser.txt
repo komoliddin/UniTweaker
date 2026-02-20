@@ -1,0 +1,47 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\CentBrowser\User Data\Default\Cache
+%LOCALAPPDATA%\CentBrowser\User Data\Default\Code Cache
+%LOCALAPPDATA%\CentBrowser\User Data\Default\GPUCache
+%LOCALAPPDATA%\CentBrowser\User Data\Default\Media Cache
+%LOCALAPPDATA%\CentBrowser\User Data\Default\Service Worker
+
+DESCRIPTION:
+Кеш браузера CentBrowser — веб-кеш, кодовые кеши (JavaScript/WebAssembly), GPU и медиа кеши.
+
+EN_TITLE:
+Clear Cent Browser Cache
+
+EN_DESCRIPTION:
+CentBrowser cache — web cache, code cache (JavaScript/WebAssembly), GPU, and media caches.
+
+UZ_TITLE:
+Cent Browser keshini tozalash
+
+UZ_DESCRIPTION:
+CentBrowser keshi — veb-kesh, kod keshi (JavaScript/WebAssembly), GPU va media keshlar.
+
+DE_TITLE:
+Cent Browser-Cache bereinigen
+
+DE_DESCRIPTION:
+CentBrowser-Cache – Web-Cache, Code-Cache (JavaScript/WebAssembly), GPU- und Medien-Caches.
+
+FR_TITLE:
+Effacer le cache du navigateur Cent Browser
+
+FR_DESCRIPTION:
+Cache CentBrowser — cache Web, cache de code (JavaScript/WebAssembly), caches GPU et média.
+
+ES_TITLE:
+Limpiar caché del navegador Cent Browser
+
+ES_DESCRIPTION:
+Caché de CentBrowser: caché web, caché de código (JavaScript/WebAssembly), cachés de GPU и multimedia.
+
+TR_TITLE:
+Cent Browser Önbelleğini Temizle
+
+TR_DESCRIPTION:
+CentBrowser önbelleği — web önbelleği, kod önbelleği (JavaScript/WebAssembly), GPU ve medya önbellekleri.

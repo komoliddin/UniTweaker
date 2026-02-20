@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=ShowSecondsInSystemClock
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ShowSecondsInSystemClock" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ShowSecondsInSystemClock" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Добавляет отображение секунд на системных часах в трее (требуется перезапуск проводника).
+
+EN_TITLE:
+Show Seconds in System Tray Clock
+
+EN_DESCRIPTION:
+Show Seconds in System Tray Clock
+
+UZ_TITLE:
+Tray soatida soniyalarni ko'rsatish
+
+UZ_DESCRIPTION:
+Tray soatida soniyalarni ko'rsatish
+
+DE_TITLE:
+Sekunden in der Systemtray-Uhr anzeigen
+
+DE_DESCRIPTION:
+Sekunden in der Systemtray-Uhr anzeigen
+
+FR_TITLE:
+Afficher les secondes dans l'horloge de la barre des tâches
+
+FR_DESCRIPTION:
+Afficher les secondes dans l'horloge de la barre des tâches
+
+ES_TITLE:
+Mostrar segundos en el reloj de la bandeja del sistema
+
+ES_DESCRIPTION:
+Mostrar segundos en el reloj de la bandeja del sistema
+
+TR_TITLE:
+Sistem tepsisi saatinde saniyeleri göster
+
+TR_DESCRIPTION:
+Sistem tepsisi saatinde saniyeleri göster

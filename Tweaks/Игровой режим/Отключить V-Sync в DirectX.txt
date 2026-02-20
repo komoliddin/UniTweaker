@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=Software\Microsoft\Direct3D\Global
+NAME=DisableVSync
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\Software\Microsoft\Direct3D\Global" /v "DisableVSync" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\Software\Microsoft\Direct3D\Global" /v "DisableVSync" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Отключает вертикальную синхронизацию (V-Sync) в DirectX, уменьшая задержку вывода кадра и повышая FPS.
+
+EN_TITLE:
+Disable V-Sync in DirectX
+
+EN_DESCRIPTION:
+Disables vertical synchronization (V-Sync) in DirectX to reduce input lag and potentially increase FPS in games.
+
+UZ_TITLE:
+DirectX-da V-Sync-ni o'chirish
+
+UZ_DESCRIPTION:
+Kechikishni kamaytirish va o'yinlarda FPS-ni oshirish uchun DirectX-da vertikal sinxronizatsiyani (V-Sync) o'chiradi.
+
+DE_TITLE:
+V-Sync in DirectX deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die vertikale Synchronisation (V-Sync) in DirectX, um Eingabeverzögerungen zu reduzieren und die FPS zu erhöhen.
+
+FR_TITLE:
+Désactiver la V-Sync dans DirectX
+
+FR_DESCRIPTION:
+Désactive la synchronisation verticale (V-Sync) dans DirectX pour réduire le décalage d'entrée et augmenter les FPS.
+
+ES_TITLE:
+Desactivar V-Sync en DirectX
+
+ES_DESCRIPTION:
+Desactiva la sincronización vertical (V-Sync) en DirectX para reducir el retraso de entrada y aumentar los FPS.
+
+TR_TITLE:
+DirectX'te V-Sync'i Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Giriş gecikmesini azaltmak ve FPS'yi artırmak için DirectX'te dikey senkronizasyonu (V-Sync) devre dışı bırakır.

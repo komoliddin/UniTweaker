@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement
+NAME=ScoobeSystemSettingEnabled
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement" /v "ScoobeSystemSettingEnabled" /t REG_DWORD /d 0 /f
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "WindowsWelcomeCenter" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement" /v "ScoobeSystemSettingEnabled" /f
+DESCRIPTION:
+Отключает полноэкранное окно с предложением завершить настройку устройства Windows (экран приветствия после обновлений).
+
+EN_TITLE:
+Disable Windows Setup Completion
+
+EN_DESCRIPTION:
+Disables the full-screen window suggesting to complete Windows device setup (welcome screen after updates).
+
+UZ_TITLE:
+Windows qurilmasini sozlashni yakunlashni o'chirish
+
+UZ_DESCRIPTION:
+Windows qurilmasini sozlashni yakunlash taklifi bilan to'liq ekranli oynani (yangilanishlardan keyingi xush kelibsiz ekrani) o'chiradi.
+
+DE_TITLE:
+Windows-Einrichtungsabschluss deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert das Vollbildfenster mit dem Vorschlag, die Windows-Geräteeinrichtung abzuschließen (Begrüßungsbildschirm nach Updates).
+
+FR_TITLE:
+Désactiver la finalisation de la configuration de Windows
+
+FR_DESCRIPTION:
+Désactive la fenêtre plein écran suggérant de terminer la configuration de l'appareil Windows (écran d'accueil après les mises à jour).
+
+ES_TITLE:
+Desactivar finalización de configuración de Windows
+
+ES_DESCRIPTION:
+Desactiva la ventana a pantalla completa que sugiere completar la configuración del dispositivo Windows (pantalla de bienvenida tras las actualizaciones).
+
+TR_TITLE:
+Windows Kurulum Tamamlamayı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Windows cihaz kurulumunu tamamlamayı öneren tam ekran penceresini (güncellemelerden sonraki karşılama ekranı) devre dışı bırakır.

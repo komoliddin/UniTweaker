@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Packages\Microsoft.WindowsStore_*\LocalCache
+%LOCALAPPDATA%\Packages\Microsoft.WindowsStore_*\TempState
+
+DESCRIPTION:
+Кеш и временные данные Microsoft Store и приложений UWP.
+
+EN_TITLE:
+Clear Microsoft Store and UWP Apps Cache
+
+EN_DESCRIPTION:
+Microsoft Store and UWP application cache and temporary data.
+
+UZ_TITLE:
+Microsoft Store va UWP ilovalari keshini tozalash
+
+UZ_DESCRIPTION:
+Microsoft Store va UWP ilovalarining kesh va vaqtinchalik ma'lumotlari.
+
+DE_TITLE:
+Microsoft Store- und UWP-Apps-Cache bereinigen
+
+DE_DESCRIPTION:
+Microsoft Store- und UWP-Anwendungscache und temporäre Daten.
+
+FR_TITLE:
+Effacer le cache du Microsoft Store et des applications UWP
+
+FR_DESCRIPTION:
+Cache et données temporaires du Microsoft Store et des applications UWP.
+
+ES_TITLE:
+Limpiar caché de Microsoft Store и aplicaciones UWP
+
+ES_DESCRIPTION:
+Caché и datos temporales de Microsoft Store и aplicaciones UWP.
+
+TR_TITLE:
+Microsoft Store ve UWP Uygulamaları Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Microsoft Store ve UWP uygulaması önbelleği ve geçici verileri.

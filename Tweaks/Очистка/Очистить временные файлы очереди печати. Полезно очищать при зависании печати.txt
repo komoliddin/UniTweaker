@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%SystemRoot%\System32\spool\PRINTERS
+
+DESCRIPTION:
+Временные файлы очереди печати. Полезно очищать при зависании печати.
+
+EN_TITLE:
+Clear Print Spooler Temporary Files
+
+EN_DESCRIPTION:
+Temporary print queue files. Useful to clear when printing is stuck.
+
+UZ_TITLE:
+Chop etish navbati vaqtinchalik fayllarini tozalash
+
+UZ_DESCRIPTION:
+Chop etish navbatining vaqtinchalik fayllari. Chop etish qotib qolganda tozalash foydalidir.
+
+DE_TITLE:
+Temporäre Druckwarteschlangendateien bereinigen
+
+DE_DESCRIPTION:
+Temporäre Dateien der Druckwarteschlange. Nützlich zum Bereinigen, wenn der Druckvorgang hängt.
+
+FR_TITLE:
+Effacer les fichiers temporaires du spooler d'impression
+
+FR_DESCRIPTION:
+Fichiers temporaires de la file d'attente d'impression. Utile à effacer lorsque l'impression est bloquée.
+
+ES_TITLE:
+Limpiar archivos temporales de la cola de impresión
+
+ES_DESCRIPTION:
+Archivos temporales de la cola de impresión. Útil для limpiar cuando la impresión se queda bloqueada.
+
+TR_TITLE:
+Yazdırma Biriktiricisi Geçici Dosyalarını Temizle
+
+TR_DESCRIPTION:
+Geçici yazdırma kuyruğu dosyaları. Yazdırma işlemi takıldığında temizlemek yararlıdır.

@@ -1,0 +1,72 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Policies\Microsoft\Windows\DataCollection
+NAME=AllowTelemetry
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v "AllowTelemetry" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\DiagTrack" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\dmwappushservice" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\diagnosticshub.standardcollector.service" /v "Start" /t REG_DWORD /d "4" /f
+schtasks /Change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /DISABLE
+schtasks /Change /TN "\Microsoft\Windows\Application Experience\ProgramDataUpdater" /DISABLE
+schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator" /DISABLE
+schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" /DISABLE
+schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" /DISABLE
+taskkill /f /im CompatTelRunner.exe
+takeown /F %SystemRoot%\System32\CompatTelRunner.exe
+icacls %SystemRoot%\System32\CompatTelRunner.exe /grant %username%:F
+rename %SystemRoot%\System32\CompatTelRunner.exe CompatTelRunner.exe.bak
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v "AllowTelemetry" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\DiagTrack" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\dmwappushservice" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\diagnosticshub.standardcollector.service" /v "Start" /t REG_DWORD /d "2" /f
+schtasks /Change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /ENABLE
+schtasks /Change /TN "\Microsoft\Windows\Application Experience\ProgramDataUpdater" /ENABLE
+schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator" /ENABLE
+schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" /ENABLE
+schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" /ENABLE
+rename %SystemRoot%\System32\CompatTelRunner.exe.bak CompatTelRunner.exe
+
+DESCRIPTION:
+Отключает службы телеметрии Windows для повышения производительности и приватности.
+
+EN_TITLE:
+Windows Telemetry
+
+EN_DESCRIPTION:
+Disables Windows telemetry services to improve performance and privacy.
+
+UZ_TITLE:
+Windows telemetriyasi
+
+UZ_DESCRIPTION:
+Unumdorlik va maxfiylikni yaxshilash uchun Windows telemetriya xizmatlarini o'chiradi.
+
+DE_TITLE:
+Windows-Telemetrie
+
+DE_DESCRIPTION:
+Deaktiviert Windows-Telemetriedienste, um Leistung und Datenschutz zu verbessern.
+
+FR_TITLE:
+Télémétrie Windows
+
+FR_DESCRIPTION:
+Désactive les services de télémétrie Windows pour améliorer les performances et la confidentialité.
+
+ES_TITLE:
+Telemetría de Windows
+
+ES_DESCRIPTION:
+Desactiva los servicios de telemetría de Windows para mejorar el rendimiento y la privacidad.
+
+TR_TITLE:
+Windows Telemetrisi
+
+TR_DESCRIPTION:
+Performansı ve gizliliği artırmak için Windows telemetri hizmetlerini devre dışı bırakır.

@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\AdministrativeTools
+NAME=AdministrativeTools
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\AdministrativeTools" /ve /t REG_SZ /d "Администрирование" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\AdministrativeTools" /v "Icon" /t REG_SZ /d "Imageres.dll,109" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\AdministrativeTools\command" /ve /t REG_SZ /d "control.exe /name Microsoft.AdministrativeTools" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\AdministrativeTools" /f
+
+DESCRIPTION:
+Этот твик добавляет или удаляет пункт «Администрирование» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Administrative Tools
+
+EN_DESCRIPTION:
+Administrative Tools
+
+UZ_TITLE:
+Administrative Tools
+
+UZ_DESCRIPTION:
+Administrative Tools
+
+DE_TITLE:
+Administrative Tools
+
+DE_DESCRIPTION:
+Administrative Tools
+
+FR_TITLE:
+Administrative Tools
+
+FR_DESCRIPTION:
+Administrative Tools
+
+ES_TITLE:
+Administrative Tools
+
+ES_DESCRIPTION:
+Administrative Tools
+
+TR_TITLE:
+Administrative Tools
+
+TR_DESCRIPTION:
+Administrative Tools

@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPrinters
+NAME=Устройства и принтеры
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPrinters" /ve /t REG_SZ /d "Устройства и принтеры" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPrinters" /v "Icon" /t REG_SZ /d "DeviceCenter.dll,-1" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPrinters" /v "Position" /t REG_SZ /d "bottom" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPrinters\command" /ve /t REG_SZ /d "control printers" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ControlPrinters" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Устройства и принтеры» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Devices and Printers
+
+EN_DESCRIPTION:
+Devices and Printers
+
+UZ_TITLE:
+Devices and Printers
+
+UZ_DESCRIPTION:
+Devices and Printers
+
+DE_TITLE:
+Devices and Printers
+
+DE_DESCRIPTION:
+Devices and Printers
+
+FR_TITLE:
+Devices and Printers
+
+FR_DESCRIPTION:
+Devices and Printers
+
+ES_TITLE:
+Devices and Printers
+
+ES_DESCRIPTION:
+Devices and Printers
+
+TR_TITLE:
+Devices and Printers
+
+TR_DESCRIPTION:
+Devices and Printers

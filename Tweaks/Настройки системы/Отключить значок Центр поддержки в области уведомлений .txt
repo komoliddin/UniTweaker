@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NAME=HideSCAHealth
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "HideSCAHealth" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "HideSCAHealth" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Скрывает значок Центра поддержки (Security and Maintenance) в области уведомлений на панели задач.
+
+EN_TITLE:
+Hide Action Center Icon
+
+EN_DESCRIPTION:
+Hides the Action Center icon (Security and Maintenance) in the notification area on the taskbar.
+
+UZ_TITLE:
+Xabarlar markazi belgisini yashirish
+
+UZ_DESCRIPTION:
+Vazifalar panelidagi bildirishnomalar sohasida Xabarlar markazi (Security and Maintenance) belgisini yashiradi.
+
+DE_TITLE:
+Wartungscenter-Symbol ausblenden
+
+DE_DESCRIPTION:
+Blendet das Wartungscenter-Symbol (Sicherheit und Wartung) im Infobereich der Taskleiste aus.
+
+FR_TITLE:
+Masquer l'icône du Centre de maintenance
+
+FR_DESCRIPTION:
+Masque l'icône du Centre de maintenance (Sécurité et maintenance) dans la zone de notification de la barre des tâches.
+
+ES_TITLE:
+Ocultar icono del Centro de actividades
+
+ES_DESCRIPTION:
+Oculta el icono del Centro de actividades (Seguridad и mantenimiento) en el área de notificación de la barra de tareas.
+
+TR_TITLE:
+İşlem Merkezi Simgesini Gizle
+
+TR_DESCRIPTION:
+Görev çubuğundaki bildirim alanında bulunan İşlem Merkezi (Güvenlik ve Bakım) simgesini gizler.

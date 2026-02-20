@@ -1,0 +1,59 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo
+NAME=Application
+TYPE=REG_SZ
+VALUE=NOTEPAD.EXE
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo" /v "Application" /t REG_SZ /d "NOTEPAD.EXE" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithList" /v "a" /t REG_SZ /d "Explorer.exe" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithList" /v "MRUList" /t REG_SZ /d "ba" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithList" /v "b" /t REG_SZ /d "NOTEPAD.EXE" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithProgids" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo" /v "Application" /f
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithList" /v "a" /f
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithList" /v "MRUList" /f
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithList" /v "b" /f
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.nfo\OpenWithProgids" /f
+
+DESCRIPTION:
+Ассоциирует .nfo файлы с Блокнотом для удобного просмотра.
+
+EN_TITLE:
+Open NFO files with Notepad
+
+EN_DESCRIPTION:
+Associates .nfo files with Notepad for easy viewing.
+
+UZ_TITLE:
+NFO fayllarini Bloknot bilan ochish
+
+UZ_DESCRIPTION:
+Oson ko'rish uchun .nfo fayllarini Bloknot bilan bog'laydi.
+
+DE_TITLE:
+NFO-Dateien mit Notepad öffnen
+
+DE_DESCRIPTION:
+Verknüpft .nfo-Dateien mit Notepad für eine einfache Anzeige.
+
+FR_TITLE:
+Ouvrir les fichiers NFO avec le Bloc-notes
+
+FR_DESCRIPTION:
+Associe les fichiers .nfo au Bloc-notes pour une consultation facile.
+
+ES_TITLE:
+Abrir archivos NFO con el Bloc de notas
+
+ES_DESCRIPTION:
+Asocia archivos .nfo con el Bloc de notas para una visualización sencilla.
+
+TR_TITLE:
+NFO dosyalarını Not Defteri ile aç
+
+TR_DESCRIPTION:
+Kolay görüntüleme için .nfo dosyalarını Not Defteri ile ilişkilendirir.

@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\FileSystem
+NAME=NtfsDisableLastAccessUpdate
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v "NtfsDisableLastAccessUpdate" /t REG_DWORD /d "1" /f
+fsutil behavior set disablelastaccess 1
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v "NtfsDisableLastAccessUpdate" /t REG_DWORD /d "2" /f
+fsutil behavior set disablelastaccess 2
+
+DESCRIPTION:
+Отключение обновления времени доступа (LastAccessTime) ускоряет работу с файлами, особенно на SSD/HDD с большим количеством мелких файлов. 
+Однако это может повлиять на программы, использующие атрибут последнего доступа (например, бэкапы, антивирусы). 
+
+EN_TITLE:
+Disable Last Access Time Update
+
+EN_DESCRIPTION:
+Disabling the LastAccessTime update speeds up file operations, especially on SSDs/HDDs with a large number of small files. However, this may affect programs that use the last access attribute (e.g., backups, antiviruses).
+
+UZ_TITLE:
+Oxirgi kirish vaqtini yangilashni o'chirish
+
+UZ_DESCRIPTION:
+Oxirgi kirish vaqtini (LastAccessTime) yangilashni o'chirish, ayniqsa ko'p sonli kichik fayllarga ega SSD/HDD drayverlarida fayllar bilan ishlashni tezlashtiradi. Biroq, bu oxirgi kirish atributidan foydalanadigan dasturlarga (masalan, zaxira nusxalari, antiviruslar) ta'sir qilishi mumkin.
+
+DE_TITLE:
+Aktualisierung der letzten Zugriffszeit deaktivieren
+
+DE_DESCRIPTION:
+Das Deaktivieren der LastAccessTime-Aktualisierung beschleunigt Dateioperationen, insbesondere auf SSDs/HDDs mit einer großen Anzahl kleiner Dateien. Dies kann jedoch Programme beeinträchtigen, die das Attribut des letzten Zugriffs verwenden (z. B. Backups, Antivirenprogramme).
+
+FR_TITLE:
+Désactiver la mise à jour de l'heure du dernier accès
+
+FR_DESCRIPTION:
+La désactivation de la mise à jour de LastAccessTime accélère les opérations sur les fichiers, en particulier sur les SSD/HDD contenant un grand nombre de petits fichiers. Toutefois, cela peut affecter les programmes qui utilisent l'attribut de dernier accès (par exemple, les sauvegardes, les antivirus).
+
+ES_TITLE:
+Desactivar la actualización de la hora de último acceso
+
+ES_DESCRIPTION:
+Desactivar la actualización de LastAccessTime acelera las operaciones con archivos, especialmente en SSD/HDD con un gran número de archivos pequeños. Sin embargo, esto puede afectar a los programas que utilizan el atributo de último acceso (por ejemplo, copias de seguridad, antivirus).
+
+TR_TITLE:
+Son Erişim Zamanı Güncellemesini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+LastAccessTime güncellemesini devre dışı bırakmak, özellikle çok sayıda küçük dosyaya sahip SSD'lerde/HDD'lerde dosya işlemlerini hızlandırır. Ancak bu, son erişim özniteliğini kullanan programları (örneğin yedeklemeler, antivirüsler) etkileyebilir.

@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\InputPersonalization
+NAME=AutoCorrection
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization" /v "AutoCorrection" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization" /v "AutoCorrection" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Отключает **автозамену слов при вводе**, предотвращая автоматическое исправление текста.
+
+EN_TITLE:
+Disable Word Auto-Correction
+
+EN_DESCRIPTION:
+Disables **word auto-correction while typing**, preventing automatic text correction.
+
+UZ_TITLE:
+So'zlarni avtomatik tuzatishni o'chirish
+
+UZ_DESCRIPTION:
+Matnni avtomatik ravishda tuzatilishining oldini olish uchun yozish paytida **so'zlarni avtomatik tuzatishni** o'chiradi.
+
+DE_TITLE:
+Wort-Autokorrektur deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die **Wort-Autokorrektur beim Tippen** und verhindert so die automatische Textkorrektur.
+
+FR_TITLE:
+Désactiver l'autocorrection des mots
+
+FR_DESCRIPTION:
+Désactive l'**autocorrection des mots lors de la saisie**, empêchant la correction automatique du texte.
+
+ES_TITLE:
+Desactivar la autocorrección de palabras
+
+ES_DESCRIPTION:
+Desactiva la **autocorrección de palabras al escribir**, evitando la corrección automática de texto.
+
+TR_TITLE:
+Sözcük Otomatik Düzeltmeyi Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Yazma sırasında **sözcük otomatik düzeltmeyi** devre dışı bırakarak otomatik metin düzeltmesini engeller.

@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\FeatureManagement\Overrides\4\586118283
+NAME=EnabledState
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\FeatureManagement\Overrides\4\586118283" /v "EnabledState" /t REG_DWORD /d 1 /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell\Update\Packages" /v "UndockingDisabled" /t REG_DWORD /d 1 /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{86CA1AA0-34AA-4E8B-A509-50C905BAE2A2}\InprocServer32" /ve /t REG_SZ /d "" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell\Update\Packages" /v "UndockingDisabled" /f
+Reg.exe delete "HKLM\SYSTEM\CurrentControlSet\Control\FeatureManagement\Overrides\4\586118283" /f
+Reg.exe delete "HKCU\Software\Classes\CLSID\{86CA1AA0-34AA-4E8B-A509-50C905BAE2A2}" /f
+
+DESCRIPTION:
+Этот твик возвращает **классическое контекстное меню** в Windows 11 (как в Windows 10), убирая "Показать дополнительные параметры".
+
+EN_TITLE:
+Disable Context Menu Delay
+
+EN_DESCRIPTION:
+Disable Context Menu Delay
+
+UZ_TITLE:
+Kontekst menyusi paydo bo'lishidagi kechikishni olib tashlash
+
+UZ_DESCRIPTION:
+Kontekst menyusi paydo bo'lishidagi kechikishni olib tashlash
+
+DE_TITLE:
+Verzögerung beim Erscheinen des Kontextmenüs deaktivieren
+
+DE_DESCRIPTION:
+Verzögerung beim Erscheinen des Kontextmenüs deaktivieren
+
+FR_TITLE:
+Supprimer le délai d'apparition du menu contextuel
+
+FR_DESCRIPTION:
+Supprimer le délai d'apparition du menu contextuel
+
+ES_TITLE:
+Eliminar el retraso en la aparición del menú contextual
+
+ES_DESCRIPTION:
+Eliminar el retraso en la aparición del menú contextual
+
+TR_TITLE:
+Sağ tık menüsü gecikmesini devre dışı bırak
+
+TR_DESCRIPTION:
+Sağ tık menüsü gecikmesini devre dışı bırak

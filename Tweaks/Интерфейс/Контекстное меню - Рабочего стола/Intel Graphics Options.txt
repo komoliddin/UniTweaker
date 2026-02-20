@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCR
+KEY=Directory\Background\shellex\ContextMenuHandlers\igfxcui
+NAME=
+TYPE=REG_SZ
+VALUE={3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}
+
+CHECKED:
+Reg.exe add "HKCR\Directory\Background\shellex\ContextMenuHandlers\igfxcui" /ve /t REG_SZ /d "{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}" /f
+Reg.exe add "HKCR\Directory\Background\shellex\ContextMenuHandlers\igfxDTCM" /ve /t REG_SZ /d "{9B5F5829-A529-4B12-814A-E81BCB8D93FC}" /f
+
+UNCHECKED:
+Reg.exe delete "HKCR\Directory\Background\shellex\ContextMenuHandlers\igfxcui" /f
+Reg.exe delete "HKCR\Directory\Background\shellex\ContextMenuHandlers\igfxDTCM" /f
+
+DESCRIPTION:
+Этот твик добавляет или удаляет настройки графики Intel из контекстного меню Рабочего стола.
+
+EN_TITLE:
+Intel Graphics Options
+
+EN_DESCRIPTION:
+Intel Graphics Options
+
+UZ_TITLE:
+Intel Graphics Options
+
+UZ_DESCRIPTION:
+Intel Graphics Options
+
+DE_TITLE:
+Intel Graphics Options
+
+DE_DESCRIPTION:
+Intel Graphics Options
+
+FR_TITLE:
+Intel Graphics Options
+
+FR_DESCRIPTION:
+Intel Graphics Options
+
+ES_TITLE:
+Intel Graphics Options
+
+ES_DESCRIPTION:
+Intel Graphics Options
+
+TR_TITLE:
+Intel Graphics Options
+
+TR_DESCRIPTION:
+Intel Graphics Options

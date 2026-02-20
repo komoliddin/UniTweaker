@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+lusrmgr.msc
+
+DESCRIPTION:
+Открывает управление пользователями и группами
+
+EN_TITLE:
+Open User and Group Management
+
+EN_DESCRIPTION:
+Launches the Local Users and Groups (lusrmgr.msc) manager.
+
+UZ_TITLE:
+Foydalanuvchilar va guruhlarni boshqarishni ochish
+
+UZ_DESCRIPTION:
+Mahalliy foydalanuvchilar va guruhlar (lusrmgr.msc) menejerini ishga tushiradi.
+
+DE_TITLE:
+Benutzer- und Gruppenverwaltung öffnen
+
+DE_DESCRIPTION:
+Startet die lokale Benutzer- und Gruppenverwaltung (lusrmgr.msc).
+
+FR_TITLE:
+Ouvrir la gestion des utilisateurs et des groupes
+
+FR_DESCRIPTION:
+Lance le gestionnaire des utilisateurs et groupes locaux (lusrmgr.msc).
+
+ES_TITLE:
+Abrir administración de usuarios и grupos
+
+ES_DESCRIPTION:
+Inicia el administrador de usuarios и grupos locales (lusrmgr.msc).
+
+TR_TITLE:
+Kullanıcı ve Grup Yönetimini Aç
+
+TR_DESCRIPTION:
+Yerel Kullanıcılar ve Gruplar (lusrmgr.msc) yöneticisini başlatır.

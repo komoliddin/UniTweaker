@@ -1,0 +1,50 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\BootAnimation
+NAME=DisableStartupSound
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\BootAnimation" /v "DisableStartupSound" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\BootAnimation" /v "DisableStartupSound" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+
+EN_TITLE:
+Enable Windows Startup Sound
+
+EN_DESCRIPTION:
+Enable Windows Startup Sound
+
+UZ_TITLE:
+Windows ishga tushirish ovozini yoqish
+
+UZ_DESCRIPTION:
+Windows ishga tushirish ovozini yoqish
+
+DE_TITLE:
+Windows-Startsound aktivieren
+
+DE_DESCRIPTION:
+Windows-Startsound aktivieren
+
+FR_TITLE:
+Activer le son de démarrage de Windows
+
+FR_DESCRIPTION:
+Activer le son de démarrage de Windows
+
+ES_TITLE:
+Activar sonido de inicio de Windows
+
+ES_DESCRIPTION:
+Activar sonido de inicio de Windows
+
+TR_TITLE:
+Windows başlangıç sesini etkinleştir
+
+TR_DESCRIPTION:
+Windows başlangıç sesini etkinleştir

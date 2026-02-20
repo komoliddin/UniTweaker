@@ -1,0 +1,66 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters
+NAME=AllowInsecureGuestAuth
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters" /v "AllowInsecureGuestAuth" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters" /v "AllowInsecureGuestAuth" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Разрешает или запрещает использование небезопасной гостевой аутентификации (AllowInsecureGuestAuth) 
+в службе LanmanWorkstation.  
+• Включено (1) — системы могут подключаться к SMB-шарам без учётных данных (менее безопасно).  
+• Выключено (0) — гостевой доступ блокируется, требуется аутентификация (рекомендуется для безопасности).
+
+EN_TITLE:
+Enable Insecure Guest Logons
+
+EN_DESCRIPTION:
+Enables insecure guest logins to SMB servers. This may be required to access some old network storage (NAS) or routers.
+• Enabled (1) — systems can connect to SMB shares without credentials (less secure).
+• Disabled (0) — guest access is blocked, authentication is required (recommended for security).
+
+UZ_TITLE:
+Xavfsiz bo'lmagan mehmon kirishlarini yoqish
+
+UZ_DESCRIPTION:
+SMB serverlariga xavfsiz bo'lmagan mehmon kirishlarini yoqadi. Bu ba'zi eski tarmoq xotiralari (NAS) yoki routerlarga kirish uchun talab qilinishi mumkin.
+• Yoqilgan (1) — tizimlar SMB resurslariga hisob ma'lumotlarisiz ulanishi mumkin (kamroq xavfsiz).
+• O'chirilgan (0) — mehmon kirishi bloklanadi, autentifikatsiya talab qilinadi (xavfsizlik uchun tavsiya etiladi).
+
+DE_TITLE:
+Unsichere Gastanmeldungen aktivieren
+
+DE_DESCRIPTION:
+Aktiviert unsichere Gastanmeldungen an SMB-Servern. Dies kann für den Zugriff auf einige alte Netzwerkspeicher (NAS) oder Router erforderlich sein.
+• Aktiviert (1) — Systeme können ohne Anmeldedaten eine Verbindung zu SMB-Freigaben herstellen (weniger sicher).
+• Deaktiviert (0) — Gastzugriff wird blockiert, Authentifizierung ist erforderlich (aus Sicherheitsgründen empfohlen).
+
+FR_TITLE:
+Activer les connexions invité non sécurisées
+
+FR_DESCRIPTION:
+Active les connexions invité non sécurisées aux serveurs SMB. Cela peut être nécessaire pour accéder à certains anciens stockages réseau (NAS) ou routeurs.
+• Activé (1) — les systèmes peuvent se connecter aux partages SMB sans identifiants (moins sécurisé).
+• Désactivé (0) — l'accès invité est bloqué, l'authentification est requise (recommandé pour la sécurité).
+
+ES_TITLE:
+Habilitar inicios de sesión de invitados no seguros
+
+ES_DESCRIPTION:
+Habilita los inicios de sesión de invitados no seguros en servidores SMB. Esto puede ser necesario para acceder a algunos almacenamientos de red (NAS) o routers antiguos.
+• Habilitado (1) — los sistemas pueden conectarse a recursos compartidos SMB sin credenciales (menos seguro).
+• Deshabilitado (0) — se bloquea el acceso de invitados, se requiere autenticación (recomendado por seguridad).
+
+TR_TITLE:
+Güvensiz Konuk Oturum Açmalarını Etkinleştir
+
+TR_DESCRIPTION:
+SMB sunucularına güvensiz konuk oturum açmalarını etkinleştirir. Bu, bazı eski ağ depolama birimlerine (NAS) veya yönlendiricilere erişmek için gerekebilir.
+• Etkin (1) — sistemler kimlik bilgileri olmadan SMB paylaşımlarına bağlanabilir (daha az güvenli).
+• Devre Dışı (0) — konuk erişimi engellenir, kimlik doğrulaması gerekir (güvenlik için önerilir).

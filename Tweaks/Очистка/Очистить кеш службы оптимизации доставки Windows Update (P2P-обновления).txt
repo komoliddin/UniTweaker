@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%SystemRoot%\SoftwareDistribution\DeliveryOptimization
+
+DESCRIPTION:
+Кеш службы оптимизации доставки Windows Update (P2P-обновления). Безопасно удалять.
+
+EN_TITLE:
+Clear Windows Update Delivery Optimization Cache
+
+EN_DESCRIPTION:
+Windows Update Delivery Optimization cache (P2P updates). Safe to delete.
+
+UZ_TITLE:
+Windows Update yetkazib berishni optimallashtirish keshini tozalash
+
+UZ_DESCRIPTION:
+Windows Update yetkazib berishni optimallashtirish (P2P yangilanishlari) keshi. O'chirish xavfsiz.
+
+DE_TITLE:
+Windows Update-Übermittlungsoptimierungscache bereinigen
+
+DE_DESCRIPTION:
+Windows Update Übermittlungsoptimierungs-Cache (P2P-Updates). Sicher zu löschen.
+
+FR_TITLE:
+Effacer le cache d'optimisation de livraison de Windows Update
+
+FR_DESCRIPTION:
+Cache d'optimisation de livraison Windows Update (mises à jour P2P). Suppression sans danger.
+
+ES_TITLE:
+Limpiar caché de optimización de entrega de Windows Update
+
+ES_DESCRIPTION:
+Caché de optimización de entrega de Windows Update (actualizaciones P2P). Seguro de eliminar.
+
+TR_TITLE:
+Windows Güncelleme Teslim Eniyileme Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Windows Güncelleme Teslim Eniyileme önbelleği (P2P güncellemeleri). Silmek güvenlidir.

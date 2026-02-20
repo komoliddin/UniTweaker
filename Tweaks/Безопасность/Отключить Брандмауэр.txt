@@ -1,0 +1,61 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile
+NAME=EnableFirewall
+TYPE=REG_DWORD
+VALUE=0x0
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile" /v "EnableFirewall" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\PushNotifications" /v "ToastEnabled" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\PushNotifications" /v "ToastEnabled" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\MpsSvc" /v "Start" /t REG_DWORD /d "0x4" /f
+netsh advfirewall set allprofiles state off
+net stop mpssvc
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile" /v "EnableFirewall" /t REG_DWORD /d "0x1" /f
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\PushNotifications" /v "ToastEnabled" /f
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\PushNotifications" /v "ToastEnabled" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\MpsSvc" /v "Start" /t REG_DWORD /d "0x2" /f
+net start mpssvc
+netsh advfirewall set allprofiles state on
+
+DESCRIPTION:
+Отключает встроенный брандмауэр Windows (Windows Firewall) и связанные службы.
+
+EN_TITLE:
+Disable Windows Firewall
+
+EN_DESCRIPTION:
+Disables the built-in Windows Firewall and its related services.
+
+UZ_TITLE:
+Windows Brandmauerini o'chirish
+
+UZ_DESCRIPTION:
+O'rnatilgan Windows brandmauerini (Firewall) va u bilan bog'liq xizmatlarni o'chiradi.
+
+DE_TITLE:
+Windows-Firewall deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die integrierte Windows-Firewall und die zugehörigen Dienste.
+
+FR_TITLE:
+Désactiver le pare-feu Windows
+
+FR_DESCRIPTION:
+Désactive le pare-feu Windows intégré et ses services associés.
+
+ES_TITLE:
+Desactivar el Firewall de Windows
+
+ES_DESCRIPTION:
+Desactiva el firewall de Windows integrado y sus servicios relacionados.
+
+TR_TITLE:
+Windows Güvenlik Duvarını Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Yerleşik Windows Güvenlik Duvarı'nı ve ilgili hizmetlerini devre dışı bırakır.

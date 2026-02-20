@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=UseCompactMode
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v UseCompactMode /t REG_DWORD /d 1 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v UseCompactMode /t REG_DWORD /d 0 /f
+
+DESCRIPTION:
+Включает уменьшенный интервал между элементами в Проводнике Windows 11
+
+EN_TITLE:
+Enable Compact View in Explorer (Win11)
+
+EN_DESCRIPTION:
+Enable Compact View in Explorer (Win11)
+
+UZ_TITLE:
+Explorerning ixcham ko'rinishini yoqish (Win11)
+
+UZ_DESCRIPTION:
+Explorerning ixcham ko'rinishini yoqish (Win11)
+
+DE_TITLE:
+Kompakte Ansicht im Explorer aktivieren (Win11)
+
+DE_DESCRIPTION:
+Kompakte Ansicht im Explorer aktivieren (Win11)
+
+FR_TITLE:
+Activer la vue compacte dans l'Explorateur (Win11)
+
+FR_DESCRIPTION:
+Activer la vue compacte dans l'Explorateur (Win11)
+
+ES_TITLE:
+Activar vista compacta en el Explorador (Win11)
+
+ES_DESCRIPTION:
+Activar vista compacta en el Explorador (Win11)
+
+TR_TITLE:
+Dosya Gezgini'nde kompakt görünümü etkinleştir (Win11)
+
+TR_DESCRIPTION:
+Dosya Gezgini'nde kompakt görünümü etkinleştir (Win11)

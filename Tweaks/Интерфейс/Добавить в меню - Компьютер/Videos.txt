@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}
+NAME=
+TYPE=
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
+Reg.exe add "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
+Reg.exe delete "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
+
+DESCRIPTION:
+Этот твик добавляет папку «Видео» в разделе «Этот компьютер».
+
+EN_TITLE:
+Videos 
+
+EN_DESCRIPTION:
+Videos 
+
+UZ_TITLE:
+Videos 
+
+UZ_DESCRIPTION:
+Videos 
+
+DE_TITLE:
+Videos 
+
+DE_DESCRIPTION:
+Videos 
+
+FR_TITLE:
+Videos 
+
+FR_DESCRIPTION:
+Videos 
+
+ES_TITLE:
+Videos 
+
+ES_DESCRIPTION:
+Videos 
+
+TR_TITLE:
+Videos 
+
+TR_DESCRIPTION:
+Videos 

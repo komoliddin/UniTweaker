@@ -1,0 +1,49 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Microsoft\Teams\Cache
+%APPDATA%\Microsoft\Teams\blob_storage
+%APPDATA%\Microsoft\Teams\databases
+%APPDATA%\Microsoft\Teams\GPUCache
+%APPDATA%\Microsoft\Teams\IndexedDB
+%APPDATA%\Microsoft\Teams\Local Storage
+%APPDATA%\Microsoft\Teams	mp
+
+DESCRIPTION:
+Кеш, базы данных и временные файлы Microsoft Teams.
+
+EN_TITLE:
+Clear Microsoft Teams Cache
+
+EN_DESCRIPTION:
+Cache, databases, and temporary files of Microsoft Teams.
+
+UZ_TITLE:
+Microsoft Teams keshini tozalash
+
+UZ_DESCRIPTION:
+Microsoft Teams keshi, ma'lumotlar bazalari va vaqtinchalik fayllari.
+
+DE_TITLE:
+Microsoft Teams-Cache leeren
+
+DE_DESCRIPTION:
+Cache, Datenbanken und temporäre Dateien von Microsoft Teams.
+
+FR_TITLE:
+Effacer le cache Microsoft Teams
+
+FR_DESCRIPTION:
+Cache, bases de données et fichiers temporaires de Microsoft Teams.
+
+ES_TITLE:
+Limpiar caché de Microsoft Teams
+
+ES_DESCRIPTION:
+Caché, bases de datos y archivos temporales de Microsoft Teams.
+
+TR_TITLE:
+Microsoft Teams Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Microsoft Teams'in önbelleği, veritabanları ve geçici dosyaları.

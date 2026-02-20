@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Session Manager\Power
+NAME=HiberbootEnabled
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v "HiberbootEnabled" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v "HiberbootEnabled" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Данный твик отключает функцию быстрой загрузки Windows.
+При включении твика параметр HiberbootEnabled устанавливается в 0, что может помочь избежать ошибок (например, 0x00003000) при некорректном завершении работы системы.
+При отключении функция возвращается к стандартному состоянию (1), что сокращает время загрузки, но может привести к проблемам при восстановлении системы.
+
+EN_TITLE:
+Disable Fast Startup
+
+EN_DESCRIPTION:
+This tweak disables the Windows Fast Startup feature. Enabling it sets HiberbootEnabled to 0, which can help avoid errors (e.g., 0x00003000) during incorrect system shutdown. Disabling it restores the standard state (1), which shortens boot time but can lead to issues during system recovery.
+
+UZ_TITLE:
+Tezkor yuklashni (Fast Startup) o'chirish
+
+UZ_DESCRIPTION:
+Ushbu tvik Windows-ning tezkor yuklash funksiyasini o'chiradi. Tvik yoqilganda HiberbootEnabled parametri 0 ga o'rnatiladi, bu tizim noto'g'ri o'chirilganda xatolardan (masalan, 0x00003000) qochishga yordam beradi. O'chirilganda standart holat (1) tiklanadi, bu yuklash vaqtini qisqartiradi, ammo tizimni tiklashda muammolarga olib kelishi mumkin.
+
+DE_TITLE:
+Schnellstart deaktivieren
+
+DE_DESCRIPTION:
+Dieser Tweak deaktiviert die Windows-Schnellstartfunktion. Die Aktivierung setzt HiberbootEnabled auf 0, was helfen kann, Fehler (z. B. 0x00003000) beim fehlerhaften Herunterfahren des Systems zu vermeiden. Die Deaktivierung stellt den Standardzustand (1) wieder her, was die Bootzeit verkürzt, aber zu Problemen bei der Systemwiederherstellung führen kann.
+
+FR_TITLE:
+Désactiver le démarrage rapide
+
+FR_DESCRIPTION:
+Ce tweak désactive la fonction de démarrage rapide de Windows. L'activation définit HiberbootEnabled sur 0, ce qui peut aider à éviter des erreurs (par exemple, 0x00003000) lors d'un arrêt incorrect du système. La désactivation restaure l'état standard (1), ce qui réduit le temps de démarrage mais peut entraîner des problèmes lors de la récupération du système.
+
+ES_TITLE:
+Desactivar inicio rápido
+
+ES_DESCRIPTION:
+Este ajuste desactiva la función de inicio rápido de Windows. Al activarlo, HiberbootEnabled se establece en 0, lo que puede ayudar a evitar errores (por ejemplo, 0x00003000) durante un apagado incorrecto del sistema. Al desactivarlo se restaura el estado estándar (1), lo que reduce el tiempo de arranque pero puede provocar problemas durante la recuperación del sistema.
+
+TR_TITLE:
+Hızlı Başlatmayı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Bu ayar Windows Hızlı Başlatma özelliğini devre dışı bırakır. Etkinleştirildiğinde HiberbootEnabled değeri 0 olarak ayarlanır, bu da sistemin hatalı kapatılması sırasında hataların (örneğin, 0x00003000) önlenmesine yardımcı olabilir. Devre dışı bırakılması, önyükleme süresini kısaltan ancak sistem kurtarma sırasında sorunlara yol açabilen standart durumu (1) geri yükler.

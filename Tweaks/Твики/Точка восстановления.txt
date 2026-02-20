@@ -1,0 +1,44 @@
+BUTTON:
+CONFIRM
+FINISH
+CLICKED:
+powershell.exe Checkpoint-Computer -Description "UniTweaker Restore Point" -RestorePointType "MODIFY_SETTINGS"
+
+DESCRIPTION:
+Создаёт точку восстановления системы
+
+EN_TITLE:
+Create System Restore Point
+
+EN_DESCRIPTION:
+Creates a system restore point to allow you to roll back changes if needed.
+
+UZ_TITLE:
+Tizimni tiklash nuqtasini yaratish
+
+UZ_DESCRIPTION:
+Zarur bo'lganda o'zgarishlarni orqaga qaytarish imkonini beruvchi tizimni tiklash nuqtasini yaratadi.
+
+DE_TITLE:
+Systemwiederherstellungspunkt erstellen
+
+DE_DESCRIPTION:
+Erstellt einen Systemwiederherstellungspunkt, damit Sie Änderungen bei Bedarf rückgängig machen können.
+
+FR_TITLE:
+Créer un point de restauration du système
+
+FR_DESCRIPTION:
+Crée un point de restauration du système pour vous permettre d'annuler les modifications si nécessaire.
+
+ES_TITLE:
+Crear punto de restauración del sistema
+
+ES_DESCRIPTION:
+Crea un punto de restauración del sistema для permitirle revertir los cambios si es necesario.
+
+TR_TITLE:
+Sistem Geri Yükleme Noktası Oluştur
+
+TR_DESCRIPTION:
+Gerektiğinde değişiklikleri geri almanıza olanak tanıyan bir sistem geri yükleme noktası oluşturur.

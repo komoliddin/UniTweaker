@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+shutdown /s /t 0
+CONFIRM
+DESCRIPTION:
+Выключает компьютер
+
+EN_TITLE:
+Shut Down PC
+
+EN_DESCRIPTION:
+Shuts down the computer immediately.
+
+UZ_TITLE:
+Kompyuterni o'chirish
+
+UZ_DESCRIPTION:
+Kompyuterni darhol o'chiradi.
+
+DE_TITLE:
+PC herunterfahren
+
+DE_DESCRIPTION:
+Fährt den Computer sofort herunter.
+
+FR_TITLE:
+Éteindre le PC
+
+FR_DESCRIPTION:
+Éteint l'ordinateur immédiatement.
+
+ES_TITLE:
+Apagar el PC
+
+ES_DESCRIPTION:
+Apaga el ordenador inmediatamente.
+
+TR_TITLE:
+Bilgisayarı Kapat
+
+TR_DESCRIPTION:
+Bilgisayarı derhal kapatır.

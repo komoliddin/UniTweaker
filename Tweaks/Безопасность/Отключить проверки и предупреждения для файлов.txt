@@ -1,0 +1,57 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+NAME=SaveZoneInformation
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments" /v "SaveZoneInformation" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Associations" /v "LowRiskFileTypes" /t REG_SZ /d ".zip;.rar;.nfo;.txt;.exe;.bat;.com;.cmd;.reg;.msi;.htm;.html;.gif;.bmp;.jpg;.avi;.mpg;.mpeg;.mov;.mp3;.m3u;.wav;.mdb;.png;.tif;.tiff;.ico;.pdf;.doc;.docx;.xls;.xlsx;.ppt;.pptx;.csv;.log;.xml;.json;.mp4;.wmv;.flv" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "NoInternetOpenWith" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoInternetOpenWith" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments" /v "SaveZoneInformation" /f
+Reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Associations" /v "LowRiskFileTypes" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "NoInternetOpenWith" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoInternetOpenWith" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Отключает предупреждения при запуске скачанных файлов и блокирует предложение искать программы в Microsoft Store.
+
+EN_TITLE:
+Disable File and Store Warnings
+
+EN_DESCRIPTION:
+Disables warnings when launching downloaded files and blocks the suggestion to search for apps in the Microsoft Store.
+
+UZ_TITLE:
+Fayl va Store ogohlantirishlarini o'chirish
+
+UZ_DESCRIPTION:
+Yuklab olingan fayllarni ishga tushirishda ogohlantirishlarni o'chiradi va Microsoft Store-dan ilovalarni qidirish taklifini bloklaydi.
+
+DE_TITLE:
+Datei- und Store-Warnungen deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert Warnungen beim Starten heruntergeladener Dateien und blockiert den Vorschlag, im Microsoft Store nach Apps zu suchen.
+
+FR_TITLE:
+Désactiver les avertissements de fichiers et du Store
+
+FR_DESCRIPTION:
+Désactive les avertissements lors du lancement de fichiers téléchargés et bloque la suggestion de recherche d'applications dans le Microsoft Store.
+
+ES_TITLE:
+Desactivar advertencias de archivos y de la Tienda
+
+ES_DESCRIPTION:
+Desactiva las advertencias al abrir archivos descargados y bloquea la sugerencia de buscar aplicaciones en la Microsoft Store.
+
+TR_TITLE:
+Dosya ve Mağaza Uyarılarını Devre Dışı Bırak
+
+TR_DESCRIPTION:
+İndirilen dosyaları çalıştırırken çıkan uyarıları devre dışı bırakır ve Microsoft Store'da uygulama arama önerisini engeller.

@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Taskschd
+NAME=Планировщик заданий
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Taskschd" /ve /t REG_SZ /d "Планировщик заданий" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Taskschd" /v "Icon" /t REG_SZ /d "miguiresource.dll,-600" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Taskschd\command" /ve /t REG_SZ /d "mmc.exe /s taskschd.msc" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Taskschd" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Планировщик заданий» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Task Scheduler
+
+EN_DESCRIPTION:
+Task Scheduler
+
+UZ_TITLE:
+Task Scheduler
+
+UZ_DESCRIPTION:
+Task Scheduler
+
+DE_TITLE:
+Task Scheduler
+
+DE_DESCRIPTION:
+Task Scheduler
+
+FR_TITLE:
+Task Scheduler
+
+FR_DESCRIPTION:
+Task Scheduler
+
+ES_TITLE:
+Task Scheduler
+
+ES_DESCRIPTION:
+Task Scheduler
+
+TR_TITLE:
+Task Scheduler
+
+TR_DESCRIPTION:
+Task Scheduler

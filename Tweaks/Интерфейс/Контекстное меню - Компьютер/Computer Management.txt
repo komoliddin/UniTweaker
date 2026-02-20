@@ -1,0 +1,56 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage
+NAME=Управление компьютером
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage" /ve /t REG_SZ /d "Управление компьютером" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage" /v "HasLUAShield" /t REG_SZ /d "" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage" /v "Icon" /t REG_SZ /d "imageres.dll,73" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage" /v "MUIVerb" /t REG_SZ /d "@%systemroot%\\system32\\mycomput.dll,-400" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage" /v "SuppressionPolicy" /t REG_DWORD /d 0x4000003c /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage\command" /ve /t REG_SZ /d "%SystemRoot%\\system32\\CompMgmtLauncher.exe" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Manage" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Управление компьютером» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Computer Management
+
+EN_DESCRIPTION:
+Computer Management
+
+UZ_TITLE:
+Computer Management
+
+UZ_DESCRIPTION:
+Computer Management
+
+DE_TITLE:
+Computer Management
+
+DE_DESCRIPTION:
+Computer Management
+
+FR_TITLE:
+Computer Management
+
+FR_DESCRIPTION:
+Computer Management
+
+ES_TITLE:
+Computer Management
+
+ES_DESCRIPTION:
+Computer Management
+
+TR_TITLE:
+Computer Management
+
+TR_DESCRIPTION:
+Computer Management

@@ -1,0 +1,65 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Serialize
+NAME=StartupDelayInMSec
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Serialize" /v "StartupDelayInMSec" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Serialize" /v "StartupDelayInMSec" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+🚀 **Отключение задержки запуска программ при старте Windows**  
+💨 **Windows запускает программы в автозагрузке быстрее, убирая искусственную задержку**  
+⚡ **Полезно для ускорения загрузки системы**  
+
+EN_TITLE:
+Reduce Startup Delay for Apps
+
+EN_DESCRIPTION:
+🚀 **Disable startup delay for programs when Windows starts**
+💨 **Windows launches startup programs faster by removing the artificial delay**
+⚡ **Useful for speeding up system boot**
+
+UZ_TITLE:
+Avtomatik ishga tushirish kechikishini kamaytirish
+
+UZ_DESCRIPTION:
+🚀 **Windows ishga tushganda dasturlarni yuklash kechikishini o'chirish**
+💨 **Windows sun'iy kechikishni olib tashlash orqali avtomatik ishga tushadigan dasturlarni tezroq ishga tushiradi**
+⚡ **Tizim yuklanishini tezlashtirish uchun foydali**
+
+DE_TITLE:
+Startverzögerung für Apps reduzieren
+
+DE_DESCRIPTION:
+🚀 **Deaktivieren der Startverzögerung für Programme beim Windows-Start**
+💨 **Windows startet Autostart-Programme schneller, indem die künstliche Verzögerung entfernt wird**
+⚡ **Nützlich zur Beschleunigung des Systemstarts**
+
+FR_TITLE:
+Réduire le délai de démarrage des applications
+
+FR_DESCRIPTION:
+🚀 **Désactiver le délai de démarrage des programmes au lancement de Windows**
+💨 **Windows lance les programmes au démarrage plus rapidement en supprimant le délai artificiel**
+⚡ **Utile pour accélérer le démarrage du système**
+
+ES_TITLE:
+Reducir el retraso de inicio de las aplicaciones
+
+ES_DESCRIPTION:
+🚀 **Desactivar el retraso de inicio de los programas al arrancar Windows**
+💨 **Windows inicia los programas de inicio más rápido al eliminar el retraso artificial**
+⚡ **Útil para acelerar el arranque del sistema**
+
+TR_TITLE:
+Uygulamalar İçin Başlangıç Gecikmesini Azalt
+
+TR_DESCRIPTION:
+🚀 **Windows başlarken programlar için başlangıç gecikmesini devre dışı bırak**
+💨 **Windows, yapay gecikmeyi kaldırarak başlangıç programlarını daha hızlı başlatır**
+⚡ **Sistem açılışını hızlandırmak için yararlıdır**

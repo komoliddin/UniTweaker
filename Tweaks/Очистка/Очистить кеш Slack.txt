@@ -1,0 +1,45 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Slack\Cache
+%APPDATA%\Slack\Code Cache
+%APPDATA%\Slack\GPUCache
+
+DESCRIPTION:
+Кеш изображений, скриптов и графических данных Slack.
+
+EN_TITLE:
+Clear Slack Cache
+
+EN_DESCRIPTION:
+Cache of images, scripts, and graphical data for Slack.
+
+UZ_TITLE:
+Slack keshini tozalash
+
+UZ_DESCRIPTION:
+Slack-ning rasmlari, skriptlari va grafik ma'lumotlari keshi.
+
+DE_TITLE:
+Slack-Cache leeren
+
+DE_DESCRIPTION:
+Cache von Bildern, Skripten und Grafikdaten für Slack.
+
+FR_TITLE:
+Effacer le cache Slack
+
+FR_DESCRIPTION:
+Cache d'images, de scripts et de données graphiques pour Slack.
+
+ES_TITLE:
+Limpiar caché de Slack
+
+ES_DESCRIPTION:
+Caché de imágenes, scripts y datos gráficos de Slack.
+
+TR_TITLE:
+Slack Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Slack için resim, komut dosyası ve grafik verilerinin önbelleği.

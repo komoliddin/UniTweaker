@@ -1,0 +1,65 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+NAME=EnableLUA
+TYPE=REG_DWORD
+VALUE=0x0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "ConsentPromptBehaviorAdmin" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "ConsentPromptBehaviorUser" /t REG_DWORD /d "0x3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableInstallerDetection" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableSecureUIAPaths" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableVirtualization" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "FilterAdministratorToken" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "PromptOnSecureDesktop" /t REG_DWORD /d "0x0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "ConsentPromptBehaviorAdmin" /t REG_DWORD /d "0x5" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "ConsentPromptBehaviorUser" /t REG_DWORD /d "0x3" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableInstallerDetection" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableSecureUIAPaths" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableVirtualization" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "FilterAdministratorToken" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "PromptOnSecureDesktop" /t REG_DWORD /d "0x1" /f
+
+DESCRIPTION:
+Отключает контроль учетных записей (UAC), предотвращая появление запросов на подтверждение действий от имени администратора.
+
+EN_TITLE:
+Disable User Account Control (UAC)
+
+EN_DESCRIPTION:
+Disables User Account Control (UAC), preventing confirmation prompts for administrative actions.
+
+UZ_TITLE:
+Foydalanuvchi hisobini nazorat qilishni (UAC) o'chirish
+
+UZ_DESCRIPTION:
+Foydalanuvchi hisobini nazorat qilishni (UAC) o'chiradi, administrator nomidan harakatlar uchun tasdiqlash so'rovlari chiqishini to'xtatadi.
+
+DE_TITLE:
+Benutzerkontensteuerung (UAC) deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die Benutzerkontensteuerung (UAC) und verhindert Bestätigungsaufforderungen für administrative Aktionen.
+
+FR_TITLE:
+Désactiver le contrôle de compte d'utilisateur (UAC)
+
+FR_DESCRIPTION:
+Désactive le contrôle de compte d'utilisateur (UAC), empêchant les demandes de confirmation pour les actions administratives.
+
+ES_TITLE:
+Desactivar el Control de cuentas de usuario (UAC)
+
+ES_DESCRIPTION:
+Desactiva el Control de cuentas de usuario (UAC), evitando los avisos de confirmación para acciones administrativas.
+
+TR_TITLE:
+Kullanıcı Hesabı Denetimi'ni (UAC) Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Kullanıcı Hesabı Denetimi'ni (UAC) devre dışı bırakarak yönetici eylemleri için onay istemlerini engeller.

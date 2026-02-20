@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+sfc /scannow
+CONFIRM
+DESCRIPTION:
+Запускает проверку системных файлов Windows (sfc /scannow)
+
+EN_TITLE:
+System File Check (SFC)
+
+EN_DESCRIPTION:
+Runs the Windows System File Checker (sfc /scannow) to repair missing or corrupted system files.
+
+UZ_TITLE:
+Tizim fayllarini tekshirish (SFC)
+
+UZ_DESCRIPTION:
+Yetishmayotgan yoki shikastlangan tizim fayllarini tuzatish uchun Windows tizim fayllarini tekshirishni (sfc /scannow) ishga tushiradi.
+
+DE_TITLE:
+Systemdateiprüfung (SFC)
+
+DE_DESCRIPTION:
+Führt die Windows-Systemdateiprüfung (sfc /scannow) aus, um fehlende oder beschädigte Systemdateien zu reparieren.
+
+FR_TITLE:
+Vérification des fichiers système (SFC)
+
+FR_DESCRIPTION:
+Exécute le vérificateur de fichiers système Windows (sfc /scannow) pour réparer les fichiers système manquants ou corrompus.
+
+ES_TITLE:
+Comprobación de archivos del sistema (SFC)
+
+ES_DESCRIPTION:
+Ejecuta el Comprobador de archivos del sistema de Windows (sfc /scannow) para reparar archivos del sistema faltantes o dañados.
+
+TR_TITLE:
+Sistem Dosyası Kontrolü (SFC)
+
+TR_DESCRIPTION:
+Eksik veya bozuk sistem dosyalarını onarmak için Windows Sistem Dosyası Denetleyicisi'ni (sfc /scannow) çalıştırır.

@@ -1,0 +1,45 @@
+BUTTON:
+CLICKED:
+taskkill /f /im explorer.exe
+cd /d %userprofile%\AppData\Local\Microsoft\Windows\Explorer
+del thumbcache_*.db /a
+start explorer.exe
+
+DESCRIPTION:
+Очищает кеш эскизов. Исправляет проблемы, когда предварительный просмотр файлов (миниатюры) не отображается или поврежден.
+
+EN_TITLE:
+Fix Thumbnail Previews
+
+EN_DESCRIPTION:
+Clears the thumbnail cache. Fixes issues where file previews (thumbnails) are not showing or are corrupted.
+
+UZ_TITLE:
+Eskizlarni tuzatish
+
+UZ_DESCRIPTION:
+Eskizlar keshini tozalanadi. Fayllarni oldindan ko'rish (eskizlar) ko'rsatilmayotgan yoki buzilgan muammolarni tuzatadi.
+
+DE_TITLE:
+Miniaturbilder reparieren
+
+DE_DESCRIPTION:
+Bereinigt den Miniaturbild-Cache. Behebt Probleme, bei denen Dateivorschauen (Miniaturbilder) nicht angezeigt werden oder beschädigt sind.
+
+FR_TITLE:
+Réparer les aperçus miniatures
+
+FR_DESCRIPTION:
+Efface le cache des miniatures. Résout les problèmes d'affichage des aperçus de fichiers (miniatures) manquants ou corrompus.
+
+ES_TITLE:
+Reparar vistas en miniatura
+
+ES_DESCRIPTION:
+Limpia la caché de miniaturas. Soluciona problemas en los que las vistas previas de archivos (miniaturas) no se muestran o están dañadas.
+
+TR_TITLE:
+Küçük Resim Önizlemelerini Düzelt
+
+TR_DESCRIPTION:
+Küçük resim önbelleğini temizler. Dosya önizlemelerinin (küçük resimlerin) gösterilmediği veya bozuk olduğu sorunları düzeltir.

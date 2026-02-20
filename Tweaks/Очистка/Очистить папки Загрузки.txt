@@ -1,0 +1,51 @@
+CHECKBOX:
+CLEANER:
+NOTRECOMMENDED
+PATH:
+%USERPROFILE%\Downloads
+
+DESCRIPTION:
+Очистка папки "Загрузки". 
+⚠ ВНИМАНИЕ: не рекомендуется, так как могут быть удалены нужные файлы.
+
+EN_TITLE:
+Clear Downloads Folder
+
+EN_DESCRIPTION:
+Clearing the "Downloads" folder.
+⚠ WARNING: Not recommended, as important files may be deleted.
+
+UZ_TITLE:
+Yuklashlar papkasini tozalash
+
+UZ_DESCRIPTION:
+"Yuklashlar" (Downloads) papkasini tozalash.
+⚠ DIQQAT: tavsiya etilmaydi, chunki kerakli fayllar o'chirilishi mumkin.
+
+DE_TITLE:
+Download-Ordner bereinigen
+
+DE_DESCRIPTION:
+Bereinigen des "Downloads"-Ordners.
+⚠ WARNUNG: Nicht empfohlen, da wichtige Dateien gelöscht werden können.
+
+FR_TITLE:
+Effacer le dossier Téléchargements
+
+FR_DESCRIPTION:
+Effacement du dossier « Téléchargements ».
+⚠ ATTENTION : Non recommandé, car des fichiers importants peuvent être supprimés.
+
+ES_TITLE:
+Limpiar carpeta de descargas
+
+ES_DESCRIPTION:
+Limpieza de la carpeta "Descargas".
+⚠ ADVERTENCIA: No se recomienda, ya que se pueden eliminar archivos importantes.
+
+TR_TITLE:
+İndirilenler Klasörünü Temizle
+
+TR_DESCRIPTION:
+"İndirilenler" klasörünü temizleme.
+⚠ UYARI: Önerilmez, çünkü önemli dosyalar silinebilir.

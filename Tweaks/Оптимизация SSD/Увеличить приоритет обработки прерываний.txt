@@ -1,0 +1,77 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\PriorityControl
+NAME=Win32PrioritySeparation
+TYPE=REG_DWORD
+VALUE=38
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl" /v Win32PrioritySeparation /t REG_DWORD /d 38 /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl" /v Win32PrioritySeparation /t REG_DWORD /d 26 /f
+
+DESCRIPTION:
+Этот параметр определяет, как Windows распределяет процессорное время между фоновыми задачами и активным приложением.
+
+Значение 38 (рекомендуемое в твике) говорит Windows уделять больше внимания обработке фоновых задач, таких как аппаратные прерывания.
+
+Что это даст?
+✅ Если у вас сервер или вы обрабатываете звук/видео в реальном времени → может помочь уменьшить лаги и дропы.
+❌ Если вы геймер → может немного снизить FPS, так как Windows будет больше ресурсов тратить на фоновые процессы.
+
+📌 Рекомендация: Если используете Windows для игр, лучше оставить стандартное значение 26.
+
+EN_TITLE:
+Increase Interrupt Processing Priority
+
+EN_DESCRIPTION:
+This parameter determines how Windows allocates CPU time between background tasks and the active application. A value of 38 tells Windows to give more priority to background tasks such as hardware interrupts.
+✅ Good for servers or real-time audio/video processing.
+❌ May slightly reduce FPS for gamers.
+📌 Recommendation: Use standard value 26 for gaming.
+
+UZ_TITLE:
+Uzilishlarni qayta ishlash ustuvorligini oshirish
+
+UZ_DESCRIPTION:
+Ushbu parametr Windows-ning protsessor vaqtini fon vazifalari va faol ilova o'rtasida qanday taqsimlashini belgilaydi. 38 qiymati Windows-ga apparat uzilishlari kabi fon vazifalarini qayta ishlashga ko'proq e'tibor berishni aytadi.
+✅ Serverlar yoki real vaqtda audio/video ishlov berish uchun foydali.
+❌ Geymerlar uchun FPS-ni biroz pasaytirishi mumkin.
+📌 Tavsiya: O'yinlar uchun standart 26 qiymatini qoldiring.
+
+DE_TITLE:
+Priorität der Interrupt-Verarbeitung erhöhen
+
+DE_DESCRIPTION:
+Dieser Parameter bestimmt, wie Windows die CPU-Zeit zwischen Hintergrundaufgaben und der aktiven Anwendung verteilt. Ein Wert von 38 weist Windows an, Hintergrundaufgaben wie Hardware-Interrupts mehr Priorität einzuräumen.
+✅ Gut für Server oder Echtzeit-Audio/Video-Verarbeitung.
+❌ Kann die FPS für Gamer leicht reduzieren.
+📌 Empfehlung: Standardwert 26 für Spiele verwenden.
+
+FR_TITLE:
+Augmenter la priorité du traitement des interruptions
+
+FR_DESCRIPTION:
+Ce paramètre détermine comment Windows répartit le temps processeur entre les tâches d'arrière-plan et l'application active. Une valeur de 38 indique à Windows d'accorder plus de priorité aux tâches d'arrière-plan telles que les interruptions matérielles.
+✅ Utile pour les serveurs ou le traitement audio/vidéo en temps réel.
+❌ Peut réduire légèrement les FPS pour les joueurs.
+📌 Recommandation : Utilisez la valeur standard 26 pour les jeux.
+
+ES_TITLE:
+Aumentar prioridad de procesamiento de interrupciones
+
+ES_DESCRIPTION:
+Este parámetro determina cómo Windows distribuye el tiempo de CPU entre las tareas en segundo plano и la aplicación activa. Un valor de 38 indica a Windows que preste más atención al procesamiento de tareas en segundo plano, como las interrupciones de hardware.
+✅ Útil para servidores o procesamiento de audio/vídeo en tiempo real.
+❌ Puede reducir ligeramente los FPS для los jugadores.
+📌 Recomendación: Para juegos, es mejor dejar el valor estándar de 26.
+
+TR_TITLE:
+Kesme İşleme Önceliğini Artır
+
+TR_DESCRIPTION:
+Bu parametre, Windows'un CPU süresini arka plan görevleri ile etkin uygulama arasında nasıl paylaştıracağını belirler. 38 değeri, Windows'a donanım kesmeleri gibi arka plan görevlerini işlemeye daha fazla öncelik vermesini söyler.
+✅ Sunucular veya gerçek zamanlı ses/video işleme için iyidir.
+❌ Oyuncular için FPS'yi biraz düşürebilir.
+📌 Öneri: Oyun oynamak için standart değer olan 26'yı kullanın.

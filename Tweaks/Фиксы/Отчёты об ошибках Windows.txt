@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\Windows Error Reporting
+NAME=Disabled
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting" /v "Disabled" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting" /v "Disabled" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Данный твик отключает службу Windows Error Reporting, что может помочь уменьшить количество всплывающих уведомлений об ошибках с кодами, начинающимися с 0x00004000.
+При включении твика значение параметра Disabled устанавливается в 1, отключая отчёты.
+При отключении – возвращается к стандартному значению (0).
+Учтите, что отключение отчётов может затруднить диагностику системных проблем.
+
+EN_TITLE:
+Disable Windows Error Reporting
+
+EN_DESCRIPTION:
+This tweak disables the Windows Error Reporting service, which can help reduce error pop-ups with codes starting with 0x00004000. Enabling it sets the Disabled value to 1. Disabling it restores the default (0). Note that disabling reports may make it difficult to diagnose system issues.
+
+UZ_TITLE:
+Windows xatolar haqida hisobotni o'chirish
+
+UZ_DESCRIPTION:
+Ushbu tvik Windows xatolar haqida hisobot xizmatini o'chiradi, bu 0x00004000 bilan boshlanadigan xato kodlari bilan qalqib chiquvchi oynalar sonini kamaytirishga yordam beradi. Tvik yoqilganda Disabled qiymati 1 ga o'rnatiladi. O'chirilganda standart qiymat (0) tiklanadi. Hisobotlarni o'chirish tizim muammolarini aniqlashni qiyinlashtirishi mumkinligini unutmang.
+
+DE_TITLE:
+Windows-Fehlerberichterstattung deaktivieren
+
+DE_DESCRIPTION:
+Dieser Tweak deaktiviert den Windows-Fehlerberichterstattungsdienst, was dazu beitragen kann, Fehlermeldungen mit Codes zu reduzieren, die mit 0x00004000 beginnen. Die Aktivierung setzt den Wert Disabled auf 1. Die Deaktivierung stellt den Standardwert (0) wieder her. Beachten Sie, dass das Deaktivieren von Berichten die Diagnose von Systemproblemen erschweren kann.
+
+FR_TITLE:
+Désactiver le rapport d'erreurs Windows
+
+FR_DESCRIPTION:
+Ce tweak désactive le service de rapport d'erreurs Windows, ce qui peut aider à réduire les fenêtres contextuelles d'erreur avec des codes commençant par 0x00004000. L'activation définit la valeur Disabled sur 1. La désactivation restaure la valeur par défaut (0). Notez que la désactivation des rapports peut rendre difficile le diagnostic des problèmes système.
+
+ES_TITLE:
+Desactivar el informe de errores de Windows
+
+ES_DESCRIPTION:
+Este ajuste desactiva el servicio de informe de errores de Windows, lo que puede ayudar a reducir las ventanas emergentes de error con códigos que comienzan con 0x00004000. Al activarlo, se establece el valor de Disabled en 1. Al desactivarlo se restaura el valor por defecto (0). Tenga en cuenta que desactivar los informes puede dificultar el diagnóstico de problemas del sistema.
+
+TR_TITLE:
+Windows Hata Bildirimini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Bu ayar, 0x00004000 ile başlayan hata kodlarına sahip hata pencerelerini azaltmaya yardımcı olabilecek Windows Hata Bildirimi hizmetini devre dışı bırakır. Etkinleştirildiğinde Disabled değerini 1 olarak ayarlar. Devre dışı bırakılması varsayılanı (0) geri yükler. Raporları devre dışı bırakmanın sistem sorunlarını teşhis etmeyi zorlaştırabileceğini unutmayın.

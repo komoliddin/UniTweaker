@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}
+NAME=
+TYPE=
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
+Reg.exe add "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
+Reg.exe delete "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
+
+DESCRIPTION:
+Этот твик добавляет папку «Загрузки» в разделе «Этот компьютер».
+
+EN_TITLE:
+Downloads 
+
+EN_DESCRIPTION:
+Downloads 
+
+UZ_TITLE:
+Downloads 
+
+UZ_DESCRIPTION:
+Downloads 
+
+DE_TITLE:
+Downloads 
+
+DE_DESCRIPTION:
+Downloads 
+
+FR_TITLE:
+Downloads 
+
+FR_DESCRIPTION:
+Downloads 
+
+ES_TITLE:
+Downloads 
+
+ES_DESCRIPTION:
+Downloads 
+
+TR_TITLE:
+Downloads 
+
+TR_DESCRIPTION:
+Downloads 

@@ -1,0 +1,75 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Speech_OneCore\Preferences
+NAME=ModelDownloadAllowed
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Speech_OneCore\Preferences" /v "ModelDownloadAllowed" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Speech_OneCore\Preferences" /v "VoiceActivationDefaultOn" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCloudSearch" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCortana" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowSearchToUseLocation" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "ConnectedSearchUseWeb" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "DisableWebSearch" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization" /v "RestrictImplicitInkCollection" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization" /v "RestrictImplicitTextCollection" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization\TrainedDataStore" /v "HarvestContacts" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\Personalization\Settings" /v "AcceptedPrivacyPolicy" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Windows Search" /v "CortanaConsent" /t REG_DWORD /d "0" /f
+PowerShell -Command "Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage"
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Speech_OneCore\Preferences" /v "ModelDownloadAllowed" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Speech_OneCore\Preferences" /v "VoiceActivationDefaultOn" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCloudSearch" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowCortana" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "AllowSearchToUseLocation" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "ConnectedSearchUseWeb" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v "DisableWebSearch" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization" /v "RestrictImplicitInkCollection" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization" /v "RestrictImplicitTextCollection" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\InputPersonalization\TrainedDataStore" /v "HarvestContacts" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\Personalization\Settings" /v "AcceptedPrivacyPolicy" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Windows Search" /v "CortanaConsent" /t REG_DWORD /d "1" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /f
+
+DESCRIPTION:
+Этот твик отключает голосовой ввод, голосовую активацию, Cortana, облачный поиск, использование веб-поиска в Пуске, сбор персональных данных и удаляет встроенное приложение Cortana (Microsoft.549981C3F5F10).
+
+EN_TITLE:
+Disable Cortana and Search Features
+
+EN_DESCRIPTION:
+This tweak disables voice input, voice activation, Cortana, cloud search, web search in Start, personal data collection, and removes the built-in Cortana app (Microsoft.549981C3F5F10).
+
+UZ_TITLE:
+Cortana va qidiruv funksiyalarini o'chirish
+
+UZ_DESCRIPTION:
+Ushbu tvik ovozli kiritish, ovozli faollashtirish, Cortana, bulutli qidiruv, menyu qidiruvidagi veb-qidiruvni, shaxsiy ma'lumotlarni yig'ishni o'chiradi va o'rnatilgan Cortana ilovasini (Microsoft.549981C3F5F10) olib tashlaydi.
+
+DE_TITLE:
+Cortana und Suchfunktionen deaktivieren
+
+DE_DESCRIPTION:
+Dieser Tweak deaktiviert die Spracheingabe, Sprachaktivierung, Cortana, die Cloud-Suche, die Web-Suche im Startmenü, die Erfassung personenbezogener Daten und entfernt die integrierte Cortana-App (Microsoft.549981C3F5F10).
+
+FR_TITLE:
+Désactiver Cortana et les fonctions de recherche
+
+FR_DESCRIPTION:
+Ce tweak désactive la saisie vocale, l'activation vocale, Cortana, la recherche dans le cloud, la recherche Web dans le menu Démarrer, la collecte de données personnelles et supprime l'application Cortana intégrée (Microsoft.549981C3F5F10).
+
+ES_TITLE:
+Desactivar Cortana y funciones de búsqueda
+
+ES_DESCRIPTION:
+Este ajuste desactiva la entrada de voz, la activación por voz, Cortana, la búsqueda en la nube, la búsqueda web en Inicio, la recopilación de datos personales y elimina la aplicación Cortana integrada (Microsoft.549981C3F5F10).
+
+TR_TITLE:
+Cortana ve Arama Özelliklerini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Bu ayar sesli girişi, sesli aktivasyonu, Cortana'yı, bulut aramasını, Başlat menüsündeki web aramasını, kişisel veri toplamayı devre dışı bırakır ve yerleşik Cortana uygulamasını (Microsoft.549981C3F5F10) kaldırır.

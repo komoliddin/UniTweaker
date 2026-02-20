@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Microsoft\Windows\WER
+%ProgramData%\Microsoft\Windows\WER
+
+DESCRIPTION:
+Отчёты об ошибках Windows (Windows Error Reporting). Безопасно очищать.
+
+EN_TITLE:
+Clear Windows Error Reports
+
+EN_DESCRIPTION:
+Windows Error Reporting files. Safe to clear.
+
+UZ_TITLE:
+Windows xatolar haqidagi hisobotlarni tozalash
+
+UZ_DESCRIPTION:
+Windows xatolar haqidagi hisobotlar (Windows Error Reporting). Tozalash xavfsiz.
+
+DE_TITLE:
+Windows-Fehlerberichte bereinigen
+
+DE_DESCRIPTION:
+Windows-Fehlerberichterstattungsdateien. Sicher zu bereinigen.
+
+FR_TITLE:
+Effacer les rapports d'erreurs Windows
+
+FR_DESCRIPTION:
+Fichiers de rapport d'erreurs Windows. Suppression sans danger.
+
+ES_TITLE:
+Limpiar informes de errores de Windows
+
+ES_DESCRIPTION:
+Archivos de informes de errores de Windows. Seguro de limpiar.
+
+TR_TITLE:
+Windows Hata Raporlarını Temizle
+
+TR_DESCRIPTION:
+Windows Hata Bildirme dosyaları. Temizlemek güvenlidir.

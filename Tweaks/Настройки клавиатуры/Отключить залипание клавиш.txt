@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Control Panel\Accessibility\StickyKeys
+NAME=Flags
+TYPE=REG_SZ
+VALUE=506
+
+CHECKED:
+Reg.exe add "HKCU\Control Panel\Accessibility\StickyKeys" /v "Flags" /t REG_SZ /d "506" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Control Panel\Accessibility\StickyKeys" /v "Flags" /t REG_SZ /d "510" /f
+
+DESCRIPTION:
+Отключает **залипание клавиш**, которое включается при многократном нажатии Shift.
+
+EN_TITLE:
+Disable Sticky Keys
+
+EN_DESCRIPTION:
+Disables **Sticky Keys**, which is activated by pressing Shift multiple times.
+
+UZ_TITLE:
+Yopishqoq tugmachalarni o'chirish
+
+UZ_DESCRIPTION:
+Shift tugmasini bir necha marta bosish orqali faollashtiriladigan **Yopishqoq tugmachalarni** o'chiradi.
+
+DE_TITLE:
+Einrastfunktion deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die **Einrastfunktion**, die durch mehrmaliges Drücken der Umschalttaste aktiviert wird.
+
+FR_TITLE:
+Désactiver les touches rémanentes
+
+FR_DESCRIPTION:
+Désactive les **touches rémanentes**, qui sont activées en appuyant plusieurs fois sur Maj.
+
+ES_TITLE:
+Desactivar teclas especiales
+
+ES_DESCRIPTION:
+Desactiva las **teclas especiales (Sticky Keys)**, que se activan al pulsar Mayús varias veces.
+
+TR_TITLE:
+Yapışkan Tuşları Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Shift tuşuna birden çok kez basılarak etkinleştirilen **Yapışkan Tuşları** devre dışı bırakır.

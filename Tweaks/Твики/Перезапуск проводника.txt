@@ -1,0 +1,44 @@
+BUTTON:
+CONFIRM
+CLICKED:
+taskkill /f /im explorer.exe
+start explorer.exe
+
+DESCRIPTION:
+Перезапускает проводник Windows (обновляет интерфейс без перезагрузки ПК).
+
+EN_TITLE:
+Restart Windows Explorer
+
+EN_DESCRIPTION:
+Restarts Windows Explorer (refreshes the interface without rebooting the PC).
+
+UZ_TITLE:
+Windows Explorer-ni qayta ishga tushirish
+
+UZ_DESCRIPTION:
+Windows Explorer-ni qayta ishga tushiradi (kompyuterni qayta yuklamasdan interfeysni yangilaydi).
+
+DE_TITLE:
+Windows-Explorer neu starten
+
+DE_DESCRIPTION:
+Startet den Windows-Explorer neu (aktualisiert die Benutzeroberfläche ohne Neustart des PCs).
+
+FR_TITLE:
+Redémarrer l'Explorateur Windows
+
+FR_DESCRIPTION:
+Redémarre l'Explorateur Windows (actualise l'interface sans redémarrer le PC).
+
+ES_TITLE:
+Reiniciar el Explorador de Windows
+
+ES_DESCRIPTION:
+Reinicia el Explorador de Windows (actualiza la interfaz sin reiniciar el PC).
+
+TR_TITLE:
+Windows Gezgini'ni Yeniden Başlat
+
+TR_DESCRIPTION:
+Windows Gezgini'ni yeniden başlatır (PC'yi yeniden başlatmadan arayüzü yeniler).

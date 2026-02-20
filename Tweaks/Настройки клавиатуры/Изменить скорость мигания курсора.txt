@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Control Panel\Desktop
+NAME=CaretBlinkTime
+TYPE=REG_SZ
+VALUE="250"
+
+CHECKED:
+Reg.exe add "HKCU\Control Panel\Desktop" /v "CaretBlinkTime" /t REG_SZ /d "250" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Control Panel\Desktop" /v "CaretBlinkTime" /t REG_SZ /d "530" /f
+
+DESCRIPTION:
+Уменьшает **задержку мигания курсора**, делая его более заметным.
+
+EN_TITLE:
+Change Cursor Blink Rate
+
+EN_DESCRIPTION:
+Reduces the **cursor blink delay**, making it more visible.
+
+UZ_TITLE:
+Kursorning miltillash tezligini o'zgartirish
+
+UZ_DESCRIPTION:
+Kursorning **miltillash kechikishini** kamaytiradi, uni ko'rinadiganroq qiladi.
+
+DE_TITLE:
+Cursor-Blinkrate ändern
+
+DE_DESCRIPTION:
+Reduziert die **Cursor-Blinkverzögerung**, wodurch er besser sichtbar wird.
+
+FR_TITLE:
+Modifier la vitesse de clignotement du curseur
+
+FR_DESCRIPTION:
+Réduit le **délai de clignotement du curseur**, le rendant plus visible.
+
+ES_TITLE:
+Cambiar la velocidad de parpadeo del cursor
+
+ES_DESCRIPTION:
+Reduce el **retraso de parpadeo del cursor**, haciéndolo más visible.
+
+TR_TITLE:
+İmleç Yanıp Sönme Hızını Değiştir
+
+TR_DESCRIPTION:
+İmlecin **yanıp sönme gecikmesini** azaltarak daha görünür olmasını sağlar.

@@ -1,0 +1,54 @@
+NOTRECOMMENDED
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore
+NAME=DisableSR
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore" /v "DisableSR" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore" /v "DisableSR" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Отключив функцию защиты системы (восстановление системы), вы освобождаете больше свободного места на системном диске и уменьшите число операций записи на SSD. Контрольные точки могут занимать до 15% от общего объема и недоступны для команды TRIM. Регулярное использование данной функции Windows потенциально способно привести со временем к снижению производительности накопителя. 
+
+Однако отключение защиты системы делает невозможным восстановить систему, используя точки восстановления для возврата системных файлов и параметров к состоянию на определенный момент времени, что для некоторых пользователей, использующих данную функцию, может быть критично. 
+
+EN_TITLE:
+Disable System Protection (System Restore)
+
+EN_DESCRIPTION:
+By disabling the System Protection feature (System Restore), you free up more space on the system drive and reduce the number of write operations to the SSD. Restore points can take up to 15% of the total volume and are not accessible by the TRIM command. Regular use of this Windows feature can potentially lead to a decrease in drive performance over time. However, disabling system protection makes it impossible to restore the system using restore points to return system files and settings to a state at a specific point in time, which may be critical for some users who use this feature.
+
+UZ_TITLE:
+Tizim himoyasini o'chirish (Tizimni tiklash)
+
+UZ_DESCRIPTION:
+Tizimni himoya qilish funksiyasini (tizimni tiklash) o'chirib, siz tizim diskida ko'proq bo'sh joy bo'shatasiz va SSD-ga yozish operatsiyalari sonini kamaytirasiz. Tiklash nuqtalari umumiy hajmning 15 foizigacha egallashi mumkin va TRIM buyrug'i uchun mavjud emas. Ushbu Windows funksiyasidan muntazam foydalanish vaqt o'tishi bilan drayverning ishlashini pasayishiga olib kelishi mumkin. Biroq, tizim himoyasini o'chirish tizim fayllari va parametrlarini ma'lum bir vaqtdagi holatiga qaytarish uchun tiklash nuqtalaridan foydalangan holda tizimni qayta tiklash imkoniyatini yo'q qiladi, bu ushbu funksiyadan foydalanadigan ba'zi foydalanuvchilar uchun juda muhim bo'lishi mumkin.
+
+DE_TITLE:
+Systemschutz deaktivieren (Systemwiederherstellung)
+
+DE_DESCRIPTION:
+Durch Deaktivieren der Systemschutzfunktion (Systemwiederherstellung) geben Sie mehr Speicherplatz auf dem Systemlaufwerk frei und reduzieren die Anzahl der Schreibvorgänge auf der SSD. Wiederherstellungspunkte können bis zu 15 % des Gesamtvolumens einnehmen und sind für den TRIM-Befehl nicht zugänglich. Die regelmäßige Verwendung dieser Windows-Funktion kann im Laufe der Zeit zu einer Verringerung der Laufwerksleistung führen. Das Deaktivieren des Systemschutzes macht es jedoch unmöglich, das System mithilfe von Wiederherstellungspunkten wiederherzustellen, um Systemdateien und -einstellungen auf einen Zustand zu einem bestimmten Zeitpunkt zurückzusetzen, was für einige Benutzer, die diese Funktion verwenden, kritisch sein kann.
+
+FR_TITLE:
+Désactiver la protection du système (Restauration du système)
+
+FR_DESCRIPTION:
+En désactivant la fonction de protection du système (restauration du système), vous libérez plus d'espace sur le lecteur système et réduisez le nombre d'opérations d'écriture sur le SSD. Les points de restauration peuvent occuper jusqu'à 15 % du volume total et ne sont pas accessibles par la commande TRIM. L'utilisation régulière de cette fonctionnalité de Windows peut potentiellement entraîner une diminution des performances du lecteur au fil du temps. Cependant, la désactivation de la protection du système rend impossible la restauration du système à l'aide de points de restauration pour ramener les fichiers et paramètres système à un état à un moment précis, ce qui peut être critique pour certains utilisateurs qui utilisent cette fonctionnalité.
+
+ES_TITLE:
+Desactivar protección del sistema (Restaurar sistema)
+
+ES_DESCRIPTION:
+Al desactivar la función de protección del sistema (restaurar sistema), libera más espacio en la unidad del sistema и reduce el número de operaciones de escritura en el SSD. Los puntos de restauración pueden ocupar hasta el 15% del volumen total и no son accesibles para el comando TRIM. El uso regular de esta función de Windows puede potencialmente conducir a una disminución del rendimiento de la unidad con el tiempo. Sin embargo, desactivar la protección del sistema hace imposible restaurar el sistema utilizando puntos de restauración для devolver los archivos и ajustes del sistema a un estado en un momento dado, lo que puede ser crítico для algunos usuarios que utilizan esta función.
+
+TR_TITLE:
+Sistem Korumasını Devre Dışı Bırak (Sistem Geri Yükleme)
+
+TR_DESCRIPTION:
+Sistem Koruması özelliğini (Sistem Geri Yükleme) devre dışı bırakarak, sistem sürücüsünde daha fazla boş alan açarsınız ve SSD'ye yazma işlemlerinin sayısını azaltırsınız. Geri yükleme noktaları toplam hacmin %15'ine kadar yer kaplayabilir ve TRIM komutu tarafından erişilemez. Bu Windows özelliğinin düzenli kullanımı, zamanla sürücü performansının düşmesine neden olabilir. Ancak, sistem korumasının devre dışı bırakılması, sistem dosyalarını ve ayarlarını belirli bir zamandaki durumuna döndürmek için geri yükleme noktalarını kullanarak sistemi geri yüklemeyi imkansız hale getirir; bu, bu özelliği kullanan bazı kullanıcılar için kritik olabilir.

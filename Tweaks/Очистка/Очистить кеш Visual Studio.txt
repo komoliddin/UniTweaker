@@ -1,0 +1,51 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Microsoft\VSCommon\ErrorReporting
+%LOCALAPPDATA%\Microsoft\VisualStudio\BackupFiles
+%LOCALAPPDATA%\Microsoft\VisualStudio\*.?
+%LOCALAPPDATA%\Microsoft\VisualStudio\SettingsLogs
+%LOCALAPPDATA%\Microsoft\VisualStudio\ImageCache
+%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_*\ComponentModelCache
+%LOCALAPPDATA%\Microsoft\VisualStudio\17.0_*\ComponentModelCache
+%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_*\ComponentModelCache
+%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_*\ComponentModelCache
+
+DESCRIPTION:
+Кеш, бэкапы и временные данные Microsoft Visual Studio (2017, 2019, 2022, 2026). Очистка кеша компонентов помогает при сбоях в работе расширений.
+
+EN_TITLE:
+Clear Visual Studio Cache
+
+EN_DESCRIPTION:
+Cache, backups, and temporary data of Microsoft Visual Studio (2017, 2019, 2022, 2026). Clearing the component cache helps fix extension-related issues.
+
+UZ_TITLE:
+Visual Studio keshini tozalash
+
+UZ_DESCRIPTION:
+Microsoft Visual Studio (2017, 2019, 2022, 2026) keshi, nusxalari va vaqtinchalik ma'lumotlari.
+
+DE_TITLE:
+Visual Studio-Cache leeren
+
+DE_DESCRIPTION:
+Cache, Backups und temporäre Daten von Microsoft Visual Studio (2017, 2019, 2022, 2026).
+
+FR_TITLE:
+Effacer le cache Visual Studio
+
+FR_DESCRIPTION:
+Cache, sauvegardes et données temporaires de Microsoft Visual Studio (2017, 2019, 2022, 2026).
+
+ES_TITLE:
+Limpiar caché de Visual Studio
+
+ES_DESCRIPTION:
+Caché, copias de seguridad и datos temporales de Microsoft Visual Studio (2017, 2019, 2022, 2026).
+
+TR_TITLE:
+Visual Studio Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Microsoft Visual Studio (2017, 2019, 2022, 2026) önbelleği, yedekleri ve geçici verileri.

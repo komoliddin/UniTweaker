@@ -1,0 +1,57 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NAME=NoResolveTrack
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoResolveTrack" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "LinkResolveIgnoreLinkInfo" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoResolveSearch" /t REG_DWORD /d "0" /f
+
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoResolveTrack" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "LinkResolveIgnoreLinkInfo" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoResolveSearch" /t REG_DWORD /d "1" /f
+
+
+DESCRIPTION:
+Разрешает Windows искать цели для битых или перемещенных ярлыков.
+
+EN_TITLE:
+Enable Broken Shortcut Search
+
+EN_DESCRIPTION:
+Allows Windows to search for targets for broken or moved shortcuts.
+
+UZ_TITLE:
+Noto'g'ri havolalarni qidirishni yoqish
+
+UZ_DESCRIPTION:
+Windows-ga buzilgan yoki ko'chirilgan yorliqlar uchun maqsadlarni qidirishga ruxsat beradi.
+
+DE_TITLE:
+Suche nach ungültigen Verknüpfungen aktivieren
+
+DE_DESCRIPTION:
+Ermöglicht Windows die Suche nach Zielen für fehlerhafte oder verschobene Verknüpfungen.
+
+FR_TITLE:
+Activer la recherche de raccourcis rompus
+
+FR_DESCRIPTION:
+Autorise Windows à rechercher des cibles для raccourcis rompus ou déplacés.
+
+ES_TITLE:
+Habilitar búsqueda de accesos directos rotos
+
+ES_DESCRIPTION:
+Permite que Windows busque destinos для accesos directos rotos o movidos.
+
+TR_TITLE:
+Geçersiz Kısayol Aramasını Etkinleştir
+
+TR_DESCRIPTION:
+Windows'un bozuk veya taşınmış kısayollar için hedefler aramasına izin verir.

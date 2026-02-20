@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ProgramsAndFeatures
+NAME=Программы и компоненты
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ProgramsAndFeatures" /ve /t REG_SZ /d "Программы и компоненты" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ProgramsAndFeatures" /v "Icon" /t REG_SZ /d "appwiz.cpl,4" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ProgramsAndFeatures\command" /ve /t REG_SZ /d "rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\ProgramsAndFeatures" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Программы и компоненты» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Programs and Features
+
+EN_DESCRIPTION:
+Programs and Features
+
+UZ_TITLE:
+Programs and Features
+
+UZ_DESCRIPTION:
+Programs and Features
+
+DE_TITLE:
+Programs and Features
+
+DE_DESCRIPTION:
+Programs and Features
+
+FR_TITLE:
+Programs and Features
+
+FR_DESCRIPTION:
+Programs and Features
+
+ES_TITLE:
+Programs and Features
+
+ES_DESCRIPTION:
+Programs and Features
+
+TR_TITLE:
+Programs and Features
+
+TR_DESCRIPTION:
+Programs and Features

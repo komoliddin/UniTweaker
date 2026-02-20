@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{7007ACC7-3202-11D1-AAD2-00805FC1270E}
+NAME=
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{7007ACC7-3202-11D1-AAD2-00805FC1270E}" /f
+
+UNCHECKED:
+Reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{7007ACC7-3202-11D1-AAD2-00805FC1270E}" /f
+
+DESCRIPTION:
+Добавляет или удаляет «Сетевые подключения» в разделе «Этот компьютер».
+
+EN_TITLE:
+Network Connections
+
+EN_DESCRIPTION:
+Network Connections
+
+UZ_TITLE:
+Network Connections
+
+UZ_DESCRIPTION:
+Network Connections
+
+DE_TITLE:
+Network Connections
+
+DE_DESCRIPTION:
+Network Connections
+
+FR_TITLE:
+Network Connections
+
+FR_DESCRIPTION:
+Network Connections
+
+ES_TITLE:
+Network Connections
+
+ES_DESCRIPTION:
+Network Connections
+
+TR_TITLE:
+Network Connections
+
+TR_DESCRIPTION:
+Network Connections

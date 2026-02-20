@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Microsoft\Windows\Recent
+
+DESCRIPTION:
+Список недавно открытых файлов Windows (Recent Documents).
+
+EN_TITLE:
+Clear Recent Documents List
+
+EN_DESCRIPTION:
+List of recently opened Windows files (Recent Documents).
+
+UZ_TITLE:
+Yaqinda ochilgan hujjatlar ro'yxatini tozalash
+
+UZ_DESCRIPTION:
+Yaqinda ochilgan Windows fayllari ro'yxati (Recent Documents).
+
+DE_TITLE:
+Liste der zuletzt verwendeten Dokumente bereinigen
+
+DE_DESCRIPTION:
+Liste der zuletzt geöffneten Windows-Dateien (Zuletzt verwendet).
+
+FR_TITLE:
+Effacer la liste des documents récents
+
+FR_DESCRIPTION:
+Liste des fichiers Windows récemment ouverts (Documents récents).
+
+ES_TITLE:
+Limpiar lista de documentos recientes
+
+ES_DESCRIPTION:
+Lista de archivos de Windows abiertos recientemente (Documentos recientes).
+
+TR_TITLE:
+Son Kullanılan Belgeler Listesini Temizle
+
+TR_DESCRIPTION:
+Son açılan Windows dosyalarının listesi (Son Kullanılan Belgeler).

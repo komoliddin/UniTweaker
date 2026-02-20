@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%ProgramData%\Blizzard Entertainment\Battle.net\Cache
+
+DESCRIPTION:
+Кеш приложения Battle.net (Blizzard).
+
+EN_TITLE:
+Clear Battle.net Cache
+
+EN_DESCRIPTION:
+Cache of the Battle.net (Blizzard) application.
+
+UZ_TITLE:
+Battle.net keshini tozalash
+
+UZ_DESCRIPTION:
+Battle.net (Blizzard) ilovasi keshi.
+
+DE_TITLE:
+Battle.net-Cache leeren
+
+DE_DESCRIPTION:
+Cache der Battle.net-Anwendung (Blizzard).
+
+FR_TITLE:
+Effacer le cache Battle.net
+
+FR_DESCRIPTION:
+Cache de l'application Battle.net (Blizzard).
+
+ES_TITLE:
+Limpiar caché de Battle.net
+
+ES_DESCRIPTION:
+Caché de la aplicación Battle.net (Blizzard).
+
+TR_TITLE:
+Battle.net Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Battle.net (Blizzard) uygulamasının önbelleği.

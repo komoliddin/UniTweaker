@@ -1,0 +1,144 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing
+NAME=NoAutoStart
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing" /v "NoAutoStart" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\SCM\Regular" /v "TracingDisabled" /t REG_DWORD /d "1" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\Common\ClientTelemetry" /v "DisableTelemetry" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\Common\ClientTelemetry" /v "VerboseLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common\ClientTelemetry" /v "DisableTelemetry" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common\ClientTelemetry" /v "VerboseLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\ClientTelemetry" /v "DisableTelemetry" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\ClientTelemetry" /v "VerboseLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common\ClientTelemetry" /v "DisableTelemetry" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common\ClientTelemetry" /v "VerboseLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common\ClientTelemetry" /v "DisableTelemetry" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common\ClientTelemetry" /v "VerboseLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common\ClientTelemetry" /v "DisableTelemetry" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common\ClientTelemetry" /v "VerboseLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common\ClientTelemetry" /v "DisableTelemetry" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common\ClientTelemetry" /v "VerboseLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common\ClientTelemetry" /v "DisableTelemetry" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common\ClientTelemetry" /v "VerboseLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\10.0\OSM" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\10.0\OSM" /v "EnableUpload" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\11.0\OSM" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\11.0\OSM" /v "EnableUpload" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\12.0\OSM" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\12.0\OSM" /v "EnableUpload" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\13.0\OSM" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\13.0\OSM" /v "EnableUpload" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\14.0\OSM" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\14.0\OSM" /v "EnableUpload" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\15.0\OSM" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\15.0\OSM" /v "EnableUpload" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\16.0\OSM" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Policies\Microsoft\Office\16.0\OSM" /v "EnableUpload" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Outlook\Options\Calendar" /v "EnableCalendarLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Outlook\Options\Calendar" /v "EnableCalendarLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Outlook\Options\Calendar" /v "EnableCalendarLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Outlook\Options\Calendar" /v "EnableCalendarLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Outlook\Options\Calendar" /v "EnableCalendarLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Outlook\Options\Calendar" /v "EnableCalendarLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Outlook\Options\Calendar" /v "EnableCalendarLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\10.0\Outlook\Options\Mail" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\11.0\Outlook\Options\Mail" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\12.0\Outlook\Options\Mail" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\13.0\Outlook\Options\Mail" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\14.0\Outlook\Options\Mail" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\15.0\Outlook\Options\Mail" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\16.0\Outlook\Options\Mail" /v "EnableLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\10.0\Word\Options" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\11.0\Word\Options" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\12.0\Word\Options" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\13.0\Word\Options" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\14.0\Word\Options" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\15.0\Word\Options" /v "EnableLogging" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Office\16.0\Word\Options" /v "EnableLogging" /t REG_DWORD /d "0" /f
+
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common" /v "QMEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\10.0\Common\\Feedback" /v "Enabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common" /v "QMEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\11.0\Common\\Feedback" /v "Enabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common" /v "QMEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\12.0\Common\\Feedback" /v "Enabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common" /v "QMEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\13.0\Common\\Feedback" /v "Enabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common" /v "QMEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\14.0\Common\\Feedback" /v "Enabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common" /v "QMEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\15.0\Common\\Feedback" /v "Enabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common" /v "QMEnable" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Office\16.0\Common\\Feedback" /v "Enabled" /t REG_DWORD /d "0" /f
+
+PowerShell: Disable-ScheduledTask -TaskName "\\Microsoft\\Office\\Office 15 Subscription Heartbeat"
+PowerShell: Disable-ScheduledTask -TaskName "\\Microsoft\\Office\\Office 16 Subscription Heartbeat"
+PowerShell: Disable-ScheduledTask -TaskName "\\Microsoft\\Office\\Office ClickToRun Service Monitor"
+PowerShell: Disable-ScheduledTask -TaskName "\\Microsoft\\Office\\OfficeTelemetry\\AgentFallBack"
+PowerShell: Disable-ScheduledTask -TaskName "\\Microsoft\\Office\\OfficeTelemetry\\AgentFallBack2016"
+PowerShell: Disable-ScheduledTask -TaskName "\\Microsoft\\Office\\OfficeTelemetry\\OfficeTelemetryAgentLogOn2016"
+PowerShell: Disable-ScheduledTask -TaskName "\\Microsoft\\Office\\OfficeTelemetryAgentFallBack"
+PowerShell: Disable-ScheduledTask -TaskName "\\Microsoft\\Office\\OfficeTelemetryAgentFallBack2016"
+PowerShell: Disable-ScheduledTask -TaskName "\\Microsoft\\Office\\OfficeTelemetryAgentLogOn"
+PowerShell: Disable-ScheduledTask -TaskName "\\Microsoft\\Office\\OfficeTelemetryAgentLogOn2016"
+
+DESCRIPTION:
+Отключает телеметрию Microsoft Office, включая клиентскую телеметрию, логирование и обратную связь для всех версий Office.
+
+EN_TITLE:
+Microsoft Office Telemetry
+
+EN_DESCRIPTION:
+Disables Microsoft Office telemetry, including client telemetry, logging, and feedback for all Office versions.
+
+UZ_TITLE:
+Microsoft Office telemetriyasi
+
+UZ_DESCRIPTION:
+Barcha Office versiyalari uchun mijoz telemetriyasi, log yuritish va fikr-mulohaza bildirishni o'chiradi.
+
+DE_TITLE:
+Microsoft Office-Telemetrie
+
+DE_DESCRIPTION:
+Deaktiviert die Microsoft Office-Telemetrie, einschließlich Client-Telemetrie, Protokollierung und Feedback für alle Office-Versionen.
+
+FR_TITLE:
+Télémétrie Microsoft Office
+
+FR_DESCRIPTION:
+Désactive la télémétrie de Microsoft Office, y compris la télémétrie client, la journalisation et les commentaires pour toutes les versions d'Office.
+
+ES_TITLE:
+Telemetría de Microsoft Office
+
+ES_DESCRIPTION:
+Desactiva la telemetría de Microsoft Office, incluida la telemetría del cliente, el registro y los comentarios para todas las versiones de Office.
+
+TR_TITLE:
+Microsoft Office Telemetrisi
+
+TR_DESCRIPTION:
+Tüm Office sürümleri için istemci telemetrisi, günlüklendirme ve geri bildirim dahil olmak üzere Microsoft Office telemetrisini devre dışı bırakır.

@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+dotnet nuget locals all --clear
+
+DESCRIPTION:
+Очистка глобального кеша пакетов NuGet. Полезно для разработчиков .NET, может освободить много места.
+
+EN_TITLE:
+Clear NuGet Cache
+
+EN_DESCRIPTION:
+Clear the global NuGet package cache. Useful for .NET developers, can free up a lot of space.
+
+UZ_TITLE:
+NuGet keshini tozalash
+
+UZ_DESCRIPTION:
+Global NuGet paket keshini tozalash. .NET dasturchilari uchun foydali, ko'p joyni bo'shatishi mumkin.
+
+DE_TITLE:
+NuGet-Cache leeren
+
+DE_DESCRIPTION:
+Löscht den globalen NuGet-Paket-Cache. Nützlich für .NET-Entwickler, kann viel Platz freigeben.
+
+FR_TITLE:
+Effacer le cache NuGet
+
+FR_DESCRIPTION:
+Efface le cache global des packages NuGet. Utile pour les développeurs .NET, peut libérer beaucoup d'espace.
+
+ES_TITLE:
+Limpiar caché de NuGet
+
+ES_DESCRIPTION:
+Limpia la caché global de paquetes NuGet. Útil para desarrolladores .NET, puede liberar mucho espacio.
+
+TR_TITLE:
+NuGet Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Global NuGet paket önbelleğini temizler. .NET geliştiricileri için yararlıdır, çok fazla yer açabilir.

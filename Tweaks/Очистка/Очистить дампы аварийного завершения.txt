@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\CrashDumps
+
+DESCRIPTION:
+Дампы аварийного завершения приложений. Безопасно удалять.
+
+EN_TITLE:
+Clear Application Crash Dumps
+
+EN_DESCRIPTION:
+Application crash dumps. Safe to delete.
+
+UZ_TITLE:
+Ilovalarning kutilmagan to'xtash drayverlarini tozalash
+
+UZ_DESCRIPTION:
+Ilovalarning kutilmagan to'xtash drayverlari (crash dumps). O'chirish xavfsiz.
+
+DE_TITLE:
+Anwendungsabsturz-Dumps bereinigen
+
+DE_DESCRIPTION:
+Absturzabbilder von Anwendungen. Sicher zu löschen.
+
+FR_TITLE:
+Effacer les vidages de mémoire en cas de plantage d'application
+
+FR_DESCRIPTION:
+Vidages de mémoire en cas de plantage d'application. Suppression sans danger.
+
+ES_TITLE:
+Limpiar volcados de memoria de aplicaciones bloqueadas
+
+ES_DESCRIPTION:
+Volcados de memoria de aplicaciones bloqueadas. Seguro de eliminar.
+
+TR_TITLE:
+Uygulama Çökme Dökümlerini Temizle
+
+TR_DESCRIPTION:
+Uygulama çökme dökümleri. Silmek güvenlidir.

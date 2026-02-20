@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=System\CurrentControlSet\Services\USB
+NAME=DisableSelectiveSuspend
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\System\CurrentControlSet\Services\USB" /v "DisableSelectiveSuspend" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\System\CurrentControlSet\Services\USB" /v "DisableSelectiveSuspend" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Отключает режим энергосбережения USB для мгновенного отклика игровых устройств.
+
+EN_TITLE:
+USB Power Saving
+
+EN_DESCRIPTION:
+Disables USB selective suspend to prevent response delays for gamepads, mice, and other gaming peripherals.
+
+UZ_TITLE:
+USB energiya tejash rejimi
+
+UZ_DESCRIPTION:
+Geympad, sichqoncha va boshqa o'yin qurilmalarining javob berish kechikishining oldini olish uchun USB-ni tanlab to'xtatib turishni o'chiradi.
+
+DE_TITLE:
+USB-Energiesparmodus
+
+DE_DESCRIPTION:
+Deaktiviert das selektive USB-Energiesparen, um Reaktionsverzögerungen bei Gamepads, Mäusen und anderer Gaming-Peripherie zu vermeiden.
+
+FR_TITLE:
+Économie d'énergie USB
+
+FR_DESCRIPTION:
+Désactive la suspension sélective USB pour éviter les délais de réponse des manettes, des souris et d'autres périphériques de jeu.
+
+ES_TITLE:
+Ahorro de energía USB
+
+ES_DESCRIPTION:
+Desactiva la suspensión selectiva de USB para evitar retrasos en la respuesta de mandos, ratones y otros periféricos de juego.
+
+TR_TITLE:
+USB Güç Tasarrufu
+
+TR_DESCRIPTION:
+Gamepad'ler, fareler ve diğer oyun çevre birimleri için tepki gecikmelerini önlemek amacıyla USB seçmeli askıya almayı devre dışı bırakır.

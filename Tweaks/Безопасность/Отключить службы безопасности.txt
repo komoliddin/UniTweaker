@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\SecurityHealthService
+NAME=Start
+TYPE=REG_DWORD
+VALUE=0x4
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\SecurityHealthService" /v "Start" /t REG_DWORD /d "0x4" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\SecurityHealthService" /v "Start" /t REG_DWORD /d "0x2" /f
+
+DESCRIPTION:
+Отключает системную службу Центра безопасности (SecurityHealthService).
+
+EN_TITLE:
+Disable Security Services
+
+EN_DESCRIPTION:
+Disables the Security Center system service (SecurityHealthService).
+
+UZ_TITLE:
+Xavfsizlik xizmatlarini o'chirish
+
+UZ_DESCRIPTION:
+Xavfsizlik markazi tizim xizmatini (SecurityHealthService) o'chiradi.
+
+DE_TITLE:
+Sicherheitsdienste deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert den Sicherheitszentrum-Systemdienst (SecurityHealthService).
+
+FR_TITLE:
+Désactiver les services de sécurité
+
+FR_DESCRIPTION:
+Désactive le service système du Centre de sécurité (SecurityHealthService).
+
+ES_TITLE:
+Desactivar servicios de seguridad
+
+ES_DESCRIPTION:
+Desactiva el servicio de sistema del Centro de seguridad (SecurityHealthService).
+
+TR_TITLE:
+Güvenlik Hizmetlerini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Güvenlik Merkezi sistem hizmetini (SecurityHealthService) devre dışı bırakır.

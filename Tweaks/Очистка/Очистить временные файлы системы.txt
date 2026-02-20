@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%TMP%
+%SystemRoot%\Temp
+
+DESCRIPTION:
+Временные файлы системы Windows.
+
+EN_TITLE:
+Clear System Temporary Files
+
+EN_DESCRIPTION:
+Windows system temporary files.
+
+UZ_TITLE:
+Tizim vaqtinchalik fayllarini tozalash
+
+UZ_DESCRIPTION:
+Windows tizimining vaqtinchalik fayllari.
+
+DE_TITLE:
+Temporäre Systemdateien bereinigen
+
+DE_DESCRIPTION:
+Temporäre Dateien des Windows-Systems.
+
+FR_TITLE:
+Effacer les fichiers temporaires du système
+
+FR_DESCRIPTION:
+Fichiers temporaires du système Windows.
+
+ES_TITLE:
+Limpiar archivos temporales del sistema
+
+ES_DESCRIPTION:
+Archivos temporales del sistema Windows.
+
+TR_TITLE:
+Sistem Geçici Dosyalarını Temizle
+
+TR_DESCRIPTION:
+Windows sistemi geçici dosyaları.

@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Microsoft\Windows\Explorer
+
+DESCRIPTION:
+Кеш Windows Explorer: иконки, миниатюры, быстрый просмотр.
+
+EN_TITLE:
+Clear Windows Explorer Cache
+
+EN_DESCRIPTION:
+Windows Explorer cache: icons, thumbnails, quick look.
+
+UZ_TITLE:
+Windows Explorer keshini tozalash
+
+UZ_DESCRIPTION:
+Windows Explorer keshi: piktogrammalar, eskizlar, tezkor ko'rish.
+
+DE_TITLE:
+Windows-Explorer-Cache bereinigen
+
+DE_DESCRIPTION:
+Windows Explorer-Cache: Symbole, Miniaturbilder, Schnellansicht.
+
+FR_TITLE:
+Effacer le cache de l'Explorateur Windows
+
+FR_DESCRIPTION:
+Cache de l'Explorateur Windows : icônes, miniatures, aperçu rapide.
+
+ES_TITLE:
+Limpiar caché del Explorador de Windows
+
+ES_DESCRIPTION:
+Caché del Explorador de Windows: iconos, miniaturas, vista rápida.
+
+TR_TITLE:
+Windows Gezgini Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Windows Gezgini önbelleği: simgeler, küçük resimler, hızlı bakış.

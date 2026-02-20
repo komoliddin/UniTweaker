@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Multimedia\Audio
+NAME=UserDuckingPreference
+TYPE=REG_DWORD
+VALUE=3
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Multimedia\Audio" /v "UserDuckingPreference" /t REG_DWORD /d "3" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Multimedia\Audio" /v "UserDuckingPreference" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Отключает автоматическое снижение громкости фоновых приложений при звонках, задав опцию «Не выполнять никаких действий» через запись в реестр.
+
+EN_TITLE:
+Disable Audio Ducking during Calls
+
+EN_DESCRIPTION:
+Disables the automatic reduction of background application volume during calls by setting the "Do nothing" option in the registry.
+
+UZ_TITLE:
+Gaplashish paytida ovoz pasayishini o'chirish
+
+UZ_DESCRIPTION:
+Reyestrda "Hech narsa qilmaslik" variantini o'rnatish orqali qo'ng'iroqlar paytida fon ilovalari ovozining avtomatik pasayishini o'chiradi.
+
+DE_TITLE:
+Audio-Ducking bei Anrufen deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die automatische Reduzierung der Lautstärke von Hintergrundanwendungen bei Anrufen, indem die Option "Nichts unternehmen" in der Registry festgelegt wird.
+
+FR_TITLE:
+Désactiver l'atténuation audio pendant les appels
+
+FR_DESCRIPTION:
+Désactive la réduction automatique du volume des applications en arrière-plan pendant les appels en définissant l'option "Ne rien faire" dans le registre.
+
+ES_TITLE:
+Desactivar atenuación de audio durante llamadas
+
+ES_DESCRIPTION:
+Desactiva la reducción automática del volumen de las aplicaciones en segundo plano durante las llamadas configurando la opción "No hacer nada" en el registro.
+
+TR_TITLE:
+Aramalar Sırasında Ses Azaltmayı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Kayıt defterinde "Hiçbir şey yapma" seçeneğini ayarlayarak aramalar sırasında arka plan uygulama sesinin otomatik olarak azaltılmasını devre dışı bırakır.

@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\TabletTip\1.7
+NAME=EnableKeyAudioFeedback
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\TabletTip\1.7" /v "EnableKeyAudioFeedback" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\TabletTip\1.7" /v "EnableKeyAudioFeedback" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Отключает **звук клавиш** при использовании экранной клавиатуры.
+
+EN_TITLE:
+Disable On-Screen Keyboard Sound
+
+EN_DESCRIPTION:
+Disables **key sounds** when using the on-screen keyboard.
+
+UZ_TITLE:
+Ekran klaviaturasi ovozini o'chirish
+
+UZ_DESCRIPTION:
+Ekran klaviaturasidan foydalanishda **tugmachalar ovozini** o'chiradi.
+
+DE_TITLE:
+Bildschirmtastatur-Sound deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die **Tastentöne** bei Verwendung der Bildschirmtastatur.
+
+FR_TITLE:
+Désactiver le son du clavier visuel
+
+FR_DESCRIPTION:
+Désactive les **sons des touches** lors de l'utilisation du clavier visuel.
+
+ES_TITLE:
+Desactivar el sonido del teclado en pantalla
+
+ES_DESCRIPTION:
+Desactiva los **sonidos de las teclas** al usar el teclado en pantalla.
+
+TR_TITLE:
+Ekran Klavyesi Sesini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Ekran klavyesini kullanırken **tuş seslerini** devre dışı bırakır.

@@ -1,0 +1,93 @@
+NOTRECOMMENDED
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+NAME=AUOptions
+TYPE=REG_DWORD
+VALUE=0x2
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\uhssvc" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\edgeupdate" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\edgeupdatem" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WaaSMedicSvc" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\UsoSvc" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\BITS" /v "Start" /t REG_DWORD /d "4" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\wuauserv" /v "Start" /t REG_DWORD /d "4" /f
+
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v "WUServer" /t REG_SZ /d "127.0.0.1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v "WUStatusServer" /t REG_SZ /d "127.0.0.1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v "ElevateNonAdmins" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AUOptions" /t REG_DWORD /d "0x2" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "AutoInstallMinorUpdates" /t REG_DWORD /d "0x0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoUpdate" /t REG_DWORD /d "0x1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v "NoAutoRebootWithLoggedOnUsers" /t REG_DWORD /d "0x1" /f
+
+net stop uhssvc
+net stop edgeupdate
+net stop edgeupdatem
+net stop WaaSMedicSvc
+net stop UsoSvc
+net stop BITS
+net stop wuauserv
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\uhssvc" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\edgeupdate" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\edgeupdatem" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WaaSMedicSvc" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\UsoSvc" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\BITS" /v "Start" /t REG_DWORD /d "2" /f
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\wuauserv" /v "Start" /t REG_DWORD /d "2" /f
+
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v "WUServer" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v "WUStatusServer" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v "ElevateNonAdmins" /f
+Reg.exe delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /f
+
+net start uhssvc
+net start edgeupdate
+net start edgeupdatem
+net start WaaSMedicSvc
+net start UsoSvc
+net start BITS
+net start wuauserv
+
+DESCRIPTION:
+Отключает Центр обновления Windows (Windows Update) и все связанные службы.
+
+EN_TITLE:
+Disable Windows Update
+
+EN_DESCRIPTION:
+Disables Windows Update components and all related services.
+
+UZ_TITLE:
+Windows yangilanishini o'chirish
+
+UZ_DESCRIPTION:
+Windows yangilanish markazini (Windows Update) va barcha tegishli xizmatlarni o'chiradi.
+
+DE_TITLE:
+Windows Update deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert Windows Update-Komponenten und alle zugehörigen Dienste.
+
+FR_TITLE:
+Désactiver Windows Update
+
+FR_DESCRIPTION:
+Désactive les composants de Windows Update et tous les services associés.
+
+ES_TITLE:
+Desactivar Windows Update
+
+ES_DESCRIPTION:
+Desactiva los componentes de Windows Update y todos los servicios relacionados.
+
+TR_TITLE:
+Windows Güncelleme'yi Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Windows Güncelleme bileşenlerini ve ilgili tüm hizmetleri devre dışı bırakır.

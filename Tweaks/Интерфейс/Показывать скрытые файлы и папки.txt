@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+NAME=Hidden
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Hidden /t REG_DWORD /d 1 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Hidden /t REG_DWORD /d 2 /f
+
+DESCRIPTION:
+Включает или отключает отображение скрытых файлов и папок в проводнике Windows.
+
+EN_TITLE:
+Show Hidden Files and Folders
+
+EN_DESCRIPTION:
+Show Hidden Files and Folders
+
+UZ_TITLE:
+Yashirin fayl va papkalarni ko'rsatish
+
+UZ_DESCRIPTION:
+Yashirin fayl va papkalarni ko'rsatish
+
+DE_TITLE:
+Ausgeblendete Dateien und Ordner anzeigen
+
+DE_DESCRIPTION:
+Ausgeblendete Dateien und Ordner anzeigen
+
+FR_TITLE:
+Afficher les fichiers et dossiers cachés
+
+FR_DESCRIPTION:
+Afficher les fichiers et dossiers cachés
+
+ES_TITLE:
+Mostrar archivos y carpetas ocultos
+
+ES_DESCRIPTION:
+Mostrar archivos y carpetas ocultos
+
+TR_TITLE:
+Gizli dosya ve klasörleri göster
+
+TR_DESCRIPTION:
+Gizli dosya ve klasörleri göster

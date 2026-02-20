@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+NAME=TcpAckFrequency
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TcpAckFrequency" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "TcpAckFrequency" /t REG_DWORD /d "2" /f
+
+DESCRIPTION:
+Данный твик изменяет значение параметра TcpAckFrequency.
+При включении твика значение устанавливается в 1, что уменьшает задержки в TCP-соединениях и может устранить ошибки (например, 0x0000E000).
+При отключении значение возвращается к стандартному (2).
+Это может помочь оптимизировать сетевое взаимодействие и устранить проблемы с задержками.
+
+EN_TITLE:
+Network Adapter Parameters (TcpAckFrequency)
+
+EN_DESCRIPTION:
+This tweak changes the TcpAckFrequency value. Enabling it sets the value to 1, reducing delays in TCP connections and potentially resolving errors (e.g., 0x0000E000). Disabling it restores the standard value (2). This can help optimize network interaction and resolve latency issues.
+
+UZ_TITLE:
+Tarmoq adapteri parametrlari (TcpAckFrequency)
+
+UZ_DESCRIPTION:
+Ushbu tvik TcpAckFrequency qiymatini o'zgartiradi. Tvik yoqilganda qiymat 1 ga o'rnatiladi, bu TCP ulanishlaridagi kechikishlarni kamaytiradi va 0x0000E000 kabi xatolarni bartaraf etishi mumkin. O'chirilganda standart qiymat (2) tiklanadi. Bu tarmoq o'zaro ta'sirini optimallashtirishga va kechikishlar bilan bog'liq muammolarni bartaraf etishga yordam beradi.
+
+DE_TITLE:
+Netzwerkadapterparameter (TcpAckFrequency)
+
+DE_DESCRIPTION:
+Dieser Tweak ändert den Wert TcpAckFrequency. Die Aktivierung setzt den Wert auf 1, wodurch Verzögerungen bei TCP-Verbindungen reduziert und Fehler (z. B. 0x0000E000) behoben werden können. Die Deaktivierung stellt den Standardwert (2) wieder her. Dies kann helfen, die Netzwerkinteraktion zu optimieren und Latenzprobleme zu lösen.
+
+FR_TITLE:
+Paramètres de l'adaptateur réseau (TcpAckFrequency)
+
+FR_DESCRIPTION:
+Ce tweak modifie la valeur TcpAckFrequency. L'activation définit la valeur sur 1, réduisant les délais dans les connexions TCP et résolvant potentiellement les erreurs (par exemple, 0x0000E000). La désactivation restaure la valeur standard (2). Cela peut aider à optimiser l'interaction réseau et à résoudre les problèmes de latence.
+
+ES_TITLE:
+Parámetros del adaptador de red (TcpAckFrequency)
+
+ES_DESCRIPTION:
+Este ajuste cambia el valor de TcpAckFrequency. Al activarlo, el valor se establece en 1, lo que reduce los retrasos en las conexiones TCP и puede resolver errores (por ejemplo, 0x0000E000). Al desactivarlo se restaura el valor estándar (2). Esto puede ayudar a optimizar la interacción de red и resolver problemas de latencia.
+
+TR_TITLE:
+Ağ Bağdaştırıcısı Parametreleri (TcpAckFrequency)
+
+TR_DESCRIPTION:
+Bu ayar TcpAckFrequency değerini değiştirir. Etkinleştirildiğinde değeri 1 olarak ayarlar, TCP bağlantılarındaki gecikmeleri azaltır ve hataları (örneğin, 0x0000E000) çözebilir. Devre dışı bırakılması standart değeri (2) geri yükler. Bu, ağ etkileşimini optimize etmeye ve gecikme sorunlarını çözmeye yardımcı olabilir.

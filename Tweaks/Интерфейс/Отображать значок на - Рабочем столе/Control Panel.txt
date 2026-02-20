@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel
+NAME={5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Показывает или скрывает значок «Панель управления» на рабочем столе.
+
+EN_TITLE:
+Control Panel
+
+EN_DESCRIPTION:
+Control Panel
+
+UZ_TITLE:
+Control Panel
+
+UZ_DESCRIPTION:
+Control Panel
+
+DE_TITLE:
+Control Panel
+
+DE_DESCRIPTION:
+Control Panel
+
+FR_TITLE:
+Control Panel
+
+FR_DESCRIPTION:
+Control Panel
+
+ES_TITLE:
+Control Panel
+
+ES_DESCRIPTION:
+Control Panel
+
+TR_TITLE:
+Control Panel
+
+TR_DESCRIPTION:
+Control Panel

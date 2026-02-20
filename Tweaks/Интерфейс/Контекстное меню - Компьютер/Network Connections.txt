@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Ncpa
+NAME=Сетевые подключения
+TYPE=REG_SZ
+VALUE=
+
+CHECKED:
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Ncpa" /ve /t REG_SZ /d "Сетевые подключения" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Ncpa" /v "Icon" /t REG_SZ /d "ncpa.cpl" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Ncpa" /v "Position" /t REG_SZ /d "bottom" /f
+Reg.exe add "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Ncpa\command" /ve /t REG_SZ /d "rundll32.exe shell32.dll,Control_RunDLL ncpa.cpl" /f
+
+UNCHECKED:
+Reg.exe delete "HKCU\Software\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Ncpa" /f
+
+DESCRIPTION:
+Этот твик добавляет пункт «Сетевые подключения» в контекстное меню «Этот компьютер».
+
+EN_TITLE:
+Network Connections
+
+EN_DESCRIPTION:
+Network Connections
+
+UZ_TITLE:
+Network Connections
+
+UZ_DESCRIPTION:
+Network Connections
+
+DE_TITLE:
+Network Connections
+
+DE_DESCRIPTION:
+Network Connections
+
+FR_TITLE:
+Network Connections
+
+FR_DESCRIPTION:
+Network Connections
+
+ES_TITLE:
+Network Connections
+
+ES_DESCRIPTION:
+Network Connections
+
+TR_TITLE:
+Network Connections
+
+TR_DESCRIPTION:
+Network Connections

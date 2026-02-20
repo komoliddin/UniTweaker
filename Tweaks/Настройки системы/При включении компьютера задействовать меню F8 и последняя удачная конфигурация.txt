@@ -1,0 +1,56 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Session Manager\Configuration Manager
+NAME=BackupCount
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+bcdedit /set {default} bootmenupolicy legacy
+REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Configuration Manager" /v "BackupCount" /t REG_DWORD /d 1 /f
+REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Configuration Manager\LastKnownGood" /v "Enabled" /t REG_DWORD /d 1 /f
+
+UNCHECKED:
+bcdedit /set {default} bootmenupolicy standard
+REG DELETE "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Configuration Manager" /v "BackupCount" /f
+REG DELETE "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Configuration Manager\LastKnownGood" /f
+
+DESCRIPTION:
+Этот твик включает расширенное меню F8 при загрузке компьютера и добавляет в него опцию "Последняя удачная конфигурация".  
+Полезно для устранения проблем, если Windows не загружается корректно.
+
+EN_TITLE:
+Enable F8 Menu and Last Known Good Configuration
+
+EN_DESCRIPTION:
+This tweak enables the extended F8 menu during computer boot and adds the "Last Known Good Configuration" option to it. Useful for troubleshooting if Windows does not boot correctly.
+
+UZ_TITLE:
+F8 menyusi va Oxirgi muvaffaqiyatli konfiguratsiyani yoqish
+
+UZ_DESCRIPTION:
+Ushbu tvik kompyuterni yuklash paytida kengaytirilgan F8 menyusini yoqadi va unga "Oxirgi muvaffaqiyatli konfiguratsiya" variantini qo'shadi. Agar Windows to'g'ri yuklanmasa, muammolarni bartaraf etish uchun foydalidir.
+
+DE_TITLE:
+F8-Menü und letzte als funktionierend bekannte Konfiguration aktivieren
+
+DE_DESCRIPTION:
+Dieser Tweak aktiviert das erweiterte F8-Menü beim Booten des Computers und fügt die Option "Letzte als funktionierend bekannte Konfiguration" hinzu. Nützlich zur Fehlerbehebung, wenn Windows nicht korrekt bootet.
+
+FR_TITLE:
+Activer le menu F8 et la dernière configuration valide connue
+
+FR_DESCRIPTION:
+Ce tweak active le menu F8 étendu lors du démarrage de l'ordinateur et y ajoute l'option "Dernière configuration valide connue". Utile pour le dépannage si Windows ne démarre pas correctement.
+
+ES_TITLE:
+Habilitar el menú F8 и la última configuración buena conocida
+
+ES_DESCRIPTION:
+Este ajuste habilita el menú F8 extendido durante el arranque del equipo y añade la opción "Última configuración buena conocida". Útil para solucionar problemas si Windows no arranca correctamente.
+
+TR_TITLE:
+F8 Menüsünü ve Bilinen Son İyi Yapılandırmayı Etkinleştir
+
+TR_DESCRIPTION:
+Bu ayar, bilgisayar açılışı sırasında genişletilmiş F8 menüsünü etkinleştirir ve buna "Bilinen Son İyi Yapılandırma" seçeneğini ekler. Windows düzgün şekilde açılmıyorsa sorun giderme için yararlıdır.

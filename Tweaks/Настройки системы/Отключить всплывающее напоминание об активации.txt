@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows NT\CurrentVersion\SL\Activation
+NAME=NotificationDisabled
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SL\Activation" /v "NotificationDisabled" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SL\Activation" /v "NotificationDisabled" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Отключает всплывающие уведомления и напоминания о необходимости активации Windows.
+
+EN_TITLE:
+Disable Activation Reminders
+
+EN_DESCRIPTION:
+Disables pop-up notifications and reminders about the need to activate Windows.
+
+UZ_TITLE:
+Faollashtirish haqidagi eslatmalarni o'chirish
+
+UZ_DESCRIPTION:
+Windows-ni faollashtirish zarurligi haqidagi qalqib chiquvchi bildirishnomalar va eslatmalarni o'chiradi.
+
+DE_TITLE:
+Aktivierungserinnerungen deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert Pop-up-Benachrichtigungen und Erinnerungen an die Notwendigkeit, Windows zu aktivieren.
+
+FR_TITLE:
+Désactiver les rappels d'activation
+
+FR_DESCRIPTION:
+Désactive les notifications contextuelles et les rappels concernant la nécessité d'activer Windows.
+
+ES_TITLE:
+Desactivar recordatorios de activación
+
+ES_DESCRIPTION:
+Desactiva las notificaciones emergentes и los recordatorios sobre la necesidad de activar Windows.
+
+TR_TITLE:
+Etkinleştirme Hatırlatıcılarını Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Windows'u etkinleştirme gerekliliği hakkındaki açılır bildirimleri ve hatırlatıcıları devre dışı bırakır.

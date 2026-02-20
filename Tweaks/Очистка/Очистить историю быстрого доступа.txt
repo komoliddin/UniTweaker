@@ -1,0 +1,44 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Microsoft\Windows\Recent\AutomaticDestinations
+%APPDATA%\Microsoft\Windows\Recent\CustomDestinations
+
+DESCRIPTION:
+Очистка истории часто используемых папок и последних файлов в проводнике (Быстрый доступ).
+
+EN_TITLE:
+Clear Quick Access History
+
+EN_DESCRIPTION:
+Clear the history of frequently used folders and recent files in File Explorer (Quick Access).
+
+UZ_TITLE:
+Tezkor kirish tarixini tozalash
+
+UZ_DESCRIPTION:
+Tezkor kirish panelidagi tez-tez ishlatiladigan papkalar va oxirgi fayllar tarixi.
+
+DE_TITLE:
+Schnellzugriffsverlauf löschen
+
+DE_DESCRIPTION:
+Löscht den Verlauf häufig verwendeter Ordner und zuletzt verwendeter Dateien im Datei-Explorer (Schnellzugriff).
+
+FR_TITLE:
+Effacer l'historique de l'Accès rapide
+
+FR_DESCRIPTION:
+Efface l'historique des dossiers fréquemment utilisés et des fichiers récents dans l'Explorateur de fichiers (Accès rapide).
+
+ES_TITLE:
+Limpiar historial de Acceso rápido
+
+ES_DESCRIPTION:
+Limpia el historial de carpetas frecuentes и archivos recientes en el Explorador de archivos (Acceso rápido).
+
+TR_TITLE:
+Hızlı Erişim Geçmişini Temizle
+
+TR_DESCRIPTION:
+Dosya Gezgini'ndeki (Hızlı Erişim) sık kullanılan klasörlerin ve son dosyaların geçmişini temizler.

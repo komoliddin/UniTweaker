@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%LOCALAPPDATA%\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\shared\Transfers
+
+DESCRIPTION:
+Кеш переданных файлов и временные данные WhatsApp Desktop.
+
+EN_TITLE:
+Clear WhatsApp Cache
+
+EN_DESCRIPTION:
+Cache of transferred files and temporary data for WhatsApp Desktop.
+
+UZ_TITLE:
+WhatsApp keshini tozalash
+
+UZ_DESCRIPTION:
+WhatsApp Desktop-dagi uzatilgan fayllar keshi va vaqtinchalik ma'lumotlar.
+
+DE_TITLE:
+WhatsApp-Cache leeren
+
+DE_DESCRIPTION:
+Cache von übertragenen Dateien und temporäre Daten für WhatsApp Desktop.
+
+FR_TITLE:
+Effacer le cache WhatsApp
+
+FR_DESCRIPTION:
+Cache des fichiers transférés et données temporaires pour WhatsApp Desktop.
+
+ES_TITLE:
+Limpiar caché de WhatsApp
+
+ES_DESCRIPTION:
+Caché de archivos transferidos y datos temporales de WhatsApp Desktop.
+
+TR_TITLE:
+WhatsApp Önbelleğini Temizle
+
+TR_DESCRIPTION:
+WhatsApp Desktop için aktarılan dosyaların önbelleği ve geçici veriler.

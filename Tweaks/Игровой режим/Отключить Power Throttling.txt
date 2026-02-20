@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Power\PowerThrottling
+NAME=PowerThrottlingOff
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling" /v "PowerThrottlingOff" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling" /v "PowerThrottlingOff" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Power Throttling ограничивает производительность фоновых процессов для экономии энергии. Отключение этой функции улучшает производительность.
+
+EN_TITLE:
+Disable Power Throttling
+
+EN_DESCRIPTION:
+Disables power throttling for background processes to maximize performance, preventing Windows from limiting CPU resources for active tasks.
+
+UZ_TITLE:
+Power Throttling-ni o'chirish
+
+UZ_DESCRIPTION:
+Unumdorlikni oshirish uchun fon jarayonlari uchun quvvat cheklovini (Power Throttling) o'chiradi.
+
+DE_TITLE:
+Leistungsdrosselung deaktivieren
+
+DE_DESCRIPTION:
+Deaktiviert die Leistungsdrosselung (Power Throttling) für Hintergrundprozesse, um die Systemleistung zu maximieren.
+
+FR_TITLE:
+Désactiver le Power Throttling
+
+FR_DESCRIPTION:
+Désactive la limitation de puissance (Power Throttling) pour les processus d'arrière-plan afin de maximiser les performances du système.
+
+ES_TITLE:
+Desactivar Power Throttling
+
+ES_DESCRIPTION:
+Desactiva la limitación de energía (Power Throttling) para los procesos en segundo plano para maximizar el rendimiento.
+
+TR_TITLE:
+Güç Kısıtlamasını (Power Throttling) Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Performansı en üst düzeye çıkarmak için arka plan işlemlerindeki güç kısıtlamasını devre dışı bırakır.

@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=Control Panel\Desktop
+NAME=MenuShowDelay
+TYPE=REG_SZ
+VALUE=20
+
+CHECKED:
+Reg.exe add "HKCU\Control Panel\Desktop" /v "MenuShowDelay" /t REG_SZ /d "20" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\Control Panel\Desktop" /v "MenuShowDelay" /t REG_SZ /d "400" /f
+
+DESCRIPTION:
+Этот твик уменьшает задержку отображения меню в Windows, делая их открытие быстрее.
+
+EN_TITLE:
+Enable Classic Context Menu (Win11)
+
+EN_DESCRIPTION:
+Enable Classic Context Menu (Win11)
+
+UZ_TITLE:
+Klassik kontekst menyusini yoqish (Win11)
+
+UZ_DESCRIPTION:
+Klassik kontekst menyusini yoqish (Win11)
+
+DE_TITLE:
+Klassisches Kontextmenü aktivieren (Win11)
+
+DE_DESCRIPTION:
+Klassisches Kontextmenü aktivieren (Win11)
+
+FR_TITLE:
+Activer le menu contextuel classique (Win11)
+
+FR_DESCRIPTION:
+Activer le menu contextuel classique (Win11)
+
+ES_TITLE:
+Activar menú contextual clásico (Win11)
+
+ES_DESCRIPTION:
+Activar menú contextual clásico (Win11)
+
+TR_TITLE:
+Klasik sağ tık menüsünü etkinleştir (Win11)
+
+TR_DESCRIPTION:
+Klasik sağ tık menüsünü etkinleştir (Win11)

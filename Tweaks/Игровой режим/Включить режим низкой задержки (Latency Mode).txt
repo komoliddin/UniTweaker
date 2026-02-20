@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\Dwm
+NAME=OverlayTestMode
+TYPE=REG_DWORD
+VALUE=5
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Dwm" /v "OverlayTestMode" /t REG_DWORD /d "5" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Dwm" /v "UseOLEDTaskMode" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Dwm" /v "OverlayTestMode" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\Dwm" /v "UseOLEDTaskMode" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Включает специальный режим в оконных играх, который снижает задержку вывода кадров.
+
+EN_TITLE:
+Low Latency Mode (DWM)
+
+EN_DESCRIPTION:
+Enables a special mode for windowed games that reduces frame output latency and makes controls more responsive.
+
+UZ_TITLE:
+Kam kechikish rejimi (DWM)
+
+UZ_DESCRIPTION:
+Oynali o'yinlar uchun kadrlar chiqishi kechikishini kamaytiradigan va boshqaruvni yanada sezgir qiladigan maxsus rejimni yoqadi.
+
+DE_TITLE:
+Modus für niedrige Latenz (DWM)
+
+DE_DESCRIPTION:
+Aktiviert einen speziellen Modus für Spiele im Fenstermodus, der die Latenz der Bildausgabe verringert und die Steuerung reaktionsschneller macht.
+
+FR_TITLE:
+Mode Latence faible (DWM)
+
+FR_DESCRIPTION:
+Active un mode spécial pour les jeux en mode fenêtre qui réduit la latence de sortie des images et rend les commandes plus réactives.
+
+ES_TITLE:
+Modo de latencia baja (DWM)
+
+ES_DESCRIPTION:
+Activa un modo especial para juegos en ventana que reduce la latencia de salida de fotogramas y hace que los controles respondan mejor.
+
+TR_TITLE:
+Düşük Gecikme Modu (DWM)
+
+TR_DESCRIPTION:
+Pencereli oyunlar için kare çıkış gecikmesini azaltan ve kontrolleri daha tepkisel hale getiren özel bir modu etkinleştirir.

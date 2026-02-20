@@ -1,0 +1,67 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+NAME=ShowFrequent
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "ShowFrequent" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "ShowRecent" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "ShowFrequent" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "ShowRecent" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+🚫 **Отключение истории недавно используемых файлов и папок**  
+📁 **Удаляет недавние файлы и папки из "Быстрого доступа" в проводнике**  
+🔒 **Повышает конфиденциальность, скрывая историю работы**  
+
+EN_TITLE:
+Disable Quick Access History
+
+EN_DESCRIPTION:
+🚫 **Disables history of recently used files and folders**
+📁 **Removes recent files and folders from "Quick Access" in File Explorer**
+🔒 **Improves privacy by hiding work history**
+
+UZ_TITLE:
+Tezkor kirish paneli tarixini o'chirish
+
+UZ_DESCRIPTION:
+🚫 **Yaqinda ishlatilgan fayllar va papkalar tarixini o'chiradi**
+📁 **Provodnika (explorer) dagi "Tezkor kirish" panelidan yaqindagi fayllar va papkalarni olib tashlaydi**
+🔒 **Ish tarixini yashirish orqali maxfiylikni oshiradi**
+
+DE_TITLE:
+Schnellzugriff-Verlauf deaktivieren
+
+DE_DESCRIPTION:
+🚫 **Deaktiviert den Verlauf der zuletzt verwendeten Dateien und Ordner**
+📁 **Entfernt die zuletzt verwendeten Dateien und Ordner aus dem "Schnellzugriff" im Datei-Explorer**
+🔒 **Verbessert den Datenschutz, indem der Arbeitsverlauf ausgeblendet wird**
+
+FR_TITLE:
+Désactiver l'historique de l'accès rapide
+
+FR_DESCRIPTION:
+🚫 **Désactive l'historique des fichiers et dossiers récemment utilisés**
+📁 **Supprime les fichiers et dossiers récents de l'« Accès rapide » dans l'Explorateur de fichiers**
+🔒 **Améliore la confidentialité en masquant l'historique de travail**
+
+ES_TITLE:
+Desactivar historial de acceso rápido
+
+ES_DESCRIPTION:
+🚫 **Desactiva el historial de archivos и carpetas utilizados recientemente**
+📁 **Elimina los archivos и carpetas recientes de "Acceso rápido" en el Explorador de archivos**
+🔒 **Mejora la privacidad al ocultar el historial de trabajo**
+
+TR_TITLE:
+Hızlı Erişim Geçmişini Devre Dışı Bırak
+
+TR_DESCRIPTION:
+🚫 **Son kullanılan dosya ve klasörlerin geçmişini devre dışı bırakır**
+📁 **Dosya Gezgini'ndeki "Hızlı Erişim"den son dosyaları ve klasörleri kaldırır**
+🔒 **Çalışma geçmişini gizleyerek gizliliği artırır**

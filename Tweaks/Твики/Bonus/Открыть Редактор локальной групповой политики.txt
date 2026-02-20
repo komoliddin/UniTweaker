@@ -1,0 +1,42 @@
+BUTTON:
+CLICKED:
+gpedit.msc
+
+DESCRIPTION:
+Открывает редактор локальной групповой политики
+
+EN_TITLE:
+Open Group Policy Editor
+
+EN_DESCRIPTION:
+Launches the Local Group Policy Editor (gpedit.msc).
+
+UZ_TITLE:
+Mahalliy guruh siyosati muharririni ochish
+
+UZ_DESCRIPTION:
+Mahalliy guruh siyosati muharririni (gpedit.msc) ishga tushiradi.
+
+DE_TITLE:
+Gruppenrichtlinien-Editor öffnen
+
+DE_DESCRIPTION:
+Startet den Editor für lokale Gruppenrichtlinien (gpedit.msc).
+
+FR_TITLE:
+Ouvrir l'éditeur de stratégie de groupe
+
+FR_DESCRIPTION:
+Lance l'éditeur de stratégie de groupe locale (gpedit.msc).
+
+ES_TITLE:
+Abrir el Editor de directivas de grupo
+
+ES_DESCRIPTION:
+Inicia el Editor de directivas de grupo local (gpedit.msc).
+
+TR_TITLE:
+Grup İlkesi Düzenleyicisini Aç
+
+TR_DESCRIPTION:
+Yerel Grup İlkesi Düzenleyicisi'ni (gpedit.msc) başlatır.

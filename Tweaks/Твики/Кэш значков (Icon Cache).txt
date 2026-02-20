@@ -1,0 +1,58 @@
+CONFIRM
+FINISH
+BUTTON:
+
+CLICKED:
+ie4uinit.exe -show
+ie4uinit.exe -ClearIconCache
+cmd /c taskkill /f /im explorer.exe
+timeout /t 2 /nobreak
+del %LocalAppData%\Microsoft\Internet Explorer\brndlog.txt
+del %LocalAppData%\Microsoft\Internet Explorer\*.log
+attrib -a -r -h -s %LocalAppData%\IconCache.db
+attrib -a -r -h -s %LocalAppData%\Microsoft\Windows\Explorer\*.db
+attrib -a -r -h -s %LocalAppData%\Microsoft\Windows\Explorer\IconCacheToDelete\*.tmp
+del %LocalAppData%\IconCache.db
+del %LocalAppData%\Microsoft\Windows\Explorer\*.db
+del %LocalAppData%\Microsoft\Windows\Explorer\IconCacheToDelete\*.tmp
+timeout /t 2 /nobreak
+start "" explorer.exe
+
+DESCRIPTION:
+Сбрасывает кэш значков и перезапускает проводник.
+
+EN_TITLE:
+Clear Icon Cache
+
+EN_DESCRIPTION:
+Resets the icon cache and restarts Windows Explorer.
+
+UZ_TITLE:
+Belgilar keshini tozalash
+
+UZ_DESCRIPTION:
+Belgilar keshini tiklaydi va provodnika (explorer)ni qayta ishga tushiradi.
+
+DE_TITLE:
+Symbol-Cache bereinigen
+
+DE_DESCRIPTION:
+Setzt den Symbol-Cache zurück und startet den Windows-Explorer neu.
+
+FR_TITLE:
+Effacer le cache des icônes
+
+FR_DESCRIPTION:
+Réinitialise le cache des icônes et redémarre l'Explorateur Windows.
+
+ES_TITLE:
+Limpiar caché de iconos
+
+ES_DESCRIPTION:
+Restablece la caché de iconos и reinicia el Explorador de Windows.
+
+TR_TITLE:
+Simge Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Simge önbelleğini sıfırlar ve Windows Gezgini'ni yeniden başlatır.

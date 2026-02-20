@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=System\CurrentControlSet\Control\Class\{4D36E96F-E325-11CE-BFC1-08002BE10318}
+NAME=EnhancedPointerPrecision
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\System\CurrentControlSet\Control\Class\{4D36E96F-E325-11CE-BFC1-08002BE10318}" /v "EnhancedPointerPrecision" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\System\CurrentControlSet\Control\Class\{4D36E96F-E325-11CE-BFC1-08002BE10318}" /v "EnhancedPointerPrecision" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Отключает программное ускорение мыши для более точного наведения (1-to-1 movement).
+
+EN_TITLE:
+Mouse Acceleration Fix
+
+EN_DESCRIPTION:
+Disables software mouse acceleration to ensure precise 1-to-1 pointer movement in games.
+
+UZ_TITLE:
+Sichqoncha tezlanishini o'chirish (Mouse Fix)
+
+UZ_DESCRIPTION:
+O'yinlarda aniqroq nishonga olish (1-to-1 movement) uchun sichqonchaning dasturiy tezlanishini o'chiradi.
+
+DE_TITLE:
+Mausbeschleunigung-Fix
+
+DE_DESCRIPTION:
+Deaktiviert die Software-Mausbeschleunigung, um eine präzise 1-zu-1-Zeigerbewegung in Spielen zu gewährleisten.
+
+FR_TITLE:
+Correctif d'accélération de la souris
+
+FR_DESCRIPTION:
+Désactive l'accélération logicielle de la souris pour garantir un mouvement précis du pointeur (1 pour 1) dans les jeux.
+
+ES_TITLE:
+Corrección de aceleración del ratón
+
+ES_DESCRIPTION:
+Desactiva la aceleración de software del ratón para garantizar un movimiento preciso del puntero 1 a 1 en los juegos.
+
+TR_TITLE:
+Fare Hızlandırma Düzeltmesi
+
+TR_DESCRIPTION:
+Oyunlarda hassas bire bir imleç hareketi sağlamak için yazılımsal fare hızlandırmasını devre dışı bırakır.

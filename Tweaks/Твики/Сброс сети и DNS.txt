@@ -1,0 +1,47 @@
+BUTTON:
+CONFIRM
+FINISH
+CLICKED:
+netsh int ip reset
+netsh winsock reset
+ipconfig /flushdns
+
+DESCRIPTION:
+Сбрасывает TCP/IP и Winsock
+Очистка кэша DNS, помогает при проблемах с доступом к сайтам
+
+EN_TITLE:
+Network and DNS Reset
+
+EN_DESCRIPTION:
+Resets TCP/IP and Winsock settings. Clears the DNS cache, helping with website access issues.
+
+UZ_TITLE:
+Tarmoq va DNS-ni tiklash
+
+UZ_DESCRIPTION:
+TCP/IP va Winsock sozlamalarini tiklaydi. DNS keshini tozalaydi, bu saytlarga kirish muammolarida yordam beradi.
+
+DE_TITLE:
+Netzwerk- und DNS-Reset
+
+DE_DESCRIPTION:
+Setzt TCP/IP- und Winsock-Einstellungen zurück. Leert den DNS-Cache, was bei Problemen mit dem Website-Zugriff hilft.
+
+FR_TITLE:
+Réinitialisation du réseau et du DNS
+
+FR_DESCRIPTION:
+Réinitialise les paramètres TCP/IP et Winsock. Efface le cache DNS, ce qui aide à résoudre les problèmes d'accès aux sites Web.
+
+ES_TITLE:
+Restablecimiento de red и DNS
+
+ES_DESCRIPTION:
+Restablece los ajustes TCP/IP и Winsock. Limpia la caché DNS, lo que ayuda con los problemas de acceso a sitios web.
+
+TR_TITLE:
+Ağ ve DNS Sıfırlama
+
+TR_DESCRIPTION:
+TCP/IP ve Winsock ayarlarını sıfırlar. Web sitesi erişim sorunlarına yardımcı olan DNS önbelleğini temizler.

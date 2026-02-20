@@ -1,0 +1,53 @@
+CHECKBOX:
+ROOT=HKCU
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+NAME=EnableAutoTray
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v EnableAutoTray /t REG_DWORD /d 0 /f
+
+UNCHECKED:
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v EnableAutoTray /t REG_DWORD /d 1 /f
+
+DESCRIPTION:
+Этот твик управляет автоматическим сворачиванием значков в системном трее.
+При включении твика (чекбокс установлен) параметр EnableAutoTray устанавливается в 0, что отключает автоматическое сворачивание.
+При отключении – значение устанавливается в 1, и функция автоматического сворачивания включается.
+
+EN_TITLE:
+Show All Tray Icons
+
+EN_DESCRIPTION:
+Show All Tray Icons
+
+UZ_TITLE:
+Barcha tray belgilarini ko'rsatish
+
+UZ_DESCRIPTION:
+Barcha tray belgilarini ko'rsatish
+
+DE_TITLE:
+Alle Tray-Icons anzeigen
+
+DE_DESCRIPTION:
+Alle Tray-Icons anzeigen
+
+FR_TITLE:
+Afficher toutes les icônes de la zone de notification
+
+FR_DESCRIPTION:
+Afficher toutes les icônes de la zone de notification
+
+ES_TITLE:
+Mostrar todos los iconos de la bandeja
+
+ES_DESCRIPTION:
+Mostrar todos los iconos de la bandeja
+
+TR_TITLE:
+Tüm tepsi simgelerini göster
+
+TR_DESCRIPTION:
+Tüm tepsi simgelerini göster

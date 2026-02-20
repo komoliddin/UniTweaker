@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile
+NAME=MaxTimerResolution
+TYPE=REG_DWORD
+VALUE=1
+
+CHECKED:
+bcdedit /deletevalue useplatformclock
+bcdedit /deletevalue tscsyncpolicy
+bcdedit /set disabledynamictick yes
+
+UNCHECKED:
+bcdedit /set useplatformclock true
+bcdedit /set tscsyncpolicy Enhanced
+bcdedit /set disabledynamictick no
+
+DESCRIPTION:
+Отключает HPET (High Precision Event Timer), что снижает микрофризы в играх и задержку ввода.
+
+EN_TITLE:
+High Precision Event Timer (HPET)
+
+EN_DESCRIPTION:
+Disables HPET to reduce micro-stutters in games, improve control responsiveness, and lower input lag.
+
+UZ_TITLE:
+Yuqori aniqlikdagi taymer (HPET)
+
+UZ_DESCRIPTION:
+O'yinlardagi mikrodudlanishlarni (micro-stutters) kamaytirish va boshqaruv sezgirligini oshirish uchun HPET-ni o'chiradi.
+
+DE_TITLE:
+Hochpräzisions-Ereignis-Timer (HPET)
+
+DE_DESCRIPTION:
+Deaktiviert HPET, um Mikroruckler in Spielen zu reduzieren, die Reaktionsfähigkeit der Steuerung zu verbessern und den Input-Lag zu senken.
+
+FR_TITLE:
+Temporisateur d'événement de haute précision (HPET)
+
+FR_DESCRIPTION:
+Désactive le HPET pour réduire les micro-saccades dans les jeux, améliorer la réactivité des commandes et diminuer le retard d'entrée.
+
+ES_TITLE:
+Temporizador de eventos de alta precisión (HPET)
+
+ES_DESCRIPTION:
+Desactiva HPET para reducir los microtirones en los juegos, mejorar la respuesta del control y disminuir el retraso de entrada.
+
+TR_TITLE:
+Yüksek Hassasiyetli Olay Zamanlayıcısı (HPET)
+
+TR_DESCRIPTION:
+Oyunlardaki mikro takılmaları azaltmak, kontrol tepkisini artırmak ve giriş gecikmesini düşürmek için HPET'i devre dışı bırakır.

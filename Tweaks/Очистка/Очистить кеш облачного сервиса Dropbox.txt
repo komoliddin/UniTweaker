@@ -1,0 +1,45 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%APPDATA%\Dropbox\cache
+%LOCALAPPDATA%\Dropbox\cache
+%LOCALAPPDATA%\Dropbox\logs
+
+DESCRIPTION:
+Кеш облачного сервиса Dropbox — временные файлы синхронизации и логи работы клиента.
+
+EN_TITLE:
+Clear Dropbox Cache
+
+EN_DESCRIPTION:
+Dropbox cloud service cache — temporary synchronization files and client logs.
+
+UZ_TITLE:
+Dropbox keshini tozalash
+
+UZ_DESCRIPTION:
+Dropbox bulutli xizmati keshi — vaqtinchalik sinxronlash fayllari va mijoz jurnallari.
+
+DE_TITLE:
+Dropbox-Cache bereinigen
+
+DE_DESCRIPTION:
+Dropbox Cloud-Service-Cache – temporäre Synchronisierungsdateien und Client-Protokolle.
+
+FR_TITLE:
+Effacer le cache Dropbox
+
+FR_DESCRIPTION:
+Cache du service cloud Dropbox — fichiers de synchronisation temporaires et journaux client.
+
+ES_TITLE:
+Limpiar caché de Dropbox
+
+ES_DESCRIPTION:
+Caché del servicio en la nube Dropbox: archivos temporales de sincronización и registros del cliente.
+
+TR_TITLE:
+Dropbox Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Dropbox bulut hizmeti önbelleği — geçici senkronizasyon dosyaları ve istemci günlükleri.

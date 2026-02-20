@@ -1,0 +1,55 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Policies\Microsoft\Windows\System
+NAME=EnableActivityFeed
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "EnableActivityFeed" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "PublishUserActivities" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "UploadUserActivities" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "EnableActivityFeed" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "PublishUserActivities" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "UploadUserActivities" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Отключает слежку за активностью Windows (Timeline), предотвращая сбор данных о действиях пользователя.
+
+EN_TITLE:
+Activity History (Timeline)
+
+EN_DESCRIPTION:
+Disables Windows activity history (Timeline), preventing the collection of data about user actions.
+
+UZ_TITLE:
+Faoliyat tarixi (Timeline)
+
+UZ_DESCRIPTION:
+Foydalanuvchi harakatlari haqida ma'lumot to'plashni oldini olish uchun Windows faoliyat tarixini (Timeline) o'chiradi.
+
+DE_TITLE:
+Aktivitätsverlauf (Timeline)
+
+DE_DESCRIPTION:
+Deaktiviert den Windows-Aktivitätsverlauf (Timeline) und verhindert die Erfassung von Daten über Benutzeraktionen.
+
+FR_TITLE:
+Historique des activités (Timeline)
+
+FR_DESCRIPTION:
+Désactive l'historique des activités Windows (Timeline), empêchant la collecte de données sur les actions de l'utilisateur.
+
+ES_TITLE:
+Historial de actividad (Timeline)
+
+ES_DESCRIPTION:
+Desactiva el historial de actividades de Windows (Timeline), lo que impide la recopilación de datos sobre las acciones del usuario.
+
+TR_TITLE:
+Etkinlik Geçmişi (Timeline)
+
+TR_DESCRIPTION:
+Kullanıcı eylemleri hakkında veri toplanmasını önlemek için Windows etkinlik geçmişini (Timeline) devre dışı bırakır.

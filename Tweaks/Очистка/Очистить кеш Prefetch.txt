@@ -1,0 +1,43 @@
+CHECKBOX:
+CLEANER:
+PATH:
+%SystemRoot%\Prefetch
+
+DESCRIPTION:
+Файлы Prefetch — ускоряют запуск программ. Можно безопасно удалить, Windows пересоздаст их при запуске приложений.
+
+EN_TITLE:
+Clear Prefetch Cache
+
+EN_DESCRIPTION:
+Prefetch files — speed up program startup. They can be safely deleted; Windows will recreate them when applications are launched.
+
+UZ_TITLE:
+Prefetch keshini tozalash
+
+UZ_DESCRIPTION:
+Prefetch fayllari — dasturlarni ishga tushirishni tezlashtiradi. Ularni xavfsiz o'chirib tashlash mumkin, Windows ularni dasturlar ishga tushganda qayta yaratadi.
+
+DE_TITLE:
+Prefetch-Cache bereinigen
+
+DE_DESCRIPTION:
+Prefetch-Dateien – beschleunigen den Programmstart. Sie können sicher gelöscht werden; Windows erstellt sie beim Start von Anwendungen neu.
+
+FR_TITLE:
+Effacer le cache Prefetch
+
+FR_DESCRIPTION:
+Fichiers Prefetch — accélèrent le démarrage des programmes. Ils peuvent être supprimés sans danger ; Windows les recréera lors du lancement des applications.
+
+ES_TITLE:
+Limpiar caché de Prefetch
+
+ES_DESCRIPTION:
+Archivos Prefetch: aceleran el inicio de programas. Se pueden eliminar de forma segura; Windows los volverá a crear cuando se inicien las aplicaciones.
+
+TR_TITLE:
+Prefetch Önbelleğini Temizle
+
+TR_DESCRIPTION:
+Prefetch dosyaları — program başlatmayı hızlandırır. Güvenle silinebilirler; Windows uygulamalar başlatıldığında onları yeniden oluşturacaktır.

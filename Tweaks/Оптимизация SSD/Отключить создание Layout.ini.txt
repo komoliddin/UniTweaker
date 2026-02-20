@@ -1,0 +1,54 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Microsoft\Windows\CurrentVersion\OptimalLayout
+NAME=EnableAutoLayout
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OptimalLayout" /v "EnableAutoLayout" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OptimalLayout" /v "EnableAutoLayout" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Каждые три дня во время простоя компьютера в папке Windows\Prefetch создаётся файл Layout.ini, в котором сохраняется список файлов и папок, использовавшихся при загрузке операционной системы и запуске программ. Штатный дефрагментатор диска использует информацию из файла Layout.ini для оптимального физического размещения этих файлов на диске. Однако для SSD это совершенно не нужно. 
+
+При активации данной опции удаляется файл Layout.ini и ключ реестра LayoutFilePath.
+Гарантированное не создание файла Layout.ini системой возможно только при отключённом компоненте Prefetcher, так как этот файл тесно связан с этим компонентом системы.
+
+EN_TITLE:
+Disable Layout.ini Creation
+
+EN_DESCRIPTION:
+Every three days during computer idle time, a Layout.ini file is created in the Windows\Prefetch folder, which stores a list of files and folders used during OS boot and program startup. The built-in disk defragmenter uses information from the Layout.ini file for optimal physical placement of these files on the disk. However, for an SSD, this is completely unnecessary. Activating this option deletes the Layout.ini file and the LayoutFilePath registry key. Guaranteed non-creation of Layout.ini by the system is only possible with the Prefetcher component disabled.
+
+UZ_TITLE:
+Layout.ini yaratishni o'chirish
+
+UZ_DESCRIPTION:
+Har uch kunda kompyuterning bo'sh vaqtida Windows\Prefetch papkasida Layout.ini fayli yaratiladi, unda OT yuklanishi va dasturlarni ishga tushirish paytida ishlatilgan fayllar va papkalar ro'yxati saqlanadi. Standart disk defragmentatori ushbu fayldagi ma'lumotlardan fayllarni diskda jismoniy joylashtirishni optimallashtirish uchun foydalanadi. Biroq, SSD uchun bu mutlaqo kerak emas. Ushbu parametr faollashtirilganda Layout.ini fayli va LayoutFilePath reyestr kaliti o'chiriladi.
+
+DE_TITLE:
+Layout.ini-Erstellung deaktivieren
+
+DE_DESCRIPTION:
+Alle drei Tage wird während der Leerlaufzeit des Computers im Ordner Windows\Prefetch eine Layout.ini-Datei erstellt, die eine Liste der beim Booten des Betriebssystems und beim Programmstart verwendeten Dateien und Ordner enthält. Die integrierte Datenträgerdefragmentierung verwendet Informationen aus der Datei Layout.ini für die optimale physische Platzierung dieser Dateien auf der Festplatte. Bei einer SSD ist dies jedoch völlig unnötig. Durch Aktivieren dieser Option werden die Datei Layout.ini und der Registrierungsschlüssel LayoutFilePath gelöscht.
+
+FR_TITLE:
+Désactiver la création de Layout.ini
+
+FR_DESCRIPTION:
+Tous les trois jours, pendant le temps d'inactivité de l'ordinateur, un fichier Layout.ini est créé dans le dossier Windows\Prefetch, qui stocke une liste des fichiers et dossiers utilisés lors du démarrage de l'OS et du lancement des programmes. Le défragmenteur de disque intégré utilise les informations du fichier Layout.ini pour le placement physique optimal de ces fichiers sur le disque. Cependant, pour un SSD, cela est totalement inutile. L'activation de cette option supprime le fichier Layout.ini et la clé de registre LayoutFilePath.
+
+ES_TITLE:
+Desactivar la creación de Layout.ini
+
+ES_DESCRIPTION:
+Cada tres días, durante el tiempo de inactividad del ordenador, se crea un archivo Layout.ini en la carpeta Windows\Prefetch, que almacena una lista de los archivos и carpetas utilizados durante el arranque del SO и el inicio de programas. El desfragmentador de disco integrado utiliza la información del archivo Layout.ini для la ubicación física óptima de estos archivos en el disco. Sin embargo, para un SSD, esto es completamente innecesario. Al activar esta opción se elimina el archivo Layout.ini и la clave de registro LayoutFilePath.
+
+TR_TITLE:
+Layout.ini Oluşturmayı Devre Dışı Bırak
+
+TR_DESCRIPTION:
+Her üç günde bir bilgisayarın boşta kaldığı süre boyunca, Windows\Prefetch klasöründe işletim sistemi önyüklemesi ve program başlatma sırasında kullanılan dosya ve klasörlerin listesini saklayan bir Layout.ini dosyası oluşturulur. Yerleşik disk birleştirici, bu dosyadaki bilgileri dosyaların disk üzerindeki fiziksel yerleşimini optimize etmek için kullanır. Ancak bir SSD için bu tamamen gereksizdir. Bu seçeneğin etkinleştirilmesi Layout.ini dosyasını ve LayoutFilePath kayıt defteri anahtarını siler.
