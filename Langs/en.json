@@ -287,7 +287,7 @@
   "dashAppliedTweaks": "Applied tweaks: {0}",
   "dashLastRestore": "Last restore: {0}",
   "dashBgStatsDetailed": "Smart Clean (bg): {0} MB junk, {1} MB RAM, {2} links, {3} registry keys",
-  "dashDefragStats": "Background disk defrag: {0} times",
+  "dashDefragStats": "Background disk defrag: {0} times ({1} today) | {2:F1} GB, {3} files",
   "dashSuggestion": "Recommendation",
   "sugUacOff": "Disable UAC for full freedom of action.",
   "sugDefOff": "Windows Defender is active and consuming resources.",
@@ -402,5 +402,10 @@
   "msgStartupAdded": "Added to startup: {0}",
   "msgStartupRemoved": "Removed from startup: {0}",
   "msgServiceAdded": "New service: {0}",
-  "msgServiceRemoved": "Service removed: {0}"
+  "msgServiceRemoved": "Service removed: {0}",
+  "updateIntervalStartup": "At startup",
+  "updateIntervalHour": "Every hour",
+  "updateIntervalDay": "Every day",
+  "updateIntervalWeek": "Every week",
+  "msgTweakerUpdateAvailable": "New UniTweaker update available ({0})"
 }

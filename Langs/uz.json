@@ -287,7 +287,7 @@
   "dashAppliedTweaks": "Qo'llanilgan optimizatsiyalar: {0}",
   "dashLastRestore": "Oxirgi nuqta: {0}",
   "dashBgStatsDetailed": "Fondagi tozalash: {0} MB musor, {1} MB OZU, {2} ta yorliq, {3} ta reestr kalitlari",
-  "dashDefragStats": "Diskni fonda defragmentatsiya qilish: {0} marta",
+  "dashDefragStats": "Diskni fonda defragmentatsiya qilish: {0} marta (bugun: {1}) | {2:F1} GB, {3} ta fayl",
   "dashSuggestion": "Tavsiya",
   "sugUacOff": "To'liq harakat erkinligi uchun UACni o'chiring.",
   "sugDefOff": "Windows Defender faol va resurslarni iste'mol qilmoqda.",
