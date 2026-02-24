@@ -1,0 +1,42 @@
+CHECKBOX:
+CLEANER:
+RAM:
+
+DESCRIPTION:
+Принудительно освободить неиспользуемую оперативную память.
+
+EN_TITLE:
+Optimize RAM
+
+EN_DESCRIPTION:
+Force release unused RAM.
+
+UZ_TITLE:
+Operativ xotirani tozalash
+
+UZ_DESCRIPTION:
+Ishlatilmayotgan operativ xotirani majburiy bo'shatish.
+
+DE_TITLE:
+RAM optimieren
+
+DE_DESCRIPTION:
+Nicht genutzten Arbeitsspeicher zwangsweise freigeben.
+
+FR_TITLE:
+Optimiser la RAM
+
+FR_DESCRIPTION:
+Forcer la libération de la RAM inutilisée.
+
+ES_TITLE:
+Optimizar RAM
+
+ES_DESCRIPTION:
+Forzar la liberación de memoria RAM no utilizada.
+
+TR_TITLE:
+RAM Belleği Optimize Et
+
+TR_DESCRIPTION:
+Kullanılmayan RAM belleğini zorla serbest bırak.

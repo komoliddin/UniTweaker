@@ -1,0 +1,48 @@
+CHECKBOX:
+CLEANER:
+REG:
+HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery
+
+DESCRIPTION:
+Очистить реестр от битых путей приложений, истории поиска, выполненных команд и недавних документов.
+
+EN_TITLE:
+Clean Registry
+
+EN_DESCRIPTION:
+Clean the registry of broken application paths, search history, commands, and recent documents.
+
+UZ_TITLE:
+Reyestrni tozalash
+
+UZ_DESCRIPTION:
+Reyestrni buzilgan ilova yo'llari, qidiruv tarixi, bajarilgan buyruqlar va yaqinda ochilgan hujjatlardan tozalash.
+
+DE_TITLE:
+Registrierung bereinigen
+
+DE_DESCRIPTION:
+Bereinigt die Registrierung von ungültigen Anwendungspfaden, Suchverlauf, Befehlen und zuletzt verwendeten Dokumenten.
+
+FR_TITLE:
+Nettoyer le Registre
+
+FR_DESCRIPTION:
+Nettoyer le registre des chemins d'application rompus, de l'historique de recherche, des commandes et des documents récents.
+
+ES_TITLE:
+Limpiar Registro
+
+ES_DESCRIPTION:
+Limpia el registro de rutas de aplicación rotas, historial de búsqueda, comandos y documentos recientes.
+
+TR_TITLE:
+Kayıt Defterini Temizle
+
+TR_DESCRIPTION:
+Kayıt defterini bozuk uygulama yollarından, arama geçmişinden, komutlardan ve son kullanılan belgelerden temizler.
