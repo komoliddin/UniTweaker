@@ -526,5 +526,6 @@
   "wizQ9": "Do you use scanners or digital cameras?",
   "wizResult": "Based on your answers, optimal settings for {0} services have been selected.",
   "wizTitle": "Smart Optimization Wizard",
-  "msgDownloadingSmartctl": "Downloading disk diagnostics modules..."
+  "msgDownloadingSmartctl": "Downloading disk diagnostics modules...",
+  "msgDownloading": "Downloading {0}..."
 }

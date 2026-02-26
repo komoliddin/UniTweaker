@@ -526,5 +526,6 @@
   "wizQ9": "¿Utiliza escáneres o cámaras digitales?",
   "wizResult": "Según sus respuestas, se han seleccionado configuraciones óptimas para {0} servicios.",
   "wizTitle": "Asistente de optimización inteligente",
-  "msgDownloadingSmartctl": "Descargando módulos de diagnóstico de disco..."
+  "msgDownloadingSmartctl": "Descargando módulos de diagnóstico de disco...",
+  "msgDownloading": "Descargando {0}..."
 }

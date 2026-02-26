@@ -526,5 +526,6 @@
   "wizQ9": "Tarayıcı veya dijital kamera kullanıyor musunuz?",
   "wizResult": "Cevaplarınıza göre {0} hizmet için en uygun ayarlar seçildi.",
   "wizTitle": "Akıllı Optimizasyon Sihirbazı",
-  "msgDownloadingSmartctl": "Disk tanılama modülleri indiriliyor..."
+  "msgDownloadingSmartctl": "Disk tanılama modülleri indiriliyor...",
+  "msgDownloading": "{0} indiriliyor..."
 }

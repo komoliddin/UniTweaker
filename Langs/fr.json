@@ -526,5 +526,6 @@
   "wizQ9": "Utilisez-vous des scanners ou des appareils photo numériques ?",
   "wizResult": "Sur la base de vos réponses, des paramètres optimaux pour {0} services ont été sélectionnés.",
   "wizTitle": "Assistant d'optimisation intelligente",
-  "msgDownloadingSmartctl": "Téléchargement des modules de diagnostic de disque..."
+  "msgDownloadingSmartctl": "Téléchargement des modules de diagnostic de disque...",
+  "msgDownloading": "Téléchargement de {0}..."
 }

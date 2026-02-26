@@ -526,5 +526,6 @@
   "wizQ9": "Verwenden Sie Scanner oder Digitalkameras?",
   "wizResult": "Basierend auf Ihren Antworten wurden optimale Einstellungen für {0} Dienste ausgewählt.",
   "wizTitle": "Assistent für intelligente Optimierung",
-  "msgDownloadingSmartctl": "Festplatten-Diagnosemodule werden heruntergeladen..."
+  "msgDownloadingSmartctl": "Festplatten-Diagnosemodule werden heruntergeladen...",
+  "msgDownloading": "Herunterladen von {0}..."
 }

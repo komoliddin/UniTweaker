@@ -526,5 +526,6 @@
   "wizQ9": "Skaner yoki raqamli kameralardan foydalanasizmi?",
   "wizResult": "Sizning javoblaringiz asosida {0} ta xizmat uchun optimal sozlamalar tanlandi.",
   "wizTitle": "Aqlli optimallashtirish ustasi",
-  "msgDownloadingSmartctl": "Disk diagnostikasi modullari yuklab olinmoqda..."
+  "msgDownloadingSmartctl": "Disk diagnostikasi modullari yuklab olinmoqda...",
+  "msgDownloading": "{0} yuklab olinmoqda..."
 }
