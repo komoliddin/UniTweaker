@@ -18,37 +18,37 @@ DESCRIPTION:
 Обратите внимание, что отключение UAC снижает уровень защиты системы.
 
 EN_TITLE:
-Disable User Account Control (UAC)
+0x00002000 Disable User Account Control (UAC)
 
 EN_DESCRIPTION:
 This tweak disables User Account Control (UAC), reducing security restrictions, which may resolve errors like 0x00002000 that occur when launching certain apps. Enabling it sets EnableLUA to 0. Disabling it restores the default (1). Note that disabling UAC lowers the system's protection level.
 
 UZ_TITLE:
-Foydalanuvchi hisobini nazorat qilishni (UAC) o'chirish
+0x00002000 Foydalanuvchi hisobini nazorat qilishni (UAC) o'chirish
 
 UZ_DESCRIPTION:
 Ushbu tvik foydalanuvchi hisobini nazorat qilishni (UAC) o'chiradi va xavfsizlik cheklovlarini kamaytiradi, bu ba'zi ilovalarni ishga tushirishda yuzaga keladigan 0x00002000 kabi xatolarni bartaraf etishi mumkin. Tvik yoqilganda EnableLUA 0 ga o'rnatiladi. O'chirilganda standart qiymat (1) tiklanadi. UAC-ni o'chirish tizimning himoya darajasini pasaytirishini unutmang.
 
 DE_TITLE:
-Benutzerkontensteuerung deaktivieren (UAC)
+0x00002000 Benutzerkontensteuerung deaktivieren (UAC)
 
 DE_DESCRIPTION:
 Dieser Tweak deaktiviert die Benutzerkontensteuerung (UAC) und reduziert Sicherheitsbeschränkungen, was Fehler wie 0x00002000 beim Starten bestimmter Apps beheben kann. Die Aktivierung setzt EnableLUA auf 0. Die Deaktivierung stellt den Standardwert (1) wieder her. Beachten Sie, dass das Deaktivieren der UAC das Schutzniveau des Systems senkt.
 
 FR_TITLE:
-Désactiver le contrôle de compte d'utilisateur (UAC)
+0x00002000 Désactiver le contrôle de compte d'utilisateur (UAC)
 
 FR_DESCRIPTION:
 Ce tweak désactive le contrôle de compte d'utilisateur (UAC), réduisant les restrictions de sécurité, ce qui peut résoudre des erreurs telles que 0x00002000 lors du lancement de certaines applications. L'activation définit EnableLUA sur 0. La désactivation restaure la valeur par défaut (1). Notez que la désactivation de l'UAC abaisse le niveau de protection du système.
 
 ES_TITLE:
-Desactivar el Control de cuentas de usuario (UAC)
+0x00002000 Desactivar el Control de cuentas de usuario (UAC)
 
 ES_DESCRIPTION:
 Este ajuste desactiva el Control de cuentas de usuario (UAC), reduciendo las restricciones de seguridad, lo que puede resolver errores como 0x00002000 al iniciar ciertas aplicaciones. Al activarlo, EnableLUA se establece en 0. Al desactivarlo se restaura el valor por defecto (1). Tenga en cuenta que desactivar el UAC reduce el nivel de protección del sistema.
 
 TR_TITLE:
-Kullanıcı Hesabı Denetimi'ni Devre Dışı Bırak (UAC)
+0x00002000 Kullanıcı Hesabı Denetimi'ni Devre Dışı Bırak (UAC)
 
 TR_DESCRIPTION:
-Bu ayar Kullanıcı Hesabı Denetimi'ni (UAC) devre dışı bırakarak güvenlik kısıtlamalarını azaltır ve bazı uygulamalar başlatılırken oluşan 0x00002000 gibi hataları çözebilir. Etkinleştirildiğinde EnableLUA değeri 0 olarak ayarlanır. Devre dışı bırakılması varsayılan değeri (1) geri yükler. UAC'yi devre dışı bırakmanın sistemin koruma düzeyini düşürdüğünü unutmayın.
+Bu ayar Kullanıcı Hesabı Denetimi'ni (UAC) devre dışı bırakarak güvenlik kısıtlamalarını azaltır ve bazı uygulamalar başlatılırken oluşan 0x00002000 gibi hataları çözebilir. Etkinleştirildiğinde EnableLUA değeri 0 olarak ayarlar. Devre dışı bırakılması varsayılan değeri (1) geri yükler. UAC'yi devre dışı bırakmanın sistemin koruma düzeyini düşürdüğünü unutmayın.

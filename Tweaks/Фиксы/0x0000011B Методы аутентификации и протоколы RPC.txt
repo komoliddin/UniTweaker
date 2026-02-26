@@ -1,0 +1,58 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SOFTWARE\Policies\Microsoft\Windows NT\Printers\RPC
+NAME=RpcAuthentication
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Printers\RPC" /v "RpcAuthentication" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Printers\RPC" /v "RpcUseNamedPipeProtocol" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Printers\RPC" /v "RpcOverTcp" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Printers\RPC" /v "RpcOverNamedPipes" /t REG_DWORD /d "1" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Printers\RPC" /v "RpcAuthentication" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Printers\RPC" /v "RpcUseNamedPipeProtocol" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Printers\RPC" /v "RpcOverTcp" /t REG_DWORD /d "1" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Printers\RPC" /v "RpcOverNamedPipes" /t REG_DWORD /d "0" /f
+
+DESCRIPTION:
+Данный твик управляет параметрами RPC для подсистемы печати через групповые политики Windows.
+Этот твик рекомендуется применять, если необходимо изменить способ обмена данными между подсистемой печати и компонентами Windows, учитывая баланс между требованиями безопасности и совместимостью. Это может помочь устранить ошибки печати (например, 0x0000011B).
+
+EN_TITLE:
+0x0000011B RPC Authentication and Protocols for Printing
+
+EN_DESCRIPTION:
+This tweak manages RPC settings for the print subsystem via Windows Group Policies. It is recommended if you need to change how data is exchanged between the print subsystem and Windows components, balancing security and compatibility. This can help resolve printing errors (e.g., 0x0000011B).
+
+UZ_TITLE:
+0x0000011B Chop etish uchun RPC autentifikatsiyasi va protokollari
+
+UZ_DESCRIPTION:
+Ushbu tvik Windows guruh siyosatlari orqali chop etish quyi tizimi uchun RPC parametrlarini boshqaradi. Agar xavfsizlik talablari va muvofiqlik o'rtasidagi muvozanatni hisobga olgan holda chop etish quyi tizimi va Windows komponentlari o'rtasida ma'lumot almashish usulini o'zgartirish kerak bo'lsa, ushbu tvikni qo'llash tavsiya etiladi. Bu chop etish xatolarini (masalan, 0x0000011B) bartaraf etishga yordam berishi mumkin.
+
+DE_TITLE:
+0x0000011B RPC-Authentifizierung und Protokolle für das Drucken
+
+DE_DESCRIPTION:
+Dieser Tweak verwaltet RPC-Einstellungen für das Drucksubsystem über Windows-Gruppenrichtlinien. Er wird empfohlen, wenn Sie die Art des Datenaustauschs zwischen dem Drucksubsystem und Windows-Komponenten unter Abwägung von Sicherheits- und Kompatibilitätsanforderungen ändern müssen. Dies kann helfen, Druckfehler (z. B. 0x0000011B) zu beheben.
+
+FR_TITLE:
+0x0000011B Authentification RPC et protocoles pour l'impression
+
+FR_DESCRIPTION:
+Ce tweak gère les paramètres RPC pour le sous-système d'impression via les stratégies de groupe Windows. Il est recommandé si vous devez modifier la façon dont les données sont échangées entre le sous-système d'impression et les composants Windows, en équilibrant sécurité et compatibilité. Cela peut aider à résoudre les erreurs d'impression (par exemple, 0x0000011B).
+
+ES_TITLE:
+0x0000011B Protocolos и autenticación RPC для impresión
+
+ES_DESCRIPTION:
+Este ajuste gestiona los parámetros RPC для el subsistema de impresión a través de las directivas de grupo de Windows. Se recomienda si necesita cambiar la forma en que se intercambian datos entre el subsistema de impresión и los componentes de Windows, equilibrando la seguridad и la compatibilidad. Esto puede ayudar a resolver errores de impresión (por ejemplo, 0x0000011B).
+
+TR_TITLE:
+0x0000011B Yazdırma için RPC Kimlik Doğrulaması ve Protokolleri
+
+TR_DESCRIPTION:
+Bu ayar, Windows Grup İlkeleri aracılığıyla yazdırma alt sistemi için RPC ayarlarını yönetir. Yazdırma alt sistemi ile Windows bileşenleri arasında verilerin nasıl değiştirileceğini güvenlik ve uyumluluk gereksinimlerini dengeleyerek değiştirmeniz gerekiyorsa bu ayar önerilir. Bu, yazdırma hatalarını (örneğin, 0x0000011B) gidermeye yardımcı olabilir.

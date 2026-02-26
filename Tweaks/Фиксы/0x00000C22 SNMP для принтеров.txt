@@ -18,37 +18,37 @@ DESCRIPTION:
 Используйте данный твик, если наблюдаются проблемы с отображением статуса принтеров.
 
 EN_TITLE:
-Disable SNMP for Printers
+0x00000C22 Disable SNMP for Printers
 
 EN_DESCRIPTION:
 This tweak disables SNMP notifications for the print subsystem. Enabling it sets DisableSNMP to 1, preventing incorrect printer status updates and potentially fixing error 0x00000C22. Disabling it restores the default behavior (0). Use this if you have issues with printer status display.
 
 UZ_TITLE:
-Printerlar uchun SNMP-ni o'chirish
+0x00000C22 Printerlar uchun SNMP-ni o'chirish
 
 UZ_DESCRIPTION:
 Ushbu tvik chop etish quyi tizimi uchun SNMP bildirishnomalarini o'chiradi. Tvik yoqilganda DisableSNMP qiymati 1 ga o'rnatiladi, bu printer holatining noto'g'ri yangilanishini oldini oladi va 0x00000C22 xatosini tuzatishi mumkin. O'chirilganda standart qiymat (0) tiklanadi. Agar printer holati ko'rinishida muammolar bo'lsa, ushbu tvikdan foydalaning.
 
 DE_TITLE:
-SNMP für Drucker deaktivieren
+0x00000C22 SNMP für Drucker deaktivieren
 
 DE_DESCRIPTION:
 Dieser Tweak deaktiviert SNMP-Benachrichtigungen für das Drucksubsystem. Die Aktivierung setzt DisableSNMP auf 1, was fehlerhafte Druckerstatus-Aktualisierungen verhindert und den Fehler 0x00000C22 beheben kann. Die Deaktivierung stellt den Standardwert (0) wieder her. Verwenden Sie diesen Tweak bei Problemen mit der Druckerstatusanzeige.
 
 FR_TITLE:
-Désactiver SNMP pour les imprimantes
+0x00000C22 Désactiver SNMP pour les imprimantes
 
 FR_DESCRIPTION:
 Ce tweak désactive les notifications SNMP pour le sous-système d'impression. L'activation définit DisableSNMP sur 1, empêchant les mises à jour incorrectes de l'état de l'imprimante et corrigeant potentiellement l'erreur 0x00000C22. La désactivation restaure la valeur par défaut (0). Utilisez ce tweak en cas de problèmes d'affichage de l'état de l'imprimante.
 
 ES_TITLE:
-Desactivar SNMP для impresoras
+0x00000C22 Desactivar SNMP для impresoras
 
 ES_DESCRIPTION:
 Este ajuste desactiva las notificaciones SNMP для el subsistema de impresión. Al activarlo, DisableSNMP se establece en 1, lo que evita actualizaciones incorrectas del estado de la impresora и puede corregir el error 0x00000C22. Al desactivarlo se restaura el valor predeterminado (0). Utilice este ajuste si tiene problemas con la visualización del estado de la impresora.
 
 TR_TITLE:
-Yazıcılar için SNMP'yi Devre Dışı Bırak
+0x00000C22 Yazıcılar için SNMP'yi Devre Dışı Bırak
 
 TR_DESCRIPTION:
 Bu ayar, yazdırma alt sistemi için SNMP bildirimlerini devre dışı bırakır. Etkinleştirildiğinde DisableSNMP değeri 1 olarak ayarlanır, bu da yazıcı durumunun hatalı güncellenmesini önler ve 0x00000C22 hatasını giderebilir. Devre dışı bırakıldığında varsayılan değer (0) geri yüklenir. Yazıcı durumu görüntüleme sorunları yaşıyorsanız bu ayarı kullanın.

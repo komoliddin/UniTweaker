@@ -1,0 +1,51 @@
+CHECKBOX:
+ROOT=HKLM
+KEY=SYSTEM\CurrentControlSet\Control\Print
+NAME=RpcAuthnLevelPrivacyEnabled
+TYPE=REG_DWORD
+VALUE=0
+
+CHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Print" /v "RpcAuthnLevelPrivacyEnabled" /t REG_DWORD /d "0" /f
+
+UNCHECKED:
+Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Print" /v "RpcAuthnLevelPrivacyEnabled" /t REG_DWORD /d "1" /f
+
+DESCRIPTION:
+Этот твик управляет параметром RpcAuthnLevelPrivacyEnabled, который определяет уровень аутентификации RPC для подсистемы печати. При включении (чекбокс установлен) значение устанавливается в 0, что может снизить требования к безопасности и повысить совместимость с некоторыми приложениями. При отключении (чекбокс снят) значение меняется на 1, что усиливает уровень безопасности системы. Это решение часто применяется для исправления ошибки 0x0000011C.
+
+EN_TITLE:
+0x0000011C Manage RPC Authentication Level (Privacy)
+
+EN_DESCRIPTION:
+This tweak manages the RpcAuthnLevelPrivacyEnabled parameter, which defines the RPC authentication level for the print subsystem. When enabled (checkbox set), the value is set to 0, which may lower security requirements and improve compatibility with some apps. When disabled (checkbox cleared), the value changes to 1, strengthening system security. This is often used to fix error 0x0000011C.
+
+UZ_TITLE:
+0x0000011C RPC autentifikatsiya darajasini (maxfiylik) boshqarish
+
+UZ_DESCRIPTION:
+Ushbu tvik chop etish quyi tizimi uchun RPC autentifikatsiya darajasini belgilaydigan RpcAuthnLevelPrivacyEnabled parametrini boshqaradi. Yoqilganda (chekboks belgilanadi) qiymat 0 ga o'rnatiladi, bu xavfsizlik talablarini pasaytirishi va ba'zi ilovalar bilan moslikni yaxshilashi mumkin. O'chirilganda qiymat 1 ga o'zgaradi, bu tizim xavfsizligini oshiradi. Bu ko'pincha 0x0000011C xatosini tuzatish uchun ishlatiladi.
+
+DE_TITLE:
+0x0000011C RPC-Authentifizierungsebene (Datenschutz) verwalten
+
+DE_DESCRIPTION:
+Dieser Tweak verwaltet den Parameter RpcAuthnLevelPrivacyEnabled, der die RPC-Authentifizierungsebene für das Drucksubsystem definiert. Wenn aktiviert (Kontrollkästchen gesetzt), wird der Wert auf 0 gesetzt, was die Sicherheitsanforderungen senken und die Kompatibilität mit einigen Apps verbessern kann. Wenn deaktiviert (Kontrollkästchen deaktiviert), ändert sich der Wert auf 1, was die Systemsicherheit stärkt. Dies wird oft verwendet, um den Fehler 0x0000011C zu beheben.
+
+FR_TITLE:
+0x0000011C Gérer le niveau d'authentification RPC (confidentialité)
+
+FR_DESCRIPTION:
+Ce tweak gère le paramètre RpcAuthnLevelPrivacyEnabled, qui définit le niveau d'authentification RPC pour le sous-système d'impression. Lorsqu'il est activé (case cochée), la valeur est définie sur 0, ce qui peut réduire les exigences de sécurité et améliorer la compatibilité avec certaines applications. Lorsqu'il est désactivé (case décochée), la valeur passe à 1, renforçant la sécurité du système. Ceci est souvent utilisé pour corriger l'erreur 0x0000011C.
+
+ES_TITLE:
+0x0000011C Gestionar el nivel de autenticación RPC (privacidad)
+
+ES_DESCRIPTION:
+Este ajuste gestiona el parámetro RpcAuthnLevelPrivacyEnabled, que define el nivel de autenticación RPC для el subsistema de impresión. Al activarlo (casilla marcada), el valor se establece en 0, lo que puede reducir los requisitos de seguridad и mejorar la compatibilidad con algunas aplicaciones. Al desactivarlo (casilla desmarcada), el valor cambia a 1, lo que refuerza la seguridad del sistema. A menudo se usa для corregir el error 0x0000011C.
+
+TR_TITLE:
+0x0000011C RPC Kimlik Doğrulama Düzeyini Yönet (Gizlilik)
+
+TR_DESCRIPTION:
+Bu ayar, yazdırma alt sistemi için RPC kimlik doğrulama düzeyini tanımlayan RpcAuthnLevelPrivacyEnabled parametresini yönetir. Etkinleştirildiğinde (onay kutusu işaretli), değer 0 olarak ayarlanır; bu durum güvenlik gereksinimlerini düşürebilir ve bazı uygulamalarla uyumluluğu artırabilir. Devre dışı bırakıldığında değer 1 olarak değişir ve sistem güvenliğini artırır. Bu genellikle 0x0000011C hatasını düzeltmek için kullanılır.

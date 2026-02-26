@@ -18,37 +18,37 @@ DESCRIPTION:
 Это может помочь устранить ошибки, возникающие из-за конфликтов между обслуживанием и другими системными процессами (например, 0x0000C000).
 
 EN_TITLE:
-Disable Automatic Maintenance
+0x0000C000 Disable Automatic Maintenance
 
 EN_DESCRIPTION:
 This tweak disables automatic Windows maintenance. Enabling it sets MaintenanceDisabled to 1, stopping background maintenance tasks. Disabling it restores the default behavior (0). This can help resolve errors caused by conflicts between maintenance and other system processes (e.g., error 0x0000C000).
 
 UZ_TITLE:
-Avtomatik xizmat ko'rsatishni o'chirish
+0x0000C000 Avtomatik xizmat ko'rsatishni o'chirish
 
 UZ_DESCRIPTION:
 Ushbu tvik Windows-ning avtomatik xizmat ko'rsatishini o'chiradi. Tvik yoqilganda MaintenanceDisabled parametri 1 ga o'rnatiladi, bu fon xizmat vazifalarini avtomatik bajarilishini to'xtatadi. O'chirilganda standart qiymat (0) tiklanadi. Bu xizmat ko'rsatish va boshqa tizim jarayonlari o'rtasidagi ziddiyatlar natijasida kelib chiqadigan xatolarni (masalan, 0x0000C000) bartaraf etishga yordam beradi.
 
 DE_TITLE:
-Automatische Wartung deaktivieren
+0x0000C000 Automatische Wartung deaktivieren
 
 DE_DESCRIPTION:
 Dieser Tweak deaktiviert die automatische Windows-Wartung. Die Aktivierung setzt MaintenanceDisabled auf 1 und stoppt Hintergrundwartungsaufgaben. Die Deaktivierung stellt den Standardwert (0) wieder her. Dies kann helfen, Fehler zu beheben, die durch Konflikte zwischen der Wartung und anderen Systemprozessen verursacht werden (z. B. Fehler 0x0000C000).
 
 FR_TITLE:
-Désactiver la maintenance automatique
+0x0000C000 Désactiver la maintenance automatique
 
 FR_DESCRIPTION:
 Ce tweak désactive la maintenance automatique de Windows. L'activation définit MaintenanceDisabled sur 1, arrêtant les tâches de maintenance en arrière-plan. La désactivation restaure la valeur par défaut (0). Cela peut aider à résoudre les erreurs causées par des conflits entre la maintenance et d'autres processus système (par exemple, l'erreur 0x0000C000).
 
 ES_TITLE:
-Desactivar mantenimiento automático
+0x0000C000 Desactivar mantenimiento automático
 
 ES_DESCRIPTION:
 Este ajuste desactiva el mantenimiento automático de Windows. Al activarlo, MaintenanceDisabled se establece en 1, deteniendo las tareas de mantenimiento en segundo plano. Al desactivarlo se restaura el valor predeterminado (0). Esto puede ayudar a resolver errores causados por conflictos entre el mantenimiento и otros procesos del sistema (por ejemplo, el error 0x0000C000).
 
 TR_TITLE:
-Otomatik Bakımı Devre Dışı Bırak
+0x0000C000 Otomatik Bakımı Devre Dışı Bırak
 
 TR_DESCRIPTION:
 Bu ayar otomatik Windows bakımını devre dışı bırakır. Etkinleştirildiğinde MaintenanceDisabled değeri 1 olarak ayarlanır ve arka plan bakım görevlerini durdurur. Devre dışı bırakıldığında varsayılan değer (0) geri yüklenir. Bu, bakımla diğer sistem süreçleri arasındaki çatışmalardan kaynaklanan hataların (örneğin, 0x0000C000 hatası) çözülmesine yardımcı olabilir.

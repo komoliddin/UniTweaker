@@ -1,48 +1,52 @@
 CHECKBOX:
 CLEANER:
 REG:
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist
 HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
+HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
 
 DESCRIPTION:
-Очистить реестр от битых путей приложений, истории поиска, выполненных команд и недавних документов.
+Очистка неверных путей и устаревшего кэша в реестре.
 
 EN_TITLE:
-Clean Registry
+Clear Registry
 
 EN_DESCRIPTION:
-Clean the registry of broken application paths, search history, commands, and recent documents.
+Cleaning invalid paths and obsolete cache from the registry.
 
 UZ_TITLE:
-Reyestrni tozalash
+Reestrni tozalash
 
 UZ_DESCRIPTION:
-Reyestrni buzilgan ilova yo'llari, qidiruv tarixi, bajarilgan buyruqlar va yaqinda ochilgan hujjatlardan tozalash.
+Reestrdagi yaroqsiz yo'llarni va eski keshni tozalash.
 
 DE_TITLE:
 Registrierung bereinigen
 
 DE_DESCRIPTION:
-Bereinigt die Registrierung von ungültigen Anwendungspfaden, Suchverlauf, Befehlen und zuletzt verwendeten Dokumenten.
+Bereinigen von ungültigen Pfaden und veraltetem Cache in der Registrierung.
 
 FR_TITLE:
-Nettoyer le Registre
+Nettoyer le registre
 
 FR_DESCRIPTION:
-Nettoyer le registre des chemins d'application rompus, de l'historique de recherche, des commandes et des documents récents.
+Nettoyage des chemins invalides et du cache obsolète dans le registre.
 
 ES_TITLE:
-Limpiar Registro
+Limpiar registro
 
 ES_DESCRIPTION:
-Limpia el registro de rutas de aplicación rotas, historial de búsqueda, comandos y documentos recientes.
+Limpieza de rutas no válidas y caché obsoleta en el registro.
 
 TR_TITLE:
 Kayıt Defterini Temizle
 
 TR_DESCRIPTION:
-Kayıt defterini bozuk uygulama yollarından, arama geçmişinden, komutlardan ve son kullanılan belgelerden temizler.
+Kayıt defterindeki geçersiz yolların ve eski önbelleğin temizlenmesi.

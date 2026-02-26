@@ -17,37 +17,37 @@ DESCRIPTION:
 При отключении значение возвращается к 0, позволяя использовать удалённую помощь.
 
 EN_TITLE:
-Disable Remote Assistance
+0x0000F000 Disable Remote Assistance
 
 EN_DESCRIPTION:
 This tweak disables the Remote Assistance feature in Windows. Enabling it sets fDisableRemoteAssistance to 1, preventing remote connections for assistance, which can resolve errors (e.g., 0x0000F000). Disabling it restores the value to 0, allowing remote assistance.
 
 UZ_TITLE:
-Masofaviy yordamni o'chirish
+0x0000F000 Masofaviy yordamni o'chirish
 
 UZ_DESCRIPTION:
 Ushbu tvik Windows-da masofaviy yordam (Remote Assistance) funksiyasini o'chiradi. Tvik yoqilganda fDisableRemoteAssistance parametri 1 ga o'rnatiladi, bu yordam ko'rsatish uchun masofadan ulanish imkoniyatini oldini oladi va ba'zi xatolarni (masalan, 0x0000F000) bartaraf etishi mumkin. O'chirilganda qiymat 0 ga qaytadi.
 
 DE_TITLE:
-Remoteunterstützung deaktivieren
+0x0000F000 Remoteunterstützung deaktivieren
 
 DE_DESCRIPTION:
 Dieser Tweak deaktiviert die Remoteunterstützungsfunktion in Windows. Die Aktivierung setzt fDisableRemoteAssistance auf 1, wodurch Remoteverbindungen für Unterstützung verhindert werden, was Fehler (z. B. 0x0000F000) beheben kann. Die Deaktivierung stellt den Wert auf 0 zurück.
 
 FR_TITLE:
-Désactiver l'assistance à distance
+0x0000F000 Désactiver l'assistance à distance
 
 FR_DESCRIPTION:
 Ce tweak désactive la fonction d'assistance à distance dans Windows. L'activation définit fDisableRemoteAssistance sur 1, empêchant les connexions à distance pour l'assistance, ce qui peut résoudre des erreurs (par exemple, 0x0000F000). La désactivation restaure la valeur à 0.
 
 ES_TITLE:
-Desactivar Asistencia remota
+0x0000F000 Desactivar Asistencia remota
 
 ES_DESCRIPTION:
 Este ajuste desactiva la función de asistencia remota en Windows. Al activarlo, fDisableRemoteAssistance se establece en 1, lo que impide las conexiones remotas для asistencia, lo que puede resolver errores (por ejemplo, 0x0000F000). Al desactivarlo se restaura el valor a 0.
 
 TR_TITLE:
-Uzaktan Yardımı Devre Dışı Bırak
+0x0000F000 Uzaktan Yardımı Devre Dışı Bırak
 
 TR_DESCRIPTION:
 Bu ayar Windows'ta Uzaktan Yardım özelliğini devre dışı bırakır. Etkinleştirildiğinde fDisableRemoteAssistance değerini 1 olarak ayarlar ve yardım için uzaktan bağlantıları engeller; bu durum bazı hataları (örneğin, 0x0000F000) çözebilir. Devre dışı bırakılması değeri 0'a geri getirir.

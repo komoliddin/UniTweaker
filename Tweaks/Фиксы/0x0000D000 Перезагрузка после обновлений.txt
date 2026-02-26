@@ -18,37 +18,37 @@ DESCRIPTION:
 Это решение может помочь устранить ошибки, связанные с некорректной перезагрузкой (например, 0x0000D000).
 
 EN_TITLE:
-Disable Auto-Reboot after Updates
+0x0000D000 Disable Auto-Reboot after Updates
 
 EN_DESCRIPTION:
 This tweak disables the automatic restart after installing Windows updates while a user is logged in. Enabling it sets NoAutoRebootWithLoggedOnUsers to 1, preventing unexpected reboots. Disabling it restores the default (0). This can help resolve errors related to improper reboots (e.g., error 0x0000D000).
 
 UZ_TITLE:
-Yangilanishlardan keyin avtomatik qayta yuklashni o'chirish
+0x0000D000 Yangilanishlardan keyin avtomatik qayta yuklashni o'chirish
 
 UZ_DESCRIPTION:
 Ushbu tvik foydalanuvchi tizimda bo'lganida Windows yangilanishlari o'rnatilgandan so'ng avtomatik qayta yuklashni o'chiradi. Tvik yoqilganda NoAutoRebootWithLoggedOnUsers parametri 1 ga o'rnatiladi, bu kutilmagan qayta yuklashni oldini oladi. O'chirilganda qiymat 0 ga qaytadi. Bu noto'g'ri qayta yuklash bilan bog'liq xatolarni (masalan, 0x0000D000) bartaraf etishga yordam beradi.
 
 DE_TITLE:
-Automatischen Neustart nach Updates deaktivieren
+0x0000D000 Automatischen Neustart nach Updates deaktivieren
 
 DE_DESCRIPTION:
 Dieser Tweak deaktiviert den automatischen Neustart nach der Installation von Windows-Updates, während ein Benutzer angemeldet ist. Die Aktivierung setzt NoAutoRebootWithLoggedOnUsers auf 1 und verhindert so unerwartete Neustarts. Die Deaktivierung stellt den Standardwert (0) wieder her. Dies kann helfen, Fehler im Zusammenhang mit unsachgemäßen Neustarts zu beheben (z. B. Fehler 0x0000D000).
 
 FR_TITLE:
-Désactiver le redémarrage automatique après les mises à jour
+0x0000D000 Désactiver le redémarrage automatique après les mises à jour
 
 FR_DESCRIPTION:
 Ce tweak désactive le redémarrage automatique après l'installation des mises à jour Windows lorsqu'un utilisateur est connecté. L'activation définit NoAutoRebootWithLoggedOnUsers sur 1, empêchant les redémarrages inattendus. La désactivation restaure la valeur par défaut (0). Cela peut aider à résoudre les erreurs liées à des redémarrages incorrects (par exemple, l'erreur 0x0000D000).
 
 ES_TITLE:
-Desactivar reinicio automático tras actualizaciones
+0x0000D000 Desactivar reinicio automático tras actualizaciones
 
 ES_DESCRIPTION:
 Este ajuste desactiva el reinicio automático tras la instalación de actualizaciones de Windows cuando un usuario ha iniciado sesión. Al activarlo, NoAutoRebootWithLoggedOnUsers se establece en 1, evitando reinicios inesperados. Al desactivarlo se restaura el valor por defecto (0). Esto puede ayudar a resolver errores relacionados con reinicios incorrectos (por ejemplo, el error 0x0000D000).
 
 TR_TITLE:
-Güncellemelerden Sonra Otomatik Yeniden Başlatmayı Devre Dışı Bırak
+0x0000D000 Güncellemelerden Sonra Otomatik Yeniden Başlatmayı Devre Dışı Bırak
 
 TR_DESCRIPTION:
 Bu ayar, bir kullanıcı oturum açmışken Windows güncellemeleri yüklendikten sonra otomatik olarak yeniden başlatılmasını devre dışı bırakır. Etkinleştirildiğinde NoAutoRebootWithLoggedOnUsers değerini 1 olarak ayarlar ve beklenmedik yeniden başlatmaları önler. Devre dışı bırakılması varsayılanı (0) geri yükler. Bu, hatalı yeniden başlatmalarla ilgili hataların (örneğin, 0x0000D000 hatası) çözülmesine yardımcı olabilir.

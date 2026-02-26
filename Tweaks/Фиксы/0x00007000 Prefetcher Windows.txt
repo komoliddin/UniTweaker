@@ -18,37 +18,37 @@ DESCRIPTION:
 Это может помочь устранить ошибки и проблемы с запуском приложений (например, 0x00007000).
 
 EN_TITLE:
-Disable Windows Prefetcher
+0x00007000 Disable Windows Prefetcher
 
 EN_DESCRIPTION:
 This tweak disables the Windows Prefetcher. Enabling it sets EnablePrefetcher to 0, disabling pre-caching. Disabling it restores the value to 3, ensuring optimal Prefetcher performance. This can help resolve errors and issues with app launches (e.g., error 0x00007000).
 
 UZ_TITLE:
-Windows Prefetcher-ni o'chirish
+0x00007000 Windows Prefetcher-ni o'chirish
 
 UZ_DESCRIPTION:
 Ushbu tvik Windows Prefetcher-ni o'chiradi. Tvik yoqilganda EnablePrefetcher parametri 0 ga o'rnatiladi, bu keshni o'chiradi. O'chirilganda qiymat 3 ga qaytadi, bu Prefetcher-ning optimal ishlashini ta'minlaydi. Bu ilovalarni ishga tushirishdagi xatolar va muammolarni (masalan, 0x00007000) bartaraf etishga yordam beradi.
 
 DE_TITLE:
-Windows Prefetcher deaktivieren
+0x00007000 Windows Prefetcher deaktivieren
 
 DE_DESCRIPTION:
 Dieser Tweak deaktiviert den Windows Prefetcher. Die Aktivierung setzt EnablePrefetcher auf 0, wodurch das Pre-Caching deaktiviert wird. Die Deaktivierung stellt den Wert auf 3 zurück und gewährleistet so eine optimale Leistung des Prefetchers. Dies kann helfen, Fehler und Probleme beim Starten von Apps zu beheben (z. B. Fehler 0x00007000).
 
 FR_TITLE:
-Désactiver le Prefetcher Windows
+0x00007000 Désactiver le Prefetcher Windows
 
 FR_DESCRIPTION:
 Ce tweak désactive le Prefetcher de Windows. L'activation définit EnablePrefetcher sur 0, désactivant ainsi la pré-mise en cache. La désactivation restaure la valeur à 3, garantissant des performances optimales du Prefetcher. Cela peut aider à résoudre les erreurs et les problèmes de lancement d'applications (par exemple, l'erreur 0x00007000).
 
 ES_TITLE:
-Desactivar el Prefetcher de Windows
+0x00007000 Desactivar el Prefetcher de Windows
 
 ES_DESCRIPTION:
 Este ajuste desactiva el Prefetcher de Windows. Al activarlo, EnablePrefetcher se establece en 0, desactivando la precaché. Al desactivarlo se restaura el valor a 3, lo que garantiza un rendimiento óptimo del Prefetcher. Esto puede ayudar a resolver errores и problemas con el inicio de aplicaciones (por ejemplo, el error 0x00007000).
 
 TR_TITLE:
-Windows Önişlemciyi (Prefetcher) Devre Dışı Bırak
+0x00007000 Windows Önişlemciyi (Prefetcher) Devre Dışı Bırak
 
 TR_DESCRIPTION:
 Bu ayar Windows Önişlemciyi devre dışı bırakır. Etkinleştirildiğinde EnablePrefetcher değeri 0 olarak ayarlanır ve önbelleğe almayı devre dışı bırakır. Devre dışı bırakılması değeri 3'e geri getirerek en iyi Önişlemci performansını sağlar. Bu, uygulama başlatma hatalarını ve sorunlarını (örneğin, 0x00007000 hatası) çözmeye yardımcı olabilir.
