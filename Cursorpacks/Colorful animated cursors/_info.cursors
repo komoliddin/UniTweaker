@@ -1,0 +1,22 @@
+[Info]
+DisplayName=Colorful animated cursors
+Author=Community
+Url=
+BriefDescription=Standardized by UniTweaker.
+
+[Cursors]
+Arrow=arrow.cur
+Help=Help.ani
+AppStarting=appstarting.ani
+Wait=Wait.ani
+Crosshair=cross.ani
+IBeam=IBeam.ani
+NWPen=Handwriting.ani
+No=no.cur
+SizeNS=SizeNS.cur
+SizeWE=SizeWE.cur
+SizeNWSE=SizeNWSE.cur
+SizeNESW=SizeNESW.cur
+SizeAll=SizeAll.cur
+UpArrow=UpArrow.cur
+Hand=Hand.ani

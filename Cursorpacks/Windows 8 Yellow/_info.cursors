@@ -1,0 +1,20 @@
+[Info]
+DisplayName=Windows 8 Yellow
+Author=Community
+Url=
+BriefDescription=Standardized by UniTweaker.
+
+[Cursors]
+Arrow=arrow.cur
+Help=Help.cur
+AppStarting=appstarting.ani
+Wait=Wait.ani
+NWPen=Handwriting.cur
+No=no.cur
+SizeNS=SizeNS.cur
+SizeWE=SizeWE.cur
+SizeNWSE=SizeNWSE.cur
+SizeNESW=SizeNESW.cur
+SizeAll=SizeAll.cur
+UpArrow=UpArrow.cur
+Hand=Hand.cur

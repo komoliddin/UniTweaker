@@ -1,0 +1,16 @@
+[Info]
+DisplayName=Fuck
+Author=Community
+Url=
+BriefDescription=Standardized by UniTweaker.
+
+[Cursors]
+Arrow=arrow.cur
+Help=Help.ani
+AppStarting=appstarting.ani
+Wait=Wait.ani
+Crosshair=cross.ani
+No=no.cur
+SizeAll=SizeAll.cur
+UpArrow=UpArrow.ani
+Hand=Hand.ani

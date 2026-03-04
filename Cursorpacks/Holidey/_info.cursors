@@ -1,0 +1,22 @@
+[Info]
+DisplayName=Holidey
+Author=Community
+Url=
+BriefDescription=Beautiful cursor pack for Windows.
+
+[Cursors]
+Arrow=arrow.cur
+Help=Help.cur
+AppStarting=appstarting.cur
+Wait=Wait.cur
+Crosshair=cross.cur
+IBeam=IBeam.cur
+NWPen=Handwriting.cur
+No=no.cur
+SizeNS=SizeNS.cur
+SizeWE=SizeWE.cur
+SizeNWSE=SizeNWSE.cur
+SizeNESW=SizeNESW.cur
+SizeAll=SizeAll.cur
+UpArrow=UpArrow.cur
+Hand=Hand.cur

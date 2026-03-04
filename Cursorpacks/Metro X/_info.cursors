@@ -1,0 +1,22 @@
+[Info]
+DisplayName=Metro X
+Author=Exycure
+Url=https://www.deviantart.com/exycure/art/Metro-X-Cursor-Set-325373635
+BriefDescription=Modern Metro style cursors by Exycure.
+
+[Cursors]
+Arrow=arrow.ani
+Help=Help.ani
+AppStarting=appstarting.ani
+Wait=Wait.ani
+Crosshair=cross.ani
+IBeam=IBeam.ani
+NWPen=Handwriting.ani
+No=no.ani
+SizeNS=SizeNS.ani
+SizeWE=SizeWE.ani
+SizeNWSE=SizeNWSE.ani
+SizeNESW=SizeNESW.ani
+SizeAll=SizeAll.ani
+UpArrow=UpArrow.ani
+Hand=Hand.ani

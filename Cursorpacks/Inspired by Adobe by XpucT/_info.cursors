@@ -1,0 +1,24 @@
+[Info]
+DisplayName=Inspired by Adobe by XpucT
+Author=Community
+Url=
+BriefDescription=Imported from INF.
+
+[Cursors]
+Arrow=arrow.cur
+Help=Help.cur
+AppStarting=appstarting.ani
+Wait=Wait.ani
+Crosshair=cross.cur
+IBeam=IBeam.cur
+NWPen=Handwriting.cur
+No=no.cur
+SizeNS=SizeNS.ani
+SizeWE=SizeWE.ani
+SizeNWSE=SizeNWSE.ani
+SizeNESW=SizeNESW.ani
+SizeAll=SizeAll.cur
+UpArrow=UpArrow.cur
+Hand=Hand.cur
+Person=Person.cur
+Location=Location.cur

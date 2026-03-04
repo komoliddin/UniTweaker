@@ -1,0 +1,20 @@
+[Info]
+DisplayName=Oxygen Brown
+Author=Community
+Url=
+BriefDescription=Standardized by UniTweaker.
+
+[Cursors]
+Arrow=arrow.cur
+Help=Help.cur
+Wait=Wait.ani
+Crosshair=cross.cur
+IBeam=IBeam.cur
+NWPen=Handwriting.cur
+No=no.cur
+SizeNS=SizeNS.cur
+SizeWE=SizeWE.cur
+SizeNWSE=SizeNWSE.cur
+SizeNESW=SizeNESW.cur
+SizeAll=SizeAll.cur
+Hand=Hand.cur

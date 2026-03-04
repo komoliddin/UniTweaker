@@ -1,0 +1,24 @@
+[Info]
+DisplayName=DIM v4 - Prismatic (Premium)
+Author=Community
+Url=
+BriefDescription=Standardized by UniTweaker.
+
+[Cursors]
+Arrow=arrow.cur
+Help=Help.ani
+AppStarting=appstarting.ani
+Wait=Wait.ani
+Crosshair=cross.ani
+IBeam=IBeam.ani
+NWPen=Handwriting.ani
+No=no.ani
+SizeNS=SizeNS.ani
+SizeWE=SizeWE.ani
+SizeNWSE=SizeNWSE.ani
+SizeNESW=SizeNESW.ani
+SizeAll=SizeAll.ani
+UpArrow=UpArrow.ani
+Hand=Hand.ani
+Person=Person.ani
+Location=Location.ani

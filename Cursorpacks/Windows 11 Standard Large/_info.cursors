@@ -1,0 +1,12 @@
+[Info]
+DisplayName=Windows 11 Standard Large
+Author=Community
+Url=
+BriefDescription=Standardized by UniTweaker.
+
+[Cursors]
+Arrow=arrow.cur
+Help=Help.cur
+AppStarting=appstarting.ani
+Wait=Wait.ani
+Hand=Hand.cur
